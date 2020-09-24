@@ -17,7 +17,7 @@
     text-align: center;
      margin-top: 30px;
   }
-  .titulobody{
+  .tituloPerfil{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #0AA4CA ;
   }
@@ -54,14 +54,14 @@
     margin-left: 40px;
   }
   /*Titulo de recomendaciones generales*/
-  .titulodato{
+  .titulodato2{
     padding-left: 10px ;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     text-align: center;
   }
   /*Fondo del contenedor div de deseo cambiar mi foto de perfil*/
-  .found-4{
+  .found-6{
     background-color: #C2F1FC ;
     margin-top: 60px;
   }
@@ -76,8 +76,9 @@
     margin-top: 75px;
   }
   /*Boton debajo de la imagen, cambiar imagen*/
-  .btn2{
-    width: 300px;
+  .btn4{
+    width: 350px;
+    margin-left: 69px;
   }
   /*Medidas de las imagenes de las card*/
   .card-img-top{

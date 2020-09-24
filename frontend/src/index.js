@@ -6,12 +6,10 @@ import Aprendecampe from './pages/Aprendecampe';
 import ActualizarDatosCampe from './pages/ActualizarDatosCampe'
 import InterfazSubirProducto from './pages/Subirproducto'
 import Ofertascampe from './pages/Ofertascampe'
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Subirproducto from './pages/Subirproducto';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -13,14 +13,14 @@ export default function InterfazPerfil() {
         <p className="component-1-text component-text parrafo1">En esta sección visualizaras y eligiras de acuerdo a tu necesidad las opciones de perfil. Estas opciones estan orientadas a tu bienestar y por supuesto potecializando nuestro objetivo. Te recordamos que si tienes alguna duda puedes irte a la opción de contacto e interactuar más con el grupo EcoAgro, con el fin de que obtengan un mejor servicio y te sientas comodo en el aplicativo. A continuación, se mostraran los accesos que desde tu perfil tienes disponibles</p>
       </div>
 
-      <div className="found-4">
-        <h2 className="titulo titulobody">Deseo Cambiar mi foto de Perfil</h2>
-        <h3 className="titulodato subtitulo1">Recomendaciones generales</h3>
+      <div className="found-6">
+        <h2 className="tituloPerfil">Deseo Cambiar mi foto de Perfil</h2>
+        <h3 className="titulodato2 subtitulo1">Recomendaciones generales</h3>
       </div>
         <div className="part1">
             <div>
             <a href="#" className="btn btn-primary"></a>
-            <button type="button" class="btn btn-info btn2">Cambiar foto de perfil</button>
+            <button type="button" class="btn btn-info btn4">Cambiar foto de perfil</button>
             </div>
            
 
