@@ -19,7 +19,7 @@ import Subirproducto from './pages/Subirproducto';
 
 ReactDOM.render(
   <React.StrictMode>
-    <InterfazSubirProducto/>
+    <Miscompras/>
   </React.StrictMode>,
   document.getElementById('root')
 );
