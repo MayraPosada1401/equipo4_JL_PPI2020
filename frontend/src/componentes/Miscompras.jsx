@@ -11,6 +11,7 @@ function Miscompras() {
 
     return (
       <div className="App">
+        <h1>Hola<h1/>
       <div ClasName="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-fluid" /></a>
