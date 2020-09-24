@@ -1,0 +1,91 @@
+.ESTILO13{
+    margin-left: 38% ;
+    font-family: monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: bold;
+    color: #0AA4CA  ;
+    background-size:100% 100%;
+    align-content: center;
+
+    
+    }
+.Contenedor{
+    background-color: #FCE7AA ;
+    background-color: #C2F1FC ;
+ }
+ .fondo{
+     margin-top: 1%;
+     height: 800px;
+     width: 1360px;
+ }
+.button-container {/*Boton Región Andina*/
+bottom:4em;
+float: left;
+margin-right: 400px;
+position: absolute;
+right:-4em;
+padding:5em;
+background-color:transparent;
+border-radius:1.5em;
+margin-top: 90px;
+border-color: transparent;
+        }
+.button-container1 {/*Boton Región Insular*/
+bottom:14em;
+float: left;
+margin-right: 680px;
+position: absolute;
+right:-4em;
+padding:5em;
+background-color:transparent;
+border-radius:1.5em;
+margin-top: 90px;
+border-color: transparent;
+        }
+.button-container2 {/*Boton Región Caribe*/
+bottom:20em;
+float: left;
+margin-right: 410px;
+position: absolute;
+right:-4em;
+padding:5em;
+background-color:transparent;
+border-radius:1.5em;
+margin-top: 90px;
+border-color: transparent;
+        }
+.button-container3 {/*Boton Región Pacifica*/
+bottom:3em;/*Altura con top*/
+float: left;
+margin-right: 600px;/*Distancia de margen */
+position: absolute;
+right:-4em;
+padding:5em;
+background-color:transparent;
+border-radius:1.5em;
+margin-top: 90px;
+border-color: transparent;
+        }
+.button-container4 {
+top:35em;
+float: left;
+margin-right: 250px;
+position: absolute;
+right:-4em;
+padding:5em;
+background-color:transparent;
+border-radius:1.5em;
+margin-top: 90px;
+border-color: transparent;
+        }
+.button-container5 {
+bottom:6em;
+float: left;
+margin-right:125px;
+position: absolute;
+right:-4em;
+padding:5em;
+background-color:transparent;
+border-radius:1.5em;
+margin-top: 90px;
+border-color: transparent;
+        }

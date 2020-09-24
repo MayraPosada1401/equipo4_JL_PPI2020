@@ -1,0 +1,167 @@
+
+
+.img-fluid{
+  height:120px;
+  width: 100px;
+}
+
+.img-fluid2{
+  height: 50px;
+  width: 50px;
+}
+.btn1{
+ height: 25px; 
+ width:500px;
+ 
+}
+.btn1{
+  height: 25px; 
+  width:500px;
+  
+ }
+.btn-info1{
+  background-color:transparent;
+}
+.cards{
+text-align:center;  
+display: inline-block;
+margin:100px;
+}
+.card-img-bottom1{
+  height: 200px;
+  width: 250px;
+}
+.card{
+  display: inline-block !important;
+  margin: 5%;
+  max-width: 900px;  
+  border-radius: 40px;
+}
+.cardin{
+  background-color: #189DAD  ;
+          color: #8DF1FC    ;
+          border-radius: 40px;
+}
+.cardin1{
+background-color: #FFA07A;
+color: wheat;
+}
+.cardin2{
+background-color: #7FDFF3;
+color: #31B8D3 ;
+}
+.cardin3{
+background-color: #F1C935 ;
+color: #8D7419 ;
+border-radius: 40px;
+}
+.Cards{
+  margin: auto;
+  background-color:white;
+  box-sizing: border-box 2px;
+  padding: 40px;
+  margin-bottom:106px;   
+}
+.tamañoEstilo{
+font-family: fantasy;
+text-align: center;
+
+}
+.Cards1{
+  background-repeat: no-repeat;
+  margin: auto;
+  box-sizing: border-box 2px;
+  padding: 40px;
+  margin-bottom:106px;
+  background-image: url("https://static.nationalgeographicla.com/files/styles/image_3200/public/24_colombia_biodiversity_i8951_180721_01578.jpg?w=710&h=533");
+  background-size:100% 100%;   
+}
+.UBICACION{
+  display: inline-block;
+}
+.Alto{
+  width: 200px;
+}
+
+.tamaño{
+  max-width: 700px;  
+}
+.card0{
+  display: inline-block !important;
+  margin: 5%;
+  width: 33rem;  
+  background-color: #189DAD  ;
+  color: #8DF1FC    ;
+  margin: 60px;
+}
+.ESTILO{
+font-size: 52px;
+font-family: monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: bold;
+background-size:100% 100%;
+
+}
+.SUBTITULO{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style:oblique;
+  font-variant-east-asian: simplified;
+}
+.SUBTITULO1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style:oblique;
+  font-variant-east-asian: simplified;
+  color: white;
+}
+.Imagenes{
+  margin: 10px;
+  display: flex;
+  background-color: #A5EBF3;
+}
+.SUBTITULO2{
+  margin-top:16%;
+  margin-left:5%;
+  margin-right:5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#0AA4CA ;
+text-align: center;
+
+}
+.margen{
+  background-color:#C2F1FC ;
+  margin: auto;
+  box-sizing: border-box 2px;
+  padding: 40px;
+  margin-bottom:106px;   
+  display: flex;
+  border-radius: 40px;
+}
+.img-fluid1{
+height:600px ;
+
+}
+.SUBTITULO3{
+font-style: bold;
+font-size:48px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #0AA4CA ;
+text-align: center;
+background-color:#C2F1FC ;
+}
+.SUBTITULO4{
+  font-style: bold;
+font-size:48px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #8D7419 ;
+text-align: center;
+
+}
+.t3{
+  color: #8D7419 ; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: center ;
+
+}
+.card-img-top{
+  border-radius: 40px;
+}
