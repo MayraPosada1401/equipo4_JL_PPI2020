@@ -1,11 +1,11 @@
 import React from 'react';
-import '../Estilos/App1.css';
+import '../Estilos/App1Karol.css';
 import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
 import COMPRADOR1 from '../Imagenes/COMPRADOR1.png';
 import COMPRADOR2 from '../Imagenes/COMPRADOR2.png';
 import comprador3 from '../Imagenes/comprador3.png';
-import FRUTA1 from '../Imagenes/FRUTA1.png';
-import FRUTA2 from '../Imagenes/FRUTA2.png';
+import FRUTA1 from '../Imagenes/Fruta1.png';
+import FRUTA2 from '../Imagenes/Fruta2.png';
 import FRUTA3 from '../Imagenes/FRUTA3.png';
 import FRUTA4 from '../Imagenes/FRUTA4.png';
 

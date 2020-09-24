@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Estilos/App.css';
+import '../Estilos/AppKarol.css';
 import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
 import Canasta from '../Imagenes/Canasta.png';
 import carrusel1 from '../Imagenes/carrusel1.png';
