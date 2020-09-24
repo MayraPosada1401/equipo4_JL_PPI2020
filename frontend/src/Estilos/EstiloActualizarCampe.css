@@ -1,0 +1,38 @@
+/*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Parrafos*/
+.parrafo1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+/*BODY*/
+/*Título Bienvenido a Aprende con Ecoagro*/
+.development{
+    text-align: center;
+     margin-top: 30px;
+  }
+.titulobody{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+    text-align: center;
+}
+  /*Titulo aquí te presentamos...*/
+.social{
+    text-align: center;
+}
+  /*Los dos primeros parrafos*/
+.component-text{
+    margin-top: 15px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+}
+/*Cuadros de texto*/
+.form {
+    margin-left: 400px;
+    margin-bottom: 5%;
+    margin-top: 60px;
+}
+.among{
+    margin: 40px 0px 40px 0px;
+}

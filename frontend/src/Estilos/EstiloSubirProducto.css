@@ -1,0 +1,94 @@
+/*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Botones de cards*/
+.btn3{
+    width: 130px;
+  }
+  /*Parrafos*/
+  .parrafo1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+  }
+  
+  
+  /*CSS BODY*/
+  /*Título Bienvenido a tu perfil de EcoAgro*/
+  .development{
+    text-align: center;
+     margin-top: 30px;
+  }
+  .titulobody{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+  }
+  /*Titulo aquí te presentamos...*/
+  .social{
+    text-align: center;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text{
+    margin-top: 15px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+  }
+  /*Contenedor de cambiar foto de perfil*/
+  .part1{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: flex;
+  }
+
+  /*Botton de cambio de imagen*/
+  .btn-primary{
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    background-image: url('../Imagenes/Fruta1.png');
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+    margin-left: 70px;
+  }
+  /*Boton debajo de la imagen, cambiar imagen*/
+  .btn2{
+    margin-left: 70px;
+  }
+
+  /*Cajas de texto*/
+  .form1 {
+    margin-right: 300px;
+    margin-top: 60px;
+  }
+  .config-title2{
+    margin-bottom: 40px;
+  }
+  /*Linea de Separación*/
+  .verticalLinea { 
+    border-left: #F8AA03 thick solid ; 
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-left: 100px;
+  }
+  /*Imagen subir producto*/
+  .btn-config-img{
+    background-image: url('../Imagenes/Fruta2.png');
+  }
+  .btn-padding-confirmar{
+    margin: 20px 0px;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
