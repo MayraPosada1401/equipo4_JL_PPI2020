@@ -1,32 +1,100 @@
 .img-fluid1{
-    height:600px ;
-    
-    }
-    .btn1{
-        height: 25px; 
-        width:500px;
-        
-       }
-       .btn1{
-         height: 25px; 
-         width:500px;
-         
-        }
-       .btn-info1{
-         background-color:transparent;
-       }
+  height:600px ;
+  
+  }
+  .btn1{
+      height: 25px; 
+      width:500px;
+      
+     }
+     .btn1{
+       height: 25px; 
+       width:500px;
+       
+      }
+     .btn-info1{
+       background-color:transparent;
+     }
 .Titulito{
-    font-style: bold;
-    font-size:48px;
-    text-align: center;
-    background-color: #D2F1F9;
+  font-style: bold;
+  font-size:48px;
+  text-align: center;
+  background-color: #D2F1F9;
 }
 .card{
-    display: inline-block !important;
-    margin: 5%;
-    max-width: 900px;  
-    border-radius: 40px;
+  display: inline-block !important;
+  margin: 5%;
+  max-width: 900px;  
+  border-radius: 40px;
+
+}
+.imagent{
+    width:700px ;
+}
+
+.Confirmado{
+color: #57EC6D ;
+font-size: 24px;
+}
+.sinConfirmar{
+color: #E80725 ;
+font-size: 24px;
+}
+.TI{
+font-family:'Courier New', Courier, monospace;
+font-size: 32px;   
+}
+.CAP{
+  margin:5%;
+}
+.img-fluid{
+width: 100px;
+}
+.DIS{
+padding: 4%;
+}
+.FONDO{
+  background-image: url(https://as2.ftcdn.net/jpg/02/34/49/91/500_F_234499194_sfBbn1YVtDVxOzTsM1B8xIUY8wcAsBPa.jpg);
+}
+.btn{
+  margin-left: 4%;
+
+}
+
+.TU{
+margin-top: 1%;
+margin-left: 3%;
+
+}
+.cardin1{
+  background-color: #FFA07A;
+  color: wheat;
   }
-  .imagent{
- width: 450px;
-  }
+.CAR{
+  padding: 2%;
+  margin-top: 2%;
+  margin-right: 1%;
+ background-color: #32B8E6  ;
+  background-image: 100%;
+
+}
+.cardin{
+  background-color: #189DAD  ;
+          color: #8DF1FC    ;
+          border-radius: 40px;
+}
+.cardin1{
+background-color: #FFA07A;
+color: wheat;
+border-radius: 40px;
+}
+.cardin2{
+background-color: #7FDFF3;
+color: #31B8D3 ;
+border-radius: 40px;
+}
+.cardin3{
+background-color: #F1C935 ;
+color: #8D7419 ;
+border-radius: 40px;
+}
