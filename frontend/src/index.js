@@ -13,7 +13,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 ReactDOM.render(
   <React.StrictMode>
-    <InterfazSubirProducto/>
+    <Ofertascampe/>
   </React.StrictMode>,
   document.getElementById('root')
 );
