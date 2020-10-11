@@ -1,0 +1,201 @@
+/*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Parrafos*/
+.parrafo1-aprende{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+}
+
+/*BODY*/
+/*Título Bienvenido a Aprende con Ecoagro*/
+.development-aprende{
+    text-align: center;
+     margin-top: 30px;
+  }
+.tituloaprende{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+}
+  /*Titulo aquí te presentamos...*/
+.social-aprende{
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+}
+  /*Los dos primeros parrafos*/
+.component-text-aprende{
+    margin-top: 15px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+}
+/*Carrusel imagenes overflow=hidden*/
+.contenedorprincipal{
+    width: 210px;
+    perspective: 1000px;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 430px;
+}
+.contenedorsecundario{
+    width: 100%;
+    position: absolute;
+    animation: rotar 15s infinite linear;
+    transform-style: preserve-3d ;
+}
+.contenedorsecundario:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.contenedorsecundario figure{
+    width: 100%;
+    height: 200%;
+    position: absolute;
+}
+.tamaño-img-carrusel{
+    height: 200px;
+}
+.contenedorsecundario figure:nth-child(1){
+    transform: rotateY(0deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(2){
+    transform: rotateY(40deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(3){
+    transform: rotateY(80deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(4){
+    transform: rotateY(120deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(5){
+    transform: rotateY(160deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(6){
+    transform: rotateY(200deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(7){
+    transform: rotateY(240deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(8){
+    transform: rotateY(280deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(9){
+    transform: rotateY(320deg) translateZ(300px);
+}
+.contenedorsecundario figure:nth-child(10){
+    transform: rotateY(360deg) translateZ(300px);
+} 
+.contenedorsecundario img{
+    width: 100%;
+}
+/*Mis opciones de Aprendizaje*/
+.titulo-aprende{
+    text-align: center;
+    padding: 27px 0px 27px 0px;
+}
+/*Fondo del contenedor Mis opciones de Aprendizaje*/
+.found-4-aprende{
+    background-color: #C2F1FC ;
+    margin-top: 100px;
+}
+/*Medidas de las imagenes de las card*/
+.card-img-top-aprende{
+    width: 350px;
+    height: 365px;
+}
+/*Margen entre las cards*/
+.cards-aprende{
+    margin-top: 50px;
+}
+/*Medidas de las card*/
+.card0-aprende{
+    display: inline-block !important;
+    margin-left: 95px;
+    width: 33rem;  
+    background-color: #189DAD  ;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+}
+.card-edit-position{
+    margin: 50px 410px ;
+}
+
+@keyframes rotar{
+    from {
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+
+@media all and (max-width: 640px), (max-height: 360px){
+    .parrafo1-aprende{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .component-text-aprende{
+        margin-top: 15px;
+        padding: 0px 10px 0px 10px;
+        text-align: justify;
+    }
+    .social-aprende{
+        text-align: center;
+        font-size: 20px;
+        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #0AA4CA;
+        font-style:oblique;
+    }
+    .contenedorprincipal{
+        display: none;
+    }
+    
+    /*Medidas de las imagenes de las card*/
+    .card-img-top-aprende{
+        width: 320px;
+        height: 310px;
+    } 
+    /*Margen entre las cards*/
+    .cards-aprende{
+    margin-top: 50px;
+    }
+    /*Medidas de las card*/
+    .card0-aprende{
+    display: inline-block !important;
+    margin-left: 18px;
+    width: 20rem;  
+    height: 34rem; 
+    background-color: #189DAD  ;
+    margin-top: 10px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+    }
+   .card-edit-position{
+    margin: 10px 18px ;
+    }
+    .card-title-aprende{
+        font-size: 18px;
+        text-align: center;
+    }
+    .card-text-aprende{
+        font-size: 17px;
+        text-align: center;
+    }
+    .btn1-aprende{
+        justify-content: center;
+        margin-left: 78px;
+      }
+    .margin-img-title-aprende{
+        margin-top: -40px;
+    }
+    .justify-parrafo-aprende{
+        text-align: justify;
+    }
+    .found-4-aprende{
+        background-color: #C2F1FC ;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,462 @@
+/*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Subtitulos*/
+.h2-inicio{
+  justify-content: center;
+  text-align: center;
+}
+/*Letra y tamaño de todos los parrafos*/
+.parrafo1-inicio{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+  
+
+/*CSS BODY*/
+/*Título Bienvenido a Ecoagro*/
+.component-1-text-body {
+  text-align: center;
+}
+.titulo1-inicio{
+  color:#0CB4D6 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.development-inicio{
+  margin-top: 50px;
+}
+/*Aquí te presentamos los cursos y noticias en tendencia*/
+.social-inicio{
+  margin-top:10px;
+  text-align: center;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA;
+  font-style:oblique;
+}
+/*Los dos primeros parrafos*/
+.component-text-inicio{
+    margin-top: 30px;
+    padding: 0px 100px 0px 100px;
+}
+/*Las cards*/
+.card0-inicio{
+  display: inline-block !important;
+  margin-left: 95px;
+  width: 33rem;  
+  background-color: #189DAD  ;
+  margin-top: 30px;
+  color: #8DF1FC    ;
+  border-radius: 40px;
+}
+.card-img-top-inicio{
+  width: 350px;
+  height: 365px;
+  border-radius: 40px;
+}
+/*Imagenes en grid*/
+/*cuadro div de color*/
+.found-3-inicio{
+  background-color:#029CC1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*Letra y color del tituulo del titulo: POR USTEDES ES QUE SOMOS UNA REALIDAD*/
+.titulo2-inicio{
+  color:white ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Padding del titulo: POR USTEDES ES QUE SOMOS UNA REALIDAD*/
+.padding-title-body{
+  padding: 20px;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  background-color:transparent;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 30% 40% 30%;
+  text-align: center;
+  background-size: repeat(4, 100%);
+}
+.fisrt-img{
+  margin-top: 5px;
+  background-image: url("https://www.ecci.edu.co/sites/default/files/styles/noticias_interna_698x398_/public/2020-06/Importancia%20del%20campesinado.jpg?itok=RKvVsFUR");
+  padding: 60px;
+  background-color: lightpink;
+  grid-column: 1/7;
+  grid-row: 1/2;
+}
+.second-img{
+  margin-top: 5px;
+  background-image: url("https://desinformemonos.org/wp-content/uploads/2020/04/En-tiempos-de-Covid19-la-Lucha-Campesina-es-lucha-por-la-vida.jpg"); 
+  padding: 60px;
+  background-color: papayawhip;
+  grid-column: 7/13;
+  grid-row: 1/2;
+}
+.third-img{
+  background-image: url("https://www.revistaenfoque.com.co/sites/default/files/images/articulo/campesino_0.jpg");
+  padding: 170px 120px;
+  background-color: #57176E ;
+  grid-column: 1/4;
+  grid-row: 2/3;  
+  background-size: 300px 265px;
+  background-repeat: no-repeat;
+}
+.four-img{
+  background-image: url("https://farm5.static.flickr.com/4016/4639061927_0363a38865.jpg"); 
+  padding: 170px;
+  background-color: indianred;
+  grid-column: 4/7;
+  grid-row: 2/3;
+  background-size: 300px 265px;
+  background-repeat: no-repeat;
+}
+.five-img{
+  background-image: url("https://www.agromarketing.mx/wp-content/uploads/2019/10/campo-1.jpg"); 
+  padding: 170px;
+  background-color: rosybrown;
+  grid-column: 7/10;
+  grid-row: 2/3 ;
+  background-size: 300px 265px;
+  background-repeat: no-repeat;  
+}
+.six-img{
+  background-image: url("https://www.las2orillas.co/wp-content/uploads/2016/05/campesino-portada-campo.jpg");
+  grid-column: 10/13;
+  grid-row: 2/3 ;  
+  background-size: 300px 265px;
+  background-repeat: no-repeat; 
+}
+.seven-img{
+  background-image: url("https://www.las2orillas.co/wp-content/uploads/2020/02/campesino-1.jpg");
+  padding: 60px;
+  background-color: mediumturquoise;
+  grid-column: 1/5;
+  grid-row: 3/4;
+  background-size: 370px 200px;
+  background-repeat: no-repeat; 
+  margin-bottom: 30px;
+}
+.eigth-img{
+  background-image: url("https://1.bp.blogspot.com/-aIGoH_gYho8/UweKQs0OR6I/AAAAAAAAAPs/63l7uzyBZd8/s1600/agicultura+familiar.jpg");
+  padding: 60px;
+  background-color: burlywood;
+  grid-column: 5/9;
+  grid-row: 3/4;
+  background-size: 370px 200px;
+  background-repeat: no-repeat; 
+  margin-bottom: 30px;
+}
+.nine-img{
+  background-image: url("https://estaticos.efe.com/efecom/recursos2/imagen.aspx?-P-2fL4Jfo8HOMjd3DdXBAWZX419M60C1yqQQ4TncnkXVSTX-P-2bAoG0sxzXPZPAk5l-P-2fU5UeBG-P-2f2ekP29d9AspmkiFfEg-P-3d-P-3d");
+  padding: 60px;
+  background-color: royalblue;
+  grid-column: 9/13;
+  grid-row: 3/4;
+  background-size: 370px 200px;
+  background-repeat: no-repeat;   
+  margin-bottom: 30px;
+}
+/*Card de las noticias*/
+/*Titulo algunas noticias del mundo agrario*/
+.colombia-espopis{
+  margin-top: 60px;
+}
+.card1-body{
+  display: inline-block;
+  margin-left: 95px;
+  width: 33rem;  
+  background-color: #189DAD  ;
+  margin-top: 30px;
+  color: #8DF1FC    ;
+  border-radius: 40px;
+}
+.card-img2-top-inicio{
+  width: 528px;
+  height: 365px;
+  border-radius: 40px;
+}
+/*Datos Curiosos*/
+/*Titulo de ALGUNOS DATOS CURIOSOS*/
+.titulodato-body{
+  padding-left: 10px ;
+  padding-top: 45px;
+}
+/*Padding del titulo de ALGUNOS DATOS CURIOSOS*/
+.forma-padding{
+  padding: 27px 0px 27px 0px;
+}
+/*Imagen vector de campesina*/
+.img-FORGO{
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-left: -80px;
+}
+/*Contenedor de los datos curiosos*/
+.part1-body{
+  box-sizing: border-box 2px;
+  padding: 40px;
+  margin-bottom:106px;   
+  display: flex;
+}
+/*Clase ul que contiene los li que contienen los parrafos*/
+.list-unstyled-body{
+  text-align: center;
+  margin-top: 40px;
+}
+/*Fondo del contenedor div de los Datos Curiosos*/
+.found-5-body{
+  background-color: #C2F1FC ;
+  margin-top: 60px;
+}
+/*Alineación de los parrafos de los datos curiosos*/
+.media2-body{
+  text-align: left;
+}
+/*Color de letra de subtitulos de satos curiosos*/
+.forma-t{
+  color: #0AA4CA;
+}
+
+
+
+
+
+
+@media all and (max-width: 640px), (max-height: 360px){
+  .parrafo1-inicio{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .h2-inicio{
+    justify-content: center;
+    text-align: center;
+  }
+/*Los dos primeros parrafos*/
+.component-text-inicio{
+  margin-top: 30px;
+  padding: 0px 10px 0px 10px;
+}
+.social-inicio{
+  margin-top:10px;
+  text-align: center;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA;
+  font-style:oblique;
+  font-size: 20px;
+}
+/*Las cards*/
+.card0-inicio{
+  display: inline-block !important;
+  margin-left: 18px;
+  width: 20rem;  
+  height: 30rem;
+  background-color: #189DAD  ;
+  margin-top: 5px;
+  color: #8DF1FC    ;
+  border-radius: 40px;
+}
+.card-img-top-inicio{
+  width: 320px;
+  height: 220px;
+  border-radius: 40px;
+}
+.card-title-body{
+  font-size: 18px;
+  text-align: center;
+}
+.card-text-body{
+  font-size: 17px;
+  text-align: center;
+}
+.btn1-body{
+  justify-content: center;
+  margin-left: 78px;
+}
+.container{
+  width: 50vw;
+  height: 160vh;
+  display: grid;
+  background-color:transparent;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: repeat(7, 1fr);
+  text-align: center;
+}
+.fisrt-img{
+  margin-top: 5px;
+  background-image: url("https://www.ecci.edu.co/sites/default/files/styles/noticias_interna_698x398_/public/2020-06/Importancia%20del%20campesinado.jpg?itok=RKvVsFUR");
+  padding: 65px;
+  background-color: lightpink;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-size: 130px 130px;
+  background-repeat: no-repeat;
+  margin-left: 35px;
+}
+.second-img{
+  margin-top: 5px;
+  background-image: url("https://desinformemonos.org/wp-content/uploads/2020/04/En-tiempos-de-Covid19-la-Lucha-Campesina-es-lucha-por-la-vida.jpg"); 
+  padding: 63px;
+  background-color: papayawhip;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-size: 130px 130px;
+  background-repeat: no-repeat;
+  margin-left: 34px;
+}
+.third-img{
+  background-image: url("https://www.revistaenfoque.com.co/sites/default/files/images/articulo/campesino_0.jpg");
+  padding: 100px 129px;
+  background-color: #57176E ;
+  grid-column: 1/4;
+  grid-row: 2/3;  
+  background-size: 330px 205px;
+  background-repeat: no-repeat;
+  margin-left: 35px;
+}
+.four-img{
+  background-image: url("https://farm5.static.flickr.com/4016/4639061927_0363a38865.jpg"); 
+  padding: 65px;
+  background-color: indianred;
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background-size: 130px 130px;
+  background-repeat: no-repeat;
+  margin-left: 35px;
+}
+.five-img{
+  background-image: url("https://www.agromarketing.mx/wp-content/uploads/2019/10/campo-1.jpg"); 
+  padding: 63px;
+  background-color: rosybrown;
+  grid-column: 3/4;
+  grid-row: 3/4 ;
+  background-size: 130px 130px;
+  background-repeat: no-repeat; 
+  margin-left: 34px; 
+}
+.six-img{
+  background-image: url("https://www.las2orillas.co/wp-content/uploads/2016/05/campesino-portada-campo.jpg");
+  padding: 100px 129px;
+  background-color: #57176E ;
+  grid-column: 1/4;
+  grid-row: 4/5 ;  
+  background-size: 330px 205px;
+  background-repeat: no-repeat; 
+  margin-left: 35px;
+}
+.seven-img{
+  background-image: url("https://www.las2orillas.co/wp-content/uploads/2020/02/campesino-1.jpg");
+  padding: 65px;
+  background-color: mediumturquoise;
+  grid-column: 1/2;
+  grid-row: 5/6;
+  background-size: 130px 130px;
+  background-repeat: no-repeat; 
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+.eigth-img{
+  background-image: url("https://1.bp.blogspot.com/-aIGoH_gYho8/UweKQs0OR6I/AAAAAAAAAPs/63l7uzyBZd8/s1600/agicultura+familiar.jpg");
+  padding: 63px;
+  background-color: burlywood;
+  grid-column: 3/4;
+  grid-row: 5/6;
+  background-size: 130px 130px;
+  background-repeat: no-repeat; 
+  margin-bottom: 30px;
+  margin-left: 34px;
+}
+.nine-img{
+  background-image: url("https://estaticos.efe.com/efecom/recursos2/imagen.aspx?-P-2fL4Jfo8HOMjd3DdXBAWZX419M60C1yqQQ4TncnkXVSTX-P-2bAoG0sxzXPZPAk5l-P-2fU5UeBG-P-2f2ekP29d9AspmkiFfEg-P-3d-P-3d");
+  padding: 100px 129px;
+  background-color: royalblue;
+  grid-column: 1/4;
+  grid-row: 6/7;
+  background-size: 330px 205px;
+  background-repeat: no-repeat;   
+  margin-top: -30px;
+  margin-left: 35px;
+}
+.titulo2-inicio{
+  font-size: 25px;
+}
+.padding-title-body{
+  padding: 10px;
+}
+
+/*Card de las noticias*/
+/*Titulo algunas noticias del mundo agrario*/
+.colombia-espopis{
+  margin-top: 40px;
+}
+.card1-body{
+  display: inline-block;
+  margin-left: 18px;
+  width: 20rem;  
+  height: 37rem; 
+  background-color: #189DAD  ;
+  margin-top: 30px;
+  color: #8DF1FC    ;
+  border-radius: 40px;
+}
+.card-img2-top-inicio{
+  width: 320px;
+  height: 220px;
+  border-radius: 40px;
+}
+.btn2-body{
+  justify-content: center;
+  margin: 0px 85px;
+}
+
+
+/*Datos Curiosos*/
+/*Titulo de ALGUNOS DATOS CURIOSOS*/
+.titulodato-body{
+  padding-left: 10px ;
+  padding-top: 45px;
+}
+/*Padding del titulo de ALGUNOS DATOS CURIOSOS*/
+.forma-padding{
+  padding: 27px 0px 27px 0px;
+}
+/*Imagen vector de campesina*/
+.img-FORGO{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin-left: 10px;
+}
+/*Contenedor de los datos curiosos*/
+.part1-body{
+  box-sizing: border-box 2px;
+  padding: 10px;
+  margin-bottom:106px;   
+  display: block;
+}
+/*Clase ul que contiene los li que contienen los parrafos*/
+.list-unstyled-body{
+  text-align: center;
+  margin-top: 40px;
+  list-style: none;
+  margin-left: -30px;
+}
+/*Fondo del contenedor div de los Datos Curiosos*/
+.found-5-body{
+  background-color: #C2F1FC ;
+  margin-top: 60px;
+}
+/*Alineación de los parrafos de los datos curiosos*/
+.media2-body{
+  text-align: left;
+}
+/*Color de letra de subtitulos de satos curiosos*/
+.forma-t{
+  color: #0AA4CA;
+}
+.losdatos{
+  margin-left: -10px;
+}
+}

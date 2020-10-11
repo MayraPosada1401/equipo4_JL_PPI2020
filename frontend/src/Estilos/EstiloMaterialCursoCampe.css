@@ -1,0 +1,147 @@
+.titulodelcurso-materialcursocampe{
+    text-align: center;
+    margin-top: 50px;
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blog-post-1-materialcursocampe{
+    display: flex;
+    margin: 50px 40px 50px 40px;
+}
+.blog-post-title1-materialcursocampe{
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA;
+}
+.parrafosdematerialcursocampe{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.blog-sidebar-materialcursocampe{
+    margin-left: 30px;
+}
+.padding-datocurioso-materialcursocampe{
+    padding: 10px 20px;
+}
+.margin-links-documentoscursocampe{
+    margin-top: 25px;
+}
+.padding-listas-materialcursocampe{
+    padding: 3px 20px;
+}
+
+.targetasfinales-materialcursocampe{
+    width: 60%; 
+    height: 400px; 
+    border-radius: 21px 21px 0 0;
+    background-image: url("https://exiagricola.net/tienda/wp-content/uploads/2017/11/FUMIGADORA-ROYAL-INTEGRA.jpg");
+    background-size: 310px 400px ;
+    background-repeat: no-repeat;
+}
+.targetasfinales2-materialcursocampe{
+    width: 60%; 
+    height: 400px; 
+    border-radius: 21px 21px 0 0;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/61FhpwXUHML._AC_UX385_.jpg");
+    background-size: 310px 400px ;
+    background-repeat: no-repeat;
+}
+.targeta1-materialdocumentocursocampe{
+    margin-left: 35px;
+    width: 600px;
+}
+.titulo1-targetasfinales-materialdocumentocampe{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulo1-targetasfinales2-materialdocumentocampe{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#0CB4D6 ;
+}
+.parrafosdematerialcursocampe2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#0CB4D6 ;
+}
+.parrafosdematerialcursocampe3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.espaciocpntenedortargetas-materialcursocampe{
+    margin-bottom: 80px;
+}
+
+@media all and (max-width: 640px), (max-height: 360px){
+    .titulodelcurso-materialcursocampe{
+        text-align: center;
+        margin-top: 50px;
+        color:#0CB4D6 ;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .blog-post-1-materialcursocampe{
+        display: block;
+        margin: 50px 10px 50px 10px;
+    }
+    .blog-post-title1-materialcursocampe{
+      font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #0AA4CA;
+      font-size: 25px;
+    }
+    .parrafosdematerialcursocampe{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      text-align: justify;
+    }
+    .blog-sidebar-materialcursocampe{
+        margin-left: 10px;
+    }
+    .padding-datocurioso-materialcursocampe{
+        padding: 10px 10px;
+    }
+    .margin-links-documentoscursocampe{
+        margin-top: 25px;
+    }
+    .padding-listas-materialcursocampe{
+        padding: 3px 10px;
+    }
+    
+    .targetasfinales-materialcursocampe{
+        width: 250px; 
+        height: 400px; 
+        border-radius: 21px 21px 0 0;
+        background-image: url("https://exiagricola.net/tienda/wp-content/uploads/2017/11/FUMIGADORA-ROYAL-INTEGRA.jpg");
+        background-size: 310px 400px ;
+        background-repeat: no-repeat;
+    }
+    .targetasfinales2-materialcursocampe{
+        width: 250px; 
+        height: 400px; 
+        border-radius: 21px 21px 0 0;
+        background-image: url("https://images-na.ssl-images-amazon.com/images/I/61FhpwXUHML._AC_UX385_.jpg");
+        background-size: 250px 400px ;
+        background-repeat: no-repeat;
+    }
+    .targeta1-materialdocumentocursocampe{
+        margin-left: 28px;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .titulo1-targetasfinales-materialdocumentocampe{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+    }
+    .titulo1-targetasfinales2-materialdocumentocampe{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#0CB4D6 ;
+    }
+    .parrafosdematerialcursocampe3{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .parrafosdematerialcursocampe2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color:#0CB4D6 ;
+    }
+    .espaciocpntenedortargetas-materialcursocampe{
+        margin-bottom: 140px;
+    }
+}

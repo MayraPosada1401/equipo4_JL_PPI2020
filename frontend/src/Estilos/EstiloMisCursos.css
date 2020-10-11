@@ -1,0 +1,136 @@
+/*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Botones de cards*/
+.btn3-miscursos{
+    width: 130px;
+  }
+  /*Parrafos*/
+  .parrafo1-miscursos{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+  }
+  
+  
+  /*CSS BODY*/
+  /*Título Bienvenido a tu perfil de EcoAgro*/
+  .development-miscursos{
+    text-align: center;
+     margin-top: 30px;
+  }
+  .titulobody-miscursos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+  }
+  /*Titulo aquí te presentamos...*/
+  .social-miscursos{
+    margin-top:10px;
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text-miscursos{
+    margin-top: 15px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+  }
+  /*Medidas de las imagenes de las card*/
+  .card-img-top-miscursos{
+    width: 350px;
+    height: 365px;
+    border-radius: 40px;
+  }
+  /*Margen entre las cards*/
+  .cards-miscursos{
+    margin-top: 50px;
+  }
+  /*Medidas de las card*/
+  .card7{
+    display: inline-block !important;
+    margin-left: 65px;
+    width: 36rem;  
+    background-color: #F24B3D;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+  .card2{
+    display: inline-block !important;
+    margin-left: 65px;
+    width: 36rem;  
+    background-color: #68E96E;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+
+  @media all and (max-width: 640px), (max-height: 360px){
+
+/*Parrafos*/
+.parrafo1-miscursos{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/*Titulo aquí te presentamos...*/
+.social-miscursos{
+  margin-top:10px;
+  text-align: center;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA;
+  font-style:oblique;
+  font-size: 20px;
+}
+/*Los dos primeros parrafos*/
+.component-text-miscursos{
+  margin-top: 30px;
+  padding: 0px 10px 0px 10px;
+  text-align: justify;
+}
+/*Medidas de las imagenes de las card*/
+.card-img-top-miscursos{
+  width: 320px;
+  height: 260px;
+  border-radius: 40px;
+}
+/*Margen entre las cards*/
+.cards-miscursos{
+  margin-top: 30px;
+}
+/*Medidas de las card*/
+.card7{
+  display: inline-block !important;
+  margin-left: 18px;
+  width: 20rem;  
+  height: 32rem;
+  background-color: #F24B3D;
+  margin-top: 10px;
+  color: #8DF1FC    ;
+  border-radius: 40px;
+}
+.card2{
+  display: inline-block !important;
+  margin-left: 18px;
+  width: 20rem;  
+  height: 32rem;  
+  background-color: #68E96E;
+  margin-top: 10px;
+  color: #8DF1FC    ;
+  border-radius: 40px;
+}
+.card-title-miscursos{
+  font-size: 18px;
+  text-align: center;
+}
+.card-text-miscursos{
+  font-size: 17px;
+  text-align: center;
+}
+.btn3-miscursos{
+  justify-content: center;
+  margin-left: 78px;
+}
+}
+  

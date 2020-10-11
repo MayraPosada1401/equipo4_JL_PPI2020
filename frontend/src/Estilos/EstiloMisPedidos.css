@@ -1,0 +1,91 @@
+.titulo1-mispedidos{
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.subtitulo1-mispedidos{
+    margin-top:10px;
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+}
+.contenedortargetasdemispedidos-campesino{
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+.targeta1-mispedidoscampe{
+    margin-left: 20px;
+}
+.targetasfinales-mispedidoscampe{
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+}
+.img-targetasfinales2-mispedidoscampe{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.titulo1-targetasfinales-mispedidoscampe{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulo1-targetasfinales2-mispedidoscampe{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#0CB4D6 ;
+}
+.Productoqueordena-mispedidoscampe{
+    width: 300px;
+    border-radius: 40px;
+    background: #C2E8FF;
+}
+.tituloproductoqueordena-pedidoscampe{
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.categoria-mispedidoscampe{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: black;
+}
+.fechadeentrega-mispedidoscampe{
+    width: 300px;
+    border-radius: 40px;
+    background: #F0D6FE ;
+}
+.lugardeentrega-mispedidoscampe{
+    width: 300px;
+    border-radius: 40px;
+    background: #DEFFD7 ;
+}
+.personaquerecoge-mispedidoscampe{
+    width: 300px;
+    border-radius: 40px;
+    background: #A3C6FF;
+}
+.contactorecogedor-mispedidoscampe{
+    width: 300px;
+    border-radius: 40px;
+    background: #CEA3FF;
+}
+
+@media all and (max-width: 640px), (max-height: 360px){
+    .subtitulo1-mispedidos{
+        margin-top:10px;
+        text-align: center;
+        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #0AA4CA;
+        font-style:oblique;
+        font-size: 20px;
+    }
+    .contenedortargetasdemispedidos-campesino{
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }
+    .targeta1-mispedidoscampe{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+}

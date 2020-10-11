@@ -1,0 +1,169 @@
+
+  /*Parrafos*/
+  .parrafo1-subirproducto{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+  }
+  
+  
+  /*CSS BODY*/
+  /*Título Bienvenido a tu perfil de EcoAgro*/
+  .development-subirproducto{
+    text-align: center;
+     margin-top: 30px;
+  }
+  .titulobody-subirproducto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+  }
+  /*Titulo aquí te presentamos...*/
+  .social-subirproducto{
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text-subirproducto{
+    margin-top: 15px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+  }
+  /*Contenedor de cambiar foto de perfil*/
+  .part1-subirproducto{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: flex;
+  }
+
+  /*Botton de cambio de imagen*/
+  .btn-2-subirproducto{
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    background-image: url('../Imagenes/Fruta1.png');
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+    margin-left: 70px;
+    background-color: #0AA4CA;
+  }
+  /*Boton debajo de la imagen, cambiar imagen*/
+  .btn2-subriproducto{
+    margin-left: 70px;
+    width: 350px;
+  }
+
+  /*Cajas de texto*/
+  .form1-subirproducto {
+    margin-right: 300px;
+    margin-top: 60px;
+  }
+  .config-title2-subirproducto{
+    margin-bottom: 40px;
+  }
+  /*Linea de Separación*/
+  .verticalLinea-subirproducto { 
+    border-left: #F8AA03 thick solid ; 
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-top: 70px;
+    margin-left: 100px;
+  }
+  /*Imagen subir producto*/
+  .btn-config-img-subirproducto{
+    background-image: url('../Imagenes/Fruta2.png');
+  }
+  .btn-padding-confirmar-subirproducto{
+    margin: 20px 0px;
+  }
+
+
+  @media all and (max-width: 640px), (max-height: 360px){
+    
+  /*Parrafos*/
+  .parrafo1-subirproducto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  
+  /*CSS BODY*/
+  /*Título Bienvenido a tu perfil de EcoAgro*/
+  /*Titulo aquí te presentamos...*/
+  .social-subirproducto{
+    margin-top:10px;
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+    font-size: 20px;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text-subirproducto{
+    margin-top: 30px;
+  padding: 0px 10px 0px 10px;
+  }
+  /*Contenedor de cambiar foto de perfil*/
+  .part1-subirproducto{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: block;
+  }
+
+  /*Botton de cambio de imagen*/
+  .btn-2-subirproducto{
+    height: 250px;
+    width: 255px;
+    border-radius: 200px;
+    background-image: url('../Imagenes/Fruta1.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left: 13px;
+  }
+  /*Boton debajo de la imagen, cambiar imagen*/
+  .btn2-subriproducto{
+    margin-left: 13px;
+    margin-bottom: 10px;
+    width: 255px;
+  }
+
+  /*Cajas de texto*/
+  .form1-subirproducto {
+    margin-right: 300px;
+    margin-top: 60px;
+  }
+  .config-title2-subirproducto{
+    margin-bottom: 40px;
+  }
+  /*Linea de Separación*/
+  .verticalLinea-subirproducto { 
+    display: none;
+  }
+  /*Imagen subir producto*/
+  .btn-config-img-subirproducto{
+    background-image: url('../Imagenes/Fruta2.png');
+  }
+  .btn-padding-confirmar-subirproducto{
+    margin: 20px 0px;
+  }
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

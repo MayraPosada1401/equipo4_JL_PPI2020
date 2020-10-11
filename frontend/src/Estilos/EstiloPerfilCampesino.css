@@ -1,0 +1,250 @@
+/*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Botones de cards*/
+.btn3-perfil{
+    width: 130px;
+  }
+  /*Parrafos*/
+  .parrafo1-perfil{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 20px;
+  }
+  
+  
+  /*CSS BODY*/
+  /*Título Bienvenido a tu perfil de EcoAgro*/
+  .development-perfil{
+    text-align: center;
+     margin-top: 30px;
+  }
+  .titulobody-perfil{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+  }
+  /*Titulo aquí te presentamos...*/
+  .social-perfil{
+    text-align: center;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text-perfil{
+    margin-top: 15px;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+  }
+  /*Contenedor de cambiar foto de perfil*/
+  .part1-perfil{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: flex;
+  }
+  /*Titulo deseo cambiar mi foto de perfil*/
+  .titulo-perfil{
+    text-align: center;
+  }
+  /*Titulo recomendaciones generales*/
+  .subtitulo1-perfil{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+    font-style:oblique;
+  }
+  /*Clase ul que contiene los li que contienen las recomendaciones*/
+  .list-unstyled-perfil{
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  /*Titulo de recomendaciones generales*/
+  .titulodato-perfil{
+    padding-left: 10px ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  /*Fondo del contenedor div de deseo cambiar mi foto de perfil*/
+  .found-4-perfil{
+    background-color: #C2F1FC ;
+    margin-top: 60px;
+  }
+  /*Botton de cambio de imagen*/
+  .btn-primary-perfil{
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    background-image: url("https://img.freepik.com/foto-gratis/campesino-asiatico-vestir-camisa-cuadros-feliz-jardin_41204-604.jpg?size=626&ext=jpg");
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    margin-top: 75px;
+    margin-left: 70px;
+  }
+  /*Boton debajo de la imagen, cambiar imagen*/
+  .btn2-perfil{
+    width: 350px;
+    margin-left: 70px;
+  }
+  /*Medidas de las imagenes de las card*/
+  .card-img-top-perfil{
+    width: 300px;
+    height: 365px;
+  }
+  /*Titulo Mis opciones*/
+  .titulo-option-perfil{
+    text-align: center;
+    padding: 27px 0px 27px 0px;
+  }
+  /*Fondo del contenedor*/
+  .found-5-perfil{
+    background-color: #C2F1FC ;
+  }
+  /*Margen entre las cards*/
+  .cards-perfil{
+    margin-top: 50px;
+  }
+  /*Medidas de las card*/
+  .card0-perfil{
+    display: inline-block !important;
+    margin-left: 95px;
+    width: 33rem;  
+    background-color: #189DAD  ;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+  
+  @media all and (max-width: 640px), (max-height: 360px){
+  /*Parrafos*/
+  .parrafo1-perfil{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  
+  /*CSS BODY*/
+  /*Título Bienvenido a tu perfil de EcoAgro*/
+  .development-perfil{
+    text-align: center;
+     margin-top: 30px;
+  }
+  .titulobody-perfil{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+  }
+  /*Titulo aquí te presentamos...*/
+  .social-perfil{
+    text-align: center;
+    font-size: 20px;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text-perfil{
+    margin-top: 15px;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+  }
+  /*Contenedor de cambiar foto de perfil*/
+  .part1-perfil{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: block;
+  }
+  /*Titulo deseo cambiar mi foto de perfil*/
+  .titulo-perfil{
+    text-align: center;
+  }
+  /*Titulo recomendaciones generales*/
+  .subtitulo1-perfil{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+    font-style:oblique;
+    font-size: 20px;
+  }
+  /*Clase ul que contiene los li que contienen las recomendaciones*/
+  .list-unstyled-perfil{
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+  /*Titulo de recomendaciones generales*/
+  .titulodato-perfil{
+    padding-left: 10px ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  /*Fondo del contenedor div de deseo cambiar mi foto de perfil*/
+  .found-4-perfil{
+    background-color: #C2F1FC ;
+    margin-top: 20px;
+  }
+  /*Botton de cambio de imagen*/
+  .btn-primary-perfil{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    background-image: url("https://img.freepik.com/foto-gratis/campesino-asiatico-vestir-camisa-cuadros-feliz-jardin_41204-604.jpg?size=626&ext=jpg");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: -7px;
+  }
+  /*Boton debajo de la imagen, cambiar imagen*/
+  .btn2-perfil{
+    width: 300px;
+    margin-left: -7px;
+  }
+  /*Medidas de las imagenes de las card*/
+  .card-img-top-perfil{
+    width: 320px;
+    height: 240px;
+  }
+  /*Titulo Mis opciones*/
+  .titulo-option-perfil{
+    text-align: center;
+    padding: 27px 0px 27px 0px;
+  }
+  /*Fondo del contenedor*/
+  .found-5-perfil{
+    background-color: #C2F1FC ;
+  }
+  /*Margen entre las cards*/
+  .cards-perfil{
+    margin-top: 50px;
+  }
+  /*Medidas de las card*/
+  .card0-perfil{
+    display: inline-block !important;
+    margin-left: 18px;
+    width: 20rem;  
+    height: 31rem; 
+    background-color: #189DAD  ;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+  .card-title-perfil{
+    font-size: 18px;
+    text-align: center;
+  }
+  .card-text-perfil{
+    font-size: 17px;
+    text-align: center;
+  }
+  .btn3-perfil{
+    justify-content: center;
+    margin-left: 78px;
+  }
+  .title-info-perfil-foto{
+    color:  #0AA4CA;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
