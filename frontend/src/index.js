@@ -16,10 +16,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import $ from 'jquery';
 import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Misvaloraciones from './componentes/Misvaloraciones';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Miscompras/>
+    <Mapa/>
   </React.StrictMode>,
   document.getElementById('root')
 );
