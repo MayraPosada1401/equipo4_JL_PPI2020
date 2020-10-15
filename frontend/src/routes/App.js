@@ -32,6 +32,7 @@ import Mapademasvendidos from '../componentes/Mapademasvendidos';
 import Misvaloraciones from '../componentes/Misvaloraciones';
 import Inciciarsesioncom from '../componentes/Inciciarsesioncom';
 import Paginaprincipal from '../componentes/Casa';
+import Iniciodesesiongeneralperfil from '../Componentes/Iciodesesiongeneralperfil';
 
 export default function App() {
     return (
@@ -70,7 +71,7 @@ export default function App() {
           <Route path="/mapas2" component={Mapademasvendidos}/>
           <Route path="/conocenos" component={Misvaloraciones}/>
           <Route path="/iniciosesion" component={Inciciarsesioncom}/>
-
+          <Route path="/iniciosesiongeneral" component={Iniciodesesiongeneralperfil}/> 
       </Switch>    
 
       </BrowserRouter>

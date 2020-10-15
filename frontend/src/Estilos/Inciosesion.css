@@ -1,3 +1,25 @@
 .backgroundinicio{
-    background-image: url(https://cdna.artstation.com/p/assets/images/images/008/422/322/large/sylvain-sarrailh-williametteartstation.jpg?1512658135);
+    
+    border: 10px solid #3FB7C1;
+    background: linear-gradient(90deg, #208E97 , #3FB7C1);
+ background-color: #3FB7C1 ;
+    background-blend-mode: normal;
+    margin-top: 4%;
+margin-left: 15%;
+margin-right: 15%;
+filter:darken;
+border-radius: 40px;
+}
+.Localizacionparalogin{
+    margin: 12%;
+}
+.contenedorabsolutodefondo{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/008/422/319/large/sylvain-sarrailh-sauvieartstation.jpg?1512658121);
+background-repeat: no-repeat;
+height: 760px;
+}
+.Fondotransparenteparaincioparticular{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 24px;
+color: white;
 }
