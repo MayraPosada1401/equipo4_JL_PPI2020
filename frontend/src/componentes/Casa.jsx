@@ -38,10 +38,10 @@ function App() {
       </li>
       <li className="nav-item nav-item2 active ">
        <Link to="/quienes"><a className="nav-link btn-cerrarcampe " href="#">¿Quienes somos?</a>
- </Link> 
+        </Link> 
       </li>
       <a type="button" class="btn1-header btn-info1"></a>
-      <Link to="/iniciosesion"><button type="button" class="btn btn-info btn-cerrarcampe"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ingresar</button></Link>
+      <Link to="/iniciosesion"><button type="button" class="btn btn-info btn-ingresar-pagina"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ingresar</button></Link>
 
       <li className="nav-item">
      

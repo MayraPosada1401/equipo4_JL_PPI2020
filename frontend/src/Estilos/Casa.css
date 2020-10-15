@@ -205,20 +205,15 @@ text-align: center;
 }
 
 .btn1-header{
-  height: 25px; 
+  height: 35px; 
   width:500px; 
+  margin-top: 20px;
+}
+.btn-ingresar-pagina{
+  height: 45px; 
+  margin-top: 15px;
 }
 
-.edit1{
-  width: 140px;
-}
-
-.nav-item{
-  text-align: center;
-}
-.nav-item2 {
-  padding: 10px 0px 10px 0px;
-}
 @media all and (max-width: 640px), (max-height: 360px){
   .Header{
     max-width: 640px;
@@ -280,8 +275,10 @@ text-align: center;
 .normal-nav{
   margin-left: -160px;
 }
-.btn-cerrarcampe{
-  width: 286px;
+.btn-ingresar-pagina{
   margin-left: 20px;
+  width: 286px;
+  margin-top: -10px;
 }
+
 }
