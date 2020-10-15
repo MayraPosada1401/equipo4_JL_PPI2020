@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../componentes/Header';
+import Header from '../componentes/Headercampesino';
 import Footer from '../componentes/Footer';
 import SubirProductoCampe from '../componentes/InterfazSubirProducto'
 
 export default function Subirproducto() {
     return (
-        <div className="App">
+        <div className="Subirproducto">
             <Header/>
             <SubirProductoCampe/>
             <Footer/>

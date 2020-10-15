@@ -1,56 +1,54 @@
 /*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
 /*Botones de cards*/
-.btn3{
+.btn3-ofertacampe{
     width: 130px;
   }
   /*Parrafos*/
-  .parrafo1{
+  .parrafo1-ofertascampe{
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 20px;
   }
-  
-  
+
   /*CSS BODY*/
   /*Título Bienvenido a tu perfil de EcoAgro*/
-  .development{
+  .development-ofertascampe{
     text-align: center;
      margin-top: 30px;
   }
-  .titulobody{
+  .titulobody-ofertascampe{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #0AA4CA ;
   }
   /*Titulo aquí te presentamos...*/
-  .social{
+  .social-ofertascampe{
+    margin-top:10px;
     text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
   }
   /*Los dos primeros parrafos*/
-  .component-text{
+  .component-text-ofertascampe{
     margin-top: 15px;
     padding: 0px 100px 0px 100px;
     text-align: center;
   }
-  /*Contenedor de cambiar foto de perfil*/
-  .part1{
-    box-sizing: border-box 2px;
-    padding: 40px;
-    margin-bottom:40px;   
-    display: flex;
+  /*Configuración del espacio de los botones de información*/
+  .btn-space-oferta{
+    margin-top: 10px;
   }
-
-  
   /*Medidas de las imagenes de las card*/
-  .card-img-top{
-    width: 150px;
+  .card-img-oferta{
+    width: 350px;
     height: 365px;
   }
   /*Margen entre las cards*/
-  .cards{
+  .cards_ofertas{
     margin-top: 50px;
   }
   /*Medidas de las card*/
-  .card0{
+  .card10{
     display: inline-block !important;
     margin-left: 95px;
     width: 33rem;  
@@ -60,3 +58,76 @@
     border-radius: 40px;
   }
   
+
+  @media all and (max-width: 640px), (max-height: 360px){
+    .btn3-ofertacampe{
+      width: 130px;
+    }
+    /*Parrafos*/
+    .parrafo1-ofertascampe{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+      text-align: justify;
+    }
+    
+    
+    /*CSS BODY*/
+    /*Título Bienvenido a tu perfil de EcoAgro*/
+    .development-ofertascampe{
+      text-align: center;
+       margin-top: 30px;
+    }
+    .titulobody-ofertascampe{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #0AA4CA ;
+    }
+    /*Titulo aquí te presentamos...*/
+    .social-ofertascampe{
+      margin-top:10px;
+      text-align: center;
+      font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #0AA4CA;
+      font-style:oblique;
+      font-size: 20px;
+    }
+    /*Los dos primeros parrafos*/
+    .component-text-ofertascampe{
+      margin-top: 30px;
+      padding: 0px 10px 0px 10px;
+      text-align: justify;
+    }
+    /*Configuración del espacio de los botones de información*/
+    .btn-space-oferta{
+      margin-top: 10px;
+      margin-left: 8px;
+    }
+    /*Medidas de las imagenes de las card*/
+    .card-img-oferta{
+      width: 320px;
+      height: 250px;
+      border-radius: 40px;
+    }
+    /*Margen entre las cards*/
+    .cards_ofertas{
+      margin-top: 30px;
+    }
+    /*Medidas de las card*/
+    .card10{
+      display: inline-block !important;
+      margin-left: 18px;
+      width: 20rem;  
+      height: 30rem;
+      background-color: #189DAD  ;
+      margin-top: 10px;
+      color: #8DF1FC    ;
+      border-radius: 40px;
+    }
+    .card-title-ofertacampe{
+      font-size: 18px;
+      text-align: center;
+    }
+    .card-text-ofertacampe{
+      font-size: 17px;
+      text-align: center;
+    }
+  }

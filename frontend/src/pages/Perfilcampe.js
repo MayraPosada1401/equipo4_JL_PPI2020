@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../componentes/Header';
+import Header from '../componentes/Headercampesino';
 import Footer from '../componentes/Footer';
-import InterfazPerfil from '../componentes/InterfazPerfil'
+import InterfazPerfilCampesino from '../componentes/InterfazPerfilCampesino'
 
 export default function Perfilcampe() {
     return (
-        <div className="App">
+        <div className="Perfilcampe">
             <Header/>
-            <InterfazPerfil/>
+            <InterfazPerfilCampesino/>
             <Footer/>
         </div>
     );

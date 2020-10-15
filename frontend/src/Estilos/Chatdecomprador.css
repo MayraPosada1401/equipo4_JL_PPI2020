@@ -1,0 +1,193 @@
+
+  .development-chatperfil{
+    text-align: center;
+     margin-top: 30px;
+  }
+  .titulobody-chatperfil{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+  }
+
+  .social-chatperfil{
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+  }
+
+  .part1-reseña{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: flex;
+  }
+  .card-img-reseña{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+  }
+  .titulonombre-chatperfil{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA ;
+    text-align: center;
+  }
+  .titulocategoria-chatperfil{
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+  }
+  .estrellas-img-chatperfil{
+    width: 300px;
+    height: 90px;
+  }
+  .datos-reseña-charperfil{
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .verticalLinea-chatperfil { 
+    border-left: #F8AA03 thick solid ; 
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-left: 70px;
+  }
+  .contenedor-chatperfil{
+      background-image: url("https://image.freepik.com/vector-gratis/fisuras-patron-hojas-tropicales-verano-diseno_1324-350.jpg");
+      width: 1000px;
+    }
+  .titulos-fechas-chatperfil{
+      padding: 20px 0px 20px 0px;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color:  #F8AA03;
+  }
+  .recuadromensaje-chatperfil{
+      background-color: #0AA4CA;
+      border-radius: 30px;
+      margin-left: 40px;
+      width: 450px;
+  }
+  .nombreusuario-chatperfil{
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-style:oblique;
+    padding: 10px 10px ;
+  }
+  .parrafo-conversación-chatperfil{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px 10px ;
+  }
+  .recuadromensaje2-chatperfil{
+    background-color: #C2F1FC;
+    border-radius: 30px;
+    margin-left: 320px;
+    width: 450px;
+    align-content: flex-end;
+  }
+  .form-group-chatperfil{
+    margin-top: 140px;
+    margin-left: 40px;
+  }
+  .border-input-chatperfil{
+    border: 5px solid !important;
+  }
+  .contenedor2dechat-perfilchat{
+    display: flex;
+  }
+  .boton-enviarmensaje-chatperfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 134px;
+    background-image: url("https://i.pinimg.com/originals/0c/4f/fa/0c4ffaf979a8c05a9e7b15293996340f.png");
+    background-size: 45px 45px;
+    border: 3px #F8AA03 solid;
+  }
+  
+  @media all and (max-width: 640px), (max-height: 360px){
+    .social-chatperfil{
+      text-align: center;
+      font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #0AA4CA;
+      font-style:oblique;
+      font-size: 20px;
+    }
+    .part1-reseña{
+      box-sizing: border-box 2px;
+      padding: 40px;
+      margin-bottom:40px;   
+      display: block;
+    }
+    .card-img-reseña{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin-left: -10px;
+  }
+  .verticalLinea-chatperfil{
+    display: none;
+  }
+
+.contenedor-chatperfil{
+    background-image: url("https://image.freepik.com/vector-gratis/fisuras-patron-hojas-tropicales-verano-diseno_1324-350.jpg");
+    width: 360px;
+    margin-left: -40px;
+    margin-top: 40px;
+  }
+.titulos-fechas-chatperfil{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #F8AA03;
+}
+.recuadromensaje-chatperfil{
+    background-color: #0AA4CA;
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 250px;
+}
+.nombreusuario-chatperfil{
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-style:oblique;
+  padding: 10px 10px ;
+}
+.parrafo-conversación-chatperfil{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 10px 10px ;
+}
+.recuadromensaje2-chatperfil{
+  background-color: #C2F1FC;
+  border-radius: 30px;
+  margin-left: 90px;
+  width: 250px;
+  align-content: flex-end;
+}
+.form-group-chatperfil{
+  margin-top: 140px;
+  margin-left: 2px;
+}
+.border-input-chatperfil{
+  border: 5px solid !important;
+}
+.contenedor2dechat-perfilchat{
+  display: flex;
+  margin-bottom: 5px;
+}
+.boton-enviarmensaje-chatperfil{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 134px;
+  margin-left: -15px;
+  margin-bottom: 5px;
+  background-image: url("https://i.pinimg.com/originals/0c/4f/fa/0c4ffaf979a8c05a9e7b15293996340f.png");
+  background-size: 40px 40px;
+  border: 3px #F8AA03 solid;
+}
+  }

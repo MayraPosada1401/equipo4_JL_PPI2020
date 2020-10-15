@@ -1,0 +1,197 @@
+
+.ChatSecundario-campe{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: flex;
+    background: #DFDFDF;
+  }
+.principaldelchatanterior-secundario-campe{
+  width: 500px;
+  background: #0AA4CA;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.principaldelchatanterior2-secundario-campe{
+  width: 500px;
+  background: #0AA4CA;
+  border-radius: 40px;
+  margin-top: 0px;
+}
+.chatsanteriores-secundario-campe{
+  width: 450px;
+  display: flex;
+  background: #C2F1FC;
+  border-radius: 30px;
+  align-content: center;
+  margin: auto;
+}
+.contenedorinfocontacto-chat-secundario-campe{
+    display: flex;
+}
+.img-contacto-chatsecundario{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+.titulonombres-chatsecundario{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA ;
+  padding: 3px 24px;
+}
+.textocontacto-chatsecundario{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 3px 24px;
+}
+.textocontacto-chatsanteriores-secundario{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+.form-group-chatsecundario{
+  margin: auto;
+}
+.contenedor2dechat-chatsecundario{
+  display: flex;
+}
+.boton-chatsecundario-confirmar{
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  margin-right: 117px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/ok-1976099_1280.png");
+  background-size: 45px 40px;
+  border: none;
+}
+.chatsecundario-inputprecio{
+  margin-left: 59px;
+}
+.contenedor-chatsecundario-campe{
+  background: #DFDFDF;
+  margin-left: 40px;
+  background-image: url("https://image.freepik.com/vector-gratis/fisuras-patron-hojas-tropicales-verano-diseno_1324-350.jpg");
+  width: 725px;
+}
+.titulos-fechas-chatsecundario{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #F8AA03;
+}
+.recuadromensaje-chatsecundario-campe{
+    background-color: #0AA4CA;
+    border-radius: 30px;
+    margin-left: 40px;
+    width: 450px;
+}
+.nombreusuario-chatsecundario-campe{
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-style:oblique;
+  padding: 10px 10px ;
+}
+.parrafo-conversación-chatsecundario-campe{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 10px 10px ;
+}
+.recuadromensaje2-chatsecundario-campe{
+  background-color: #C2F1FC;
+  border-radius: 30px;
+  margin-left: 230px;
+  width: 450px;
+  align-content: flex-end;
+}
+.form-group-chatsecundario-campe{
+  margin-top: 140px;
+  margin-left: 40px;
+}
+.border-input-chatsecundario-campe{
+  border: 5px solid !important;
+}
+.contenedor2dechat-perfilsecundario-campe{
+  display: flex;
+}
+.boton-enviarmensaje-chatsecundario-campe{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 134px;
+  background-image: url("https://i.pinimg.com/originals/0c/4f/fa/0c4ffaf979a8c05a9e7b15293996340f.png");
+  background-size: 45px 45px;
+  border: 3px #F8AA03 solid;
+}
+
+@media all and (max-width: 640px), (max-height: 360px){
+.ChatSecundario-campe{
+  box-sizing: border-box 2px;
+  padding: 40px;
+  margin-bottom:30px;   
+  display: block;
+  background: #DFDFDF;
+}
+.part1-chatsecundario{
+  display: none;
+}
+.contenedor-chatsecundario-campe{
+    background-image: url("https://image.freepik.com/vector-gratis/fisuras-patron-hojas-tropicales-verano-diseno_1324-350.jpg");
+    width: 360px;
+    margin-left: -40px;
+    margin-top: 10px;
+  }
+.titulos-fechas-chatsecundario{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #F8AA03;
+}
+.recuadromensaje-chatsecundario-campe{
+    background-color: #0AA4CA;
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 250px;
+}
+.nombreusuario-chatsecundario-campe{
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-style:oblique;
+  padding: 10px 10px ;
+}
+.parrafo-conversación-chatsecundario-campe{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 10px 10px ;
+}
+.recuadromensaje2-chatsecundario-campe{
+  background-color: #C2F1FC;
+  border-radius: 30px;
+  margin-left: 90px;
+  width: 250px;
+  align-content: flex-end;
+}
+.form-group-chatsecundario-campe{
+  margin-top: 140px;
+  margin-left: 2px;
+}
+.border-input-chatsecundario-campe{
+  border: 5px solid !important;
+}
+.contenedor2dechat-perfilsecundario-campe{
+  display: flex;
+  margin-bottom: 5px;
+}
+.boton-enviarmensaje-chatsecundario-campe{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 134px;
+  margin-left: -15px;
+  margin-bottom: 5px;
+  background-image: url("https://i.pinimg.com/originals/0c/4f/fa/0c4ffaf979a8c05a9e7b15293996340f.png");
+  background-size: 40px 40px;
+  border: 3px #F8AA03 solid;
+}
+}

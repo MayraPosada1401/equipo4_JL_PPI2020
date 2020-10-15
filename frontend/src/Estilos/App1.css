@@ -1,0 +1,262 @@
+.img-fluid2{
+    height: 50px;
+    width: 50px;
+  }
+  .btn1{
+   height: 25px; 
+   width:700px;
+   
+  }
+  .btn-info1{
+    background-color:transparent;
+  }
+  .cardspantalladevalor{
+  text-align:center;  
+  display: inline-block;
+  margin:100px;
+  }
+  .card-img-bottom1pantalladevalor{
+    height: 200px;
+    width: 250px;
+  }
+  .cardpantalladevalor{
+    display: inline-block !important;
+    margin: 5%;
+    max-width: 900px;  
+  }
+  .cardinpantalladevalor{
+    border-color: goldenrod;
+    color: #7A138C ;
+    background-color: #E2A6EC ;
+  }
+  
+  .img-fluid{
+    height:120px;
+    width: 100px;
+  }
+  .cardspantalladevalor{
+    text-align:center;  
+    display: inline-block;
+    margin:100px;
+    }
+    .cardpantalladevalor{
+      display: inline-block !important;
+      margin: 5%;
+      max-width: 900px;  }
+      .Cardspantalladevalor{
+        margin: auto;
+        background-color:white;
+        box-sizing: border-box 2px;
+        padding: 40px;
+        margin-bottom:106px;   
+      }
+      .UBICACION{
+        display: inline-block;
+      }
+  
+      .SUBTITULO1{
+        margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    font-family: monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#DFB03C  ;
+  text-align: center;
+  font-size: 60px;
+  
+      }
+      .SUBTITULO2{
+        margin-top:2%;
+        margin-left:5%;
+        margin-right:5%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#0AA4CA  ;
+      text-align: center;
+      font-style:initial;
+  
+      
+      }
+      .App{
+        background-color: transparent;
+      }
+      .cardinpantalladevalor{
+        border-color: goldenrod;
+        color: #7A138C ;
+        background-color: #E2A6EC ;
+      }
+      .cardin1pantalladevalor{
+      background-color: #FFA07A;
+      color: wheat;
+      }
+      .cardin2pantalladevalor{
+      background-color: #7FDFF3;
+      color: #31B8D3 ;
+      }
+      .cardin3pantalladevalor{
+      background-color: #F1C935 ;
+      color: #8D7419 ;
+      }
+      .Cards1pantalladevalor{
+        background-repeat: no-repeat;
+        margin: auto;
+        box-sizing: border-box 2px;
+        padding: 40px;
+        margin-bottom:106px;
+        background-color:  #5DBEC1 ;
+        background-size:100% 100%;   
+      }
+      .ESTILO12{
+        font-size: 52px;
+        font-family: monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: bold;
+        color: white;
+        background-size:100% 100%;
+        
+        }
+        .SUBTITULO{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-style:oblique;
+          font-variant-east-asian: simplified;
+          color: white;
+        }
+        .ESTILO13{
+          margin-left: 10%;
+          font-size: 52px;
+          font-family: monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-style: bold;
+          color: #0AA4CA  ;
+          background-size:100% 100%;
+          
+          }
+          .SUBTITULO1paginadevalor{
+            margin-left: 8%;
+            font-size: 24px;
+            margin-top: 0%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style:oblique;
+            font-variant-east-asian: simplified;
+            color:white;
+            background-color:#6DD4D8 ;
+          }
+
+          .Noticias{
+         background-color: white ;
+          }
+          .card0pantalladevalor{
+            display: inline-block !important;
+            margin: 5%;
+            width: 33rem;  
+            background-color: #189DAD  ;
+            color: #8DF1FC    ;
+            margin: 60px;
+            border-radius: 40px;
+          }
+  .ContenedorPAGINADEVALOR{
+    background-color: #6DD4D8;
+  }
+  .card-img-top{
+    border-radius: 40px;
+  }  
+  .img-fluid{
+    height:120px;
+    width: 100px;
+  }
+  .pnatlladeproductosvalor{
+    background-color: transparent;
+  }
+  .fondopanvalor{
+    background-image: url(https://as1.ftcdn.net/jpg/00/79/92/36/500_F_79923646_y5Nu3OQSsiN7cu9818nLS0guVxRPXeEL.jpg);
+  }
+  .Noticias{
+    background-image: url(https://as1.ftcdn.net/jpg/00/79/92/36/500_F_79923646_y5Nu3OQSsiN7cu9818nLS0guVxRPXeEL.jpg);
+  }
+  .Titulocompradorterceraparte{
+    font-style: bold;
+    font-size:48px;
+    text-align: center;
+    color: white;
+ 
+}
+.bg-whiteverdecitovalor{
+  background-color: #6DD4D8  ;
+}
+.img-iconoheadercampe{
+  height:80px;
+  width: 80px;
+}
+
+.btn1-header{
+  height: 25px; 
+  width:500px; 
+}
+
+.edit1{
+  width: 140px;
+}
+
+.nav-item{
+  text-align: center;
+}
+.nav-item2 {
+  padding: 10px 0px 10px 0px;
+}
+@media all and (max-width: 640px), (max-height: 360px){
+
+
+  .bg-whitecolorcitoprin{
+    background-color:  #189DAD ;
+  }
+  .nav-item2 {
+    padding: 10px 0px 10px 0px;
+  }
+.carousel{
+  display: none;
+}
+.normal-nav{
+  margin-left: -160px;
+}
+.btn-cerrarcampe{
+  width: 286px;
+  margin-left: 20px;
+}
+.Titulocompradorterceraparte{
+  font-size: 18px;
+}
+.card0pantalladevalor{
+  display: inline-block !important;
+  margin: 5%;
+  width: 33rem;  
+  background-color: #189DAD  ;
+  color: #8DF1FC    ;
+  margin: 60px;
+  border-radius: 40px;
+}
+
+.card0pantalladevalor{
+  display: inline-block !important;
+  width:200px;  
+  background-color: #189DAD  ;
+  color: #8DF1FC    ;
+  border-radius: 20px;
+}
+.card-img{
+  max-width: 200px;
+  max-height: 200px;
+}
+.Titulocompradorterceraparte{
+  font-style: bold;
+  font-size:24px;
+  text-align: center;
+  color: white;
+
+}
+.Cards1pantalladevalor{
+  background-repeat: no-repeat;
+  margin:auto;
+  box-sizing: border-box 2px;
+  padding: 20px;
+  margin-bottom:106px;
+  background-color:  #5DBEC1 ;
+  background-size:auto;   
+}
+
+}

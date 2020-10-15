@@ -1,0 +1,280 @@
+
+
+.Contenerdorreactivo{
+background-image: url('../Imagenes/NATURE.jpg');
+border-radius: 40px;
+margin-left: 4%;
+height: 650px;
+width: 90%;
+
+}
+.Clasepararegion{
+text-align: center;
+padding-top: none;
+font-size: 60px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+text-decoration-color: #0099CC;
+display: inline-block;
+text-align: center;   
+margin-left: 35%;
+margin-top: 25%;
+
+}
+.Parrafoparalasregiones{
+    margin-left: 35%; 
+   background-color: #0895B1 ;   
+   margin-right: 6%;
+   color: white;
+   border-radius: 40px;
+margin-left: 4%;
+height: 650px;
+width: 90%;
+
+}
+
+.slide-container {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+  }
+  .Contenerdorreactivo1{
+    margin: 9%;
+    width: 85%;
+    margin-right: 9%;;
+    height: 600px;
+    background-image: url('../Imagenes/NATURE2.jpg');
+    border-radius: 40px;
+
+} 
+.Contenerdorreactivo2{
+    margin: 9%;
+    width: 85%;
+    margin-right: 9%;;
+    height: 600px;
+    background-image: url('../Imagenes/NATURE6.jpg');
+    border-radius: 40px;
+}
+.Contenerdorreactivo3{
+    margin: 9%;
+    width: 85%;
+    margin-right: 9%;;
+    height: 600px;
+    background-image: url('../Imagenes/NATURE5.jpg');
+    border-radius: 40px;
+}
+.Contenerdorreactivo5{
+    margin: 9%;
+    width: 85%;
+    margin-right: 9%;
+    height: 600px;
+    background-image: url('../Imagenes/MATURE3.jpg');
+    border-radius: 40px;
+}
+.Contenerdorreactivo4{
+    margin: 9%;
+    width: 85%;
+    margin-right: 9%;
+    height: 600px;
+    background-image: url('../Imagenes/NATURE4.jpg');
+    border-radius: 40px;
+}
+.Radiobotonmasvendido1{
+    width: 100px;
+    height: 100px;
+   margin:2%;
+   margin-left: 12%;
+   background-color: #E86C86 ;
+   border: 2px solid LIGHTSALMON;
+   color: white;
+
+    }
+.Radiobotonmasvendido2{
+    width: 100px;
+    height: 100px;
+    margin:2%;
+    margin-left: 5%;
+    background-color: #7F3284;
+    border: 2px solid #D2B4DE;
+    color: white;
+
+    }
+.Radiobotonmasvendido3{
+    width: 100px;
+    height: 100px;
+    margin:2%;
+    margin-left: 5%;
+    background-color: #FCC474 ;
+    border: 2px solid #F3A330 ;
+    color: white;
+
+    }
+ .Radiobotonmasvendido4{
+    width: 100px;
+    height: 100px;
+    margin:2%;
+    margin-left: 5%;
+    background-color: transparent;
+    border: 2px solid #0099CC;
+    color: white;
+    }   
+.Radiobotonmasvendido5{
+    width: 100px;
+    height: 100px;
+    margin:2%;
+    margin-left: 5%;
+    background-color: #2BC2CF ;
+    border: 2px solid #0099CC;
+    color: white;
+    }
+    .Radiobotonmasvendido6{
+    width: 100px;
+    height: 100px;
+    margin:2%;
+    margin-left: 5%;
+    background-color: transparent;
+    border: 2px solid #0099CC;
+    color: white;
+    }
+    .Radiobotonmasvendido6:hover{
+        background-color: #008CBA;
+        color: white;
+   }
+   .Radiobotonmasvendido5:hover{
+    background-color: #008CBA;
+    color: white;
+}   .Radiobotonmasvendido4:hover{
+    background-color: #008CBA;
+    color: white;
+}   .Radiobotonmasvendido3:hover{
+    background-color: #008CBA;
+    color: white;
+}   .Radiobotonmasvendido2:hover{
+    background-color: #008CBA;
+    color: white;
+}   .Radiobotonmasvendido1:hover{
+    background-color: #008CBA;
+    color: white;
+}
+.palancaparaqueesteordenado{
+  
+    border-radius: 40px;
+    background-color: #2FB7C2 ;
+   margin-left: 2%;
+   margin-top: 4%;
+   height: 860px;
+   width:96%;
+
+
+}
+.Cardparalasfrutas{
+   width: 18rem;
+   margin-left: 19%;
+}
+.Contenedorparatodacarddes{
+    padding-top:1%;
+margin: 6%;
+background-image: url('../Imagenes/NATURE.jpg');
+border-color: white;
+border-radius: 40px;
+
+}
+.Regionpequeñadescripcion{
+color: black;
+margin: 4%;
+padding-top: 2%;
+
+}
+.unicoestilodespleg{
+
+margin: 2%;
+margin-left: 46%;
+width: 100px;
+height: 100px;
+
+}
+.Contenedorparatodacarddes1{
+
+
+    border-color: white;
+    border-radius: 40px;  
+    margin-left: 10%;
+    margin-right: 8%;
+    border: 2px solid #0099CC;
+    background-color: transparent;
+}
+.fonditodefrutas{
+    background-image: url('https://images.wallpaperscraft.com/image/blue_sky_evening_117298_1280x720.jpg');
+}
+.fonditodefrutas1{
+    background-image: url('https://images.wallpaperscraft.com/image/tree_horizon_minimalism_128903_1280x720.jpg');
+}
+.Contenedorparatodacarddes2{
+
+
+    border-color: white;
+    border-radius: 40px;  
+    margin-left: 10%;
+    margin-right: 8%;
+    border: 2px solid #0099CC;
+    background-color: transparent;
+    color: white;
+}
+.Regionpequeñadescripcion1{
+    color: white;
+    margin: 4%;
+padding-top: 2%;
+}
+@media all and (max-width: 640px), (max-height: 360px){
+    .Contenerdorreactivo{
+        background-image: url('../Imagenes/NATURE.jpg');
+        border-radius: 40px;
+        margin-left: 4%;
+        height: 500px;
+        width:320px;
+        
+        }
+
+.Clasepararegion{
+    text-align: center;
+    padding-top: none;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration-color: #0099CC;
+    display: inline-block;
+    text-align: center;   
+    margin-left: 4%;
+    margin-top: 25%;
+    
+    }
+    .Radiobotonmasvendido1{
+        width: 100px;
+        height: 100px;
+       margin:2%;
+       margin-left: 5%;
+       background-color: #E86C86 ;
+       border: 2px solid LIGHTSALMON;
+       color: white;
+    
+        }
+        .Cardparalasfrutas{
+            width: 18rem;
+            margin-left: 2%;
+         }
+         .fonditodefrutas{
+             background-image: url(https://cdnb.artstation.com/p/assets/images/images/004/446/155/large/alena-aenami-serenity-1k.jpg?1483832862);
+         }
+         .Contenedorparatodacarddes1{
+
+
+            border-color: white;
+            border-radius: 40px;  
+            margin-left: 10%;
+            margin-right: 8%;
+            border: 2px solid #0099CC;
+            background-color: #0DBDCB  ;
+            color: #028590 ;
+        }
+       
+}

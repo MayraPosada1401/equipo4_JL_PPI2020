@@ -1,14 +1,12 @@
 import React from 'react';
-import Header from '../componentes/Header';
-import InterfazActualizarDatos from '../componentes/InterfazActualizarDatos';
-import Footer from '../componentes/Footer';
+import Header from '../componentes/Headercampesino';
+import InterfazActualizarDatosCampesino from '../componentes/InterfazActualizarDatoscampesino';
 
-export default function ActualizarDatos() {
+export default function ActualizarDatosCampe() {
     return (
-        <div className="App">
+        <div className="ActualizarDatosCampe">
             <Header/>
-            <InterfazActualizarDatos/>
-            <Footer/>
+            <InterfazActualizarDatosCampesino/>
         </div>
     );
 }

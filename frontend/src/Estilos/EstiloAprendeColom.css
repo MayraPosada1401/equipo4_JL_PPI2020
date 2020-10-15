@@ -1,0 +1,168 @@
+/*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Subtitulos*/
+
+  /*Letra y tamaño de todos los parrafos*/
+  .parrafo1-Aprendecolom{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+    
+  
+  /*CSS BODY*/
+  /*Título Bienvenido a Ecoagro*/
+  .component-1-text-Aprendecolom {
+    text-align: center;
+  }
+  .titulo1-aprendecolom{
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .titulo10{
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 27px 27px;
+    text-align: center;
+  }
+  .development-aprendecolom{
+    margin-top: 50px;
+  }
+  /*Aquí te presentamos los cursos y noticias en tendencia*/
+  .social-aprendecolom{
+    margin-top:10px;
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text-aprendecampe{
+      margin-top: 30px;
+      padding: 0px 100px 0px 100px;
+  }
+  /*Card de las noticias*/
+/*Titulo algunas noticias del mundo agrario*/
+.colombia-diverso{
+    margin-top: 60px;
+  }
+  .card8{
+    display: inline-block;
+    margin-left: 37px;
+    width: 25rem;  
+    background-color: #189DAD  ;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+  .card-img-top-aprendecolom{
+    width: 400px;
+    height: 365px;
+    border-radius: 40px;
+  }
+  .text-card8{
+      text-align: justify;
+  }
+  .found-3-aprendeColom{
+    background-color: #C2F1FC ;
+    margin-top: 60px;
+  }
+  .card30{
+    display: inline-block !important;
+    margin-left: 65px;
+    width: 36rem;  
+    background-color: #189DAD ;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+
+  .found-8{
+    background-color:#C2F1FC;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  @media all and (max-width: 640px), (max-height: 360px){
+    /*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
+/*Subtitulos*/
+
+  /*Letra y tamaño de todos los parrafos*/
+  .parrafo1-Aprendecolom{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  /*CSS BODY*/
+  /*Título Bienvenido a Ecoagro*/
+  .component-1-text-Aprendecolom {
+    text-align: center;
+  }
+  .titulo1-aprendecolom{
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .titulo10{
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 27px 27px;
+    text-align: center;
+  }
+  .development-aprendecolom{
+    margin-top: 50px;
+  }
+  /*Aquí te presentamos los cursos y noticias en tendencia*/
+  .social-aprendecolom{
+    margin-top:10px;
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+    font-size: 20px;
+  }
+  /*Los dos primeros parrafos*/
+  .component-text-aprendecampe{
+      margin-top: 30px;
+      padding: 0px 10px 0px 10px;
+  }
+  /*Card de las noticias*/
+/*Titulo algunas noticias del mundo agrario*/
+.colombia-diverso{
+    margin-top: 60px;
+  }
+  .card8{
+    display: inline-block;
+    margin-left: 18px;
+    width: 20rem;  
+    background-color: #189DAD  ;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+  .card-img-top-aprendecolom{
+    width: 320px;
+    height: 220px;
+    border-radius: 40px;
+  }
+  .text-card8{
+      text-align: justify;
+  }
+  .found-3-aprendeColom{
+    background-color: #C2F1FC ;
+    margin-top: 30px;
+  }
+  .card30{
+    display: inline-block !important;
+    margin-left: 18px;
+    width: 20rem; 
+    background-color: #189DAD ;
+    margin-top: 30px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+  }
+
+  .found-8{
+    background-color:#C2F1FC;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  }

@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../componentes/Header';
-import InterfazInicio from '../componentes/InterfazInicio';
+import Header from '../componentes/Headercampesino';
+import InterfazIniciocampesino from '../componentes/InterfazIniciocampesino';
 import Footer from '../componentes/Footer';
 
 function Iniciocampe() {
     return (
-        <div className="App">
+        <div className="Iniciocampe">
             <Header/>
-            <InterfazInicio/>
+            <InterfazIniciocampesino/>
             <Footer/>
         </div>
     );

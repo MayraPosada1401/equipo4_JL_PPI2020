@@ -1,6 +1,6 @@
 /*CSS GENERAL, COMO TITULOS Y PARRAFOS*/
 /*Parrafos*/
-.parrafo1{
+.parrafo1-aprende{
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-size: 20px;
@@ -8,20 +8,23 @@
 
 /*BODY*/
 /*Título Bienvenido a Aprende con Ecoagro*/
-.development{
+.development-aprende{
     text-align: center;
      margin-top: 30px;
   }
-.titulobody{
+.tituloaprende{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #0AA4CA ;
 }
   /*Titulo aquí te presentamos...*/
-.social{
+.social-aprende{
     text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
 }
   /*Los dos primeros parrafos*/
-.component-text{
+.component-text-aprende{
     margin-top: 15px;
     padding: 0px 100px 0px 100px;
     text-align: center;
@@ -87,26 +90,26 @@
     width: 100%;
 }
 /*Mis opciones de Aprendizaje*/
-.titulo{
+.titulo-aprende{
     text-align: center;
     padding: 27px 0px 27px 0px;
 }
 /*Fondo del contenedor Mis opciones de Aprendizaje*/
-.found-4{
+.found-4-aprende{
     background-color: #C2F1FC ;
     margin-top: 100px;
 }
 /*Medidas de las imagenes de las card*/
-.card-img-top{
-    width: 150px;
+.card-img-top-aprende{
+    width: 350px;
     height: 365px;
 }
 /*Margen entre las cards*/
-.cards{
+.cards-aprende{
     margin-top: 50px;
 }
 /*Medidas de las card*/
-.card0{
+.card0-aprende{
     display: inline-block !important;
     margin-left: 95px;
     width: 33rem;  
@@ -124,5 +127,75 @@
         transform: rotateY(0deg);
     }to{
         transform: rotateY(360deg);
+    }
+}
+
+@media all and (max-width: 640px), (max-height: 360px){
+    .parrafo1-aprende{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .component-text-aprende{
+        margin-top: 15px;
+        padding: 0px 10px 0px 10px;
+        text-align: justify;
+    }
+    .social-aprende{
+        text-align: center;
+        font-size: 20px;
+        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #0AA4CA;
+        font-style:oblique;
+    }
+    .contenedorprincipal{
+        display: none;
+    }
+    
+    /*Medidas de las imagenes de las card*/
+    .card-img-top-aprende{
+        width: 320px;
+        height: 310px;
+    } 
+    /*Margen entre las cards*/
+    .cards-aprende{
+    margin-top: 50px;
+    }
+    /*Medidas de las card*/
+    .card0-aprende{
+    display: inline-block !important;
+    margin-left: 18px;
+    width: 20rem;  
+    height: 34rem; 
+    background-color: #189DAD  ;
+    margin-top: 10px;
+    color: #8DF1FC    ;
+    border-radius: 40px;
+    }
+   .card-edit-position{
+    margin: 10px 18px ;
+    }
+    .card-title-aprende{
+        font-size: 18px;
+        text-align: center;
+    }
+    .card-text-aprende{
+        font-size: 17px;
+        text-align: center;
+    }
+    .btn1-aprende{
+        justify-content: center;
+        margin-left: 78px;
+      }
+    .margin-img-title-aprende{
+        margin-top: -40px;
+    }
+    .justify-parrafo-aprende{
+        text-align: justify;
+    }
+    .found-4-aprende{
+        background-color: #C2F1FC ;
+        margin-top: 50px;
     }
 }

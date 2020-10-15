@@ -89,3 +89,35 @@ border-radius:1.5em;
 margin-top: 90px;
 border-color: transparent;
         }
+.img-fluiduniquita{
+width: 100px;
+height: 100px;  
+}
+.ESTILOBU{
+        height: 25px; 
+        width:300px;
+        background-color: transparent;       
+}
+@media all and (max-width: 640px), (max-height: 360px){
+.fondo{
+display: none;
+background-image:url("../Imagenes/MAPITA1.jpg");
+}     
+  .nav-item2 {
+        padding: 10px 0px 10px 0px;
+      }
+    .carousel{
+      display: none;
+    }
+    .normal-nav{
+      margin-left: -160px;
+    }
+    .btn-cerrarcampe{
+      width: 286px;
+      margin-left: 20px;
+    }
+   
+    .Mapitacambio{
+        background-image: url("../Imagenes/MAPITA1.jpg");          
+    }
+}

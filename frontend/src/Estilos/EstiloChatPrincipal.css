@@ -1,0 +1,194 @@
+  /*CSS BODY*/
+  /*Contenedor de cambiar foto de perfil*/
+  .ChatPrincipal{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: flex;
+    background: #DFDFDF;
+  }
+.principaldelasprincipalesdelchatanterior{
+  width: 500px;
+  background: #0AA4CA;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.principaldelasprincipalesdelchatanterior2{
+  width: 500px;
+  background: #0AA4CA;
+  border-radius: 40px;
+  margin-top: 0px;
+}
+.chatsanteriores{
+  width: 450px;
+  display: flex;
+  background: #C2F1FC;
+  border-radius: 30px;
+  align-content: center;
+  margin: auto;
+}
+.contenedorinfocontacto-chat{
+    display: flex;
+}
+.img-contacto-chatprincipal{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+.titulonombres-chatprincipal{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA ;
+  padding: 3px 24px;
+}
+.textocontacto-chatprincipal{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 3px 24px;
+}
+.textocontacto-chatsanteriores{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+.form-group-chatprincipal{
+  margin: auto;
+}
+.contenedor2dechat-chatprincipal{
+  display: flex;
+}
+.boton-chatprincipal-confirmar{
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  margin-right: 100px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/ok-1976099_1280.png");
+  background-size: 45px 40px;
+  border: none;
+}
+.chatprincipal-inputprecio{
+  margin-left: 49px;
+}
+.contenedor-chatprincipal{
+  background: #DFDFDF;
+  width: 1000px;
+  margin-left: 40px;
+}
+.imagen-campesinito-chatprincipal{
+  height: 600px;
+  margin-left: 190px;
+  margin-top: -440px;
+}
+.img-fruta-chatprincipal{
+  height: 100px;
+  width: 100px;
+}
+.img-fresa-chatprincipal{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.img-manzana-chatprincipal{
+  margin-bottom: 210px;
+  margin-left: -50px;
+}
+.img-uva-chatprincipal{
+  margin-bottom: 390px;
+  margin-left: -10px;
+}
+.img-mango-chatprincipal{
+  margin-bottom: 450px;
+  margin-left: 20px;
+}
+.img-pera-chatprincipal{
+  margin-bottom: 390px;
+  margin-left: 20px;
+} 
+.img-piña-chatprincipal{
+  margin-bottom: 210px;
+  margin-left: -5px;
+}
+.img-sandia-chatprincipal{
+  margin-top: 30px;
+  margin-left: -50px;
+}
+
+@media all and (max-width: 640px), (max-height: 360px){
+  .ChatPrincipal{
+    box-sizing: border-box 2px;
+    padding: 40px;
+    margin-bottom:40px;   
+    display: block;
+    background: #DFDFDF;
+  }
+.principaldelasprincipalesdelchatanterior{
+  width: 300px;
+  background: #0AA4CA;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.principaldelasprincipalesdelchatanterior2{
+  width: 300px;
+  background: #0AA4CA;
+  border-radius: 40px;
+  margin-top: 0px;
+}
+.chatsanteriores{
+  width: 250px;
+  display: flex;
+  background: #C2F1FC;
+  border-radius: 30px;
+  align-content: center;
+  margin: auto;
+}
+.contenedorinfocontacto-chat{
+    display: flex;
+}
+.img-contacto-chatprincipal{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+.titulonombres-chatprincipal{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  color: #0AA4CA ;
+  padding: 3px 24px;
+}
+.textocontacto-chatprincipal{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  padding: 3px 24px;
+}
+.textocontacto-chatsanteriores{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 20px;
+}
+.form-group-chatprincipal{
+  margin: auto;
+}
+.contenedor2dechat-chatprincipal{
+  display: flex;
+}
+.boton-chatprincipal-confirmar{
+  width: 48px;
+  height: 45px;
+  background: transparent;
+  margin-right: 10px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/13/01/22/ok-1976099_1280.png");
+  background-size: 45px 40px;
+  border: none;
+}
+.chatprincipal-inputprecio{
+  margin-left: 18px;
+}
+.contenedor-chatprincipal{
+  display: none;
+}
+.part1-chatprincipal{
+  margin-left: -10px;
+}
+}

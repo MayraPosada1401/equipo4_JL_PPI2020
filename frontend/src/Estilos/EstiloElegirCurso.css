@@ -1,0 +1,87 @@
+.titulo1-elegircurso-campesino{
+  color:#0CB4D6 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin-top: 50px;
+}
+.subtitulo-elegircurso-campesino{
+  margin-top:10px;
+  text-align: center;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA;
+  font-style:oblique;
+}
+.parrafos-elegircurso-campesino{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0px 100px 0px 100px;
+}
+.contenedor-selectordecurso-campesino{
+    margin: auto;
+    display: flex;   
+    margin-top: 50px;
+}
+.imgcampesinito-elegircurso-campe{
+    margin: auto;
+    height: 600px;
+    margin-top: 240px;
+    margin-left: 570px;
+}
+.fondo1-imagencampesinito-elegircurso{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-image: url("https://image.freepik.com/vector-gratis/personas-trabajando-juntas-granja_23-2148281335.jpg");
+    background-size: 800px 500px;
+    height: 450px;
+    background-repeat: no-repeat;
+    margin-left: 270px;
+    margin-right: 270px;
+    border-radius: 60px;
+    width: 800px;
+}
+.botonconfirmarelegircurso-elegircursocampe{
+    border: 1px #DFDFDF solid;
+    background: white;
+    border-radius: 3px;
+    color: #686868;
+    height: 38px;
+}
+
+
+@media all and (max-width: 640px), (max-height: 360px){
+.subtitulo-elegircurso-campesino{
+  margin-top:10px;
+  text-align: center;
+  font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #0AA4CA;
+  font-style:oblique;
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
+}
+.parrafos-elegircurso-campesino{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+.imgcampesinito-elegircurso-campe{
+    display: none;
+}
+.fondo1-imagencampesinito-elegircurso{
+    background: #C2F1FC;
+    background-image: url("https://image.freepik.com/vector-gratis/hombre-agricola-cestas-llenas-verduras_52683-22992.jpg");
+    background-size: 330px 560px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height: 520px;
+    width: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contenedor-selectordecurso-campesino{
+    margin-top: 5px;
+    margin-left: 12px;
+}
+}

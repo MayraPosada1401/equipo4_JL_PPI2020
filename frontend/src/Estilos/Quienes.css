@@ -1,0 +1,27 @@
+.Fondodequienes{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/008/422/319/large/sylvain-sarrailh-sauvieartstation.jpg?1512658121);
+}
+.parrafocitoquien{
+    background-color: #028590 ;
+    color: #028590 ;
+    margin: 3%;
+    font-size: 24px;
+    
+}
+.Parrafoytitulodequien{
+    background-color: #6DD4D8  ;  
+    margin: 1%;
+    background-color: #6DD4D8  ; 
+    border: 1% #028590 ; 
+}
+.Contenedorparacambiarancho{
+   margin-left: 8%;
+}
+.Maxcontenquien{
+    background-color: #6DD4D8  ; 
+}
+.centricoquien{
+    text-align: center;
+    margin: 2%;
+    margin-left: 46%;
+}
