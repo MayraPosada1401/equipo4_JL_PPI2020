@@ -1,12 +1,74 @@
-
-
+/*Primera Página*/
+.tituloinicial-paginatendenciaregiones{
+    color:#0CB4D6 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.titulo1-reginamazonastendencia{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-top: 25%;
+}
+.tipodeletraboton-tendenciaderegiones{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.titulosregionesenlastendencias2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-top: 25%;
+    padding-left: 35%;
+}
+.tipodeletraboton-tendenciaderegiones2{
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
 .Contenerdorreactivo{
-background-image: url('../Imagenes/NATURE.jpg');
-border-radius: 40px;
-margin-left: 4%;
-height: 650px;
-width: 90%;
-
+    background-image: url('../Imagenes/NATURE.jpg');
+    border-radius: 40px;
+    height: 650px;
+    width: 90%;
+    margin: auto;
+}
+.botondevolver-margin-tendencias{
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.titulodelatargetadespliegueproductos-tendencias{
+    text-align: center;
+    margin-top:10px;
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+    font-size: 30px;
+}
+.justificarcontenidocard-productotendencia{
+    text-align: justify;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.Cardparalasfrutas{
+    width: 18rem;
+    margin-left: 59%;
+ }
+ .carddelmodelodelmargindelatargeta-tendencias{
+    width: 18rem;
+    margin-right: -29%;
+ }
+.pitayatituloeodrfhbjf{
+    text-align: center;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
 }
 .Clasepararegion{
 text-align: center;
@@ -22,15 +84,14 @@ margin-top: 25%;
 
 }
 .Parrafoparalasregiones{
-    margin-left: 35%; 
-   background-color: #0895B1 ;   
-   margin-right: 6%;
-   color: white;
-   border-radius: 40px;
+margin-left: 35%; 
+background-color: #0895B1 ;   
+margin-right: 6%;
+color: white;
+border-radius: 40px;
 margin-left: 4%;
 height: 650px;
 width: 90%;
-
 }
 
 .slide-container {
@@ -40,12 +101,11 @@ width: 90%;
   }
   .Contenerdorreactivo1{
     margin: 9%;
-    width: 85%;
-    margin-right: 9%;;
+    width: 81%;
     height: 600px;
     background-image: url('../Imagenes/NATURE2.jpg');
     border-radius: 40px;
-
+    margin-left: 9%;
 } 
 .Contenerdorreactivo2{
     margin: 9%;
@@ -57,7 +117,7 @@ width: 90%;
 }
 .Contenerdorreactivo3{
     margin: 9%;
-    width: 85%;
+    width: 81%;
     margin-right: 9%;;
     height: 600px;
     background-image: url('../Imagenes/NATURE5.jpg');
@@ -73,7 +133,7 @@ width: 90%;
 }
 .Contenerdorreactivo4{
     margin: 9%;
-    width: 85%;
+    width: 82%;
     margin-right: 9%;
     height: 600px;
     background-image: url('../Imagenes/NATURE4.jpg');
@@ -158,14 +218,15 @@ width: 90%;
 }
 .palancaparaqueesteordenado{
   
-    border-radius: 40px;
-    background-color: #2FB7C2 ;
+   border-radius: 40px;
+   background-color: #2FB7C2 ;
    margin-left: 2%;
    margin-top: 4%;
    height: 860px;
    width:96%;
-
-
+}
+.botonesdeselecciondetendenciaregion{
+    margin-left: 5%;
 }
 .Cardparalasfrutas{
    width: 18rem;
@@ -183,7 +244,9 @@ border-radius: 40px;
 color: black;
 margin: 4%;
 padding-top: 2%;
-
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 20px;
 }
 .unicoestilodespleg{
 
@@ -215,7 +278,7 @@ height: 100px;
     border-color: white;
     border-radius: 40px;  
     margin-left: 10%;
-    margin-right: 8%;
+    margin-right: 10%;
     border: 2px solid #0099CC;
     background-color: transparent;
     color: white;
@@ -223,7 +286,14 @@ height: 100px;
 .Regionpequeñadescripcion1{
     color: white;
     margin: 4%;
-padding-top: 2%;
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.letradetendenciaregióncaribe-info{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 @media all and (max-width: 640px), (max-height: 360px){
     .Contenerdorreactivo{
@@ -232,8 +302,17 @@ padding-top: 2%;
         margin-left: 4%;
         height: 500px;
         width:320px;
-        
         }
+
+    .botonesdeselecciondetendenciaregion{
+        margin-left: 13%;
+    }
+    .configuraciondemargindebotontendencia{
+        margin-left: 25%;
+    }
+    .botondelastendencias-visualizarregion{
+        margin-left: 33%;
+    }
 
 .Clasepararegion{
     text-align: center;
@@ -275,6 +354,76 @@ padding-top: 2%;
             border: 2px solid #0099CC;
             background-color: #0DBDCB  ;
             color: #028590 ;
+            margin-bottom: 80px;
         }
-       
+
+       .margin-botton-inforegion-tendencia{
+           margin-bottom: 120px;
+       }
+       .margin-cuadro-left-inforegion{
+           margin-left: 26px;
+       }
+       .Regionpequeñadescripcion1{
+           text-align: justify;
+           font-family: 'Times New Roman', Times, serif;
+       }
+       .titulosregionesenlastendencias2{
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        margin-top: 25%;
+        padding-left: 1%;
+       }
+       .tipodeletraboton-tendenciaderegiones2{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+    
+        .espaciodelboton-regiontendencia{
+        margin-left: 94px;
+    }
+       .titulo1-targetaenseñanza-tendencia{
+           margin-left: 26px;
+       }
+       .titulo1-targetaenseñanza-tendencia{
+           text-align: center;
+           margin-left: 14%;
+       }
+       .botondevolver-margin-tendencias{
+           margin-left: 31%;
+       }
+       .Regionpequeñadescripcion{
+           text-align: justify;
+           font-family: 'Times New Roman', Times, serif;
+       }
+       .contenedordelatargetadelosproductos-margin-tendencias{
+           margin-bottom: 80px;
+       }
+       .letradetendenciaregióncaribe-info{
+        color: white;
+    }
+    .titulorinoquiatendenciademejora-region{
+        margin-left: -10px;
+    }
+    .Contenedorparatodacarddes2{
+        margin-bottom: 80px;
+    }
+    .Tituloinsular-tendencia-margen{
+        margin-left: 20px;
+    }
+    .tituloinicial-paginatendenciaregiones{
+        color: white;
+    }
+    .marginpacifico-espacio-responsive-tendencia{
+        margin-left: 20px;
+    }
+    .regionpacifica-margin-boton-tendencias-responsive{
+        margin-left: 90px;
+    }
+    .justificarcontenidocard-productotendencia{
+        color: black;
+    }
 }

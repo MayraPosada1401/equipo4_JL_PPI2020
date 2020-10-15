@@ -1,10 +1,8 @@
 import React from 'react';
 import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
-import Canasta from '../Imagenes/Canasta.png';
 import carrusel1 from '../Imagenes/carrusel1.png';
 import carrusel2 from '../Imagenes/carrusel2.png';
 import carrusel3 from '../Imagenes/carrusel3.png';
-import CAMPO2 from '../Imagenes/CAMPO2.jpg';
 import procesoecoagro from '../Imagenes/procesoecoagro.png';
 import { Link } from 'react-router-dom';
 import '../Estilos/Casa.css';
@@ -18,10 +16,11 @@ function App() {
       <div className="Header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNav">
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+   
     <ul className="navbar-nav">
     
       <li className="nav-item normal-nav nav-item2 active">

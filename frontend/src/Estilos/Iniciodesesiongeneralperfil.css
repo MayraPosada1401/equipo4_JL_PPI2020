@@ -1,6 +1,6 @@
 .fondecoloryestiloboton1{
- background-image: url(https://cdnb.artstation.com/p/assets/images/images/008/422/319/large/sylvain-sarrailh-sauvieartstation.jpg?1512658121);   
-height: 250px;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/008/422/319/large/sylvain-sarrailh-sauvieartstation.jpg?1512658121);   
+    height: 250px;
 }
 .fondecoloryestiloboton2{
     background-image: url(https://cdna.artstation.com/p/assets/images/images/008/422/322/large/sylvain-sarrailh-williametteartstation.jpg?1512658135);
@@ -10,15 +10,42 @@ height: 250px;
     background-image: url(https://cdnb.artstation.com/p/assets/images/images/029/661/657/large/thomas-guillon-countryside1.jpg?1598275801);
     height: 250px;
 }
-.espacioenimagenrepres{
-margin-left: 42%;
-margin-top: 6%;
-}
-.espacioenimagenrepres2{
+.espacioenimagenrepres-iniciosesiongeneral{
     margin-left: 42%;
     margin-top: 6%;
+    background-color:  #AED6F1;
+    border: 3px solid #6258FE;
 }
-.espacioenimagenrepres3{
+.espacioenimagenrepres2-iniciosesiongeneral{
     margin-left: 42%;
     margin-top: 6%;
+    background-color:  #AED6F1;
+    border: 3px solid #6258FE;
+}
+.espacioenimagenrepres3-iniciosesiongeneral{
+    margin-left: 42%;
+    margin-top: 6%;
+    background-color:  #AED6F1;
+    border: 3px solid #6258FE;
+}
+
+
+@media all and (max-width: 640px), (max-height: 360px){
+    .fondecoloryestiloboton3{
+        background-image: url(https://cdnb.artstation.com/p/assets/images/images/029/661/657/large/thomas-guillon-countryside1.jpg?1598275801);
+        height: 250px;
+        margin-bottom: 40px;
+    }
+    .espacioenimagenrepres-iniciosesiongeneral{
+        margin-left: 18%;
+        margin-top: 24%;
+    }
+    .espacioenimagenrepres2-iniciosesiongeneral{
+        margin-left: 18%;
+        margin-top: 24%;
+    }
+    .espacioenimagenrepres3-iniciosesiongeneral{
+        margin-left: 18%;
+        margin-top: 24%;
+    }
 }

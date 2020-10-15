@@ -1,5 +1,10 @@
 import React from 'react';
 import {BrowserRouter, Switch, Router, Route} from 'react-router-dom';
+import Paginaprincipal from '../componentes/Casa';
+import Iniciosesiongeneral from '../componentes/Iniciodesesiongeneralperfil';
+import Iniciosesioncapacitador from '../componentes/Iniciodesesiondecapacitador';
+import Iniciosesioncomprador from '../componentes/Iniciodesesioncomprador';
+import Iniciosesioncampesino from '../componentes/Iniciodesesioncampesino';
 import Iniciocampe from '../pages/Iniciocampe';
 import Aprendecampe from '../pages/Aprendecampe';
 import Perfilcampe from '../pages/Perfilcampe';
@@ -12,27 +17,25 @@ import ChatPerfil from '../pages/PerfilChat';
 import ChatPrincipalCampe from '../pages/ChatPrincipal';
 import ChatSecundarioCampe from '../pages/Chatsecundario';
 import ElegirCursoCampe from '../pages/Elegircurso';
-import SeleccionarAlgunCurso from '../pages/seleccionaralguncurso';
+import SeleccionarAlgunCurso from '../pages/Seleccionaralguncurso';
 import MaterialCursoCampe from '../pages/MaterialCursoCampe';
 import MisPedidos from '../pages/MisPedidos';
-import Casa from '../componentes/Casa';
+import RegionesTendencias from '../pages/RegionesTendencias';
+import TendenciaRegionAndina from '../pages/TendenciaRegionAndina';
+import TendenciaRegionCaribe from '../pages/TendenciasRegionCaribe';
+import TendenciaRegionInsular from '../pages/TendenciasRegionInsular'
+import TendenciaRegionOrinoquia from '../pages/TendenciasRegionOrinoquia';
+import TendenciaRegionPacifica from '../pages/TendenciasRegionPacifica';
+
+import ValoracionesCampesino from '../pages/ValoracionesCampesino';
 import Miscompras from '../componentes/Miscompras';
 import Mapa from '../componentes/Mapa';
 import App1 from '../componentes/App1';
 import Transportador from '../componentes/Transportador';
 import Quienes from '../componentes/Quienes';
 import Registro from '../componentes/Registro';
-import Regionestenden from '../componentes/Regionestenden';
-import Regiones2 from '../componentes/Regiones2';
-import Regiones4 from '../componentes/Regiones4';
-import Regiones3 from '../componentes/Regiones3';
-import Regiones5 from '../componentes/Regiones5';
-import Regiones6 from '../componentes/Regiones6';
 import Mapademasvendidos from '../componentes/Mapademasvendidos';
-import Misvaloraciones from '../componentes/Misvaloraciones';
-import Inciciarsesioncom from '../componentes/Inciciarsesioncom';
-import Paginaprincipal from '../componentes/Casa';
-import Iniciodesesiongeneralperfil from '../Componentes/Iciodesesiongeneralperfil';
+
 
 export default function App() {
     return (
@@ -40,6 +43,10 @@ export default function App() {
       
       <Switch>
           <Route exact path="/" component={Paginaprincipal} />
+          <Route exact path="/iniciosesiongeneral" component={Iniciosesiongeneral} />
+          <Route exact path="/iniciosesioncampesino" component={Iniciosesioncampesino} />
+          <Route exact path="/iniciosesioncomprador" component={Iniciosesioncomprador} />
+          <Route exact path="/iniciosesioncapacitador" component={Iniciosesioncapacitador} />
           <Route exact path="/iniciocampesino" component={Iniciocampe} />
           <Route exact path="/aprendecampesino" component={Aprendecampe} />
           <Route exact path="/perfilcampesino" component={Perfilcampe} />
@@ -55,23 +62,28 @@ export default function App() {
           <Route exact path="/seleccionarcurso" component={SeleccionarAlgunCurso} />
           <Route exact path="/materialcurso" component={MaterialCursoCampe} />
           <Route exact path="/mispedidos" component={MisPedidos} />
-          <Route exact path="/" component={Casa}/>
+          <Route exact path="/misvaloracionescampesino" component={ValoracionesCampesino}/>
+          <Route exact path="/productostendencia" component={RegionesTendencias} />
+          <Route exact path="/tendenciasregionandina" component={TendenciaRegionAndina}/>
+          <Route exact path="/tendenciasregioncaribe" component={TendenciaRegionCaribe}/>
+          <Route exact path="/tendenciasregioninsular" component={TendenciaRegionInsular}/>
+          <Route exact path="/tendenciasregionorinoquia" component={TendenciaRegionOrinoquia}/>
+          <Route exact path="/tendenciasregionpacifica" component={TendenciaRegionPacifica}/>
+
           <Route path="/comprador" component={Miscompras}/>
           <Route path="/compradormapa" component={Mapa}/>
           <Route path="/app1" component={App1}/>
           <Route path="/transportador" component={Transportador}/>
           <Route path="/registro" component={Registro}/>
           <Route path="/quienes" component={Quienes}/>
-          <Route path="/regionestenden" component={Regionestenden}/>
-          <Route path="/regiones2" component={Regiones2}/>
-          <Route path="/regiones3" component={Regiones3}/>
-          <Route path="/regiones4" component={Regiones4}/>
-          <Route path="/regiones5" component={Regiones5}/>
-          <Route path="/regiones6" component={Regiones6}/>
+          
+          
+          
+          
+         
+
+
           <Route path="/mapas2" component={Mapademasvendidos}/>
-          <Route path="/conocenos" component={Misvaloraciones}/>
-          <Route path="/iniciosesion" component={Inciciarsesioncom}/>
-          <Route path="/iniciosesiongeneral" component={Iniciodesesiongeneralperfil}/> 
       </Switch>    
 
       </BrowserRouter>

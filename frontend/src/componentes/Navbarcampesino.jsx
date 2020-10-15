@@ -17,7 +17,7 @@ export default function Navbarcampesino() {
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item-campesino nav-item-campesino2 normal-nav active">
-        <Link to="/" className="nav-link" href="#">Inicio</Link>
+        <Link to="/iniciocampesino" className="nav-link" href="#">Inicio</Link>
       </li>
       <li className="nav-item-campesino active edit1-nabvarcampesino">
         <Link to= "/aprendecampesino" className="nav-link" href="#">Aprende con Nosotros</Link>
@@ -32,10 +32,12 @@ export default function Navbarcampesino() {
         <Link to="/perfilcampesino" className="nav-link" href="#">Perfil</Link>
       </li>
       <li className="nav-item-campesino nav-item-campesino2 active edit1-nabvarcampesino edit2-nece">
-        <a className="nav-link" href="#">Más vendido</a>
+        <Link to="/productostendencia" className="nav-link" href="#">Más vendido</Link>
       </li>
       <a type="button" class="btn1-header-campe btn-info1"></a>
+      <Link to="/">
       <button type="button" class="btn btn-info btn-cerrarcampe">Cerrar sesión</button>
+      </Link>
     </ul>
   </div>
 </nav>

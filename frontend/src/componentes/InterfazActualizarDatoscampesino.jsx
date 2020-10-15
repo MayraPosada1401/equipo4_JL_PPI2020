@@ -68,8 +68,8 @@ export default function InterfazActualizarDatosCampe () {
                   </div>
                 </div>
                 
-                <div class="text-center">
-                    <button type="submit" class=" btn btn-info text-white col-12">Confirmar</button>
+                <div class="text-center btnalinearenelcentrocontenedor-botonconfirmaractucampe">
+                    <button type="submit" class=" btn btn-info text-white col-12 btnalinearenelcentrocontenedor-botonconfirmaractucampe">Confirmar</button>
                 </div>
             </form>
    

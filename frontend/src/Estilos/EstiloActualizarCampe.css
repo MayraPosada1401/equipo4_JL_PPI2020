@@ -39,6 +39,13 @@
 }
 .among-actualizardatoscampe{
     margin: 40px 0px 40px 0px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
+}
+.btnalinearenelcentrocontenedor-botonconfirmaractucampe{
+    margin-left: -20px;
+    width: 530px;
 }
 
 @media all and (max-width: 640px), (max-height: 360px){
@@ -85,6 +92,12 @@
 }
 .among-actualizardatoscampe{
     margin: 10px 0px 10px 0px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0AA4CA;
+    font-style:oblique;
 }
-
+.btnalinearenelcentrocontenedor-botonconfirmaractucampe{
+    width: 330px;
+    margin-left: -13px;
+}
 }

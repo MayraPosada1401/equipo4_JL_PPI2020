@@ -163,7 +163,9 @@ export default function InterfazPerfilcampesino() {
               <div className="card-body">
                 <h5 className="card-title-perfil">Mis Valoraciones</h5>
                 <p className="card-text-perfil">Aquí visualizaras las valoraciones ofrecidas por los compradores, para que estes informado de las diversas opiniones respecto a tu servicio.</p>
+                <Link to="/misvaloracionescampesino">
                 <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Ver mis valoraciones</button>
+                </Link>
               </div>
             </div>
           </div>
