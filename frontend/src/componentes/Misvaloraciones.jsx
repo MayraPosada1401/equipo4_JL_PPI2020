@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Estilos/Misvaloraciones.css';
+import '../Estilos/Misvaloracionescampesino.css';
 import carrusel1 from '../Imagenes/carrusel1.png';
 import carrusel2 from '../Imagenes/carrusel2.png';
 import carrusel3 from '../Imagenes/carrusel3.png';
