@@ -15,8 +15,6 @@ import ElegirCursoCampe from '../pages/Elegircurso';
 import SeleccionarAlgunCurso from '../pages/seleccionaralguncurso';
 import MaterialCursoCampe from '../pages/MaterialCursoCampe';
 import MisPedidos from '../pages/MisPedidos';
-import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Casa from '../componentes/Casa';
 import Miscompras from '../componentes/Miscompras';
 import Mapa from '../componentes/Mapa';
@@ -33,13 +31,15 @@ import Regiones6 from '../componentes/Regiones6';
 import Mapademasvendidos from '../componentes/Mapademasvendidos';
 import Misvaloraciones from '../componentes/Misvaloraciones';
 import Inciciarsesioncom from '../componentes/Inciciarsesioncom';
+import Paginaprincipal from '../componentes/Casa';
 
 export default function App() {
     return (
       <BrowserRouter>
       
       <Switch>
-          <Route exact path="/" component={Iniciocampe} />
+          <Route exact path="/" component={Paginaprincipal} />
+          <Route exact path="/iniciocampesino" component={Iniciocampe} />
           <Route exact path="/aprendecampesino" component={Aprendecampe} />
           <Route exact path="/perfilcampesino" component={Perfilcampe} />
           <Route exact path="/actualizarcampesino" component={ActualizarDatosCampe} />
@@ -55,21 +55,21 @@ export default function App() {
           <Route exact path="/materialcurso" component={MaterialCursoCampe} />
           <Route exact path="/mispedidos" component={MisPedidos} />
           <Route exact path="/" component={Casa}/>
-    <Route  path="/comprador" component={Miscompras}/>
-    <Route  path="/compradormapa" component={Mapa}/>
-    <Route path="/app1" component={App1}/>
-    <Route path="/transportador" component={Transportador}/>
-    <Route path="/registro" component={Registro}/>
-    <Route path="/quienes" component={Quienes}/>
-    <Route path="/regionestenden" component={Regionestenden}/>
-    <Route path="/regiones2" component={Regiones2}/>
-    <Route path="/regiones3" component={Regiones3}/>
-    <Route path="/regiones4" component={Regiones4}/>
-    <Route path="/regiones5" component={Regiones5}/>
-    <Route path="/regiones6" component={Regiones6}/>
-    <Route path="/mapas2" component={Mapademasvendidos}/>
-    <Route path="/conocenos" component={Misvaloraciones}/>
-    <Route path="/iniciosesion" component={Inciciarsesioncom}/>
+          <Route path="/comprador" component={Miscompras}/>
+          <Route path="/compradormapa" component={Mapa}/>
+          <Route path="/app1" component={App1}/>
+          <Route path="/transportador" component={Transportador}/>
+          <Route path="/registro" component={Registro}/>
+          <Route path="/quienes" component={Quienes}/>
+          <Route path="/regionestenden" component={Regionestenden}/>
+          <Route path="/regiones2" component={Regiones2}/>
+          <Route path="/regiones3" component={Regiones3}/>
+          <Route path="/regiones4" component={Regiones4}/>
+          <Route path="/regiones5" component={Regiones5}/>
+          <Route path="/regiones6" component={Regiones6}/>
+          <Route path="/mapas2" component={Mapademasvendidos}/>
+          <Route path="/conocenos" component={Misvaloraciones}/>
+          <Route path="/iniciosesion" component={Inciciarsesioncom}/>
 
       </Switch>    
 
