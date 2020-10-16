@@ -18,7 +18,7 @@ import ChatPerfil from '../pages/PerfilChat';
 import ChatPrincipalCampe from '../pages/ChatPrincipal';
 import ChatSecundarioCampe from '../pages/Chatsecundario';
 import ElegirCursoCampe from '../pages/Elegircurso';
-import SeleccionarAlgunCurso from '../pages/Seleccionaralguncurso';
+import seleccionarAlgunCurso from '../pages/seleccionaralguncurso';
 import MaterialCursoCampe from '../pages/MaterialCursoCampe';
 import MisPedidos from '../pages/MisPedidos';
 import RegionesTendencias from '../pages/RegionesTendencias';
@@ -50,7 +50,6 @@ import conexiones from '../pages/conexiones';
 import cursodelcapacitador from '../pages/cursodelcapacitador';
 import formulariocap from '../pages/formulariocap';
 import forolisto from '../pages/forolisto';
-
 import Quienescomprador from '../componentes/Quienescomprador';
 import Regionesparaconocer from '../componentes/Regionestenden';
 import Regionestenden from '../componentes/Regionestenden';
@@ -84,7 +83,7 @@ export default function App() {
           <Route exact path="/chatcampesino" component={ChatPrincipalCampe} />
           <Route exact path="/chatprivadocampesino" component={ChatSecundarioCampe} />
           <Route exact path="/elegircurso" component={ElegirCursoCampe} />
-          <Route exact path="/seleccionarcurso" component={SeleccionarAlgunCurso} />
+          <Route exact path="/seleccionarcurso" component={seleccionarAlgunCurso} />
           <Route exact path="/materialcurso" component={MaterialCursoCampe} />
           <Route exact path="/mispedidos" component={MisPedidos} />
           <Route exact path="/misvaloracionescampesino" component={ValoracionesCampesino}/>
