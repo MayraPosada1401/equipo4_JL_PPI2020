@@ -7,6 +7,7 @@ import Iniciosesioncomprador from '../componentes/Iniciodesesioncomprador';
 import Iniciosesioncampesino from '../componentes/Iniciodesesioncampesino';
 import Iniciocampe from '../pages/Iniciocampe';
 import Aprendecampe from '../pages/Aprendecampe';
+import Conexionescampesino from '../pages/Conexionescampesino';
 import Perfilcampe from '../pages/Perfilcampe';
 import ActualizarDatosCampe from '../pages/ActualizarDatosCampe';
 import Subirproducto from '../pages/Subirproducto';
@@ -17,7 +18,7 @@ import ChatPerfil from '../pages/PerfilChat';
 import ChatPrincipalCampe from '../pages/ChatPrincipal';
 import ChatSecundarioCampe from '../pages/Chatsecundario';
 import ElegirCursoCampe from '../pages/Elegircurso';
-import SeleccionarAlgunCurso from '../pages/seleccionaralguncurso';
+import SeleccionarAlgunCurso from '../pages/Seleccionaralguncurso';
 import MaterialCursoCampe from '../pages/MaterialCursoCampe';
 import MisPedidos from '../pages/MisPedidos';
 import RegionesTendencias from '../pages/RegionesTendencias';
@@ -49,7 +50,7 @@ import conexiones from '../pages/conexiones';
 import cursodelcapacitador from '../pages/cursodelcapacitador';
 import formulariocap from '../pages/formulariocap';
 import forolisto from '../pages/forolisto';
-import Quienescampesino from '../componentes/Quienescampesino';
+
 import Quienescomprador from '../componentes/Quienescomprador';
 import Regionesparaconocer from '../componentes/Regionestenden';
 import Regionestenden from '../componentes/Regionestenden';
@@ -72,6 +73,7 @@ export default function App() {
           <Route exact path="/iniciosesioncapacitador" component={Iniciosesioncapacitador} />
           <Route exact path="/iniciocampesino" component={Iniciocampe} />
           <Route exact path="/aprendecampesino" component={Aprendecampe} />
+          <Route exact path="/conexionescampesino" component={Conexionescampesino} />
           <Route exact path="/perfilcampesino" component={Perfilcampe} />
           <Route exact path="/actualizarcampesino" component={ActualizarDatosCampe} />
           <Route exact path="/subirproducto" component={Subirproducto} />
@@ -111,7 +113,6 @@ export default function App() {
           <Route path="/cursodelcapacitador " component={cursodelcapacitador }/>
           <Route path="/formulariocap" component={formulariocap}/>
           <Route path="/forolisto" component={forolisto}/>
-          <Route path="/quienescampesino" component={Quienescampesino}/>
           <Route path="/quienescomprador" component={Quienescomprador}/>
           <Route path="/regionesparaconocer" component={Regionesparaconocer}/>
           <Route path="/regionestenden" component={Regionestenden}/>

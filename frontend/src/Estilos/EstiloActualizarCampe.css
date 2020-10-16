@@ -44,7 +44,7 @@
     font-style:oblique;
 }
 .btnalinearenelcentrocontenedor-botonconfirmaractucampe{
-    margin-left: -20px;
+    margin-left: 0px;
     width: 530px;
 }
 
@@ -98,6 +98,5 @@
 }
 .btnalinearenelcentrocontenedor-botonconfirmaractucampe{
     width: 330px;
-    margin-left: -13px;
 }
 }

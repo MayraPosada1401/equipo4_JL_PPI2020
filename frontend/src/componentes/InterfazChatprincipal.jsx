@@ -23,7 +23,7 @@ export default function InterfazChatPrincipal() {
                 <div className="contenedorinfocontacto-chat">
                     <img src="https://socialtools.me/wp-content/uploads/2016/04/foto-de-perfil.jpg" className="img-contacto-chatprincipal" alt="..." />
                     <div>
-                      <h4 className="titulonombres-chatprincipal" >Martina Estrada</h4>
+                      <h4 className="titulonombres-chatprincipal-campesino" >Martina Estrada</h4>
                       <p className="textocontacto-chatprincipal">La oferta esta correcta</p>
                     </div>
                 </div>   
@@ -45,7 +45,7 @@ export default function InterfazChatPrincipal() {
                 <div className="contenedorinfocontacto-chat">
                     <img src="https://plataformas.news/online/nota_tudn-lanza-la-marca-mega-futbol-.jpg" className="img-contacto-chatprincipal" alt="..." />
                     <div>
-                      <h4 className="titulonombres-chatprincipal" >Erick Valencia</h4>
+                      <h4 className="titulonombres-chatprincipal-campesino" >Erick Valencia</h4>
                       <p className="textocontacto-chatprincipal">Podemos mejorar la oferta</p>
                     </div>
                 </div>   
@@ -66,7 +66,7 @@ export default function InterfazChatPrincipal() {
                 <div className="contenedorinfocontacto-chat">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Personas_introvertidas_buenos_lideres.jpg" className="img-contacto-chatprincipal" alt="..." />
                     <div>
-                      <h4 className="titulonombres-chatprincipal" >Mauricio Reyes</h4>
+                      <h4 className="titulonombres-chatprincipal-campesino" >Mauricio Reyes</h4>
                       <p className="textocontacto-chatprincipal">¿Cómo fueron los procesos de cosecha?</p>
                     </div>
                 </div>   

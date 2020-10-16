@@ -1,0 +1,56 @@
+.Fondodequienes{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/008/422/319/large/sylvain-sarrailh-sauvieartstation.jpg?1512658121);
+}
+.parrafocitoquien{
+    background-color: white ;
+    color: #028590 ;
+    margin: 3%;
+    font-size: 24px;  
+}
+.parrafoideltextodequienescampesino-conexiones{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 18px;
+}
+.contenedor.margen-targeta-conexionescampesino{
+    margin-top: 150px;
+    background-color: white;
+}
+.Parrafoytitulodequien{
+    background-color: #6DD4D8  ;  
+    margin: 1%;
+    background-color: #6DD4D8  ; 
+    border: 1% #028590 ; 
+}
+.Contenedorparacambiarancho{
+   margin-left: 8%;
+}
+.Maxcontenquien{
+    background-color: #6DD4D8  ; 
+}
+.centricoquien{
+    text-align: center;
+    margin: 2%;
+    margin-left: 46%;
+}
+@media all and (max-width: 640px), (max-height: 360px){
+    .Contenedorparacambiarancho{
+        margin-left: 3%;
+     }   
+     .centricoquien{
+        text-align: center;
+        margin: 2%;
+        margin-left: 32%;
+    }
+    .contenedor-margen-targeta-conexionescampesino{
+        margin-top: 60px;
+        background-color: white;
+        margin-right: 10px;
+    }
+    .contenedorprincipaldemargentargetas-conexionescampe{
+        margin-bottom: 100px;
+    }
+    .botodecontactanos-conexionescampesino{
+        margin-bottom: 200px;
+    }
+}

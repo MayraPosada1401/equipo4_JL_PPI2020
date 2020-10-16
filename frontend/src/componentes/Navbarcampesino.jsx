@@ -26,7 +26,7 @@ export default function Navbarcampesino() {
      <a className="nav-link" href="#">Conexiones</a>
       </li>
       <li className="nav-item-campesino normal-nav nav-item-campesino2 active">
-      <Link to="/quienescampesino"><a className="nav-link " href="#">Contactanos</a></Link>
+      <Link to="/conexionescampesino" className="nav-link " href="#">Contactanos</Link>
       </li>
       <li className="nav-item-campesino normal-nav nav-item-campesino2 active">
         <Link to="/perfilcampesino" className="nav-link" href="#">Perfil</Link>
