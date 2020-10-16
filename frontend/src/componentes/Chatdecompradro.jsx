@@ -1,10 +1,17 @@
 import React from 'react';
-import '../Estilos/Chatdecomprador.css';
-import { Link } from 'react-router-dom';
 import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
 import COMPRADOR1 from '../Imagenes/COMPRADOR1.png';
 import COMPRADOR2 from '../Imagenes/COMPRADOR2.png';
 import comprador3 from '../Imagenes/comprador3.png';
+import '../Estilos/EstiloChatPrincipal.css';
+import Fresa from '../Imagenes/strawberry.png';
+import Manzana from '../Imagenes/apple.png';
+import Uva from '../Imagenes/grapes.png';
+import Mango from '../Imagenes/mango.png';
+import Pera from '../Imagenes/pera.png';
+import Piña from '../Imagenes/pineapple.png';
+import Sandia from '../Imagenes/sandia.png';
+import {Link} from 'react-router-dom';
 
 export default function InterfazChatPerfil() {
   
@@ -26,7 +33,7 @@ export default function InterfazChatPerfil() {
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
         <li className="nav-item normal-nav nav-item2 active">
-          <Link to="/registro"><a className="nav-link  " href="#">Tienda</a></Link>
+          <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a></Link>
         </li>
         <li className="nav-item normal-nav nav-item2 active">
         <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>
@@ -43,6 +50,7 @@ export default function InterfazChatPerfil() {
     </div>
   </nav>
     </div>
+      
   
   
   <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
@@ -77,56 +85,93 @@ export default function InterfazChatPerfil() {
     </a>
   </div>
 
-      <div>
-        <h1 className="component-1-text development-chatperfil titulobody-chatperfil" >Chat e Información de Comprador</h1>
-        <h3 className="component-1-text social-chatperfil">Aquí te presentamos el chat de pactar precio y la reseña del comprador interesado.</h3>
-     </div>
 
-      <div className="part1-reseña">
-            
-            <div className="reseña">
-                <div>
-                <img src="https://socialtools.me/wp-content/uploads/2016/04/foto-de-perfil.jpg" className="card-img-reseña" alt="..." />
-                </div>   
-                <div>
-                <h2 className="titulonombre-chatperfil">Martina Estrada</h2>
-                <h3 className="titulocategoria-chatperfil">Compradora</h3>
-                <img src="https://webmarketingtips.mx/wp-content/uploads/2017/08/248-des-1170x395.png" className="estrellas-img-chatperfil" alt=""/>
-                </div> 
-                <div>
-                <p className="datos-reseña-charperfil">Región de compra: Caribe</p>
-                <p className="datos-reseña-charperfil">Activo en el mercado: 3 años</p>
-                <p className="datos-reseña-charperfil">Teléfono de contacto: 2396363</p>
-                <p className="datos-reseña-charperfil">Frecuencia de compra: Alta</p>
-                </div>  
-            </div>
 
-        <div className="verticalLinea-chatperfil"></div>
+  <div className="ChatPrincipal">
+
+<div className="part1-chatprincipal">
       
-         <div className="contenedor-chatperfil">
-            <h3 className="titulos-fechas-chatperfil">19/07/2020</h3>
-            <div className="recuadromensaje-chatperfil">
-                <h4 className="nombreusuario-chatperfil">Martina Estrada</h4>
-                <p className="parrafo-conversación-chatperfil">Hola muy buen día, deseo pactar un precio con usted por el producto mango tomy. Ofrezco 2000$ por el kilo</p>
-            </div>
-            
-            <h3 className="titulos-fechas-chatperfil">20/07/2020</h3>
-            
-            <div className="recuadromensaje2-chatperfil">
-                <h4 className="nombreusuario-chatperfil">Pablo Arango</h4>
-                <p className="parrafo-conversación-chatperfil">Hola muy buen día, el precio que me ofrece me parece justo y bueno. Muchas gracias por comunicarse conmigo</p>
-            </div>
+      <div className="principaldelasprincipalesdelchatanterior2">
+      <Link to="/chatcomoprador" className="chatsanteriores text-decoration-none">
+      <div type="button">
+          <div className="contenedorinfocontacto-chat">
+              <img src="https://socialtools.me/wp-content/uploads/2016/04/foto-de-perfil.jpg" className="img-contacto-chatprincipal" alt="..." />
+              <div>
+                <h4 className="titulonombres-chatprincipal" >Martina Estrada</h4>
+                <p className="textocontacto-chatprincipal">La oferta esta correcta</p>
+              </div>
+          </div>   
+      </div>
+      </Link>
+      
+      <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
+      
+      <div className="contenedor2dechat-chatprincipal">
+      <div className="form-group-chatprincipal ">
+          <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
+      </div>
+      <button className="boton-chatprincipal-confirmar"></button>
+      </div> 
+      </div>
 
-            <div className="contenedor2dechat-perfilchat">
-            <div className="form-group-chatperfil col-md-10">
-                <input type="text" className="form-control border border-warning border-input-chatperfil" required/>
-            </div>
-            <button className="boton-enviarmensaje-chatperfil"></button>
-            </div>
-         </div>
+      <div className="principaldelasprincipalesdelchatanterior">
+      <div className="chatsanteriores"  type="button">
+          <div className="contenedorinfocontacto-chat">
+              <img src="https://plataformas.news/online/nota_tudn-lanza-la-marca-mega-futbol-.jpg" className="img-contacto-chatprincipal" alt="..." />
+              <div>
+                <h4 className="titulonombres-chatprincipal" >Erick Valencia</h4>
+                <Link to="/chatcomoprador"><p className="textocontacto-chatprincipal">Podemos mejorar la oferta</p></Link>  
+              </div>
+          </div>   
+      </div>
+      
+      <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
+      
+      <div className="contenedor2dechat-chatprincipal">
+      <div className="form-group-chatprincipal">
+          <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
+      </div>
+      <button className="boton-chatprincipal-confirmar"></button>
+      </div> 
+      </div>
 
-         
-        </div>
-    </div>
+      <div className="principaldelasprincipalesdelchatanterior">
+      <div className="chatsanteriores"  type="button">
+          <div className="contenedorinfocontacto-chat">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Personas_introvertidas_buenos_lideres.jpg" className="img-contacto-chatprincipal" alt="..." />
+              <div>
+                <h4 className="titulonombres-chatprincipal" >Mauricio Reyes</h4>
+                <Link to="/chatcomoprador"><p className="textocontacto-chatprincipal">¿Cómo fueron los procesos de cosecha?</p></Link>  
+              </div>
+          </div>   
+      </div>
+      
+      <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
+      
+      <div className="contenedor2dechat-chatprincipal">
+      <div className="form-group-chatprincipal">
+      <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
+      </div>
+      <button className="boton-chatprincipal-confirmar"></button>
+      </div> 
+      </div>
 
+
+      
+   </div>
+
+   <div className="contenedor-chatprincipal">
+       <img src={Fresa} className="img-fruta-chatprincipal img-fresa-chatprincipal" alt=""/>
+       <img src={Manzana} className="img-fruta-chatprincipal img-manzana-chatprincipal" alt=""/>
+       <img src={Uva} className="img-fruta-chatprincipal img-uva-chatprincipal" alt=""/>
+       <img src={Mango} className="img-fruta-chatprincipal img-mango-chatprincipal" alt=""/>
+       <img src={Pera} className="img-fruta-chatprincipal img-pera-chatprincipal" alt=""/>
+       <img src={Piña} className="img-fruta-chatprincipal img-piña-chatprincipal" alt=""/>
+       <img src={Sandia} className="img-fruta-chatprincipal img-sandia-chatprincipal" alt=""/>
+       <img src="https://i.pinimg.com/originals/ee/f1/9d/eef19dfeb18e85ca5ab7cfbcd46e86cb.png" className="imagen-campesinito-chatprincipal" alt=""/>
+   </div>
+
+  
+</div>
+</div>
     );}

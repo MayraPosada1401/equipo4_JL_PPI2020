@@ -1,22 +1,17 @@
 import React from 'react';
-import '../Estilos/Chat2comprador.css';
-import Fresa from '../Imagenes/strawberry.png';
-import Manzana from '../Imagenes/apple.png';
-import Uva from '../Imagenes/grapes.png';
-import Mango from '../Imagenes/mango.png';
-import Pera from '../Imagenes/pera.png';
-import Piña from '../Imagenes/pineapple.png';
-import Sandia from '../Imagenes/sandia.png';
-import {Link} from 'react-router-dom';
+import '../Estilos/EstiloChatSecun.css';
 import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
 import COMPRADOR1 from '../Imagenes/COMPRADOR1.png';
 import COMPRADOR2 from '../Imagenes/COMPRADOR2.png';
 import comprador3 from '../Imagenes/comprador3.png';
+import {Link} from 'react-router-dom';
+
+
 export default function InterfazChatPrincipal() {
   
     return (
     
-    <div className="ChatPrincipal">
+    <div className="App">
  <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
@@ -33,7 +28,7 @@ export default function InterfazChatPrincipal() {
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
         <li className="nav-item normal-nav nav-item2 active">
-          <Link to="/registro"><a className="nav-link  " href="#">Tienda</a></Link>
+          <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a></Link>
         </li>
         <li className="nav-item normal-nav nav-item2 active">
         <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>
@@ -84,89 +79,100 @@ export default function InterfazChatPrincipal() {
     </a>
   </div>
 
-      <div className="part1-chatprincipal">
-            
-            <div className="principaldelasprincipalesdelchatanterior2">
-            <Link to="/chatprivadocampesino" className="chatsanteriores text-decoration-none">
-            <div type="button">
-                <div className="contenedorinfocontacto-chat">
-                    <img src="https://socialtools.me/wp-content/uploads/2016/04/foto-de-perfil.jpg" className="img-contacto-chatprincipal" alt="..." />
-                    <div>
-                      <h4 className="titulonombres-chatprincipal" >Martina Estrada</h4>
-                      <p className="textocontacto-chatprincipal">La oferta esta correcta</p>
-                    </div>
-                </div>   
-            </div>
-            </Link>
-            
-            <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
-            
-            <div className="contenedor2dechat-chatprincipal">
-            <div className="form-group-chatprincipal ">
-                <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
-            </div>
-            <button className="boton-chatprincipal-confirmar"></button>
-            </div> 
-            </div>
+  <div className="ChatSecundario-campe">
 
-            <div className="principaldelasprincipalesdelchatanterior">
-            <div className="chatsanteriores"  type="button">
-                <div className="contenedorinfocontacto-chat">
-                    <img src="https://plataformas.news/online/nota_tudn-lanza-la-marca-mega-futbol-.jpg" className="img-contacto-chatprincipal" alt="..." />
-                    <div>
-                      <h4 className="titulonombres-chatprincipal" >Erick Valencia</h4>
-                      <p className="textocontacto-chatprincipal">Podemos mejorar la oferta</p>
-                    </div>
-                </div>   
-            </div>
-            
-            <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
-            
-            <div className="contenedor2dechat-chatprincipal">
-            <div className="form-group-chatprincipal">
-                <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
-            </div>
-            <button className="boton-chatprincipal-confirmar"></button>
-            </div> 
-            </div>
-
-            <div className="principaldelasprincipalesdelchatanterior">
-            <div className="chatsanteriores"  type="button">
-                <div className="contenedorinfocontacto-chat">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Personas_introvertidas_buenos_lideres.jpg" className="img-contacto-chatprincipal" alt="..." />
-                    <div>
-                      <h4 className="titulonombres-chatprincipal" >Mauricio Reyes</h4>
-                      <p className="textocontacto-chatprincipal">¿Cómo fueron los procesos de cosecha?</p>
-                    </div>
-                </div>   
-            </div>
-            
-            <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
-            
-            <div className="contenedor2dechat-chatprincipal">
-            <div className="form-group-chatprincipal">
-            <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
-            </div>
-            <button className="boton-chatprincipal-confirmar"></button>
-            </div> 
-            </div>
-
-
-            
-         </div>
+<div className="part1-chatsecundario">
       
-         <div className="contenedor-chatprincipal">
-             <img src={Fresa} className="img-fruta-chatprincipal img-fresa-chatprincipal" alt=""/>
-             <img src={Manzana} className="img-fruta-chatprincipal img-manzana-chatprincipal" alt=""/>
-             <img src={Uva} className="img-fruta-chatprincipal img-uva-chatprincipal" alt=""/>
-             <img src={Mango} className="img-fruta-chatprincipal img-mango-chatprincipal" alt=""/>
-             <img src={Pera} className="img-fruta-chatprincipal img-pera-chatprincipal" alt=""/>
-             <img src={Piña} className="img-fruta-chatprincipal img-piña-chatprincipal" alt=""/>
-             <img src={Sandia} className="img-fruta-chatprincipal img-sandia-chatprincipal" alt=""/>
-             <img src="https://i.pinimg.com/originals/ee/f1/9d/eef19dfeb18e85ca5ab7cfbcd46e86cb.png" className="imagen-campesinito-chatprincipal" alt=""/>
-         </div>
+      <div className="principaldelchatanterior2-secundario-campe">
+      <div className="chatsanteriores-secundario-campe" type="button">
+          <div className="contenedorinfocontacto-chat-secundario-campe">
+              <img src="https://socialtools.me/wp-content/uploads/2016/04/foto-de-perfil.jpg" className="img-contacto-chatsecundario" alt="..." />
+              <div>
+                <h4 className="titulonombres-chatprincipal" >Martina Estrada</h4>
+                <p className="textocontacto-chatsecundario">La oferta esta correcta</p>
+              </div>
+          </div>   
+      </div>
+      
+      <p className="textocontacto-chatsanteriores-secundario">Escriba el precio pactado aquí</p>
+      
+      <div className="contenedor2dechat-chatsecundario">
+      <div className="form-group-chatsecundario col-md-6">
+          <input type="text" className="form-control chatsecundario-inputprecio" required/>
+      </div>
+      <button className="boton-chatsecundario-confirmar"></button>
+      </div> 
+      </div>
 
-        
-    </div>
+      <div className="principaldelchatanterior-secundario-campe">
+      <div className="chatsanteriores-secundario-campe"  type="button">
+          <div className="contenedorinfocontacto-chat-secundario-campe">
+              <img src="https://plataformas.news/online/nota_tudn-lanza-la-marca-mega-futbol-.jpg" className="img-contacto-chatsecundario" alt="..." />
+              <div>
+                <h4 className="titulonombres-chatprincipal" >Erick Valencia</h4>
+                <p className="textocontacto-chatsecundario">Podemos mejorar la oferta</p>
+              </div>
+          </div>   
+      </div>
+      
+      <p className="textocontacto-chatsanteriores-secundario">Escriba el precio pactado aquí</p>
+      
+      <div className="contenedor2dechat-chatsecundario">
+      <div className="form-group-chatsecundario col-md-6">
+          <input type="text" className="form-control chatsecundario-inputprecio" required/>
+      </div>
+      <button className="boton-chatsecundario-confirmar"></button>
+      </div> 
+      </div>
+
+      <div className="principaldelchatanterior-secundario-campe">
+      <div className="chatsanteriores-secundario-campe"  type="button">
+          <div className="contenedorinfocontacto-chat-secundario-campe">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Personas_introvertidas_buenos_lideres.jpg" className="img-contacto-chatsecundario" alt="..." />
+              <div>
+                <h4 className="titulonombres-chatprincipal" >Mauricio Reyes</h4>
+                <p className="textocontacto-chatsecundario">¿Cómo fueron los procesos de cosecha?</p>
+              </div>
+          </div>   
+      </div>
+      
+      <p className="textocontacto-chatsanteriores-secundario">Escriba el precio pactado aquí</p>
+      
+      <div className="contenedor2dechat-chatsecundario">
+      <div className="form-group-chatsecundario col-md-6">
+          <input type="text" className="form-control chatsecundario-inputprecio" required/>
+      </div>
+      <button className="boton-chatsecundario-confirmar"></button>
+      </div> 
+      </div>
+
+
+      
+   </div>
+
+   <div className="contenedor-chatsecundario-campe">
+   <h3 className="titulos-fechas-chatsecundario">19/07/2020</h3>
+      <div className="recuadromensaje-chatsecundario-campe">
+          <h4 className="nombreusuario-chatsecundario-campe">Martina Estrada</h4>
+          <p className="parrafo-conversación-chatsecundario-campe">Hola muy buen día, deseo pactar un precio con usted por el producto mango tomy. Ofrezco 2000$ por el kilo</p>
+      </div>
+      
+      <h3 className="titulos-fechas-chatsecundario">20/07/2020</h3>
+      
+      <div className="recuadromensaje2-chatsecundario-campe">
+          <h4 className="nombreusuario-chatsecundario-campe">Pablo Arango</h4>
+          <p className="parrafo-conversación-chatsecundario-campe">Hola muy buen día, el precio que me ofrece me parece justo y bueno. Muchas gracias por comunicarse conmigo</p>
+      </div>
+
+      <div className="contenedor2dechat-perfilsecundario-campe">
+      <div className="form-group-chatsecundario-campe col-md-10">
+          <input type="text" className="form-control border border-warning border-input-chatsecundario-campe" required/>
+      </div>
+      <button className="boton-enviarmensaje-chatsecundario-campe"></button>
+      </div> 
+   </div>
+
+  </div>
+</div>
 
     );}

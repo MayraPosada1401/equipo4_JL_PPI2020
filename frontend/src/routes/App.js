@@ -58,6 +58,7 @@ import Regiones4 from '../componentes/Regiones4';
 import Regiones3 from '../componentes/Regiones3';
 import Regiones5 from '../componentes/Regiones5';
 import Regiones6 from '../componentes/Regiones6';
+import chat2comoprador from '../componentes/Chat2decomprador';
 
 export default function App() {
     return (
@@ -120,6 +121,8 @@ export default function App() {
           <Route path="/regiones5" component={Regiones5}/>
           <Route path="/regiones6" component={Regiones6}/>
           <Route path="/chatdecomorador" component={Chatdecomorador}/>
+          <Route path="/chatcomoprador" component={chat2comoprador}/>
+
       </Switch>    
 
       </BrowserRouter>

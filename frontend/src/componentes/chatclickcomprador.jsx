@@ -29,7 +29,7 @@ export default function InterfazChatSecundario() {
           <Link to="/registro"><a className="nav-link  " href="#">Tienda</a></Link>
         </li>
         <li className="nav-item normal-nav nav-item2 active">
-        <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>
+        <Link to="/compradormapa"><a className="nav-link  " href="#">Mis compras</a></Link>
         </li>
         <li className="nav-item normal-nav nav-item2 active">
         <Link to="/perfildecomprador"><a className="nav-link  " href="#">Perfil</a></Link>

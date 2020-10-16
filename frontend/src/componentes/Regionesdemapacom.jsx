@@ -28,7 +28,7 @@ function andina() {
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
         <li className="nav-item normal-nav nav-item2 active">
-          <Link to="/registro"><a className="nav-link  " href="#">Tienda</a></Link>
+          <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a></Link>
         </li>
         <li className="nav-item normal-nav nav-item2 active">
         <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>
@@ -98,7 +98,7 @@ function andina() {
                 <p className="card-text">Precio: $750 X Kg</p>
               <Link to="/regionesparaconocer"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Más info</button></p></Link>  
                <Link to="/comprasdelcomprador"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Comprar</button></p></Link> 
-               <Link to="chatdecomorador"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Acuerdo</button></p></Link> 
+               <Link to="/chatdecompradro"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Acuerdo</button></p></Link> 
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@ function andina() {
                 <p className="card-text">Precio: $7.500 X Unidad.</p>
                 <Link to="/regionesparaconocer"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Más info</button></p></Link>  
                 <Link to="/comprasdelcomprador"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Comprar</button></p></Link>    
-                <Link to="chatdecomorador"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Acuerdo</button></p></Link>  
+                <Link to="/chatdecompradro"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Acuerdo</button></p></Link>  
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ function andina() {
                 <p className="card-text">Precio: $1.150 X Kg</p>
                 <Link to="/regionesparaconocer"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Más info</button></p></Link>     
                 <Link to="/comprasdelcomprador"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Comprar</button></p></Link>   
-                <Link to="chatdecomorador"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Acuerdo</button></p></Link>  
+                <Link to="/chatdecompradro"><p className="card-text"><button type="button" className="btn btn-inf btn btn-outline-warning">Acuerdo</button></p></Link>  
               </div>
             </div>
           </div>

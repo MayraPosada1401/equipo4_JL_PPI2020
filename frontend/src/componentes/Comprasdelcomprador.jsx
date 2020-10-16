@@ -28,7 +28,7 @@ function compra() {
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
         <li className="nav-item normal-nav nav-item2 active">
-          <Link to="/registro"><a className="nav-link  " href="#">Tienda</a></Link>
+          <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a></Link>
         </li>
         <li className="nav-item normal-nav nav-item2 active">
         <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>

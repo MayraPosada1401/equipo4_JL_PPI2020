@@ -55,7 +55,16 @@
       
         
     }
-    
+    .btn-primary-perfildecompassss{
+      height: 350px;
+      width: 350px;
+      border-radius: 200px;
+      background-image: url("https://image.freepik.com/vector-gratis/mujer-lindo-perro-corgi_23-2148518006.jpg");
+      background-size: 350px 350px;
+      background-repeat: no-repeat;
+      margin-top: 75px;
+      margin-left: 70px;
+    }
     @media all and (max-width: 640px), (max-height: 360px){
     
         .carousel{
@@ -76,6 +85,16 @@
             width: 200px;
             margin-left: 25%;
             margin-top: 5%;
+            }
+            .btn-primary-perfildecompassss{
+              height: 300px;
+              width: 300px;
+              border-radius: 200px;
+              background-image: url("https://image.freepik.com/vector-gratis/mujer-lindo-perro-corgi_23-2148518006.jpg");
+              background-size: 300px 300px;
+              background-repeat: no-repeat;
+              margin-top: 15px;
+              margin-left: -7px;
             }
     }
     
