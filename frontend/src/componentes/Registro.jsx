@@ -13,7 +13,7 @@ function Transportador() {
 
     return (
         <div className="App">
-        <div className="Header">
+          <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,31 +22,28 @@ function Transportador() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
       
-        <li className="nav-item normal-nav nav-item2 active">
-         <Link to="/transportador"> <a class="nav-link" href="#">Transportador</a></Link>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/transportador"> <a class="nav-link" href="#">Transportador</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
-          <a className="nav-link" href="#">Conocenos</a>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/quienes"><a className="nav-link" href="#">Contactanos</a></Link> 
+      </li>
+        <li className="nav-item normal-nav nav-item active">
+          <Link to=""><a className="nav-link  " href="#">Conocenos</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
-          <a className="nav-link " href="#" >Contactanos</a>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/registro"><a className="nav-link  " href="#">¿No te haz registrado aún?</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
-          <Link to="/registro"><a className="nav-link  " href="#">¿No te haz registrado aún?</a></Link>
-        </li>
-        <li className="nav-item nav-item2 active ">
-         <Link to="/quienes"><a className="nav-link btn-cerrarcampe " href="#">¿Quienes somos?</a></Link> 
-        </li>
-        <a type="button" class="btn1-header btn-info1"></a>
-        <Link to="/app1"><button type="button" class="btn btn-info btn-cerrarcampe">Ingresar</button></Link>
-        <li className="nav-item">
        
+        <a type="button" class="btn1-header btn-info1"></a>
+      <Link to="/iniciosesiongeneral"><button type="button" class="btn btn-info btn-ingresar-pagina">Ingresar</button></Link>
+      
+      <li className="nav-item">
         </li>
       </ul>
     </div>
   </nav>
-    </div>
-     
+    </div>  
       
   
   <div className="Eiminaciondecarrusel">

@@ -17,7 +17,7 @@ import ChatPerfil from '../pages/PerfilChat';
 import ChatPrincipalCampe from '../pages/ChatPrincipal';
 import ChatSecundarioCampe from '../pages/Chatsecundario';
 import ElegirCursoCampe from '../pages/Elegircurso';
-import SeleccionarAlgunCurso from '../pages/Seleccionaralguncurso';
+import SeleccionarAlgunCurso from '../pages/seleccionaralguncurso';
 import MaterialCursoCampe from '../pages/MaterialCursoCampe';
 import MisPedidos from '../pages/MisPedidos';
 import RegionesTendencias from '../pages/RegionesTendencias';
@@ -26,7 +26,7 @@ import TendenciaRegionCaribe from '../pages/TendenciasRegionCaribe';
 import TendenciaRegionInsular from '../pages/TendenciasRegionInsular'
 import TendenciaRegionOrinoquia from '../pages/TendenciasRegionOrinoquia';
 import TendenciaRegionPacifica from '../pages/TendenciasRegionPacifica';
-
+import Regionesdemapacom from '../componentes/Regionesdemapacom';
 import ValoracionesCampesino from '../pages/ValoracionesCampesino';
 import Miscompras from '../componentes/Miscompras';
 import Mapa from '../componentes/Mapa';
@@ -35,7 +35,29 @@ import Transportador from '../componentes/Transportador';
 import Quienes from '../componentes/Quienes';
 import Registro from '../componentes/Registro';
 import Mapademasvendidos from '../componentes/Mapademasvendidos';
-
+import Actualizarpaginadecomprador from '../componentes/Actualizarpaginadecomprador'
+import Perfildecomprador from '../componentes/Perfildecomprador';
+import Menudecomprador from '../componentes/Menudecomprador';
+import Chatdecomorador from '../componentes/chatclickcomprador';
+import Chatdecomprador1 from '../componentes/Chatdecompradro';
+import Chatdecomprador3 from '../componentes/Chat2decomprador';
+import Comprasdelcomprador from '../componentes/Comprasdelcomprador';
+import Actualizaciondedatos from '../componentes/Actualizarpaginadecomprador';
+import Iniciocapacitador from '../pages/Capacitadorpagina';
+import Perfildelcapacitador from '../pages/Perfildecapacitador';
+import conexiones from '../pages/conexiones';
+import cursodelcapacitador from '../pages/cursodelcapacitador';
+import formulariocap from '../pages/formulariocap';
+import forolisto from '../pages/forolisto';
+import Quienescampesino from '../componentes/Quienescampesino';
+import Quienescomprador from '../componentes/Quienescomprador';
+import Regionesparaconocer from '../componentes/Regionestenden';
+import Regionestenden from '../componentes/Regionestenden';
+import Regiones2 from '../componentes/Regiones2';
+import Regiones4 from '../componentes/Regiones4';
+import Regiones3 from '../componentes/Regiones3';
+import Regiones5 from '../componentes/Regiones5';
+import Regiones6 from '../componentes/Regiones6';
 
 export default function App() {
     return (
@@ -69,21 +91,35 @@ export default function App() {
           <Route exact path="/tendenciasregioninsular" component={TendenciaRegionInsular}/>
           <Route exact path="/tendenciasregionorinoquia" component={TendenciaRegionOrinoquia}/>
           <Route exact path="/tendenciasregionpacifica" component={TendenciaRegionPacifica}/>
-
           <Route path="/comprador" component={Miscompras}/>
           <Route path="/compradormapa" component={Mapa}/>
           <Route path="/app1" component={App1}/>
           <Route path="/transportador" component={Transportador}/>
           <Route path="/registro" component={Registro}/>
           <Route path="/quienes" component={Quienes}/>
-          
-          
-          
-          
-         
-
-
-          <Route path="/mapas2" component={Mapademasvendidos}/>
+          <Route path="/regionesdemapacom" component={Regionesdemapacom}/>
+          <Route path="/actualizarpaginadecomprador" component={Actualizarpaginadecomprador}/>
+          <Route path="/perfildecomprador" component={Perfildecomprador}/>  
+          <Route path="/menudecomprador" component={Menudecomprador}/>  
+          <Route path="/chatdecompradro" component={Chatdecomprador1}/>
+          <Route path="/comprasdelcomprador" component={Comprasdelcomprador}/>
+          <Route path="/actualizacióndedatos" component={Actualizaciondedatos}/>
+          <Route path="/iniciocapacitador" component={Iniciocapacitador}/>
+          <Route path="/perfildelcapacitador" component={Perfildelcapacitador}/>
+          <Route path="/conexiones" component={conexiones}/>
+          <Route path="/cursodelcapacitador " component={cursodelcapacitador }/>
+          <Route path="/formulariocap" component={formulariocap}/>
+          <Route path="/forolisto" component={forolisto}/>
+          <Route path="/quienescampesino" component={Quienescampesino}/>
+          <Route path="/quienescomprador" component={Quienescomprador}/>
+          <Route path="/regionesparaconocer" component={Regionesparaconocer}/>
+          <Route path="/regionestenden" component={Regionestenden}/>
+          <Route path="/regiones2" component={Regiones2}/>
+          <Route path="/regiones3" component={Regiones3}/>
+          <Route path="/regiones4" component={Regiones4}/>
+          <Route path="/regiones5" component={Regiones5}/>
+          <Route path="/regiones6" component={Regiones6}/>
+          <Route path="/chatdecomorador" component={Chatdecomorador}/>
       </Switch>    
 
       </BrowserRouter>

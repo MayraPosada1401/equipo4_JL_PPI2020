@@ -36,7 +36,7 @@ export default function InterfazValoracionescampesino() {
             </blockquote>
           </div>
           <div class="card">
-            <img src={EDAD3} class="card-img-top" alt="..." />
+            <img src={EDAD3} class="Topuncioocparacomprador" alt="Responsive image" />
             <div class="card-body">
               <h5 class="card-title">Opinion por:</h5>
               <p class="card-text pepito parrafodevaloracioncampesino-letra">El servicio y el cuidado atento de todo el proceso fue excelente.</p>

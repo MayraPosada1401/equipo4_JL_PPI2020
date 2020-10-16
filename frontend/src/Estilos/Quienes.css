@@ -25,3 +25,13 @@
     margin: 2%;
     margin-left: 46%;
 }
+@media all and (max-width: 640px), (max-height: 360px){
+    .Contenedorparacambiarancho{
+        margin-left: 3%;
+     }   
+     .centricoquien{
+        text-align: center;
+        margin: 2%;
+        margin-left: 32%;
+    }
+}

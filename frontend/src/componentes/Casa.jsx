@@ -12,45 +12,38 @@ function App() {
 
   return (
     <div className="AppFondopaginadeenlaces">
+     <div className="Header">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
       
-      <div className="Header">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-   
-    <ul className="navbar-nav">
-    
-      <li className="nav-item normal-nav nav-item2 active">
-       <Link to="/transportador"> <a class="nav-link" href="#">Transportador</a></Link>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/transportador"> <a class="nav-link" href="#">Transportador</a></Link>
+        </li>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/quienes"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
-      <li className="nav-item normal-nav nav-item2 active">
-      <Link to="/conocenos"><a className="nav-link" href="#">Conocenos</a></Link>  
-      </li>
-      <li className="nav-item normal-nav nav-item2 active">
-       <Link to="/regionestenden"><a className="nav-link " href="#" >Contactanos</a></Link> 
-      </li>
-      <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
+          <Link to=""><a className="nav-link  " href="#">Conocenos</a></Link>
+        </li>
+        <li className="nav-item normal-nav nav-item active">
         <Link to="/registro"><a className="nav-link  " href="#">¿No te haz registrado aún?</a></Link>
-      </li>
-      <li className="nav-item nav-item2 active ">
-       <Link to="/quienes"><a className="nav-link btn-cerrarcampe " href="#">¿Quienes somos?</a>
-        </Link> 
-      </li>
-      <a type="button" class="btn1-header btn-info1"></a>
-      <Link to="/iniciosesiongeneral"><button type="button" class="btn btn-info btn-ingresar-pagina"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ingresar</button></Link>
-
+        </li>
+        <a type="button" class="btn1-header btn-info1"></a>
+      <Link to="/iniciosesiongeneral"><button type="button" class="btn btn-info btn-ingresar-pagina">Ingresar</button></Link>
+      
       <li className="nav-item">
-     
-      </li>
-    </ul>
-  </div>
-</nav>
-  </div>
-   
+        </li>
+      </ul>
+    </div>
+  </nav>
+    </div>  
     
+   
 
 <div className="Eiminaciondecarrusel">
 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
@@ -98,7 +91,7 @@ function App() {
 <div class="row row-cols-1 row-cols-md-2">
     <div class="col mb-4">
       <div class="cardinpantallapincusers">
-        <img  src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-reduce-waste-families.jpg?w=1600&h=900" class="card-img-top" alt="..."/>
+        <img  src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-reduce-waste-families.jpg?w=1600&h=900" class="card-img-top Topuncioocparacomprador" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">Comprador "Imagen tomada de:Natgeo"</h5>
           <p class="card-text Parrafosenpaginaprincipal">Conoce todas las opciones que tienes, las grandes ofertas y el mejor bienestar para la salud de toda la familia y a precios justos</p>
@@ -107,7 +100,7 @@ function App() {
     </div>
     <div class="col mb-4">
       <div class="cardinpantallapincusers">
-        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/10_ngd-79135-20_ab_0000002_200524.jpg?w=1190&h=794" class="card-img-top" alt="..."/>
+        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/10_ngd-79135-20_ab_0000002_200524.jpg?w=1190&h=794" class="card-img-top Topuncioocparacomprador" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">Capacitador "Imagen tomada de:Natgeo"</h5>
           <p class="card-text Parrafosenpaginaprincipal">Si tienes conocimiento en el campo agrario, ayuda a nuestro campesinos fortaleciendo sus saberes e igualmente si eres campesino y quieres compartir tus experciancias, registrate y se fuente de saber de y para el campesino</p>
@@ -119,7 +112,7 @@ function App() {
     <br></br>
     <div class="col mb-4">
       <div class="cardinpantallapincusers">
-        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/Peru_Ep101_GordonRamsayUncharted_EBS7042_CSI.jpg?w=710&h=473" class="card-img-top" alt="..."/>
+        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/Peru_Ep101_GordonRamsayUncharted_EBS7042_CSI.jpg?w=710&h=473" class="card-img-top Topuncioocparacomprador" alt="..."/>
         <div class="card-body">
           <h5 class="card-title">Campesino "Imagen tomada de:Natgeo"</h5>
           <p class="card-text Parrafosenpaginaprincipal">Si deseas que tus productos sean vendidos y promocionados sin ningun sobre costo, y con tus acuerdos de precios, registrate en este perfil para mostrar tus productos a toda Colombia.</p>
@@ -128,7 +121,7 @@ function App() {
     </div>
     <div class="col mb-4">
       <div class="cardin3pantallapincusers">
-        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/IMG_0691.JPG?w=1190&h=670" class="card-img-top" alt="..."/>
+        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/IMG_0691.JPG?w=1190&h=670" class="card-img-top Topuncioocparacomprador" alt="..."/>
         <div class="card-body">
           <h5 class="card-title SUBTITULO4Priccipalpage">CAMPO COLOMBIANO </h5>
           <p class="card-text t3 Parrafosenpaginaprincipal">"Imagen tomada de:Natgeo"</p>
@@ -149,7 +142,7 @@ function App() {
 <p className="Parrafosenpaginaprincipal1">"En mis noches de desvelo, mi espíritu divaga y se pasea por los cafetales y demás predios agrícolas de la vereda el Rocío, ubicada del municipio de Aránzazu - Caldas, cuando atendiendo instrucciones de mi Padre, en las vacaciones de fin de año, me desplazaba a ser un trabajador igual a vosotros, coger los granos rojos, conservando los bellos azahares premonitorios de la próxima cosecha"Uriel Ortiz Soto</p>
 <div class="card-columns">
   <div class="card">
-    <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/pod-07-07-2020_nationalgeographic_1130451_0.jpg?w=1190&h=791" class="card-img-top" alt="..."/>
+    <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/pod-07-07-2020_nationalgeographic_1130451_0.jpg?w=1190&h=791" class="card-img-top Topuncioocparacomprador" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Card title that wraps to a new line</h5>
       <p class="card-text Parrafosenpaginaprincipal">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -163,23 +156,23 @@ function App() {
           Someone famous in <cite title="Source Title">Source Title</cite>
         </small>
       </footer>
-      <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/03-uncontacted-tribe-yanomami.jpg?w=710&h=474" class="card-img-top" alt="..."/>
+      <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/03-uncontacted-tribe-yanomami.jpg?w=710&h=474" class="card-img-top Topuncioocparacomprador" alt="..."/>
     </blockquote>
   </div>
   <div class="card">
-    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/covid-indigenous-amazon-brazil-00018.jpg?w=1600&h=900" class="card-img-top" alt="..."/>
+    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/covid-indigenous-amazon-brazil-00018.jpg?w=1600&h=900" class="card-img-top Topuncioocparacomprador" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text Parrafosenpaginaprincipal">This card has supporting text below as a natural lead-in to additional content.</p>
       <p class="card-text Parrafosenpaginaprincipal"><small class="text-muted">Last updated 3 mins ago</small></p>
-      <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/blue-throated-macaw-nationalgeographic_1559149.jpg?w=1600&h=1067" class="card-img-top" alt="..."/>
+      <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/blue-throated-macaw-nationalgeographic_1559149.jpg?w=1600&h=1067" class="card-img-top Topuncioocparacomprador" alt="..."/>
     </div>
   </div>
   <div class="card bg-primary text-white text-center p-3">
     <blockquote class="blockquote mb-0">
       <p className="Parrafosenpaginaprincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
       <footer class="blockquote-footer text-white">
-      <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-cotton-top-tamarin-nationalgeographic_1533041_2.jpg?w=1600&h=1067" class="card-img-top" alt="..."/>
+      <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-cotton-top-tamarin-nationalgeographic_1533041_2.jpg?w=1600&h=1067" class="card-img-top Topuncioocparacomprador" alt="..."/>
         <small>
           Someone famous in <cite title="Source Title">Source Title</cite>
         </small>
@@ -195,7 +188,7 @@ function App() {
     </div>
   </div>
   <div class="card">
-    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/03_colombia_biodiversity_i8951_180717_00321.jpg?w=710&h=474" class="card-img-top" alt="..."/>
+    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/03_colombia_biodiversity_i8951_180717_00321.jpg?w=710&h=474" class="card-img-top Topuncioocparacomprador" alt="..."/>
   </div>
   <div class="card p-3 text-right eliminacionprinc">
     <blockquote class="blockquote mb-0">

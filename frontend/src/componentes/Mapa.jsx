@@ -13,23 +13,21 @@ function Mapa() {
        <div className="Mapa">
 <div className="Header">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a>
+      <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
-      <li className="nav-item nav-item2 normal-nav active">
-      <a className="nav-link" href="">Inicio<span class="sr-only">(current)</span></a>
-      </li>
+     
       <li className="nav-item normal-nav nav-item2 active">
-        <a class="nav-link" href="#">Perfil</a>
+      <Link to="/perfildecomprador"><a class="nav-link" href="#">Perfil</a></Link>  
       </li>
       <li className="nav-item normal-nav nav-item2 active">
         <a className="nav-link" href="#">Conexiones</a>
       </li>
       <li className="nav-item normal-nav nav-item2 active">
-        <a className="nav-link " href="#" >Contactanos</a>
+       <Link to="/quienescomprador"><a className="nav-link " href="#" >Contactanos</a></Link> 
       </li>
       <li className="nav-item normal-nav nav-item2 active">
         <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a> </Link>
@@ -46,17 +44,20 @@ function Mapa() {
   </div>
 </nav>
   </div>
-  <button className="button-container" link=""></button>   
-  <button className="button-container1" link=""></button>  
-  <button className="button-container2"link=""></button>  
-  <button className="button-container3"link=""></button>  
-  <button className="button-container4"link=""></button>  
-  <button className="button-container5"link=""></button>  
-<div className="fondo"><img src={MAPA} className="fondo " alt=""/></div>
-<img className="Mapitacambio" alt="Responsive image" ></img>
-
-
-
+ <Link to="/regionesdemapacom"><button className="containercomprador" link=""></button></Link>    
+ <Link to="/regionesdemapacom"> <button className="containercomprador1" link=""></button></Link>  
+ <Link to="/regionesdemapacom"><button className="containercomprador2"link=""></button></Link>  
+  <Link to="/regionesdemapacom"><button className="containercomprador3"link=""></button></Link>  
+  <Link to="/regionesdemapacom"><button className="containercomprador4"link=""></button></Link>  
+ <Link to="/regionesdemapacom"><button className="containercomprador5"link=""></button></Link>  
+<div className="fondodemapacom"><img src={MAPA} className="fondo" alt=""/></div>
+<div className="fonsonuevodemaparespon"></div>
+<Link to="/regionesdemapacom"><input type="button"className="botondecomprador"/></Link> 
+<Link to="/regionesdemapacom"><input type="button"className="botondecomprador1"/></Link> 
+<Link to="/regionesdemapacom"><input type="button"className="botondecomprador2"/></Link> 
+<Link to="/regionesdemapacom"><input type="button"className="botondecomprador3"/></Link> 
+<Link to="/regionesdemapacom"><input type="button"className="botondecomprador4"/></Link> 
+<Link to="/regionesdemapacom"><input type="button"className="botondecomprador5"/></Link> 
 </div>
 
 

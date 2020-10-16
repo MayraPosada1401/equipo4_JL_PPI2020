@@ -1,0 +1,126 @@
+.card009 {
+    display: inline-block !important;
+    margin-left: 400px;
+    width: 35rem;
+    height: 15rem;
+    background-color: lightskyblue;
+    margin-top: 30px;
+    border-radius: 40px;
+   }
+   
+   .card008 {
+    display: inline-block !important;
+    margin-left: 400px;
+    width: 35rem;
+    height: 15rem;
+    background-color: crimson;
+    margin-top: 30px;
+    border-radius: 40px;
+   }
+   
+   .card-textcapacitadorunicoeinigualable {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    text-align: center;
+   }
+   
+   .card-titlecapacitadorunicoeinigualable {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    color: cornsilk;
+    text-align: center;
+   }
+   
+   .btn10 {
+    margin-bottom: initial;
+    margin-left: 10x;
+    width: 15%;
+    height: 100%;
+    display: block;
+    background-color: lightseagreen;
+    border-radius: 40px;
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   }
+   
+   .img-fluid2 {
+    width: 200px;
+    height: 240px;
+   }
+   
+   .card-headerdecapacitadorinigu {
+    background-color: mediumaquamarine;
+    height: 90px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   }
+   
+   @media all and (max-width: 640px), (max-height: 360px) {
+    .card009 {
+      display: inline-block !important;
+      margin-left: 200px;
+      width: 40rem;
+      background-color: cadetblue;
+      margin-top: 80px;
+      color: black;
+      border-radius: 40px;
+    }
+   
+    .card008 {
+      display: inline-block !important;
+      margin-left: 200px;
+      width: 40rem;
+      height: 15rem;
+      background-color: crimson;
+      margin-top: 90px;
+      border-radius: 40px;
+    }
+   
+    .card-textcapacitadorunicoeinigualable{
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: black;
+      text-align: center;
+    }
+   
+    .card-titlecapacitadorunicoeinigualable {
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      text-align: center;
+      color: black;
+      text-align: center;
+    }
+   
+    .btn10 {
+      margin-top: 300px;
+      margin-bottom: initial;
+      margin-left: 100px;
+      width: 14rem;
+      height: 3rem;
+      display: block;
+      background-color: lightseagreen;
+      border-radius: 40px;
+      text-align: center;
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+   
+    .img-fluid2 {
+      width: 200px;
+      height: 240px;
+    }
+   
+    .card-headerdecapacitadorinigu {
+      background-color: mediumaquamarine;
+      height: 90px;
+      width: 65rem;
+      text-align: center;
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+   }
+   

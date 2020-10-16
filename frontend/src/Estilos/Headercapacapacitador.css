@@ -1,0 +1,46 @@
+.imagendimensioncapa{
+    height: 80px;
+    width: 80px;
+  }
+.btn1-cerrarcapa {
+    height: 50px;
+    width: 150px;
+   }
+   
+   .edit1 {
+    width: 140px;
+   }
+   
+  
+   
+   @media all and (max-width: 640px), (max-height: 360px) {
+  
+    .imagendimensioncapa{
+      height: 80px;
+      width: 80px;
+    }
+   
+    .btn1-cerrarcapa {
+      height: 25px;
+      width: 50px;
+    }
+   
+    .edit1 {
+      width: 200px;
+      padding: 0px 20px;
+      margin-left: 60px;
+    }
+   
+   
+    .carousel {
+      display: none;
+    }
+ 
+   
+    .btn-cerrarcapa {
+      width: 286px;
+      margin-left: 20px;
+    }
+   }
+   
+   

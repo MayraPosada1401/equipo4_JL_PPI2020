@@ -1,0 +1,82 @@
+
+.imageusuario{
+    height: 250px;
+    width: 250px;
+    margin-left: 41%;
+    margin-top: 5%;
+    }
+    
+    .subtitulo08{
+        text-align: center;
+        margin-top: 2%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #0AA4CA;
+        font-size: 100px;
+    }
+    
+    .botondeusuario{
+        height: 50px;
+        width: 500px;
+        margin-left: 32%;
+        border-color:#0AA4CA;
+    margin-top: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    border-radius: 40px;
+    
+    }
+    .imagendesiza{
+    width: 100px;
+    height: 100px;    
+    }
+    .espaciosincolor{
+        background-color: transparent;
+        width:600px;
+        height: 50px;
+        border-color: transparent;
+    }
+    .Tituloenpaginaprincipal3{
+        margin-top: 5%;
+        font-style: bold;
+        font-size:60px;
+        text-align: center;
+        background-color: #D2F1F9;
+        font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        color: #0AA4CA;
+      }
+    
+      .subtitulo03{
+    
+        font-style: bold;
+        font-size:24px;
+        text-align: center;
+        font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+        
+    }
+    
+    @media all and (max-width: 640px), (max-height: 360px){
+    
+        .carousel{
+            display: none;
+          }
+          .botondeusuario{
+    
+            margin-left: 10%;
+            border-color:#0AA4CA;
+        margin-top: 2%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: white;
+        border-radius: 40px;   
+        width:300px ;
+          }
+          .imageusuario{
+            height: 200px;
+            width: 200px;
+            margin-left: 25%;
+            margin-top: 5%;
+            }
+    }
+    
+    

@@ -1,0 +1,168 @@
+.cardito {
+    margin-bottom: initial;
+    margin-left: 10x;
+    width: 100%;
+    height: 3.00%;
+    display: block;
+    background-color: cadetblue;
+   }
+   
+   .card-calendario {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   }
+   
+   .cardsdelcapacitador {
+    background-color: lightblue;
+   }
+   
+   .card55 {
+    display: inline-block;
+    width: 30rem;
+    background-color: cadetblue;
+    margin-top: 90px;
+    color: cadetblue;
+    border-radius: 40px;
+    margin-left: 200px;
+    margin-right: 10px;
+   }
+   
+   .card-titlecapacitador12 {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    color: cornsilk;
+   }
+   
+   .card-text1 {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    text-align: center;
+   }
+   
+   .card-calenimg {
+    height: 500px;
+    width: 950px;
+    margin-left: 300px;
+   }
+   
+   .card-nota {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    text-align: center;
+   }
+   
+   .card-img02 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .card-img03 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .card-img04 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .card-img05 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   @media all and (max-width: 640px), (max-height: 360px) {
+    .cardito {
+      margin-bottom: initial;
+      margin-left: 10x;
+      width: 300%;
+      height: 200%;
+      display: block;
+      background-color: cadetblue;
+    }
+   
+    .cardsdelcapacitador  {
+      margin-left: 100x;
+      background-color: lightblue;
+      width: 300%;
+      height: 6000%;
+    }
+   
+    .card-calendario {
+      text-align: center;
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+   
+    .card-nota {
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: black;
+      text-align: center;
+    }
+   
+    .card55 {
+      display: inline-block !important;
+      margin-left: 95px;
+      width: 20rem;
+      background-color: cadetblue;
+      margin-top: 30px;
+      color: cadetblue;
+      border-radius: 40px;
+      margin-left: 150px;
+    }
+   
+    .card-titlecapacitador12 {
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      text-align: center;
+      color: cornsilk;
+    }
+   
+    .card-text1 {
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: black;
+      text-align: end;
+    }
+   
+    .card-calenimg {
+      height: 400px;
+      width: 700px;
+      margin-left: 200px;
+    }
+   
+    .card-img02 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .card-img03 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .card-img04 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .card-img05 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .card-img06 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .carousel {
+      display: none;
+    }
+   }
+   

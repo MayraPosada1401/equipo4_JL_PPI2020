@@ -17,7 +17,7 @@ function Transportador() {
     return (
         <div className="App Fondodequienes">
       
-        <div className="Header">
+      <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,30 +26,27 @@ function Transportador() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
       
-        <li className="nav-item normal-nav nav-item2 active">
-         <Link to="/transportador"> <a class="nav-link" href="#">Transportador</a></Link>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/transportador"> <a class="nav-link" href="#">Transportador</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
-          <a className="nav-link" href="#">Conocenos</a>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/quienes"><a className="nav-link" href="#">Contactanos</a></Link> 
+      </li>
+        <li className="nav-item normal-nav nav-item active">
+          <Link to=""><a className="nav-link  " href="#">Conocenos</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
-          <a className="nav-link " href="#" >Contactanos</a>
-        </li>
-        <li className="nav-item normal-nav nav-item2 active">
-          <Link to="/registro"><a className="nav-link  " href="#">¿No te haz registrado aún?</a></Link>
-        </li>
-        <li className="nav-item nav-item2 active ">
-         <Link to="/quienes"><a className="nav-link btn-cerrarcampe " href="#">¿Quienes somos?</a></Link> 
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/registro"><a className="nav-link  " href="#">¿No te haz registrado aún?</a></Link>
         </li>
         <a type="button" class="btn1-header btn-info1"></a>
-        <Link to="/app1"><button type="button" class="btn btn-info btn-cerrarcampe">Ingresar</button></Link>
-        <li className="nav-item">
-       
+      <Link to="/iniciosesiongeneral"><button type="button" class="btn btn-info btn-ingresar-pagina">Ingresar</button></Link>
+      
+      <li className="nav-item">
         </li>
       </ul>
     </div>
   </nav>
-    </div>
+    </div>  
      
       
   
@@ -103,7 +100,7 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
   <div class="row row-cols-1 row-cols-md-2 ">
   <div class="col mb-4 ">
     <div class="card">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="card-img-top" alt="..."/>
+      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -112,7 +109,7 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
   </div>
   <div class="col mb-4">
     <div class="card ">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="card-img-top" alt="..."/>
+      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -121,7 +118,7 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
   </div>
   <div class="col mb-4">
     <div class="card ">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="card-img-top" alt="..."/>
+      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -130,7 +127,7 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
   </div>
   <div class="col mb-4">
     <div class="card ">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="card-img-top" alt="..."/>
+      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

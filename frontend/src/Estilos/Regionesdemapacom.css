@@ -1,0 +1,100 @@
+.img-fluid01{
+    height:150px;
+    width: 150px;
+  }
+
+.compradorcambiocard{
+    display: inline-block !important;
+    margin: 5%;
+    max-width: 500px;
+ }
+
+ .Topuncioocparacomprador{
+    border-radius: 40px;
+  } 
+
+  .card0{
+    display: inline-block !important;
+    margin: 5%;
+    width: 20px;  
+    background-color: #189DAD  ;
+    color: #8DF1FC    ;
+    margin: 60px;
+    border-radius: 40px;
+  }
+.cardin{
+border-color: goldenrod;
+color: #7A138C ;
+background-color: #E2A6EC ;
+}
+.cardin1{
+background-color: #FFA07A;
+color: wheat;
+}
+.cardin2{
+background-color: #7FDFF3;
+color: #31B8D3 ;
+}
+.cardin3{
+background-color: #F1C935 ;
+color: #8D7419 ;
+}
+
+
+.Contenedor{
+    background-color: #FCE7AA ;
+    background-color: #C2F1FC ;
+    
+    }
+
+  .card01com{
+        display: inline-block !important;
+        margin: 5%;
+        width: 33rem;  
+        background-color: #189DAD  ;
+        color: black   ;
+        margin: 60px;
+        border-radius: 40px;
+      }
+
+
+
+
+@media all and (max-width: 640px), (max-height: 360px){
+    .carousel{
+        display: none;
+      }
+      .card01com{
+        display: inline-block !important;
+        margin: 2%;
+        width: 300px;  
+        background-color: #189DAD  ;
+        color: black   ;
+        margin: 2%;
+        margin-left: 5%;
+        border-radius: 40px;   
+      }
+      .diesñosubdecom{
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 48px;
+        background-color: #1BBECB ;
+        text-align: center;
+        color: white;
+        
+        }
+        .diseñocentrocom{
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 24px;
+            background-color: #62CCD5 ;
+            text-align: center;
+            color: white;
+            
+        }
+        .contenedorbotonesparaver{
+          margin-left: 15%;
+          margin-right: 15%;
+            background-color: #1BBECB ;     
+        }
+}

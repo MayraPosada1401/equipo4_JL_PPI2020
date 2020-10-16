@@ -28,7 +28,7 @@ export default function Iniciarsesioncapacitador() {
                               </label>
                           </div>
                       </div>
-                      <Link to="/app1"><button type="submit" className="btn btn-outline-light">Ingresar</button></Link>
+                      <Link to="/iniciocapacitador"><button type="submit" className="btn btn-outline-light">Ingresar</button></Link>
                   </form>
               </div>
           </div>

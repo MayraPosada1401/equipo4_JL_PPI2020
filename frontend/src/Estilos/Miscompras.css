@@ -21,7 +21,7 @@
     text-align: center;
     background-color: #D2F1F9;
 }
-.card{
+.copradorcambiocard{
     display: inline-block !important;
     margin: 5%;
     max-width: 900px;  
@@ -57,10 +57,7 @@ width: 100px;
 .FONDO{
     background-image: url(https://as2.ftcdn.net/jpg/02/34/49/91/500_F_234499194_sfBbn1YVtDVxOzTsM1B8xIUY8wcAsBPa.jpg);
 }
-.btn{
-    margin-left: 4%;
 
-}
 
 .TU{
 margin-top: 1%;
@@ -118,16 +115,9 @@ margin-left: 3%;
     width: 140px;
   }
   
-  .nav-item{
-    text-align: center;
-  }
-  .nav-item2 {
-    padding: 10px 0px 10px 0px;
-  }
+ 
   @media all and (max-width: 640px), (max-height: 360px){
-    .nav-item2 {
-        padding: 10px 0px 10px 0px;
-      }
+
     .carousel{
       display: none;
     }
@@ -145,8 +135,5 @@ margin-left: 3%;
     .bg-whitefonditoazul{
         background-color:#189DAD  ;
     }
-    .App{
-        max-width: 100%;
-        max-height: 100%;
-    }
+    
   }

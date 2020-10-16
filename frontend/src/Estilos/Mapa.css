@@ -17,7 +17,7 @@
      height: 800px;
      width: 1360px;
  }
-.button-container {/*Boton Región Andina*/
+.containercomprador{/*Boton Región Andina*/
 bottom:4em;
 float: left;
 margin-right: 400px;
@@ -29,7 +29,7 @@ border-radius:1.5em;
 margin-top: 90px;
 border-color: transparent;
         }
-.button-container1 {/*Boton Región Insular*/
+.containercomprador1 {/*Boton Región Insular*/
 bottom:14em;
 float: left;
 margin-right: 680px;
@@ -41,7 +41,7 @@ border-radius:1.5em;
 margin-top: 90px;
 border-color: transparent;
         }
-.button-container2 {/*Boton Región Caribe*/
+.containercomprador2 {/*Boton Región Caribe*/
 bottom:20em;
 float: left;
 margin-right: 410px;
@@ -53,7 +53,7 @@ border-radius:1.5em;
 margin-top: 90px;
 border-color: transparent;
         }
-.button-container3 {/*Boton Región Pacifica*/
+.containercomprador3{/*Boton Región Pacifica*/
 bottom:3em;/*Altura con top*/
 float: left;
 margin-right: 600px;/*Distancia de margen */
@@ -65,7 +65,7 @@ border-radius:1.5em;
 margin-top: 90px;
 border-color: transparent;
         }
-.button-container4 {
+.containercomprador4{
 top:35em;
 float: left;
 margin-right: 250px;
@@ -77,7 +77,7 @@ border-radius:1.5em;
 margin-top: 90px;
 border-color: transparent;
         }
-.button-container5 {
+.containercomprador5{
 bottom:6em;
 float: left;
 margin-right:125px;
@@ -88,6 +88,7 @@ background-color:transparent;
 border-radius:1.5em;
 margin-top: 90px;
 border-color: transparent;
+
         }
 .img-fluiduniquita{
 width: 100px;
@@ -98,10 +99,29 @@ height: 100px;
         width:300px;
         background-color: transparent;       
 }
+.botondecomprador{
+        display: none;
+}
+.botondecomprador1{
+        display: none;
+}
+.botondecomprador2{
+        display: none;
+}
+.botondecomprador3{
+        display: none;
+}
+.botondecomprador4{
+        display: none;
+}
+.botondecomprador5{
+        display: none;
+}
+
 @media all and (max-width: 640px), (max-height: 360px){
-.fondo{
+.fondodemapacom{
 display: none;
-background-image:url("../Imagenes/MAPITA1.jpg");
+
 }     
   .nav-item2 {
         padding: 10px 0px 10px 0px;
@@ -116,8 +136,143 @@ background-image:url("../Imagenes/MAPITA1.jpg");
       width: 286px;
       margin-left: 20px;
     }
-   
-    .Mapitacambio{
-        background-image: url("../Imagenes/MAPITA1.jpg");          
-    }
+ .fonsonuevodemaparespon{
+ background-image: url('../Imagenes/MAPITA1.jpg');
+ width: 350px;
+ height: 600px;
+ background-size: 350px 600px;
+ background-repeat: no-repeat;
+ }
+ .containercomprador{
+         display: none;
+ }
+ .containercomprador1{
+        display: none;
+}
+.containercomprador2{
+        display: none;
+}
+.containercomprador3{
+        display: none;
+}
+.containercomprador4{
+        display: none;
+}
+.containercomprador5{
+        display: none;
+}
+.botondecomprador{
+height:50px;
+width:50px;
+background-position:center;
+position: absolute;
+bottom:25em;
+right:11em;
+background-color:transparent;
+border-radius:1.5em;
+color:transparent;
+display: inline-block;
+padding-top: 1% !important;
+border-color: transparent;
+}
+.botondecomprador1{
+        height:50px;
+        width:50px;
+        background-position:center;
+        position: absolute;
+        bottom:16em;
+        right:11em;
+        background-color:transparent;
+        border-radius:1.5em;
+        color:transparent;
+        display: inline-block;
+        padding-top: 1% !important;
+        border-color: transparent;
+        }
+        .botondecomprador1{
+        height:50px;
+        width:50px;
+        background-position:center;
+        position: absolute;
+        bottom:16em;
+        right:11em;
+        background-color:transparent;
+        border-radius:1.5em;
+        color:transparent;
+        display: inline-block;
+        padding-top: 1% !important;
+        border-color: transparent;
+        }
+.botondecomprador2{
+        height:50px;
+        width:50px;
+        background-position:center;
+        position: absolute;
+        bottom:16em;
+        right:16em;
+        background-color:transparent;
+        border-radius:1.5em;
+        color:transparent;
+        display: inline-block;
+        padding-top: 1% !important;
+        border-color: transparent;
+        }
+
+.botondecomprador2{
+        height:50px;
+        width:50px;
+        background-position:center;
+        position: absolute;
+        bottom:17em;
+        right:3em;
+        background-color:transparent;
+        border-radius:1.5em;
+        color:transparent;
+        display: inline-block;
+        padding-top: 1% !important;
+        border-color: transparent;
+        }
+.botondecomprador2{
+        height:50px;
+        width:50px;
+        background-position:center;
+        position: absolute;
+        bottom:9em;
+        right:7em;
+        background-color:transparent;
+        border-radius:1.5em;
+        color:transparent;
+        display: inline-block;
+        padding-top: 1% !important;
+        border-color: transparent;
+        }
+.botondecomprador3{
+        height:50px;
+        width:50px;
+        background-position:center;
+        position: absolute;
+        bottom:22em;
+        right:18em;
+        background-color:transparent;
+        border-radius:1.5em;
+        color:transparent;
+        display: inline-block;
+        padding-top: 1% !important;
+        border-color: transparent;
+        }
+.botondecomprador3{
+        height:50px;
+        width:50px;
+        background-position:center;
+        position: absolute;
+        bottom:24em;
+        right:11em;
+        background-color:transparent;
+        border-radius:1.5em;
+        color:transparent;
+        display: inline-block;
+        padding-top: 1% !important;
+        border-color: transparent;
+        }
+
 }

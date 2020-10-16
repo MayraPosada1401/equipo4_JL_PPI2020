@@ -1,0 +1,235 @@
+.bienvenido {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    background-color: cadetblue  ;
+ }
+ 
+ .frase {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+ }
+ 
+ .eslogan {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+ }
+ 
+ 
+ .valoracion {
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+    color: cornflowerblue;
+ }
+ 
+ .card01{
+    display: inline-block !important;
+    margin-left: 250px;
+    width: 30rem; 
+    background-color: cadetblue  ;
+    margin-top: 30px;
+    color: cadetblue  ;
+    border-radius: 40px;
+  
+  }
+   .btn10{
+    height: 250px;
+    width:250px;
+    margin-left: 100px;
+  }
+ 
+  .card-campesino1{
+    height: 300px;
+    width: 190px;
+  }
+ 
+ 
+ .card-campesino{
+    height:300px;
+    width: 190px;
+  }
+ 
+  .card-textdelcapacitador{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+ }
+ 
+ .card-titlecapacitador12 {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: cornsilk;
+ }
+ 
+ .h4estilitounicap{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ 
+ .cardcapacitadorbonito{
+    background-color: rgb(199, 85, 104);
+    color: rgb(199, 85, 104);
+    height: 500%;
+    width: 100%;
+ }
+ 
+ .card012{
+    display: inline-block !important;
+    margin-left: 250px;
+    width: 30rem; 
+    background-color: cadetblue  ;
+    margin-top: 30px;
+    color: cadetblue  ;
+    border-radius: 40px;
+  
+  }
+   .card-campesino3{
+    height:300px;
+    width: 480px;
+  }
+ 
+  .card1{
+    display: inline-block !important;
+    margin-left: 60px;
+    width: 25rem; 
+    background-color: lightblue;
+    margin-top: 25px;
+    color: lightblue;
+    border-radius: 40px; 
+ }
+ 
+ .h3estiloletricacap{
+    background-color: cadetblue  ; 
+ }
+ 
+ 
+ @media all and (max-width: 640px), (max-height: 360px){
+  
+ .bienvenido {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    background-color: cadetblue  ;
+    margin-left: 0px;
+    width: 400px
+ 
+ }
+ 
+ .frase {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+ }
+ 
+ .eslogan {
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+ }
+ 
+ 
+ .valoracion {
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+    color: cornflowerblue;
+ }
+ 
+ .card01{
+    display: inline-block !important;
+    margin-left: 10px;
+    width: 20rem; 
+    background-color: cadetblue  ;
+    margin-top: 30px;
+    color: cadetblue  ;
+    border-radius: 40px;
+  
+  }
+   .btn10{
+    height: 250px;
+    width:250px;
+    margin-left: 100px;
+  }
+ 
+  .card-campesino1{
+    height: 300px;
+    width: 200px;
+  }
+ 
+ 
+ .card-campesino{
+    height:300px;
+    width: 190px;
+  }
+ 
+  .card-textdelcapacitador{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+ }
+ 
+ .card-titlecapacitador12 {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: cornsilk;
+ }
+ 
+ h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ 
+ .cardcapacitadorbonito{
+    background-color: rgb(199, 85, 104);
+    color: rgb(199, 85, 104);
+    height: 500%;
+  
+    width: 400px
+ }
+ 
+ .card012{
+    display: inline-block !important;
+    margin-left: 250px;
+    width: 30rem; 
+    background-color: cadetblue  ;
+    margin-top: 30px;
+    color: cadetblue  ;
+    border-radius: 40px;
+  
+  }
+   .card-campesino3{
+    height:300px;
+    width: 480px;
+  }
+ 
+  .card1{
+    display: inline-block !important;
+    margin-left: 60px;
+    width: 25rem; 
+    background-color: lightblue;
+    margin-top: 25px;
+    color: lightblue;
+    border-radius: 40px; 
+ }
+ 
+ .h3estiloletricacap{
+    background-color: cadetblue  ; 
+    width: 400px
+ }
+ 
+   
+ }
+ 

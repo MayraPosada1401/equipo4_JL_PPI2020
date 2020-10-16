@@ -1,0 +1,37 @@
+.datosactualizados {
+    margin-left: 400px;
+    margin-bottom: 5%;
+    margin-top: 60px;
+}
+.titulocontraseña{
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+    color:  #0AA4CA;
+}
+
+@media all and (max-width: 640px), (max-height: 360px){
+.carousel{
+    display: none;
+  }
+.datosactualizados {
+    margin-left: 1px;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+.titulocontraseña{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    color:  #0AA4CA;
+}
+.Tituloenpaginaprincipal3{
+    margin-top: 5%;
+    font-style: bold;
+    font-size:50px;
+    text-align: center;
+    background-color: #D2F1F9;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: #0AA4CA;
+
+}
+}

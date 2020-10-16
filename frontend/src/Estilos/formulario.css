@@ -1,0 +1,28 @@
+.h1delcapacitadorenfor{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   
+   .formparaelcomcap {
+    margin-left: 400px;
+    margin-bottom: 5%;
+    margin-top: 60px;
+   }
+   
+   @media all and (max-width: 640px), (max-height: 360px){
+   
+    .h1delcapacitadorenfor{
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      width: 65rem;
+      margin-top: 60px;
+    }
+     .formparaelcomcap  {
+      margin-left: 300px;
+      margin-bottom: 5%;
+      margin-top: 60px;
+      width: 65rem;
+    }
+   
+   }
+   

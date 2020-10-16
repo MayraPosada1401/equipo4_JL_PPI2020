@@ -1,0 +1,102 @@
+
+.img-fluid03{
+    height:120px;
+    width: 100px;
+  }
+  .margincom{
+   background-color: #8DF1FC; 
+   padding: 2%;
+  }
+
+.card03{
+    display: inline-block !important;
+    margin: 5%;
+    max-width: 900px;
+ }
+.coloytamaño{
+  color:#66BFC6 ;
+  color:#0AA4CA  ;
+  font-size: 30px;
+}
+
+  .card03{
+    display: inline-block !important;
+    margin: 5%;
+    width: 50rem;  
+    background-color: #189DAD  ;
+    color: #8DF1FC    ;
+    margin: 80px 270px;
+    border-radius: 40px;
+    margin-right: 100px;
+  }
+.cardposition03{
+    margin-right: 200px;
+}
+
+.titulo03{
+    margin-top:2%;
+    margin-left:5%;
+    margin-right:5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#0AA4CA  ;
+  text-align: center;
+  font-style:initial;
+  font-size: 100px;
+}
+
+.Contenedor03{
+    background-color: #FCE7AA ;
+    background-color: #C2F1FC ;
+    }
+
+.img-fluid03 {
+height:120px;
+    width: 100px;
+}
+
+.form03 {
+  margin-left: 10px;
+  margin-bottom: 5%;
+  margin-top: 60px;
+}
+
+.margen03{
+  margin-right: 10%;
+  margin-left: 2%;
+}
+
+.texto03{
+  margin-top:2%;
+  margin-left:5%;
+  margin-right:5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black  ;
+text-align: center;
+font-style:initial;
+font-size: 50px;
+}
+.margincom{
+  margin: 8%;
+  margin-left: 30%;
+  margin-right: 25%;
+}
+
+
+@media all and (max-width: 640px), (max-height: 360px){
+  .carousel{
+    display: none;
+  }
+
+  .card03{
+    display: inline-block !important;
+    margin: 5%;
+    max-width: 270px;
+    margin-left: 13%;
+ }
+ .coloytamaño{
+  color:#66BFC6 ;
+  color:#0AA4CA  ;
+  font-size: 15px;
+}
+}
+
