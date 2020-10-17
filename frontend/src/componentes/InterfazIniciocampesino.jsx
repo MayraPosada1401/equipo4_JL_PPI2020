@@ -8,7 +8,7 @@ export default function InterfazInicioCampesino() {
     <div className="InterfazInicioCampesino">
       
       <div>
-        <h1 className="component-1-text-body development-inicio titulo1-inicio" >Bienvenido a Ecoagro</h1>
+        <h1 className="component-1-text-body development-inicio titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte" >Bienvenido a Ecoagro</h1>
         <h3 className="social-inicio">Aquí te presentamos los cursos y noticias en tendencia</h3>
         <p className="component-1-text-body component-text-inicio parrafo1-inicio">Para EcoAgro es un placer que pertenezcas a esta familia. Somos conocedores de la importancia de ustedes en nuestros bellos campos colombianos, su trabajo es digno de admirar y ha de ser respetado, esa lucha constante que ustedes enfrentan para nosotros en una gran batalla y son héroes a la vez de nuestro país. Queremos romper ese esquema de que para una buena economía se requiere de un intermediario y estamos agradecidos de que ya hagas parte de ese proceso.</p>
         <p className="component-1-text-body component-text-inicio parrafo1-inicio">En esta sección inicial conocerás los cursos en mayor tendencia para un desarrollo optimo y acompañamientos en tus procesos de cultivo. Podrás observar esas noticias actuales que suceden entorno a el mundo agrario, para que conozcas esas tendencias o aspectos que beneficiaran o afectaran los mercados</p>
@@ -84,7 +84,7 @@ export default function InterfazInicioCampesino() {
 
       <div className="found-3-inicio">
         <div>
-          <h2 className="h2-inicio padding-title-body titulo2-inicio">POR USTEDES ES QUE SOMOS UNA REALIDAD</h2>
+          <h2 className="h2-inicio padding-title-body titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">POR USTEDES ES QUE SOMOS UNA REALIDAD</h2>
         </div> 
        <div className="container">
         <div className="fisrt-img"></div>
@@ -101,7 +101,7 @@ export default function InterfazInicioCampesino() {
       
       <div className="cards_noticias">
 
-        <h2 className="h2-inicio colombia-espopis titulo1-inicio"> ALGUNAS NOTICIAS DEL MUNDO AGRARIO</h2>
+        <h2 className="h2-inicio colombia-espopis titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte"> ALGUNAS NOTICIAS DEL MUNDO AGRARIO</h2>
       <div className="card1-body card-ch mb-3">
         <img src="https://imgcdn.larepublica.co/i/768/2020/04/06175058/Rodolfo-Zea.png" className="card-img2-top-inicio" alt="..."/>
           <div className="card-body">
@@ -124,7 +124,7 @@ export default function InterfazInicioCampesino() {
       </div>
 
       <div className="found-5-body">
-      <h2 className="h2-inicio titulodato-body forma-padding titulo1-inicio">ALGUNOS DATOS CURIOSOS DE NUESTRO CAMPO COLOMBIANO</h2>
+      <h2 className="h2-inicio titulodato-body forma-padding titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">ALGUNOS DATOS CURIOSOS DE NUESTRO CAMPO COLOMBIANO</h2>
       </div>
         <div className ="part1-body">
         <img src={campe} className="img-FORGO"/>

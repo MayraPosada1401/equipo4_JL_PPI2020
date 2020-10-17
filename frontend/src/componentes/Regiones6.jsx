@@ -18,7 +18,7 @@ function Regionestenden() {
 
     return (
       <div className="App fonditodefrutas">
-   <div className="Header">
+     <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,20 +26,22 @@ function Regionestenden() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-      
-        <li className="nav-item normal-nav nav-item2 active">
+      <li className="nav-item nav-item normal-nav active">
+      <Link to="/app1"><a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a></Link>
+      </li>
+        <li className="nav-item normal-nav nav-item active">
         <a class="nav-link" href="#">Conexiones</a>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
           <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
         <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
         <Link to="/perfildecomprador"><a className="nav-link  " href="#">Perfil</a></Link>
         </li>
         <a type="button" class="btn1-header btn-info1"></a>

@@ -9,7 +9,7 @@ export default function InterfazAprende () {
 <div>
 
     <div>
-        <h1 className="component-1-text development-aprende tituloaprende" >Bienvenido a Aprende con Ecoagro</h1>
+        <h1 className="component-1-text development-aprende tituloaprende shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte" >Bienvenido a Aprende con Ecoagro</h1>
         <h3 className="component-1-text social-aprende subtitulo1">Aquí te presentamos contenidos de aprendizaje para ti y tu familia</h3>
         <p className="component-1-text component-text-aprende parrafo1-aprende justify-parrafo-aprende">Para EcoAgro es un placer que pertenezcas a esta familia. Somos conocedores de la importancia de ustedes en nuestros bellos campos colombianos, su trabajo es digno de admirar y ha de ser respetado, esa lucha constante que ustedes enfrentan para nosotros en una gran batalla y son héroes a la vez de nuestro país. Queremos romper ese esquema de que para una buena economía se requiere de un intermediario y estamos agradecidos de que ya hagas parte de ese proceso.</p>
         <p className="component-1-text component-text-aprende parrafo1-aprende justify-parrafo-aprende">En esta sección visualizaras y elegirás contenidos de aprendizaje que más sean de tu agrado. Conocerás más de los productos característicos de Colombia y te introducirás en varios conocimientos del mundo agrario, para que puedas seguir potenciado el desarrollo de tus cultivos y llevar a cabo procesos de mejoramiento constante. Igualmente, los niños podrás acceder a contenidos que le permitan conectarse más y conocer el mundo del campo.</p>
@@ -31,7 +31,7 @@ export default function InterfazAprende () {
     </div>
 
     <div className="found-4-aprende">
-        <h2 className="titulo-aprende tituloaprende">Mis opciones de Aprendizaje</h2>
+        <h2 className="titulo-aprende shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte tituloaprende ">Mis opciones de Aprendizaje</h2>
     </div>
 
     <div  className="cards-aprende">

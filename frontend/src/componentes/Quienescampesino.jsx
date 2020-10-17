@@ -10,7 +10,7 @@ export default function Conexionescampesino() {
 <div className="Maxcontenquien contenedorprincipaldemargentargetas-conexionescampe">
 <div className="Contenedorparacambiarancho contenedor-margen-targeta-conexionescampesino">
 <div class="border-infoContenedorparacambiarancho" >
-  <div class="card-header parrafoideltextodequienescampesino-conexiones">Somos el enlace directo entre campesino y comprador</div>
+
   <div class="card-body text-infoContenedorparacambiarancho">
     <h5 class="card-title shadow bg-whiteverdecitovalor rounded Titulocompradorterceraparte">EcoAgro</h5>
     <p class="card-text parrafoideltextodequienescampesino-conexiones">Nuestro equipo es cambio del horizonte otorgando una fortaleza al sector agrícola en el impulso de autodominio de sus recursos y oportunidades en el sector económico nacional e internacional.
@@ -26,8 +26,8 @@ export default function Conexionescampesino() {
     <div class="card">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Mayra Posada</h5>
+        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>
@@ -35,8 +35,8 @@ export default function Conexionescampesino() {
     <div class="card ">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Dahiana Restrepo</h5>
+        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>
@@ -44,8 +44,8 @@ export default function Conexionescampesino() {
     <div class="card ">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Karol Cuellar</h5>
+        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>
@@ -53,7 +53,7 @@ export default function Conexionescampesino() {
     <div class="card ">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">Mariana Soto</h5>
         <p class="card-text parrafoideltextodequienescampesino-conexiones">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>

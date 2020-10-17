@@ -9,41 +9,41 @@ import { Link } from 'react-router-dom';
 function menu() {
   return (
     <div className="menu fondotolcom">
-      <div className="Header">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link to="/"> <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div className="collapse navbar-collapse" id="navbarNav">
-    <ul className="navbar-nav">
-      <li className="nav-item nav-item2 normal-nav active">
-      <a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a>
+       <div className="Header">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
+      <li className="nav-item nav-item normal-nav active">
+      <Link to="/app1"><a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a></Link>
       </li>
-      <li className="nav-item normal-nav nav-item2 active">
-      <Link to="/perfildecomprador"><a class="nav-link" href="#">Perfil</a></Link>  
+        <li className="nav-item normal-nav nav-item active">
+        <a class="nav-link" href="#">Conexiones</a>
+        </li>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
-      <li className="nav-item normal-nav nav-item2 active">
-       <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
-      </li>
-      <li className="nav-item normal-nav nav-item2 active">
-        <a className="nav-link" href="#">Conexiones</a>
-      </li>
-      <li className="nav-item normal-nav nav-item2 active">
-        <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a> </Link>
-      </li>
-      <li className="nav-item nav-item2 active ">
-      <Link to="/comprador"><a className="nav-link btn-cerrarcampe " href="#">Mis compras</a></Link>  
-      </li>
-      <a type="button" class="btn1-header btn-info1"></a>
-     <Link to="/"><button type="button" class="btn btn-info btn-cerrarcampe">Cerrar sesión</button></Link> 
-      <li className="nav-item">
-     
-      </li>
-    </ul>
-  </div>
-</nav>
-  </div>
+        <li className="nav-item normal-nav nav-item active">
+          <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a></Link>
+        </li>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>
+        </li>
+        <li className="nav-item normal-nav nav-item active">
+        <Link to="/perfildecomprador"><a className="nav-link  " href="#">Perfil</a></Link>
+        </li>
+        <a type="button" class="btn1-header btn-info1"></a>
+        <Link to="/"><button type="button" class="btn btn-info btn-cerrarcampe">Cerrar sesion</button></Link>
+        <li className="nav-item">
+       
+        </li>
+      </ul>
+    </div>
+  </nav>
+    </div>
       
   
   

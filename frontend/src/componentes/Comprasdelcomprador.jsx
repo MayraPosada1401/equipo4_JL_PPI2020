@@ -20,20 +20,22 @@ function compra() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-      
-        <li className="nav-item normal-nav nav-item2 active">
+      <li className="nav-item nav-item normal-nav active">
+      <Link to="/app1"><a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a></Link>
+      </li>
+        <li className="nav-item normal-nav nav-item active">
         <a class="nav-link" href="#">Conexiones</a>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
           <Link to="/compradormapa"><a className="nav-link  " href="#">Tienda</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
         <Link to="/comprador"><a className="nav-link  " href="#">Mis compras</a></Link>
         </li>
-        <li className="nav-item normal-nav nav-item2 active">
+        <li className="nav-item normal-nav nav-item active">
         <Link to="/perfildecomprador"><a className="nav-link  " href="#">Perfil</a></Link>
         </li>
         <a type="button" class="btn1-header btn-info1"></a>

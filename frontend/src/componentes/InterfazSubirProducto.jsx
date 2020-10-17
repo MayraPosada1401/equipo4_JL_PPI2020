@@ -7,7 +7,7 @@ export default function InterfazSubirProducto() {
     <div className="Perfil">
 
       <div>
-        <h1 className="component-1-text development-subirproducto titulobody-subirproducto" >Sube tu producto</h1>
+        <h1 className="component-1-text development-subirproducto titulobody-subirproducto shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte" >Sube tu producto</h1>
         <h3 className="component-1-text social-subirproducto subtitulo1">Aquí te presentamos los campos que debes de llenar para subir tu producto</h3>
         <p className="component-1-text component-text-subirproducto parrafo1-subirproducto">Para EcoAgro es un placer que pertenezcas a esta familia. Somos conocedores de la importancia de ustedes en nuestros bellos campos colombianos, su trabajo es digno de admirar y ha de ser respetado, esa lucha constante que ustedes enfrentan para nosotros en una gran batalla y son héroes a la vez de nuestro país. Queremos romper ese esquema de que para una buena economía se requiere de un intermediario y estamos agradecidos de que ya hagas parte de ese proceso.</p>
         <p className="component-1-text component-text-subirproducto parrafo1-subirproducto">En esta sección deberas rellenar algunos campos, para que tu producto sea publicado en la interfaz de los compradores y así puedas promocionar y vender cada uno de tus producidos</p>

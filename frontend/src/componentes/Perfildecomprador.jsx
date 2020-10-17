@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 function perfil() {
   return (
     <div className="perfil">
-      <div className="Header">
+       <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,9 @@ function perfil() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
-      
+      <li className="nav-item nav-item normal-nav active">
+      <Link to="/app1"><a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a></Link>
+      </li>
         <li className="nav-item normal-nav nav-item active">
         <a class="nav-link" href="#">Conexiones</a>
         </li>

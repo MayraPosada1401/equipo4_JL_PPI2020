@@ -6,8 +6,8 @@ export default function InterfazMisPedidos() {
   return (
     <div className="InterfazMisPedidos">
 
-    <h1 className="titulo1-mispedidos" >Tus Pedidos</h1>
-    <h3 className="subtitulo1-mispedidos">Aquí te presentamos los pedidos que tienes de algunos de tus productos</h3>  
+    <h1 className="titulo1-mispedidos  bg-whiteverdecitovalor rounded Titulocompradorterceraparte" >Tus Pedidos</h1>
+    <h3 className="subtitulo1-mispedidos shadow p-3 mb-5 ">Aquí te presentamos los pedidos que tienes de algunos de tus productos</h3>  
 
     <div className="d-md-flex flex-md-equal w-100  contenedortargetasdemispedidos-campesino">
      

@@ -7,14 +7,14 @@ export default function InterfazAprendeColom() {
     <div className="contenedor_aprendeColom">
       
       <div>
-        <h1 className="component-1-text-Aprendecolom development-aprendecolom titulo1-aprendecolom" >Colombia y Sus Regiones</h1>
+        <h1 className="component-1-text-Aprendecolom development-aprendecolom  shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte" >Colombia y Sus Regiones</h1>
         <h3 className="social-aprendecolom">Aquí te presentamos los productos caracteristicos de cada Región</h3>
         <p className="component-1-text-Aprendecolom component-text-aprendecampe parrafo1-Aprendecolom">Para EcoAgro es un placer que pertenezcas a esta familia. Somos conocedores de la importancia de ustedes en nuestros bellos campos colombianos, su trabajo es digno de admirar y ha de ser respetado, esa lucha constante que ustedes enfrentan para nosotros en una gran batalla y son héroes a la vez de nuestro país. Queremos romper ese esquema de que para una buena economía se requiere de un intermediario y estamos agradecidos de que ya hagas parte de ese proceso.</p>
         <p className="component-1-text-Aprendecolom component-text-aprendecampe parrafo1-Aprendecolom">En esta sección conocerás más de Colombia y de los productos que caracterizan y dan una identidad a cada región que conforma al territorio</p>
       </div>
 
       <div className="found-3-aprendeColom"> 
-      <h2 className="colombia-diverso titulo10">PRODUCTOS DE LA REGIÓN CARIBE</h2>
+      <h2 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">PRODUCTOS DE LA REGIÓN CARIBE</h2>
       </div>
 
       <div className="cards_aprendecolom">
@@ -44,7 +44,7 @@ export default function InterfazAprendeColom() {
       </div>
 
       <div className="found-3-aprendeColom"> 
-      <h2 className="colombia-diverso titulo10">PRODUCTOS DE LA REGIÓN ANDINA</h2>
+      <h2 className="colombia-diverso shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">PRODUCTOS DE LA REGIÓN ANDINA</h2>
       </div>
 
       <div  className="cards_aprendecolom">
@@ -108,7 +108,7 @@ export default function InterfazAprendeColom() {
     </div>
 
     <div className="found-3-aprendeColom"> 
-      <h2 className="colombia-diverso titulo10">PRODUCTOS DE LA PACÍFICA</h2>
+      <h2 className="colombia-diverso shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">PRODUCTOS DE LA PACÍFICA</h2>
       </div>
 
       <div className="cards_aprendecolom">
@@ -138,7 +138,7 @@ export default function InterfazAprendeColom() {
       </div>
 
       <div className="found-3-aprendeColom"> 
-      <h2 className="colombia-diverso titulo10">PRODUCTOS DE LA REGIÓN ORINOQUÍA</h2>
+      <h2 className="colombia-diverso shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">PRODUCTOS DE LA REGIÓN ORINOQUÍA</h2>
       </div>
 
       <div  className="cards_aprendecolom">
@@ -202,7 +202,7 @@ export default function InterfazAprendeColom() {
     </div>
 
     <div className="found-3-aprendeColom"> 
-      <h2 className="colombia-diverso titulo10">PRODUCTOS DE LA REGIÓN INSULAR</h2>
+      <h2 className="colombia-diverso shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">PRODUCTOS DE LA REGIÓN INSULAR</h2>
       </div>
 
       <div className="cards_aprendecolom">
@@ -232,7 +232,7 @@ export default function InterfazAprendeColom() {
       </div>
 
       <div className="found-3-aprendeColom"> 
-      <h2 className="colombia-diverso titulo10">PRODUCTOS DE LA REGIÓN AMAZÓNICA</h2>
+      <h2 className="colombia-diverso shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">PRODUCTOS DE LA REGIÓN AMAZÓNICA</h2>
       </div>
 
       <div  className="cards_aprendecolom">

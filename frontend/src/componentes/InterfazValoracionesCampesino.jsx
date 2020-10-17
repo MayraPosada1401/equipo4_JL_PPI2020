@@ -10,7 +10,7 @@ export default function InterfazValoracionescampesino() {
       <div className="Misvaloracionescampesino">
              
       <br />
-      <h1 className="shadow p-3 mb-5 bg-white rounded Titulito-principlavaloracioncampesino">Mis valoraciones</h1>
+      <h1 className=" rounded Titulito-principlavaloracioncampesino shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">Mis valoraciones</h1>
       <div className="FONDO">
         <div class="card-columns">
           <div class="card">
@@ -36,7 +36,7 @@ export default function InterfazValoracionescampesino() {
             </blockquote>
           </div>
           <div class="card">
-            <img src={EDAD3} class="Topuncioocparacomprador" alt="Responsive image" />
+            <img src={EDAD3} class="card-img-top" alt="Responsive image" />
             <div class="card-body">
               <h5 class="card-title">Opinion por:</h5>
               <p class="card-text pepito parrafodevaloracioncampesino-letra">El servicio y el cuidado atento de todo el proceso fue excelente.</p>

@@ -9,7 +9,7 @@ export default function InterfazMisCursos () {
 <div>
 
     <div>
-        <h1 className="component-1-text development-miscursos titulobody-miscursos" >Mis Cursos</h1>
+        <h1 className="component-1-text development-miscursos titulobody-miscursos shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte" >Mis Cursos</h1>
         <h3 className="component-1-text social-miscursos subtitulo1">Aquí te presentamos los cursos culminados y en proceso</h3>
         <p className="component-1-text component-text-miscursos parrafo1-miscursos">Para EcoAgro es un placer que pertenezcas a esta familia. Somos conocedores de la importancia de ustedes en nuestros bellos campos colombianos, su trabajo es digno de admirar y ha de ser respetado, esa lucha constante que ustedes enfrentan para nosotros en una gran batalla y son héroes a la vez de nuestro país. Queremos romper ese esquema de que para una buena economía se requiere de un intermediario y estamos agradecidos de que ya hagas parte de ese proceso.</p>
         <p className="component-1-text component-text-miscursos parrafo1-miscursos">En esta sección visualizaras los diferentes cursos a los que accediste, se mostraran los culminados con tarjetas rojas y los que están en proceso con tarjetas verdes.</p>

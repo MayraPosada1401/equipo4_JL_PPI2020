@@ -18,7 +18,6 @@
 }
 .titulo1-inicio{
   color:#0CB4D6 ;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .development-inicio{
   margin-top: 50px;
@@ -54,7 +53,7 @@
 /*Imagenes en grid*/
 /*cuadro div de color*/
 .found-3-inicio{
-  background-color:#029CC1;
+  background-color: #6DD4D8  ;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -76,6 +75,7 @@
   grid-template-rows: 30% 40% 30%;
   text-align: center;
   background-size: repeat(4, 100%);
+  background-color:  #6DD4D8  ;
 }
 .fisrt-img{
   margin-top: 5px;

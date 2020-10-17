@@ -1,7 +1,6 @@
 /*Primera Página*/
 .tituloinicial-paginatendenciaregiones{
     color:#0CB4D6 ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 .titulo1-reginamazonastendencia{
@@ -27,7 +26,7 @@
 }
 .tipodeletraboton-tendenciaderegiones2{
     margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
+
     font-size: 40px;
 }
 .Contenerdorreactivo{
@@ -39,14 +38,14 @@
 }
 .botondevolver-margin-tendencias{
     margin-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
+
     font-size: 30px;
 }
 .titulodelatargetadespliegueproductos-tendencias{
     text-align: center;
     margin-top:10px;
     text-align: center;
-    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+
     color: #0AA4CA;
     font-style:oblique;
     font-size: 30px;

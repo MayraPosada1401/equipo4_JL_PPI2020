@@ -61,7 +61,7 @@ text-align: center;
   box-sizing: border-box 2px;
   padding: 40px;
   margin-bottom:106px;
-  background-image: url("https://static.nationalgeographicla.com/files/styles/image_3200/public/24_colombia_biodiversity_i8951_180721_01578.jpg?w=710&h=533");
+  background-color: #189DAD  ;
   background-size:100% 100%;   
 }
 .UBICACION{
@@ -87,7 +87,7 @@ font-size: 52px;
 font-family: monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-style: bold;
 background-size:100% 100%;
-
+color: #81EAF3 ;
 }
 .SUBTITULO{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

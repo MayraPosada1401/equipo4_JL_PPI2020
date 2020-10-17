@@ -1,15 +1,16 @@
 .titulo1-mispedidos{
     color:#0CB4D6 ;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: 50px;
 }
 .subtitulo1-mispedidos{
-    margin-top:10px;
+
     text-align: center;
     font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #0AA4CA;
+    color: #61DAE3 ;
     font-style:oblique;
+    font-size: 24px;
+    background-color: #B7F2F7 ;
 }
 .contenedortargetasdemispedidos-campesino{
     margin-bottom: 80px;
