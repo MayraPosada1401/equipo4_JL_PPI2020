@@ -102,8 +102,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
     <div class="card">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Mayra Posada</h5>
+        <p class="card-text">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>
@@ -111,8 +111,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
     <div class="card ">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Dahiana Restrepo</h5>
+        <p class="card-text">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>
@@ -120,8 +120,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
     <div class="card ">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Karol Cuellar </h5>
+        <p class="card-text">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>
@@ -129,8 +129,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
     <div class="card ">
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Mariana Soto</h5>
+        <p class="card-text">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>

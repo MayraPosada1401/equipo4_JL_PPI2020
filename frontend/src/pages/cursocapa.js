@@ -1,6 +1,6 @@
 import React from 'react';
-import Curso from '../componentes/curso';
-import Headercapa from '../componentes/Headercapacapacitador';
+import Curso from '../componentes/cursocapa';
+import Headercapa from '../componentes/Headercapa';
 
 
 

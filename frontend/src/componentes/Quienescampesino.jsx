@@ -54,7 +54,7 @@ export default function Conexionescampesino() {
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Mariana Soto</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
       </div>
     </div>
   </div>

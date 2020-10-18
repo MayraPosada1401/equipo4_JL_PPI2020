@@ -1,4 +1,4 @@
-.card009 {
+.tarjeta009 {
     display: inline-block !important;
     margin-left: 400px;
     width: 35rem;
@@ -7,8 +7,19 @@
     margin-top: 30px;
     border-radius: 40px;
    }
-   
-   .card008 {
+   .cardin78{
+     background-color: #B2E366 ;
+     border-radius: 40px;
+     color: #6AC032 ;
+     border-color:transparent ;
+   }
+   .cardin79{
+     background-color: crimson;
+     border-radius: 40px;
+     color: #F8E2E7 ;
+     border-color:transparent ;
+   }
+   .tarjeta008 {
     display: inline-block !important;
     margin-left: 400px;
     width: 35rem;
@@ -18,14 +29,14 @@
     border-radius: 40px;
    }
    
-   .card-textcapacitadorunicoeinigualable {
+   .foro {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: black;
     text-align: center;
    }
    
-   .card-titlecapacitadorunicoeinigualable {
+   .foro {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     text-align: center;
@@ -33,7 +44,7 @@
     text-align: center;
    }
    
-   .btn10 {
+   .mini10 {
     margin-bottom: initial;
     margin-left: 10x;
     width: 15%;
@@ -46,12 +57,12 @@
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
    }
    
-   .img-fluid2 {
+   .maria {
     width: 200px;
     height: 240px;
    }
    
-   .card-headerdecapacitadorinigu {
+   .listo {
     background-color: mediumaquamarine;
     height: 90px;
     text-align: center;
@@ -60,7 +71,7 @@
    }
    
    @media all and (max-width: 640px), (max-height: 360px) {
-    .card009 {
+    .tarjeta009 {
       display: inline-block !important;
       margin-left: 200px;
       width: 40rem;
@@ -70,7 +81,7 @@
       border-radius: 40px;
     }
    
-    .card008 {
+    .tarjeta008 {
       display: inline-block !important;
       margin-left: 200px;
       width: 40rem;
@@ -80,14 +91,14 @@
       border-radius: 40px;
     }
    
-    .card-textcapacitadorunicoeinigualable{
+    .foro {
       font-size: large;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       color: black;
       text-align: center;
     }
    
-    .card-titlecapacitadorunicoeinigualable {
+    .foro {
       font-size: xx-large;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       text-align: center;
@@ -95,7 +106,7 @@
       text-align: center;
     }
    
-    .btn10 {
+    .mini10 {
       margin-top: 300px;
       margin-bottom: initial;
       margin-left: 100px;
@@ -109,12 +120,12 @@
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     }
    
-    .img-fluid2 {
+    .maria {
       width: 200px;
       height: 240px;
     }
    
-    .card-headerdecapacitadorinigu {
+    .listo {
       background-color: mediumaquamarine;
       height: 90px;
       width: 65rem;

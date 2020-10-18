@@ -1,0 +1,19 @@
+
+   
+   .formulario {
+    margin-left: 400px;
+    margin-bottom: 5%;
+    margin-top: 60px;
+   }
+   
+   @media all and (max-width: 640px), (max-height: 360px) {
+  
+   
+    .formulario {
+      margin-left: 300px;
+      margin-bottom: 5%;
+      margin-top: 60px;
+      width: 65rem;
+    }
+   }
+   

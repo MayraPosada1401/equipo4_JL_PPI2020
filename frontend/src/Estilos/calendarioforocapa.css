@@ -1,0 +1,168 @@
+.cardito {
+    margin-bottom: initial;
+    margin-left: 10x;
+    width: 100%;
+    height: 300%;
+    display: block;
+    background-color: cadetblue;
+   }
+   
+   .calendario {
+    text-align: center;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+   }
+   
+   .cursosvistos {
+    background-color: lightblue;
+   }
+   
+   .curso550 {
+    display: inline-block;
+    width: 30rem;
+    background-color: cadetblue;
+    margin-top: 90px;
+    color: cadetblue;
+    border-radius: 40px;
+    margin-left: 200px;
+    margin-right: 10px;
+   }
+   
+   .titulo {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    color: cornsilk;
+   }
+   
+   .titulo1 {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    text-align: center;
+   }
+   
+   .calenimg {
+    height: 500px;
+    width: 950px;
+    margin-left: 300px;
+   }
+   
+   .nota {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    text-align: center;
+   }
+   
+   .img02 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .img03 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .img04 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .img05 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   @media all and (max-width: 640px), (max-height: 360px) {
+    .cardito {
+      margin-bottom: initial;
+      margin-left: 10x;
+      width: 300%;
+      height: 200%;
+      display: block;
+      background-color: cadetblue;
+    }
+   
+    .cursosvistos {
+      margin-left: 100x;
+      background-color: lightblue;
+      width: 300%;
+      height: 6000%;
+    }
+   
+    .calendario {
+      text-align: center;
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+   
+    .nota {
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: black;
+      text-align: center;
+    }
+   
+    .curso550 {
+      display: inline-block !important;
+      margin-left: 95px;
+      width: 20rem;
+      background-color: cadetblue;
+      margin-top: 30px;
+      color: cadetblue;
+      border-radius: 40px;
+      margin-left: 150px;
+    }
+   
+    .titulo {
+      font-size: xx-large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      text-align: center;
+      color: cornsilk;
+    }
+   
+    .titulo1 {
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      color: black;
+      text-align: end;
+    }
+   
+    .calenimg {
+      height: 400px;
+      width: 700px;
+      margin-left: 200px;
+    }
+   
+    .img02 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .img03 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .img04 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .img05 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .img06 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .carousel {
+      display: none;
+    }
+   }
+   

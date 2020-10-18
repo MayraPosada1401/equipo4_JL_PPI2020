@@ -104,7 +104,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Nuestro equipo es cambio del horizonte otorgando una fortaleza al sector agrícola en el impulso de autodominio de sus recursos y oportunidades en el sector económico nacional e internacional.
+Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar atrás ese imaginario colectivo erróneo de la baja calidad de productos agrícolas colombianos.</p>
       </div>
     </div>
   </div>
@@ -113,7 +114,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Nuestro equipo es cambio del horizonte otorgando una fortaleza al sector agrícola en el impulso de autodominio de sus recursos y oportunidades en el sector económico nacional e internacional.
+Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar atrás ese imaginario colectivo erróneo de la baja calidad de productos agrícolas colombianos.</p>
       </div>
     </div>
   </div>
@@ -122,7 +124,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">Nuestro equipo es cambio del horizonte otorgando una fortaleza al sector agrícola en el impulso de autodominio de sus recursos y oportunidades en el sector económico nacional e internacional.
+Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar atrás ese imaginario colectivo erróneo de la baja calidad de productos agrícolas colombianos.</p>
       </div>
     </div>
   </div>
@@ -131,7 +134,8 @@ Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar
       <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
       <div class="card-body cardinpantallapincusers">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Nuestro equipo es cambio del horizonte otorgando una fortaleza al sector agrícola en el impulso de autodominio de sus recursos y oportunidades en el sector económico nacional e internacional.
+Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar atrás ese imaginario colectivo erróneo de la baja calidad de productos agrícolas colombianos.</p>
       </div>
     </div>
   </div>

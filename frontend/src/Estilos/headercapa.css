@@ -1,0 +1,45 @@
+.ecoagro {
+    height: 80px;
+    width: 80px;
+   }
+   .cerrarcapa {
+    height: 50px;
+    width: 150px;
+   }
+   
+   .parte1 {
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+   }
+   
+   .capacitador {
+    height: 290px;
+    width: 1350px;
+   }
+   
+   @media all and (max-width: 640px), (max-height: 360px) {
+    .inicio {
+      height: 80px;
+      width: 1437px;
+    }
+    .ecoagro {
+      height: 80px;
+      width: 80px;
+    }
+   
+    .cerrarcapa {
+      height: 50px;
+      width: 90px;
+      margin-left: 50px;
+    }
+   
+    .parte1 {
+      text-align: center;
+    }
+   
+    .carousel {
+      display: none;
+    }
+   }
+   

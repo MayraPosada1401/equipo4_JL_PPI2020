@@ -1,6 +1,6 @@
 import React from 'react';
-import Formulario from '../componentes/formulario';
-import Headercapa from '../componentes/Headercapacapacitador';
+import Formulario from '../componentes/formulariocapa';
+import Headercapa from '../componentes/Headercapa';
 
 
 function formulario() {

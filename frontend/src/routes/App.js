@@ -44,12 +44,6 @@ import Chatdecomprador1 from '../componentes/Chatdecompradro';
 import Chatdecomprador3 from '../componentes/Chat2decomprador';
 import Comprasdelcomprador from '../componentes/Comprasdelcomprador';
 import Actualizaciondedatos from '../componentes/Actualizarpaginadecomprador';
-import Iniciocapacitador from '../pages/Capacitadorpagina';
-import Perfildelcapacitador from '../pages/Perfildecapacitador';
-import conexiones from '../pages/conexiones';
-import cursodelcapacitador from '../pages/cursodelcapacitador';
-import formulariocap from '../pages/formulariocap';
-import forolisto from '../pages/forolisto';
 import Quienescomprador from '../componentes/Quienescomprador';
 import Regionesparaconocer from '../componentes/Regionestenden';
 import Regionestenden from '../componentes/Regionestenden';
@@ -59,6 +53,15 @@ import Regiones3 from '../componentes/Regiones3';
 import Regiones5 from '../componentes/Regiones5';
 import Regiones6 from '../componentes/Regiones6';
 import chat2comoprador from '../componentes/Chat2decomprador';
+import Paginadecap from '../pages/Paginadecapacitador';
+import perfilcapa from '../pages/Perfilcapa';
+import formulariocapa from '../pages/formulariocapa';
+import forolistocapa from '../pages/forolistocapa';
+import conexionescapa from '../pages/conexionescapa';
+import calendariocapa from '../pages/calendariocapa';
+import cursocapa from '../pages/cursocapa';
+import Quienescapa from '../componentes/Quienescapa';
+
 
 export default function App() {
     return (
@@ -106,12 +109,6 @@ export default function App() {
           <Route path="/chatdecompradro" component={Chatdecomprador1}/>
           <Route path="/comprasdelcomprador" component={Comprasdelcomprador}/>
           <Route path="/actualizacióndedatos" component={Actualizaciondedatos}/>
-          <Route path="/iniciocapacitador" component={Iniciocapacitador}/>
-          <Route path="/perfildelcapacitador" component={Perfildelcapacitador}/>
-          <Route path="/conexiones" component={conexiones}/>
-          <Route path="/cursodelcapacitador " component={cursodelcapacitador }/>
-          <Route path="/formulariocap" component={formulariocap}/>
-          <Route path="/forolisto" component={forolisto}/>
           <Route path="/quienescomprador" component={Quienescomprador}/>
           <Route path="/regionesparaconocer" component={Regionesparaconocer}/>
           <Route path="/regionestenden" component={Regionestenden}/>
@@ -122,7 +119,14 @@ export default function App() {
           <Route path="/regiones6" component={Regiones6}/>
           <Route path="/chatdecomorador" component={Chatdecomorador}/>
           <Route path="/chatcomoprador" component={chat2comoprador}/>
-
+          <Route path="/paginadecap" component={Paginadecap}/>
+          <Route path="/perfilcapa" component={perfilcapa}/>
+          <Route path="/formulariocapa" component={formulariocapa}/>
+          <Route path="/conexionescapa" component={conexionescapa}/>
+          <Route path="/forolistocapa" component={forolistocapa}/>
+          <Route path="/cursocapa" component={cursocapa}/>
+          <Route path="/calendariocapa" component={calendariocapa}/>
+          <Route path="/quienescapa" component={Quienescapa}/>
       </Switch>    
 
       </BrowserRouter>

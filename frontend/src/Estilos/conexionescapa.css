@@ -1,111 +1,90 @@
-.cardito {
+.eco {
     margin-bottom: initial;
     margin-left: 10x;
     width: 100%;
-    height: 3.00%;
+    height: 100%;
     display: block;
     background-color: cadetblue;
    }
    
-   .card-calendario {
+   .agrito {
     text-align: center;
     font-size: xx-large;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
    }
    
-   .cardsdelcapacitador {
-    background-color: lightblue;
-   }
-   
-   .card55 {
+   .conexion440 {
     display: inline-block;
     width: 30rem;
     background-color: cadetblue;
     margin-top: 90px;
     color: cadetblue;
     border-radius: 40px;
-    margin-left: 200px;
+    margin-left: 500px;
     margin-right: 10px;
    }
    
-   .card-titlecapacitador12 {
+   .texto {
     font-size: xx-large;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     text-align: center;
     color: cornsilk;
    }
    
-   .card-text1 {
+   .texto1 {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: black;
     text-align: center;
    }
    
-   .card-calenimg {
-    height: 500px;
-    width: 950px;
-    margin-left: 300px;
-   }
-   
-   .card-nota {
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    color: black;
-    text-align: center;
-   }
-   
-   .card-img02 {
+   .imagencita {
     height: 200px;
     width: 200px;
    }
    
-   .card-img03 {
+   .imagencita2 {
     height: 200px;
     width: 200px;
    }
    
-   .card-img04 {
+   .imagencita3 {
     height: 200px;
     width: 200px;
    }
    
-   .card-img05 {
+   .imagencita4 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .imagencita5 {
+    height: 200px;
+    width: 200px;
+   }
+   
+   .imagencita6 {
     height: 200px;
     width: 200px;
    }
    
    @media all and (max-width: 640px), (max-height: 360px) {
-    .cardito {
+    .eco {
       margin-bottom: initial;
       margin-left: 10x;
-      width: 300%;
-      height: 200%;
+      width: 160%;
+      height: 190%;
       display: block;
       background-color: cadetblue;
     }
    
-    .cardsdelcapacitador  {
-      margin-left: 100x;
-      background-color: lightblue;
-      width: 300%;
-      height: 6000%;
-    }
-   
-    .card-calendario {
+    .agrito {
       text-align: center;
       font-size: xx-large;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     }
    
-    .card-nota {
-      font-size: xx-large;
-      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      color: black;
-      text-align: center;
-    }
-   
-    .card55 {
+    .conexion440 {
       display: inline-block !important;
       margin-left: 95px;
       width: 20rem;
@@ -116,47 +95,46 @@
       margin-left: 150px;
     }
    
-    .card-titlecapacitador12 {
+    .texto {
       font-size: xx-large;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       text-align: center;
       color: cornsilk;
     }
    
-    .card-text1 {
-      font-size: large;
+    .texto1 {
+      font-size: small;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       color: black;
       text-align: end;
     }
    
-    .card-calenimg {
-      height: 400px;
-      width: 700px;
-      margin-left: 200px;
-    }
-   
-    .card-img02 {
+    .imagencita {
       height: 290px;
       width: 320px;
     }
    
-    .card-img03 {
+    .imagencita2 {
       height: 290px;
       width: 320px;
     }
    
-    .card-img04 {
+    .imagencita3 {
       height: 290px;
       width: 320px;
     }
    
-    .card-img05 {
+    .imagencita4 {
       height: 290px;
       width: 320px;
     }
    
-    .card-img06 {
+    .imagencita5 {
+      height: 290px;
+      width: 320px;
+    }
+   
+    .imagencita6 {
       height: 290px;
       width: 320px;
     }

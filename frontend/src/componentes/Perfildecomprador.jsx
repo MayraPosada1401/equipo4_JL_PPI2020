@@ -80,14 +80,14 @@ function perfil() {
   </div>
   
   <div>
-        <h1 className="component-1-text Tituloenpaginaprincipal3" >Bienvenido a tu perfil de EcoAgro</h1>
+        <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte " >Bienvenido a tu perfil de EcoAgro</h1>
         <h3 className="component-1-text social-perfil subtitulo1-perfil">Aquí te presentamos las opciones que tienes para mayor accesibilidad a contenidos de Ecoagro</h3>
         <p className="component-1-text component-text-perfil parrafo1-perfil">Para EcoAgro es un placer que pertenezcas a esta familia. Somos conocedores de la importancia de ustedes en nuestros bellos campos colombianos, su trabajo es digno de admirar y ha de ser respetado, esa lucha constante que ustedes enfrentan para nosotros en una gran batalla y son héroes a la vez de nuestro país. Queremos romper ese esquema de que para una buena economía se requiere de un intermediario y estamos agradecidos de que ya hagas parte de ese proceso.</p>
         <p className="component-1-text component-text-perfil parrafo1-perfil">En esta sección visualizaras y eligiras de acuerdo a tu necesidad las opciones de perfil. Estas opciones estan orientadas a tu bienestar y por supuesto potecializando nuestro objetivo. Te recordamos que si tienes alguna duda puedes irte a la opción de contacto e interactuar más con el grupo EcoAgro, con el fin de que obtengan un mejor servicio y te sientas comodo en el aplicativo. A continuación, se mostraran los accesos que desde tu perfil tienes disponibles</p>
       </div>
 
       <div className="found-4-perfil">
-        <h2 className="Tituloenpaginaprincipal3">Deseo Cambiar mi foto de Perfil</h2>
+        <h2 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">Deseo Cambiar mi foto de Perfil</h2>
         <h3 className="titulodato-perfil subtitulo1-perfil">Recomendaciones generales</h3>
       </div>
         <div className="part1-perfil">
@@ -119,7 +119,7 @@ function perfil() {
          </ul>
         </div>
        
-        <h3 class="Tituloenpaginaprincipal3">Mi perfil</h3>
+        <h3 class="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">Mi perfil</h3>
   <img src={usuario} alt="Responsive image" className="imageusuario"></img>
 
 
