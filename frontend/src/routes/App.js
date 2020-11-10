@@ -18,7 +18,7 @@ import ChatPerfil from '../pages/PerfilChat';
 import ChatPrincipalCampe from '../pages/ChatPrincipal';
 import ChatSecundarioCampe from '../pages/Chatsecundario';
 import ElegirCursoCampe from '../pages/Elegircurso';
-import seleccionarAlgunCurso from '../pages/seleccionaralguncurso';
+import seleccionarAlgunCurso from '../pages/Seleccionaralguncurso';
 import MaterialCursoCampe from '../pages/MaterialCursoCampe';
 import MisPedidos from '../pages/MisPedidos';
 import RegionesTendencias from '../pages/RegionesTendencias';
@@ -35,7 +35,6 @@ import App1 from '../componentes/App1';
 import Transportador from '../componentes/Transportador';
 import Quienes from '../componentes/Quienes';
 import Registro from '../componentes/Registro';
-import Mapademasvendidos from '../componentes/Mapademasvendidos';
 import Actualizarpaginadecomprador from '../componentes/Actualizarpaginadecomprador'
 import Perfildecomprador from '../componentes/Perfildecomprador';
 import Menudecomprador from '../componentes/Menudecomprador';

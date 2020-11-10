@@ -17,7 +17,7 @@ export default function InterfazSubirProducto() {
             
       <div className="Botones">
                 <div>
-                <button className="btn btn-warning btn-2-subirproducto"></button>
+                <button className="btn btn-warning btn-2-subirproducto" type="file"></button>
                 <button type="submit" className=" btn btn-outline-warning  btn2-subriproducto">Subir Imagen de Producto</button>
                 </div>   
                 <div>
@@ -74,13 +74,9 @@ export default function InterfazSubirProducto() {
                 </div>
                 <h3 className="titulobody-subirproducto among">Precio del Producto</h3>
                 <div className="form-row">
-                  <div className="form-group col-md-6">
-                    <label for="name">Ingrese precio</label>
+                  <div className="form-group col-md-12">
+                    <label for="name">Ingrese precio (Escribalo sin comas ni puntos Ej: 1200)</label>
                     <input type="text" className="form-control" id="name" placeholder="Ingreselo por libras" required/>
-                  </div>
-                  <div className="form-group col-md-6">
-                    <label for="lastName">Confirme Precio</label>
-                    <input type="text" className="form-control" id="lastName" placeholder="Ingreselo por libras" require/>
                   </div>
                 </div>
                 <div className="form-group">

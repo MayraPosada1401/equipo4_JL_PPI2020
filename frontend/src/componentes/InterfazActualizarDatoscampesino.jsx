@@ -32,38 +32,21 @@ export default function InterfazActualizarDatosCampe () {
                   <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" required/>
                 </div>
                 <div className="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Municipio de Producción</label>
+                  <div class="form-group col-md-12">
+                    <label for="name">Municipio</label>
                     <input type="text" className="form-control" id="name" required/>
-                  </div>
-                  <div className="form-group col-md-6">
-                    <label for="lastName">Rol Agrario</label>
-                    <input type="text" className="form-control" id="lastName" require/>
                   </div>
                 </div>
                 <div className="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Tiempo de experiencia</label>
-                    <input type="text" className="form-control" id="name" placeholder="Ingreselo en años" required/>
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <label for="validationDefault04">Frecuencia de Producción</label>
-                    <select class="custom-select" id="validationDefault04" required>
-                    <option selected disabled value="">Seleccione</option>
-                    <option>Alta Producción</option>
-                    <option>Media Producción</option>
-                    <option>Baja Producción</option>
-                    </select>
+                  <div class="form-group col-md-12">
+                    <label for="name">Contacto Telefónico</label>
+                    <input type="text" className="form-control" id="name" required/>
                   </div>
                 </div>
                 <h3 className="titulobody among-actualizardatoscampe">Cambio de Contraseña</h3>
                 <div className="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Contraseña Anterior</label>
-                    <input type="text" className="form-control" id="name" required/>
-                  </div>
-                  <div className="form-group col-md-6">
-                    <label for="lastName">Nueva Contraseña</label>
+                  <div className="form-group col-md-12">
+                    <label for="lastName">Ingrese Nueva Contraseña</label>
                     <input type="text" className="form-control" id="lastName" require/>
                   </div>
                 </div>

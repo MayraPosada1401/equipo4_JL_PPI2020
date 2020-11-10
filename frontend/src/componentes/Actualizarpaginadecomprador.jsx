@@ -84,62 +84,46 @@ function actualiza() {
 
   <h3 class="Tituloenpaginaprincipal3">Actualización de datos</h3>
 
-<form className=" datosactualizados col-12 col-md-5">
-<div className="form-row">
-  <div class="form-group col-md-6">
-    <label for="name">Nombres</label>
-    <input type="text" className="form-control" id="name" required/>
-  </div>
-  <div className="form-group col-md-6">
-    <label for="lastName">Apellidos</label>
-    <input type="text" className="form-control" id="lastName" require/>
-  </div>
-</div>
-<div className="form-group">
-  <label for="inputEmail">Email</label>
-  <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" required/>
-</div>
-<div className="form-row">
-  <div class="form-group col-md-6">
-    <label for="name">Teléfono</label>
-    <input type="text" className="form-control" id="name" required/>
-  </div>
-  <div className="form-group col-md-6">
-    <label for="lastName">Municipio de compra</label>
-    <input type="text" className="form-control" id="lastName" require/>
-  </div>
-</div>
-<div className="form-row">
-  <div class="form-group col-md-6">
-    <label for="name">Tiempo de comprador</label>
-    <input type="text" className="form-control" id="name" placeholder="Ingreselo en años" required/>
-  </div>
-  <div class="col-md-6 mb-3">
-    <label for="validationDefault04">Frecuencia de compra</label>
-    <select class="custom-select" id="validationDefault04" required>
-    <option selected disabled value="">Seleccione</option>
-    <option>Alta </option>
-    <option>Media</option>
-    <option>Baja</option>
-    </select>
-  </div>
-</div>
-<h3 className="titulocontraseña">Cambio de Contraseña</h3>
-<div className="form-row">
-  <div class="form-group col-md-6">
-    <label for="name">Contraseña Anterior</label>
-    <input type="text" className="form-control" id="name" required/>
-  </div>
-  <div className="form-group col-md-6">
-    <label for="lastName">Nueva Contraseña</label>
-    <input type="text" className="form-control" id="lastName" require/>
-  </div>
-</div>
+  <form className=" form-actualizardatoscampe col-12 col-md-5">
+                <div className="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Nombres</label>
+                    <input type="text" className="form-control" id="name" required/>
+                  </div>
+                  <div className="form-group col-md-6">
+                    <label for="lastName">Apellidos</label>
+                    <input type="text" className="form-control" id="lastName" require/>
+                  </div>
+                </div>
+                <div className="form-group">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" required/>
+                </div>
+                <div className="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="name">Municipio</label>
+                    <input type="text" className="form-control" id="name" required/>
+                  </div>
+                </div>
+                <div className="form-row">
+                  <div class="form-group col-md-12">
+                    <label for="name">Contacto Telefónico</label>
+                    <input type="text" className="form-control" id="name" required/>
+                  </div>
+                </div>
+                <h3 className="titulobody among-actualizardatoscampe">Cambio de Contraseña</h3>
+                <div className="form-row">
+                  <div className="form-group col-md-12">
+                    <label for="lastName">Ingrese Nueva Contraseña</label>
+                    <input type="text" className="form-control" id="lastName" require/>
+                  </div>
+                </div>
+                
+                <div class="text-center btnalinearenelcentrocontenedor-botonconfirmaractucampe">
+                    <button type="submit" class=" btn btn-info text-white col-12 btnalinearenelcentrocontenedor-botonconfirmaractucampe">Confirmar</button>
+                </div>
+            </form>
 
-<div class="text-center">
-    <button type="submit" class=" btn btn-info text-white col-12">Confirmar</button>
-</div>
-</form>
 </div>
 
   );
