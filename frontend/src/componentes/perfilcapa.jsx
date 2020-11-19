@@ -57,7 +57,7 @@ export default function perfil() {
                  de la region a la cual perteneces y das los curss y tambiien
                  el tiempo de ser capacitador.
                </p>
-               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Ir aver</h1></button>
+               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Actualizar Datos</h1></button>
              </div>
            </div>
          </div>
@@ -76,64 +76,7 @@ export default function perfil() {
                  recursos audiovisuales que le ayudara a tus estudiantes en
                  cada curso.
                </p>
-               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Ir aver</h1></button>
-             </div>
-           </div>
-         </div>
-       </div>
-
-       <div className="corte20 mb-5">
-         <div className="row no-gutters">
-           <div className="col-md-4">
-             <img src={crearforo} className="perfil00" />
-           </div>
-           <div className="col-md-8">
-             <div className="nana">
-               <h3 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">CREAR FORO</h3>
-               <p className="ñaña1">
-                 Aqui podras crear tus foros el dia que puedas al igual que la
-                 hora y crear otros para otras ocasiones para que tus
-                 estudiantes esten pendientes de todos los materiales y lo
-                 hablado.
-               </p>
-               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Ir aver</h1></button>
-             </div>
-           </div>
-         </div>
-       </div>
-
-       <div className="corte20 mb-5">
-         <div className="row no-gutters">
-           <div className="col-md-4">
-             <img src={verforoanterior} className="perfil00" />
-           </div>
-           <div className="col-md-8">
-             <div className="nana">
-               <h3 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">VER FOROS ANTERIORES</h3>
-               <p className="ñaña1">
-                 Aqui podras ver las conversaciones antiguas, que has tendo con
-                 tus estudiantes.
-               </p>
-               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Ir aver</h1></button>
-             </div>
-           </div>
-         </div>
-       </div>
-
-       <div className="corte201 mb-5">
-         <div className="row no-gutters">
-           <div className="col-md-4">
-             <img src={misvaloraciones} className="perfil00" />
-           </div>
-           <div className="col-md-8">
-             <div className="nana">
-               <h3 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">MIS VALORACIONES</h3>
-               <p className="ñaña1">
-                 Aqui podras ver las valoraciones que tienen todos tus cursos,
-                 al igual que las reseñas que dejan los participantes de los
-                 mismos(cursos).
-               </p>
-               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Ir aver</h1></button>
+               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Subir Curso</h1></button>
              </div>
            </div>
          </div>

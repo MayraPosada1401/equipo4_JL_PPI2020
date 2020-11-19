@@ -83,29 +83,37 @@ function Transportador() {
   <form>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
+      <label for="inputEmail4">Nombre</label>
       <input type="email" class="form-control" id="inputEmail4"/>
     </div>
     <div class="form-group col-md-6">
-      <label for="inputPassword4">Contraseña</label>
+      <label for="inputPassword4">Apellido</label>
       <input type="password" class="form-control" id="inputPassword4"/>
     </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">Usuario</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Nombre de pila"/>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Dirección</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Casa, apartamento..."/>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nombre de Usuario</label>
+      <input type="email" class="form-control" id="inputEmail4"/>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Email</label>
+      <input type="password" class="form-control" id="inputPassword4"/>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Contraseña</label>
+      <input type="email" class="form-control" id="inputEmail4"/>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Confirme Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword4"/>
+    </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">Departamento</label>
       <input type="text" class="form-control" id="inputCity"/>
     </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">Pais</label>
+    <div class="form-group col-md-2">
+      <label for="inputState">Elija su tipo de usuario</label>
       <select id="inputState" class="form-control">
         <option selected>Tipo de usuario</option>
         <option>Campesino</option>
@@ -114,8 +122,17 @@ function Transportador() {
       </select>
     </div>
     <div class="form-group col-md-2">
-      <label for="inputZip">Contacto</label>
+      <label for="inputZip">Estrato</label>
       <input type="text" class="form-control" id="inputZip"/>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Género</label>
+      <select id="inputState" class="form-control">
+        <option selected>Género</option>
+        <option>Femenino</option>
+        <option>Masculino</option>
+        <option>No especificado</option>
+      </select>
     </div>
   </div>
   <div class="form-group">

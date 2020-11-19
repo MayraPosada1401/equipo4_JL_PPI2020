@@ -8,7 +8,6 @@
     background-color: aqua;
    }
    .centroooo{
-     margin-left: 45%;
      color: white;
    }
    .cursossubir {
@@ -30,7 +29,16 @@
     text-align: center;
     color: black;
    }
-   
+   .form-cursocapa{
+     margin: auto;
+     padding-top: 30px;
+   }
+   .parrafo1-cursocapa{
+     font-family: 'Times New Roman', Times, serif;
+     padding: 10px 100px 10px 100px;
+     text-align: center;
+     font-size: 20px;
+   }
    
    @media all and (max-width: 640px), (max-height: 360px) {
     .cuadro {
@@ -65,6 +73,15 @@
       text-align: center;
       color: black;
       width: 65rem;
+    }
+    .parrafo1-cursocapa{
+      font-family: 'Times New Roman', Times, serif;
+      padding: 10px 10px 20px 10px;
+      text-align: justify;
+      font-size: 18px;
+    }
+    .contenedor-titulo-cursocapa{
+      margin-top: 20px;
     }
    }
    
