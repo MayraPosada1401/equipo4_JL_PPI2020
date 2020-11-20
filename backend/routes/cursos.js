@@ -1,0 +1,49 @@
+const express = require('express');
+const router = express.Router();
+const mysqlConnection  = require('../db/db');
+
+router.get('/cursos', (req, res) => {
+     
+  mysqlConnection.query('SELECT * FROM subir_curso', (err, rows, fields) => {
+      if (!err) {
+        res.json(rows);
+      } else {
+        console.log(err);
+      }
+    });
+  });
+
+
+//METODO POST - PARA INSERTAR
+  router.post('/nuevocurso',(req,res)=>{
+  
+  const {nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos} = req.body;
+  let todoslosCursos = [nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos];
+
+  let nuevoCurso = `INSERT INTO subir_curso(nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos) VALUES(?,?,?,?,?,?)`;
+  mysqlConnection.query(nuevoCurso, todoslosCursos, (err, results,
+    fields) => {
+    if (err) {
+      return console.error(err.message);
+    }
+    res.json({ message:`Curso Creado`, })
+    });
+  }); 
+
+
+//METODO PUT - PARA ACTUALIZAR UN SOLO REGISTRO X ID
+   router.put('/cursos/:id', (req, res) => {
+    const {nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos} = req.body;
+    const { id } = req.params;
+    mysqlConnection.query(`UPDATE subir_curso SET nombre_curso = ?,descripcion_inicial = ?,informacion_curso = ?,fecha_curso = ?,dato_curioso = ?,links_externos = ? WHERE id = ?`, 
+    [nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos, id], (err, rows, fields) => {
+      if(!err) {
+        res.json({status: 'Curso actualizado'});
+      } else {
+        console.log(err);
+      }
+    });
+  });
+
+
+module.exports = router;
