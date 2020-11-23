@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 function compra() {
   return (
-    <div className="compra FONDO">
+    <div className="fondopanvalor">
       
       <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
