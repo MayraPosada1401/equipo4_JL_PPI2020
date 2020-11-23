@@ -13,23 +13,4 @@ router.get('/facturas', (req, res) => {
     });
   });
 
-
-/*
-  //METODO POST - PARA INSERTAR
-  router.post('/nuevafactura',(req,res)=>{
-  
-  const {fecha_aprox_entrega, precio, id_usuarios} = req.body;
-  let todoslosProductos = [];
-
-  let nuevoProducto = `INSERT INTO factura_pedido() VALUES(?,?,?,?,?,?)`;
-  mysqlConnection.query(nuevoProducto, todoslosProductos, (err, results,
-    fields) => {
-    if (err) {
-      return console.error(err.message);
-    }
-    res.json({ message:`Nuevo Producto`, })
-    });
-  }); 
-*/  
-
 module.exports = router;
