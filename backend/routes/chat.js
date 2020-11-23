@@ -3,7 +3,7 @@ const router = express.Router();
 
 const mysqlConnection = require ('../db/db');
 
-
+// METODO GET - Para el despliegue de las conversaciones y dialogos anteriores
 router.get('/conversaciones', (req, res) => {
      
   mysqlConnection.query('SELECT * FROM chat ', (err, rows, fields) => {
@@ -15,8 +15,7 @@ router.get('/conversaciones', (req, res) => {
     });
   });
 
-
-
+// METODO POST - Para iniciar un nuevo dialogo, mensaje
 router.post('/nuevaconversacion',(req,res)=>{
 
 const {conversacion} = req.body;

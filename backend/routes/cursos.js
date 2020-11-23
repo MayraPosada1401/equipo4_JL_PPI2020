@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mysqlConnection  = require('../db/db');
 
+//METODO GET - Para el despliegue de los cursos
 router.get('/cursos', (req, res) => {
      
   mysqlConnection.query('SELECT * FROM subir_curso', (err, rows, fields) => {
@@ -14,8 +15,8 @@ router.get('/cursos', (req, res) => {
   });
 
 
-//METODO POST - PARA INSERTAR
-  router.post('/nuevocurso',(req,res)=>{
+//METODO POST - Para crear un nuevo curso
+router.post('/nuevocurso',(req,res)=>{
   
   const {nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos} = req.body;
   let todoslosCursos = [nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos];
@@ -31,7 +32,7 @@ router.get('/cursos', (req, res) => {
   }); 
 
 
-//METODO PUT - PARA ACTUALIZAR UN SOLO REGISTRO X ID
+//METODO PUT - Para actualizar contenidos del curso
    router.put('/cursos/:id', (req, res) => {
     const {nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos} = req.body;
     const { id } = req.params;

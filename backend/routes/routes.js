@@ -3,10 +3,10 @@ const router = express.Router();
 
 const mysqlConnection = require ('../db/db');
 
-
-router.get('/usuarios', (req, res) => {
+//METODO GET - Despliegue de todos los usuarios
+router.get('/registros', (req, res) => {
      
-  mysqlConnection.query('SELECT * FROM registro ', (err, rows, fields) => {
+  mysqlConnection.query('SELECT * FROM usuarios ', (err, rows, fields) => {
       if (!err) {
         res.json(rows);
       } else {
@@ -15,16 +15,28 @@ router.get('/usuarios', (req, res) => {
     });
   });
 
+//METODO GET - Para el login, según el tipo de usuario
+router.get('/registros/:tipo_usuario', (req, res) => {
+  const { tipo_usuario } = req.params; 
+  mysqlConnection.query('SELECT * FROM usuarios WHERE tipo_usuario = ?', [tipo_usuario],
+  (err, rows, fields) => {
+    if (!err) {
+      res.json(rows);
+    } else {
+      console.log(err);
+    }
+  });
+});
 
+//METODO POST - Un nuevo registro de usuarios en el aplicativo web
+router.post('/ingresonuevoregistro',(req,res)=>{
 
-router.post('/ingresonuevousuario',(req,res)=>{
+const {nombre, apellido, usuario, email, contraseña, confirmar_contraseña, departamento, tipo_usuario, estrato, genero} = req.body;
 
-const {nombre,apellido,usuario,email,contraseña,municipio,rol_agrario,telefono,id_usuarios} = req.body;
+let nRegistro = [nombre, apellido, usuario, email, contraseña, confirmar_contraseña, departamento, tipo_usuario, estrato, genero];
 
-let nRegistro = [nombre,apellido,usuario,email,contraseña,municipio,rol_agrario,telefono,id_usuarios];
-
-let nuevoRegistro = `INSERT INTO registro (nombre,apellido,usuario,email,contraseña,municipio,rol_agrario,telefono,id_usuarios)
-                  VALUES(?,?,?,?,?,?,?,?,?)`;
+let nuevoRegistro = `INSERT INTO usuarios (nombre, apellido,usuario, email, contraseña, confirmar_contraseña, departamento, tipo_usuario, estrato, genero)
+                  VALUES(?,?,?,?,?,?,?,?,?,?)`;
 mysqlConnection.query(nuevoRegistro, nRegistro, (err, results, fields) => {
   if (err) {
     return console.error(err.message);
@@ -33,18 +45,18 @@ mysqlConnection.query(nuevoRegistro, nRegistro, (err, results, fields) => {
   });
 }); 
 
-/*
-router.put('/usuarios/:id', (req, res) => {
-  const {nombre,apellido,usuario,email,contraseña,municipio,rol_agrario,telefono,id_usuarios} = req.body;
+//METODO PUT - Para la actualización de datos de los usuarios
+router.put('/registros/:id_registro', (req, res) => {
+  const {nombre, apellido,usuario, email, contraseña, confirmar_contraseña, departamento, estrato} = req.body;
 
 
-  const { id } = req.params;
+  const { id_registro } = req.params;
 
 
-  mysqlConnection.query(`UPDATE registro SET nombre = ?,apellido = ?,usuario = ?,email = ?,contraseña = ?,municipio = ?,rol_agrario = ?,telefono = ?, WHERE id_usuarios= ?`, 
+  mysqlConnection.query(`UPDATE usuarios SET nombre= ?, apellido= ?, usuario=?, email=?, contraseña=?, confirmar_contraseña=?, departamento=?, estrato=?`, 
 
   
-  [nombre,apellido,usuario,email,contraseña,municipio,rol_agrario,telefono,id_usuarios], (err, rows, fields) => {
+  [nombre, apellido,usuario, email, contraseña, confirmar_contraseña, departamento, estrato, id_registro], (err, rows, fields) => {
     if(!err) {
       res.json({status: 'Usuario actualizado'});
     } else {
@@ -52,7 +64,6 @@ router.put('/usuarios/:id', (req, res) => {
     }
   });
 });
-*/
 
 
 module.exports = router;

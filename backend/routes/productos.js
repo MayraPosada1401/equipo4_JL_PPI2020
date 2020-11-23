@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const mysqlConnection  = require('../db/db');
 
+//METODO GET - Para el despliegue de todos los productos subidos por el campesino
 router.get('/productos', (req, res) => {
      
   mysqlConnection.query('SELECT * FROM subir_producto ', (err, rows, fields) => {
@@ -13,8 +14,8 @@ router.get('/productos', (req, res) => {
     });
   });
 
-  //METODO POST - PARA INSERTAR
-  router.post('/nuevoproducto',(req,res)=>{
+//METODO POST - Para ingresar un nuevo producto por parte del campesino
+router.post('/nuevoproducto',(req,res)=>{
   
   const {nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,descripcion_precio} = req.body;
   let todoslosProductos = [nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,descripcion_precio];

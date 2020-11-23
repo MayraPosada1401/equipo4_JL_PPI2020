@@ -3,7 +3,7 @@ const router = express.Router();
 
 const mysqlConnection = require ('../db/db');
 
-
+//METODO GET - Para despliegue de los datos ingresados para generación de la factura
 router.get('/datosparalacompra', (req, res) => {
      
   mysqlConnection.query('SELECT * FROM datos_compra ', (err, rows, fields) => {
@@ -16,7 +16,7 @@ router.get('/datosparalacompra', (req, res) => {
   });
 
 
-
+//METODO POST - Para un nuevo ingreso de datos para la compra y facturación de un producto
 router.post('/nuevacompra',(req,res)=>{
 
 const {departamento, municipio, direccion, cedula, telefono} = req.body;
