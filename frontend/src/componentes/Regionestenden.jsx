@@ -17,7 +17,7 @@ import comprador3 from '../Imagenes/comprador3.png';
 function Regionestenden() {
 
     return (
-      <div className="App">
+      <div className="fonditodefrutas123">
         <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>

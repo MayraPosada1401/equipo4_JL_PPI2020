@@ -1,5 +1,5 @@
 .Fondodequienes{
-    background-image: url(https://cdnb.artstation.com/p/assets/images/images/008/422/319/large/sylvain-sarrailh-sauvieartstation.jpg?1512658121);
+    background-image: url(https://cdn.dribbble.com/users/3639405/screenshots/9090720/media/c0b978441263a0130c6eedfc04512bfb.jpg);
 }
 .parrafocitoquien{
     background-color: #028590 ;
@@ -25,6 +25,32 @@
     margin: 2%;
     margin-left: 46%;
 }
+.Distanciasdecuadro{
+    margin:12%;
+ 
+}
+.colordeletra{
+    background-color: #5DADE2 
+    ;
+    color: white;
+    font-size: 24px;
+}
+.backgroundinicio22{
+    
+    border: 10px solid #88CBF7 ;
+    background: linear-gradient(90deg,  #5DADE2  , #3FB7C1);
+ background-color: #3FB7C1 ;
+    background-blend-mode: normal;
+margin-left: 18%;
+filter:darken;
+border-radius: 40px;
+width: 900px;
+height: 500px;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 80px;
+
+}
 @media all and (max-width: 640px), (max-height: 360px){
     .Contenedorparacambiarancho{
         margin-left: 3%;
@@ -33,5 +59,22 @@
         text-align: center;
         margin: 2%;
         margin-left: 32%;
+    }
+    .backgroundinicio22{
+    
+        border: 10px solid #88CBF7 ;
+        background: linear-gradient(90deg,  #5DADE2  , #3FB7C1);
+     background-color: #3FB7C1 ;
+        background-blend-mode: normal;
+        margin-top: 9%;
+    margin-left: 9%;
+    filter:darken;
+    border-radius: 40px;
+    width: 300px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
     }
 }

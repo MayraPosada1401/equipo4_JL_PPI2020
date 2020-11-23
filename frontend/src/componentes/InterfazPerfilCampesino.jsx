@@ -62,7 +62,7 @@ export default function InterfazPerfilcampesino() {
                 <h5 className="card-title-perfil">Actualizar Datos</h5>
                 <p className="card-text-perfil">Aquí podras hacer cambios y estar en constante actualización de tu información para un mejor servicio</p>
                 <Link to="/actualizarcampesino">
-                <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Actualizar Datos</button>
+                <button type="button" class="btn btn-outline-light btn3-perfil">Actualizar Datos</button>
                 </Link>
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function InterfazPerfilcampesino() {
                 <h5 className="card-title-perfil">Deseo Subir un producto</h5>
                 <p className="card-text-perfil">Aquí podras montar la información del producto que deseas vender para que sea vista por el público</p>
                 <Link to="/subirproducto">
-                <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Subir Producto</button>
+                <button type="button" class="btn btn-outline-light btn3-perfil">Subir Producto</button>
                 </Link>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function InterfazPerfilcampesino() {
                 <h5 className="card-title-perfil">Mis ofertas por compradores</h5>
                 <p className="card-text-perfil">Aquí visualizaras las ofertas economicas ofrecidas de diversos compradores por tu producto</p>
                 <Link to="/ofertas">
-                <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Ver Mis Ofertas</button>
+                <button type="button" class="btn btn-outline-light btn3-perfil">Ver Mis Ofertas</button>
                 </Link>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function InterfazPerfilcampesino() {
                 <h5 className="card-title-perfil">Mis Cursos</h5>
                 <p className="card-text-perfil">Aquí visualizaras los cursos que habías seleccionado previamente, para que accedas de nuevo a cada uno de los contenidos ofrecidos.</p>
                 <Link to="/cursos">
-                <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Mis cursos</button>
+                <button type="button" class="btn btn-outline-light btn3-perfil">Mis cursos</button>
                 </Link>      
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function InterfazPerfilcampesino() {
                 <h5 className="card-title-perfil">Mi chat</h5>
                 <p className="card-text-perfil">Aquí visualizaras las diferentes conversaciones con algunos compradores para establecer precios a pagar por tus productos. Igualmente puedes confirmar precios finales</p>
                 <Link to="/chatcampesino">
-                <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Ver Chat</button>
+                <button type="button" class="btn btn-outline-light btn3-perfil">Ver Chat</button>
                 </Link>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function InterfazPerfilcampesino() {
                 <h5 className="card-title-perfil">Mis pedidos</h5>
                 <p className="card-text-perfil">Aquí visualizaras el estado de pedidos pendientes y ordenados por los diferentes compradores. Tendras la información específica de ellos y los detalles de envio.</p>
                 <Link to="/mispedidos">
-                <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Ver Pedidos</button>
+                <button type="button" class="btn btn-outline-light btn3-perfil">Ver Pedidos</button>
                 </Link>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function InterfazPerfilcampesino() {
                 <h5 className="card-title-perfil">Mis Valoraciones</h5>
                 <p className="card-text-perfil">Aquí visualizaras las valoraciones ofrecidas por los compradores, para que estes informado de las diversas opiniones respecto a tu servicio.</p>
                 <Link to="/misvaloracionescampesino">
-                <button type="button" class="btn btn-outline-warning btn-info btn3-perfil">Ver mis valoraciones</button>
+                <button type="button" class="btn btn-outline-light btn3-perfil">Ver mis valoraciones</button>
                 </Link>
               </div>
             </div>

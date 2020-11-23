@@ -104,6 +104,15 @@
         background-color:  #5DBEC1 ;
         background-size:100% 100%;   
       }
+      .Cards1pantalladevalor22{
+        background-repeat: no-repeat;
+        margin: auto;
+        box-sizing: border-box 2px;
+        padding: 40px;
+        margin-bottom:106px;
+        background-size:100% 100%;   
+        background-image: url(https://cdn.dribbble.com/users/3639405/screenshots/9090720/media/c0b978441263a0130c6eedfc04512bfb.jpg);
+      }
       .ESTILO12{
         font-size: 52px;
         font-family: monospace, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -150,6 +159,15 @@
             margin: 60px;
             border-radius: 40px;
           }
+          .card0pantalladevalor21{
+            display: inline-block !important;
+            margin: 5%;
+            width: 33rem;  
+            background-color: white ;
+            color:#85C1E9 ;
+            margin: 60px;
+            border-radius: 40px;
+          }
   .ContenedorPAGINADEVALOR{
     background-color: #6DD4D8;
   }
@@ -164,20 +182,20 @@
     background-color: transparent;
   }
   .fondopanvalor{
-    background-image: url(https://as1.ftcdn.net/jpg/00/79/92/36/500_F_79923646_y5Nu3OQSsiN7cu9818nLS0guVxRPXeEL.jpg);
+    background-color: #5DADE2 ;
   }
   .Noticias{
-    background-image: url(https://as1.ftcdn.net/jpg/00/79/92/36/500_F_79923646_y5Nu3OQSsiN7cu9818nLS0guVxRPXeEL.jpg);
+    background-color: #5DADE2 ;
   }
   .Titulocompradorterceraparte{
     font-style: bold;
     font-size:48px;
     text-align: center;
-    color: white;
+    color: #5DADE2 ;
  
 }
 .bg-whiteverdecitovalor{
-  background-color: #6DD4D8  ;
+  background-color:white;
 }
 .img-iconoheadercampe{
   height:80px;
@@ -198,6 +216,9 @@
 }
 .nav-item2 {
   padding: 10px 0px 10px 0px;
+}
+.centraddooo{
+  margin-left: 42%;
 }
 @media all and (max-width: 640px), (max-height: 360px){
 
@@ -258,5 +279,16 @@
   background-color:  #5DBEC1 ;
   background-size:auto;   
 }
-
+.Cards1pantalladevalor22{
+  background-repeat: no-repeat;
+  margin:auto;
+  box-sizing: border-box 2px;
+  padding: 20px;
+  margin-bottom:106px;
+  background-color:  #5DBEC1 ;
+  background-size:auto;   
+}
+.centraddooo{
+  margin-left: 35%;
+}
 }

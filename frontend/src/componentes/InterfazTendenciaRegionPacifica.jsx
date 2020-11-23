@@ -7,7 +7,7 @@ import FRUTA2 from '../Imagenes/Fruta2.png';
 export default  function InterfazTendenciaRegionPacifica() {
 
     return (
-      <div className="App fonditodefrutas">
+      <div className="fonditodefrutas123">
 
         <br/>
         <br/>
@@ -20,8 +20,9 @@ export default  function InterfazTendenciaRegionPacifica() {
           </div>
 
         <div className="Contenedorparatodacarddes1">
-        <div className="Regionpequeñadescripcion letradetendenciaregióncaribe-info">Amazonas es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Leticia. Está ubicado en el extremo sur del país, en gran parte al sur de la línea ecuatorial, en la región Amazonia. Limita al norte con Caquetá y Vaupés, al este con Brasil, al sur con Perú y al oeste con Putumayo. Con 110 000 km² es el departamento más extenso, con unos 75.000 habitantes en 2015, el cuarto menos poblado —por delante de Vichada, Vaupés y Guainía, el menos poblado— y con 0,68 hab/km², el tercero menos densamente poblado, por delante de Vichada y Guainía, el menos densamente poblado.
-        Se compone en su totalidad de territorio de la Selva Amazónica. La porción meridional del departamento, al sur del río Putumayo, se denomina "Trapecio amazónico", el cual incluye la triple frontera de Colombia, Perú y Brasil, y su límite sur es el río Amazonas.</div>
+        <div className="Regionpequeñadescripcion letradetendenciaregióncaribe-info">La región del Pacífico1​ es una de las seis regiones naturales de Colombia. Comprende casi la totalidad del departamento del Chocó, y las zonas costeras de los departamentos del Valle del Cauca, Cauca y Nariño.
+
+Está ubicada en la franja oeste del país, limitando al norte con Panamá, al noreste con la región Caribe, al este con la cordillera Occidental que la separa de la región andina, al sur con Ecuador y al oeste con el océano Pacífico, de donde toma su nombre. Hace parte del Chocó biogeográfico y está dividida en dos grandes zonas marcadas por el cabo Corrientes. Las principales ciudades son Buenaventura, Tumaco y Quibdó. En ella se desarrolló la cultura Tumaco-La Tolita.</div>
         <a>
           <button type="button" className="unicoestilodespleg Radiobotonmasvendido2 tipodeletraboton-tendenciaderegiones regionpacifica-margin-boton-tendencias-responsive rounded-circle" data-toggle="modal" data-target="#staticBackdrop">Tendencias</button>
         </a>

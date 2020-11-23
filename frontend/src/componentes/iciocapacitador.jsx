@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 
 function iniciocapa(){
  return(
-<div >
+<div className="dofienaos">
 
  <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">Bienvenidos a Ecoagro</h1>
  <h3 className=" p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte triiiii ">"Somos el enlace directo ente el campesino y el comprador"</h3>

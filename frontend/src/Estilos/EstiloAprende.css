@@ -14,7 +14,7 @@
   }
 .tituloaprende{
 
-    color: #0AA4CA ;
+    color: #85C1E9 ;
 }
   /*Titulo aquí te presentamos...*/
 .social-aprende{
@@ -95,7 +95,7 @@
 }
 /*Fondo del contenedor Mis opciones de Aprendizaje*/
 .found-4-aprende{
-    background-color: #C2F1FC ;
+    background-color: #85C1E9 ;
     margin-top: 100px;
 }
 /*Medidas de las imagenes de las card*/
@@ -112,9 +112,9 @@
     display: inline-block !important;
     margin-left: 95px;
     width: 33rem;  
-    background-color: #189DAD  ;
+    background-color: #85C1E9 ;
     margin-top: 30px;
-    color: #8DF1FC    ;
+    color: white;
     border-radius: 40px;
 }
 .card-edit-position{
@@ -193,7 +193,7 @@
         text-align: justify;
     }
     .found-4-aprende{
-        background-color: #C2F1FC ;
+        background-color: #85C1E9 ;
         margin-top: 50px;
     }
 }

@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 function App1() {
 
     return (
-      <div className="App fondopanvalor">
+      <div className="fondopanvalor">
      <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
@@ -92,65 +92,153 @@ function App1() {
 <h1 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">A continuación te mostraremos los productos que estan en mayor tendencia</h1></div>
   <div  className="UBICACION ">
         
-        <div className="card0pantalladevalor mb-5 " >
-          <div className="row no-gutters">
-            <div className="col-md-8 tamaño">
-              <img src={FRUTA2} className="elcompa" alt="Responsive image" />
-            </div>
-            <div className="col-md-4">
-              <div className="card-body">
-                <h5 className="card-title">Pitaya</h5>
-                <p className="card-text pnatlladeproductosvalor">Producto proveniente d enuestra Región Amazonica</p>
-                <p className="card-text pnatlladeproductosvalor"><Link to="/compradormapa"><button type="button" className="btn btn-inf btn btn-outline-warning">Más info</button></Link></p>
-              </div>
-            </div>
-          </div>
-        </div>
+      
 
-        <div className="card0pantalladevalor mb-5" >
-          <div className="row no-gutters">
-            <div className="col-md-8 tamaño">
-              <img src={FRUTA1} className="elcompa" alt="Responsive image" />
-            </div>
-            <div className="col-md-4">
-              <div className="card-body">
-                <h5 className="card-title">Durazno</h5>
-                <p className="card-text pnatlladeproductosvalor">Producto procediente de nuestro Eje Cafetero Colombiano</p>
-                <p className="card-text pnatlladeproductosvalor"><Link to="/compradormapa"><button type="button" className="btn btn-inf btn btn-outline-warning">Más info</button></Link></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="card0pantalladevalor mb-5 " >
-          <div className="row no-gutters">
-            <div className="col-md-8 tamaño">
-              <img src={raradelcomprador1} className="elcompa" alt="Responsive image" />
-            </div>
-            <div className="col-md-4">
-              <div className="card-body">
-                <h5 className="card-title">Pitaya</h5>
-                <p className="card-text pnatlladeproductosvalor">Producto proveniente d enuestra Región Amazonica</p>
-                <p className="card-text pnatlladeproductosvalor"><Link to="/compradormapa"><button type="button" className="btn btn-inf btn btn-outline-warning">Más info</button></Link></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="card0pantalladevalor mb-5 " >
-          <div className="row no-gutters">
-            <div className="col-md-8 tamaño">
-              <img src={raradelcomprador} className="elcompa" alt="Responsive image" />
-            </div>
-            <div className="col-md-4">
-              <div className="card-body">
-                <h5 className="card-title">Pitaya</h5>
-                <p className="card-text pnatlladeproductosvalor">Producto proveniente d enuestra Región Amazonica</p>
-                <p className="card-text pnatlladeproductosvalor"><Link to="/compradormapa"><button type="button" className="btn btn-inf btn btn-outline-warning">Más info</button></Link></p>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div className="Cardsespecialdeinciopaginap Appscolodefondodeneil">
 
-<div className="Cards1pantalladevalor">
+        <section class="wrapper">
+
+<nav class="menu">
+  <ul class="menu__list">
+   
+  </ul>
+</nav>
+
+<div class="carditonsten card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src={FRUTA2} alt="Short description"/>
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Pera</h3>
+    <p class="card__job">Somos el enlace directo entre campesino y comprador.</p>
+    <p class="card__bio">Producto proveniente d enuestra Región Amazonica</p>
+  </div>
+  <div class="card__footer">
+    <p class="card__date">Feb 10 2018</p>
+    <p class=""></p>
+  </div>
+</div>
+
+
+</section>
+<section class="wrapper">
+
+<nav class="menu">
+<ul class="menu__list">
+ 
+</ul>
+</nav>
+
+<div class="carditonsten card" data-effect="zoom">
+<button class="card__save  js-save" type="button">
+  <i class="fa  fa-bookmark"></i>
+ </button>
+<figure  class="card__image">
+  <img src={FRUTA1} alt="Short description"/>
+</figure>
+<div class="card__header">
+  <figure class="card__profile">
+    <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+  </figure>
+</div>
+<div class="card__body">
+  <h3 class="card__name">Pitaya</h3>
+  <p class="card__job">Somos el enlace directo entre campesino y comprador.</p>
+  <p class="card__bio">Producto procediente de nuestro Eje Cafetero Colombiano</p>
+</div>
+<div class="card__footer">
+  <p class="card__date">Feb 10 2018</p>
+  <p class=""></p>
+</div>
+</div>
+
+
+</section>
+
+<section class="wrapper">
+
+<nav class="menu">
+<ul class="menu__list">
+ 
+</ul>
+</nav>
+
+<div class="carditonsten card" data-effect="zoom">
+<button class="card__save  js-save" type="button">
+  <i class="fa  fa-bookmark"></i>
+ </button>
+<figure  class="card__image">
+  <img src={raradelcomprador1} class="card-img-top Topuncioocparacomprador" alt="Short description"/>
+</figure>
+<div class="card__header">
+  <figure class="card__profile">
+    <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+  </figure>
+</div>
+<div class="card__body">
+  <h3 class="card__name">Guanabana</h3>
+  <p class="card__job">Somos el enlace directo entre campesino y comprador.</p>
+  <p class="card__bio">Producto proveniente d enuestra Región Amazonica</p>
+</div>
+<div class="card__footer">
+  <p class="card__date">Feb 10 2018</p>
+  <p class=""></p>
+</div>
+</div>
+
+
+</section>
+
+<section class="wrapper">
+
+<nav class="menu">
+<ul class="menu__list">
+ 
+</ul>
+</nav>
+
+<div class="carditonsten card" data-effect="zoom">
+<button class="card__save  js-save" type="button">
+  <i class="fa  fa-bookmark"></i>
+ </button>
+<figure  class="card__image">
+  <img src={raradelcomprador} alt="Short description"/>
+</figure>
+<div class="card__header">
+  <figure class="card__profile">
+    <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+  </figure>
+</div>
+<div class="card__body">
+  <h3 class="card__name">Guanabana.</h3>
+  <p class="card__job">El campesino de valor y el comprador de justicia.</p>
+  <p class="card__bio">Producto proveniente d enuestra Región Amazonica</p>
+</div>
+<div class="card__footer">
+  <p class="card__date">Feb 10 2018</p>
+  <p class=""></p>
+</div>
+</div>
+
+
+</section>
+<p className="card-text pnatlladeproductosvalor"><Link to="/compradormapa"><button type="button" className="btn btn-inf btn btn-outline-light centraddooo">Más info</button></Link></p>
+</div>
+
+
+
+
+
+
+<div className="Cards1pantalladevalor22">
 <h1 className="ESTILO12">
 ¿QUE ESPERAR?
 </h1>
@@ -226,18 +314,17 @@ function App1() {
 
 </div>
 <br></br>
-<div className="ContenedorPAGINADEVALOR">
+
 <br></br>
 <br></br>
 <h1 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">
 NOTICIAS
 </h1>
-<h2 className="SUBTITULO1paginadevalor">Mantente informado de todos los cambios de valores y los precios estandares dados por el Gobierno colombiano</h2>
-</div>
+
 <div ClasName="Noticias">
 <div class="cardin3pantalladevalor row row-cols-1 row-cols-md-2 Noticias">
   <div class="col mb-4">
-    <div class="card0pantalladevalor">
+    <div class="card0pantalladevalor21">
       <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/food_consumption_GettyImages-498489688.jpg?w=1600&h=900" class="card-img-top uli Topuncioocparacomprador" alt="Responsive image"/>
       <div class="card-body">
         <h5 class="card-title">Colombia ve oportunidad para sus frutas por alta demanda de vitamina C</h5>
@@ -247,7 +334,7 @@ NOTICIAS
   </div>
 
   <div class="col mb-4">
-    <div class="card0pantalladevalor">
+    <div class="card0pantalladevalor21">
       <img src="https://www.minagricultura.gov.co/noticias/PublishingImages/Foto%20MinAgricultura%20proyecto%20de%20ley%20de%20palma%208%20de%20septiembre%202020%20web.jpeg" class="card-img-top uli Topuncioocparacomprador" alt="Responsive image"/>
       <div class="card-body">
         <h5 class="card-title">MinAgricultura radicó proyecto de ley que busca adhesión de Colombia al Consejo de Países Productores de Aceite de Palma</h5>
@@ -256,7 +343,7 @@ NOTICIAS
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card0pantalladevalor">
+    <div class="card0pantalladevalor21">
       <img src="https://www.minagricultura.gov.co/noticias/PublishingImages/Foto%20MinAgricultura%20Rodolfo%20Zea%20Navarro%20-%20Programa%20presidente%20-%20septiembre%203%20de%202020%20web.jpeg" class="card-img-top uli Topuncioocparacomprador" alt="Responsive image"/>
       <div class="card-body">
         <h5 class="card-title">MINAGRICULTURA LOGRÓ UN ACUERDO IMPORTANTE ENTRE PRODUCTORES E INDUSTRIALES QUE ESTABLECE UN INCENTIVO DE ALMACENAMIENTO DE ARROZ CON PRECIOS JUSTOS</h5>
@@ -265,7 +352,7 @@ NOTICIAS
     </div>
   </div>
   <div class="col mb-4">
-    <div class="card0pantalladevalor">
+    <div class="card0pantalladevalor21">
       <img src="https://www.minagricultura.gov.co/noticias/PublishingImages/semillas%202%20p.jpg" class="card-img-top uli " alt="Responsive image"/>
       <div class="card-body">
         <h5 class="card-title">Siete mil productores de maíz, fríjol y arroz recibirán gratuitamente semillas biofortificadas para mejorar productividad e ingresos</h5>

@@ -11,7 +11,7 @@ export default function InterfazTendenciaRegionCaribe() {
       
        <br/>
        <br/>
-
+       <div className=" fonditodefrutas">
         <h1 className="shadow p-3 mb-5 bg-whitecolorcitoprin rounded Tituloenpaginaprincipal tituloinicial-paginatendenciaregiones">Más Vendidos</h1>
         <div className="Contenerdorreactivo2">
           <h2 className="titulo1-targetaenseñanza-tendencia titulosregionesenlastendencias2">CARIBE</h2>
@@ -25,8 +25,7 @@ export default function InterfazTendenciaRegionCaribe() {
 
         <div className="Contenedorparatodacarddes1">
           
-          <div className="Regionpequeñadescripcion letradetendenciaregióncaribe-info">Amazonas es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Leticia. Está ubicado en el extremo sur del país, en gran parte al sur de la línea ecuatorial, en la región Amazonia. Limita al norte con Caquetá y Vaupés, al este con Brasil, al sur con Perú y al oeste con Putumayo. Con 110 000 km² es el departamento más extenso, con unos 75.000 habitantes en 2015, el cuarto menos poblado —por delante de Vichada, Vaupés y Guainía, el menos poblado— y con 0,68 hab/km², el tercero menos densamente poblado, por delante de Vichada y Guainía, el menos densamente poblado.
-          Se compone en su totalidad de territorio de la Selva Amazónica. La porción meridional del departamento, al sur del río Putumayo, se denomina "Trapecio amazónico", el cual incluye la triple frontera de Colombia, Perú y Brasil, y su límite sur es el río Amazonas.</div>
+          <div className="Regionpequeñadescripcion letradetendenciaregióncaribe-info">La región Caribe1​2​3​ de Colombia es la región natural continental y marítima más septentrional del país. Está ubicada en la zona norte de Colombia. Limita al norte con el mar Caribe, al que debe su nombre, al Oriente con Venezuela, al sur con la región Andina y al Occidente con la región del Pacífico. Sus principales centros urbanos son Barranquilla, Cartagena, Soledad, Santa Marta, Valledupar, Montería, Sincelejo, Riohacha y Apartadó.</div>
           <a>
             <button type="button" className="unicoestilodespleg botondelastendencias-visualizarregion Radiobotonmasvendido2 rounded-circle tipodeletraboton-tendenciaderegiones" data-toggle="modal" data-target="#staticBackdrop">Tendencias</button>
           </a>
@@ -64,5 +63,5 @@ export default function InterfazTendenciaRegionCaribe() {
           </div>
         </div>
       </div>
-
+      </div>
     );}  

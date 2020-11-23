@@ -120,17 +120,84 @@ function perfil() {
         </div>
        
         <h3 class="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">Mi perfil</h3>
-  <img src={usuario} alt="Responsive image" className="imageusuario"></img>
-
-
-
-  <Link to="/comprador"><button type="button" class=" botondeusuario subtitulo03 btn-outline-info ">Seguimiento de mi pedido</button></Link>  
-  <Link to="/compradormapa"><button type="button" class=" botondeusuario subtitulo03 btn-outline-info">Comprar producto</button></Link>  
-  <Link to="/chatdecompradro"><button type="button" class=" botondeusuario subtitulo03 btn-outline-info">Ver mi chat</button></Link>  
-  <Link to="/actualizacióndedatos"><button type="button" class=" botondeusuario subtitulo03 btn-outline-info">Actualización de datos</button></Link>  
+  
 
 <br/>
 <br/>
+
+<div  className="cards-perfil">
+        
+        <div className="card0-perfil mb-5" >
+          <div className="row no-gutters">
+            <div className="col-md-8">
+              <img src="https://cdn0.iconfinder.com/data/icons/shopping-and-ecommerce-15/512/sale_lineal_color_cnvrt-06-512.png" className="card-img-top-perfil" alt="..." />
+            </div>
+            <div className="col-md-4">
+              <div className="card-body">
+                <h5 className="card-title-perfil">Seguimiento de mi pedido</h5>
+                <p className="card-text-perfil">Aquí podras hacer cambios y estar en constante actualización de tu información para un mejor servicio</p>
+                <Link to="/comprador">
+                <button type="button" class="btn btn-outline-light btn3-perfil">Seguir pedido</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card0-perfil mb-5" >
+          <div className="row no-gutters">
+            <div className="col-md-8">
+              <img src="https://images.vexels.com/media/users/3/200093/isolated/lists/596f0d8cb733b17268752d044976f102-icono-de-bolsa-de-compras.png" className="card-img-top-perfil img-orange" alt="..." />
+            </div>
+            <div className="col-md-4">
+              <div className="card-body">
+                <h5 className="card-title-perfil">Comprar producto</h5>
+                <p className="card-text-perfil">Aquí podras montar la información del producto que deseas vender para que sea vista por el público</p>
+                <Link to="/compradormapa">
+                <button type="button" class="btn btn-outline-light btn3-perfil">Comprar producto</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card0-perfil mb-5" >
+          <div className="row no-gutters">
+            <div className="col-md-8">
+              <img src="https://cdn0.iconfinder.com/data/icons/business-startup-10/50/61-512.png" className="card-img-top-perfil" alt="..." />
+            </div>
+            <div className="col-md-4">
+              <div className="card-body">
+                <h5 className="card-title-perfil">Ver mi chat</h5>
+                <p className="card-text-perfil">Aquí visualizaras las ofertas economicas ofrecidas de diversos compradores por tu producto</p>
+                <Link to="/chatdecompradro">
+                <button type="button" class="btn btn-outline-light btn3-perfil">Ver mi chat</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="card0-perfil mb-5" >
+          <div className="row no-gutters">
+            <div className="col-md-8">
+              <img src="https://cdn2.iconfinder.com/data/icons/random-set-1/410/Asset_85-512.png" className="card-img-top-perfil" alt="..." />
+            </div>
+            <div className="col-md-4">
+              <div className="card-body">
+                <h5 className="card-title-perfil">Actualización de datos</h5>
+                <p className="card-text-perfil">Aquí visualizaras los cursos que habías seleccionado previamente, para que accedas de nuevo a cada uno de los contenidos ofrecidos.</p>
+                <Link to="/actualizacióndedatos">
+                <button type="button" class="btn btn-outline-light btn3-perfil">Actualización de datos</button>
+                </Link>      
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+
 </div>
 
   );

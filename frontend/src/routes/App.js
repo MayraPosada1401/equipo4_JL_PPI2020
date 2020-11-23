@@ -18,7 +18,6 @@ import ChatPerfil from '../pages/PerfilChat';
 import ChatPrincipalCampe from '../pages/ChatPrincipal';
 import ChatSecundarioCampe from '../pages/Chatsecundario';
 import ElegirCursoCampe from '../pages/Elegircurso';
-import seleccionarAlgunCurso from '../pages/Seleccionaralguncurso';
 import MaterialCursoCampe from '../pages/MaterialCursoCampe';
 import MisPedidos from '../pages/MisPedidos';
 import RegionesTendencias from '../pages/RegionesTendencias';
@@ -85,7 +84,6 @@ export default function App() {
           <Route exact path="/chatcampesino" component={ChatPrincipalCampe} />
           <Route exact path="/chatprivadocampesino" component={ChatSecundarioCampe} />
           <Route exact path="/elegircurso" component={ElegirCursoCampe} />
-          <Route exact path="/seleccionarcurso" component={seleccionarAlgunCurso} />
           <Route exact path="/materialcurso" component={MaterialCursoCampe} />
           <Route exact path="/mispedidos" component={MisPedidos} />
           <Route exact path="/misvaloracionescampesino" component={ValoracionesCampesino}/>
@@ -126,6 +124,8 @@ export default function App() {
           <Route path="/cursocapa" component={cursocapa}/>
           <Route path="/calendariocapa" component={calendariocapa}/>
           <Route path="/quienescapa" component={Quienescapa}/>
+      
+     
       </Switch>    
 
       </BrowserRouter>

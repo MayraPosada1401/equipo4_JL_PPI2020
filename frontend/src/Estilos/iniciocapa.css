@@ -21,7 +21,7 @@
     color: #56D1DC ;
  }
  .columnadefondito{
-    background-image: url(https://as1.ftcdn.net/jpg/00/79/92/36/500_F_79923646_y5Nu3OQSsiN7cu9818nLS0guVxRPXeEL.jpg);
+  background-color: #5DADE2;
  }
  .eslogan {
     font-size: xx-large;
@@ -118,7 +118,9 @@
  }
  
 
- 
+ .dofienaos{
+    background-color:  #5DADE2;
+ }
  
  @media all and (max-width: 640px), (max-height: 360px){
   

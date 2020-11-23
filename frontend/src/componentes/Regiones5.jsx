@@ -17,7 +17,7 @@ import FRUTA2 from '../Imagenes/Fruta2.png';
 function Regionestenden() {
 
     return (
-      <div className="App fonditodefrutas1">
+      <div className="fonditodefrutas123">
        <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
@@ -107,9 +107,7 @@ function Regionestenden() {
 
 
 <div className="Contenedorparatodacarddes2">
-<div className="Regionpequeñadescripcion">Amazonas es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Leticia. Está ubicado en el extremo sur del país, en gran parte al sur de la línea ecuatorial, en la región Amazonia. Limita al norte con Caquetá y Vaupés, al este con Brasil, al sur con Perú y al oeste con Putumayo. Con 110 000 km² es el departamento más extenso, con unos 75.000 habitantes en 2015, el cuarto menos poblado —por delante de Vichada, Vaupés y Guainía, el menos poblado— y con 0,68 hab/km², el tercero menos densamente poblado, por delante de Vichada y Guainía, el menos densamente poblado.
-
-Se compone en su totalidad de territorio de la Selva Amazónica. La porción meridional del departamento, al sur del río Putumayo, se denomina "Trapecio amazónico", el cual incluye la triple frontera de Colombia, Perú y Brasil, y su límite sur es el río Amazonas.</div>
+<div className="Regionpequeñadescripcion">La Orinoquía,1​ también conocida como Llanos Orientales, es una de las 6 regiones naturales de Colombia. Está ubicada al este del país, limitando al norte y este con Venezuela, al sur con Amazonia y al oeste con la región andina. Determinada por la cuenca del río Orinoco, es un ecosistema que se caracteriza por ser una planicie. La región se halla entre los ríos Arauca, Guaviare, Orinoco y el Piedemonte llanero</div>
 <a href="https://www.colombia.co/visita-colombia/turismo-por-regiones/cinco-regiones-te-esperan/"><button type="button" className="unicoestilodespleg Radiobotonmasvendido2 rounded-circle" >
 Conoce 
 </button></a>

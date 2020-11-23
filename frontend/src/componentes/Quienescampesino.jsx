@@ -1,99 +1,69 @@
 import React from 'react';
 import '../Estilos/Estiloquienescampesino.css';
-
+import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
+import { Link } from 'react-router-dom';
 export default function Conexionescampesino() {
 
-    return (
-        <div className="App Fondodequienes">
-     
+    return (   
+      <div className="App Fondodequienes">
+      <div className="Header ">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarNav">
+    <ul className="navbar-nav">
+      <li className="nav-item-campesino nav-item-campesino2 normal-nav active">
+        <Link to="/iniciocampesino" className="nav-link" href="#">Inicio</Link>
+      </li>
+      <li className="nav-item-campesino active edit1-nabvarcampesino">
+        <Link to= "/aprendecampesino" className="nav-link" href="#">Aprende con Nosotros</Link>
+      </li>
+      <li className="nav-item-campesino normal-nav nav-item-campesino2 active">
+     <a className="nav-link" href="#">Conexiones</a>
+      </li>
+      <li className="nav-item-campesino normal-nav nav-item-campesino2 active">
+      <Link to="/conexionescampesino" className="nav-link " href="#">Contactanos</Link>
+      </li>
+      <li className="nav-item-campesino normal-nav nav-item-campesino2 active">
+        <Link to="/perfilcampesino" className="nav-link" href="#">Perfil</Link>
+      </li>
+      <li className="nav-item-campesino nav-item-campesino2 active edit1-nabvarcampesino edit2-nece">
+        <Link to="/productostendencia" className="nav-link" href="#">Más vendido</Link>
+      </li>
+      <a type="button" class="btn1-header-campe btn-info1"></a>
+      <Link to="/">
+      <button type="button" class="btn btn-info btn-cerrarcampe">Cerrar sesión</button>
+      </Link>
+    </ul>
+  </div>
+</nav>
+        </div>
+      
+      
+            <form >
+              <div className="Distanciasdecuadro backgroundinicio22">
+        <div class="form-group">
+          <label className="colordeletra" for="exampleFormControlInput1">Correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
+        </div>
+      
+        <div class="form-group ">
+          <label className="colordeletra" for="exampleFormControlTextarea1">Mensaje</label>
+          <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <Link to="/quienescomprador">
+          <button type="submit" className="btn btn-outline-light">Enviar</button>
+        </Link>
+        </div>
+       
+      </form>
+      <br/>
+      <br/>
+      <br/>
+        </div> 
 
-<div className="Maxcontenquien contenedorprincipaldemargentargetas-conexionescampe">
-<div className="Contenedorparacambiarancho contenedor-margen-targeta-conexionescampesino">
-<div class="border-infoContenedorparacambiarancho" >
-
-  <div class="card-body text-infoContenedorparacambiarancho">
-    <h5 class="card-title shadow bg-whiteverdecitovalor rounded Titulocompradorterceraparte">EcoAgro</h5>
-    <p class="card-text parrafoideltextodequienescampesino-conexiones">Nuestro equipo es cambio del horizonte otorgando una fortaleza al sector agrícola en el impulso de autodominio de sus recursos y oportunidades en el sector económico nacional e internacional.
-    Tenemos el objetivo de romper el esquema del prototipo del intermediario y dejar atrás ese imaginario colectivo erróneo de la baja calidad de productos agrícolas colombianos.
-    </p>
-  </div>
-</div>
-</div>
-
-  <div className="Fondodequienes">
-  <div class="row row-cols-1 row-cols-md-2 ">
-  <div class="col mb-4 ">
-    <div class="card">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
-      <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Mayra Posada</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card ">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
-      <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Dahiana Restrepo</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card ">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
-      <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Karol Cuellar</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card ">
-      <img src="https://image.freepik.com/vector-gratis/grupo-personas-diseno-plano_23-2148462710.jpg" class="Topuncioocparacomprador card-img-top" alt="..."/>
-      <div class="card-body cardinpantallapincusers">
-        <h5 class="card-title">Mariana Soto</h5>
-        <p class="card-text parrafoideltextodequienescampesino-conexiones">Desarrolladora web y diseñadora. Estamos disponibles a aclarar cualquier duda, preguntanos y conoce más de la familia EcoAgro.</p>
-      </div>
-    </div>
-  </div>
-</div>
-  </div>
-  
-  </div> 
-<div className="Maxcontenquien">
-  <button type="button" class="btn btn-info centricoquien botodecontactanos-conexionescampesino" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
-  </div>
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Conocenos!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Correo:</label>
-            <input type="text" class="form-control" id="recipient-name"/>
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Mensaje:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Enviar mensaje</button>
-      </div>
-    </div>
-  </div>
-</div>
-  </div> 
       );
     }
     

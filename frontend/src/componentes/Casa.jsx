@@ -4,6 +4,7 @@ import carrusel1 from '../Imagenes/carrusel1.png';
 import carrusel2 from '../Imagenes/carrusel2.png';
 import carrusel3 from '../Imagenes/carrusel3.png';
 import procesoecoagro from '../Imagenes/procesoecoagro.png';
+import '../pages/Ensayofer';
 import { Link } from 'react-router-dom';
 import '../Estilos/Casa.css';
 
@@ -11,7 +12,7 @@ import '../Estilos/Casa.css';
 function App() {
 
   return (
-    <div className="AppFondopaginadeenlaces">
+    <div className="Appscolodefondodeneil">
      <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
@@ -77,7 +78,7 @@ function App() {
   </a>
 
 </div></div>
-<div className="Cardsespecialdeinciopaginap AppFondopaginadeenlaces">
+<div className="Cardsespecialdeinciopaginap Appscolodefondodeneil">
 
 <div className="margenpantallaprinci">
 
@@ -85,52 +86,148 @@ function App() {
 <img height="800px" src={procesoecoagro} class="img-fluid1 Imagenespaginaprincipal"/>
 <div className="Videoconciente"></div>
 </div>
-
+<div className="colorcitodefondoparapag">
 <h1 className="shadow p-3 mb-5 bg-whitecolorcitoprin rounded Tituloenpaginaprincipal">¿Con que usuario te identificas?</h1>
+</div>
 <br></br>
-<div class="row row-cols-1 row-cols-md-2">
-    <div class="col mb-4">
-      <div class="cardinpantallapincusers">
-        <img  src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-reduce-waste-families.jpg?w=1600&h=900" class="card-img-top Topuncioocparacomprador" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title">Comprador "Imagen tomada de:Natgeo"</h5>
-          <p class="card-text Parrafosenpaginaprincipal">Conoce todas las opciones que tienes, las grandes ofertas y el mejor bienestar para la salud de toda la familia y a precios justos</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="cardinpantallapincusers">
-        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/10_ngd-79135-20_ab_0000002_200524.jpg?w=1190&h=794" class="card-img-top Topuncioocparacomprador" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title">Capacitador "Imagen tomada de:Natgeo"</h5>
-          <p class="card-text Parrafosenpaginaprincipal">Si tienes conocimiento en el campo agrario, ayuda a nuestro campesinos fortaleciendo sus saberes e igualmente si eres campesino y quieres compartir tus experciancias, registrate y se fuente de saber de y para el campesino</p>
-        </div>
-      </div>
-    </div>
-    
-    <br></br>
-    <br></br>
-    <div class="col mb-4">
-      <div class="cardinpantallapincusers">
-        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/Peru_Ep101_GordonRamsayUncharted_EBS7042_CSI.jpg?w=710&h=473" class="card-img-top Topuncioocparacomprador" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title">Campesino "Imagen tomada de:Natgeo"</h5>
-          <p class="card-text Parrafosenpaginaprincipal">Si deseas que tus productos sean vendidos y promocionados sin ningun sobre costo, y con tus acuerdos de precios, registrate en este perfil para mostrar tus productos a toda Colombia.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="cardin3pantallapincusers">
-        <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/IMG_0691.JPG?w=1190&h=670" class="card-img-top Topuncioocparacomprador" alt="..."/>
-        <div class="card-body">
-          <h5 class="card-title SUBTITULO4Priccipalpage">CAMPO COLOMBIANO </h5>
-          <p class="card-text t3 Parrafosenpaginaprincipal">"Imagen tomada de:Natgeo"</p>
-        </div>
-      </div>
-    </div>
+
   
+
+  <section class="wrapper">
+
+  <nav class="menu">
+    <ul class="menu__list">
+     
+    </ul>
+  </nav>
+
+  <div class="carditonsten card" data-effect="zoom">
+    <button class="card__save  js-save" type="button">
+      <i class="fa  fa-bookmark"></i>
+     </button>
+    <figure  class="card__image">
+      <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-reduce-waste-families.jpg?w=1600&h=900" alt="Short description"/>
+    </figure>
+    <div class="card__header">
+      <figure class="card__profile">
+        <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+      </figure>
+    </div>
+    <div class="card__body">
+      <h3 class="card__name">Comprador </h3>
+      <p class="card__job">Somos el enlace directo entre campesino y comprador.</p>
+      <p class="card__bio"> Conoce todas las opciones que tienes, las grandes ofertas y el mejor bienestar para la salud de toda la familia y a precios justos</p>
+    </div>
+    <div class="card__footer">
+      <p class="card__date">Feb 10 2018</p>
+      <p class=""></p>
+    </div>
   </div>
+
   
+</section>
+<section class="wrapper">
+
+<nav class="menu">
+  <ul class="menu__list">
+   
+  </ul>
+</nav>
+
+<div class="carditonsten card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/Peru_Ep101_GordonRamsayUncharted_EBS7042_CSI.jpg?w=710&h=473" alt="Short description"/>
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Campesino</h3>
+    <p class="card__job">Somos el enlace directo entre campesino y comprador.</p>
+    <p class="card__bio">Si deseas que tus productos sean vendidos y promocionados sin ningun sobre costo, y con tus acuerdos de precios, registrate en este perfil para mostrar tus productos a toda Colombia.</p>
+  </div>
+  <div class="card__footer">
+    <p class="card__date">Feb 10 2018</p>
+    <p class=""></p>
+  </div>
+</div>
+
+
+</section>
+
+<section class="wrapper">
+
+<nav class="menu">
+  <ul class="menu__list">
+   
+  </ul>
+</nav>
+
+<div class="carditonsten card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/10_ngd-79135-20_ab_0000002_200524.jpg?w=1190&h=794" class="card-img-top Topuncioocparacomprador" alt="Short description"/>
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Capacitador</h3>
+    <p class="card__job">Somos el enlace directo entre campesino y comprador.</p>
+    <p class="card__bio">Si tienes conocimiento en el campo agrario, ayuda a nuestro campesinos fortaleciendo sus saberes e igualmente si eres campesino y quieres compartir tus experciancias, registrate y se fuente de saber de y para el campesino</p>
+  </div>
+  <div class="card__footer">
+    <p class="card__date">Feb 10 2018</p>
+    <p class=""></p>
+  </div>
+</div>
+
+
+</section>
+
+<section class="wrapper">
+
+<nav class="menu">
+  <ul class="menu__list">
+   
+  </ul>
+</nav>
+
+<div class="carditonsten card" data-effect="zoom">
+  <button class="card__save  js-save" type="button">
+    <i class="fa  fa-bookmark"></i>
+   </button>
+  <figure  class="card__image">
+    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/IMG_0691.JPG?w=1190&h=670" alt="Short description"/>
+  </figure>
+  <div class="card__header">
+    <figure class="card__profile">
+      <img src="https://cdn.dribbble.com/users/1564335/screenshots/8341408/media/77e97bc742fd87af6eaa09fccd232191.png" alt="Short description"/>
+    </figure>
+  </div>
+  <div class="card__body">
+    <h3 class="card__name">Nuestro campo colombiano.</h3>
+    <p class="card__job">El campesino de valor y el comprador de justicia.</p>
+    <p class="card__bio">Conoce el campo colombiano y reconoce sus valores y unicas propiedades.</p>
+  </div>
+  <div class="card__footer">
+    <p class="card__date">Feb 10 2018</p>
+    <p class=""></p>
+  </div>
+</div>
+
+
+</section>
+
 </div> 
 
 
