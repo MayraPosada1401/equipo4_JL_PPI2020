@@ -7,11 +7,11 @@ import FRUTA2 from '../Imagenes/Fruta2.png';
 export default function InterfazTendenciaRegionAndina() {
 
     return (
-      <div className="App fonditodefrutas1">
+      <div className="App fonditodefrutas123">
        
       <br/>
       <br/>
-      
+      <div className="fonditodefrutas123">
       <h1 className="shadow p-3 mb-5 bg-whitecolorcitoprin rounded Tituloenpaginaprincipal tituloinicial-paginatendenciaregiones">Más Vendidos</h1>
 
         <div className="Contenerdorreactivo1">
@@ -25,7 +25,9 @@ export default function InterfazTendenciaRegionAndina() {
 
 
         <div className="Contenedorparatodacarddes2 margin-botton-inforegion-tendencia margin-cuadro-left-inforegion">
-          <div className="Regionpequeñadescripcion1 letradetendenciaregióncaribe-info">Amazonas es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Leticia. Está ubicado en el extremo sur del país, en gran parte al sur de la línea ecuatorial, en la región Amazonia. Limita al norte con Caquetá y Vaupés, al este con Brasil, al sur con Perú y al oeste con Putumayo. Con 110 000 km² es el departamento más extenso, con unos 75.000 habitantes en 2015, el cuarto menos poblado —por delante de Vichada, Vaupés y Guainía, el menos poblado— y con 0,68 hab/km², el tercero menos densamente poblado, por delante de Vichada y Guainía, el menos densamente poblado.
+          <div className="Regionpequeñadescripcion1 letradetendenciaregióncaribe-info">La región Andina1​2​ es una de las seis regiones naturales de Colombia. Está ubicada en el centro del país, limitando al norte con la región Caribe, al noreste con Venezuela, al este con la Orinoquía, al sureste con la Amazonia, al sur con Ecuador y al oeste con la región del Pacífico.
+
+Está surcada en dirección SO-NE por tres ramales septentrionales de los Andes: las cordilleras Occidental, Central y Oriental. Las cordilleras dan lugar a numerosos valles, cañones, mesetas y un sistema fluvial cuyos principales ríos son el Cauca y el Magdalena.3​ La región tiene 34 419 398 habitantes (2018), es la zona más poblada y económicamente más activa del país.
           Se compone en su totalidad de territorio de la Selva Amazónica. La porción meridional del departamento, al sur del río Putumayo, se denomina "Trapecio amazónico", el cual incluye la triple frontera de Colombia, Perú y Brasil, y su límite sur es el río Amazonas.</div>
             <button type="button" className="unicoestilodespleg  botondelastendencias-visualizarregion Radiobotonmasvendido5 rounded-circle tipodeletraboton-tendenciaderegiones" data-toggle="modal" data-target="#staticBackdrop">Tendencias</button>
           <div class="modal fade " id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -61,7 +63,7 @@ export default function InterfazTendenciaRegionAndina() {
             </div>
           </div>
        </div>
-
+       </div>
 </div>
 
 );}

@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 function compra() {
   return (
-    <div className="compra FONDO">
+    <div className="fondopanvalor1">
       
       <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -85,7 +85,7 @@ function compra() {
 
 
       <div className="Contenedor"> 
-      <h1 className="Tituloenpaginaprincipal3"> COMPRAS</h1> 
+      <h1 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte"> COMPRAS</h1> 
       </div>
     
   <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -145,7 +145,7 @@ function compra() {
           </div>
         </div>
       
-      <div className="Tituloenpaginaprincipal3"> FACTURA</div> 
+      <div className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte"> FACTURA</div> 
    
 
   <div className="margincom">

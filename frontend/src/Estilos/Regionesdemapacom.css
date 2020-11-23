@@ -56,10 +56,152 @@ color: #8D7419 ;
         margin: 60px;
         border-radius: 40px;
       }
+.anecdotadeunahistoria{
+  background-color:#85C1E9 ;
+}
+/*ENSAYO*/
+/*TODO: clean it all up, finish flex, add aesthetics, icons, redefine to be relative to vh-vw, maybe rework v2 variant using scss and frames and real transitions? */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+.body134 {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+}
+.cardfree {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  max-width: 400px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  position: relative;
+  margin: 1%;
+}
+.card h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+.card .title {
+  padding: 1rem;
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+}
+.card .desc {
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+}
+.card .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.card svg {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+}
+.img-avatar {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid white;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+  top: 15px;
+  left: 85px;
+}
+.card-textwer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.title-total {
+  padding: 2.5em 1.5em 1.5em 1.5em;
+}
+path {
+  fill: white;
+}
+.img-portada {
+  width: 100%;
+}
+.portada {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url(../Imagenes/papa.png);
+  background-position: bottom center;
+  background-size: cover;
+  
+}
+.portada2 {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url(../Imagenes/mazorca.png);
+  background-position: bottom center;
+  background-size: cover;
+  
+}
+.portada3 {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url(../Imagenes/yuca.png);
+  background-position: bottom center;
+  background-size: cover;
+  
+}
+.buttondeunique {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #8bc34a;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buttondeunique:hover {
+  color: #4CAF50;
+  transform: rotate(22deg);
+}
 
+/*FIN ENSAYO*/
+.Ejerciciodecontenedordiferencial{
+  margin-left: 5%;
+}
+.fonfeseparacionconllecion{
+  display: inline-flex;
+  margin: 5%;
+}
+.nesparaver{
+  background-color: transparent;
+  margin-left: 38%;
 
-
-
+}
+.separecionbur{
+  margin: 1%;
+}
+.diseñocentrocom{
+  background-color: transparent;
+}
+.diesñosubdecom{
+  background-color: #2E86C1 ;
+}
+.cultivoscambiofof{
+  background-color: white;
+  font-size: 52px;
+  text-align: center;
+  color: #2E86C1 ;
+}
 @media all and (max-width: 640px), (max-height: 360px){
     .carousel{
         display: none;
@@ -97,4 +239,18 @@ color: #8D7419 ;
           margin-right: 15%;
             background-color: #1BBECB ;     
         }
-}
+        .diseñocentrocom{
+          background-color: transparent;
+        }
+        .diesñosubdecom{
+          background-color: #2E86C1 ;
+        }
+        .fonfeseparacionconllecion{
+          display: inline-block;
+          margin: 5%;
+        }
+        .separecionbur{
+        
+          text-align: center;
+        }
+}      

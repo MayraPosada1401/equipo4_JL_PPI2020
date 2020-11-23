@@ -7,7 +7,7 @@ import FRUTA2 from '../Imagenes/Fruta2.png';
 export default function InterfazRegionestendencia() {
 
   return (
-    <div className="Regionestendencia">
+    <div className="Regionestendencia fondodeorigenentr">
 
       <br />
       <br />

@@ -26,7 +26,7 @@ export default function InterfazInicioCampesino() {
                 <h5 className="card-title-body">Pesticidas y Fertilizantes</h5>
                 <p className="card-text-body">Los mejores pesticidas y su influencia en los diferentes cultivos. Son amigables y permiten su desarrollo puntual.</p>
                 <p className="card-text-body"><small class="text-muted">Por: Franco Reyes</small></p>
-                <button type="button" class="btn1-body btn btn-outline-warning ">Ver este curso</button>
+                <button type="button" class="btn1-body btn btn btn-outline-info ">Ver este curso</button>
               </div>
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function InterfazInicioCampesino() {
                 <h5 className="card-title-body">Abonos Orgánicos</h5>
                 <p className="card-text-body">Curso de abonos sin químicos y económicos. El desarrollo de los cultivos más sano y productos de calidad</p>
                 <p className="card-text-body"><small className="text-muted">Por: Cristiano Ronaldo</small></p>
-                <button type="button" class="btn1-body btn btn-outline-warning ">Ver este curso</button>
+                <button type="button" class="btn1-body btn btn btn-outline-info ">Ver este curso</button>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function InterfazInicioCampesino() {
                 <h5 className="card-title-body">Emprendimiento agrario</h5>
                 <p className="card-text-body">En este curso se te dan esas bases para que tomes la iniciativa de hacer realidad y llevar al otro nivel tu emprendimiento.</p>
                 <p className="card-text-body"><small className="text-muted">Por: Arizona Robbins</small></p>
-                <button type="button" class="btn btn1-body btn-outline-warning ">Ver este curso</button>
+                <button type="button" class="btn btn1-body btn btn-outline-info ">Ver este curso</button>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function InterfazInicioCampesino() {
                 <h5 className="card-title-body">Procesamiento de productos</h5>
                 <p className="card-text-body">Este curso mostrara como hacer de una manera más efectiva procesos para el desarrollo de productos.</p>
                 <p className="card-text-body"><small class="text-muted">Por: Danna García</small></p>
-                <button type="button" class="btn btn1-body btn-outline-warning ">Ver este curso</button>
+                <button type="button" class="btn btn1-body btn btn-outline-info ">Ver este curso</button>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function InterfazInicioCampesino() {
       
       </div>
 
-      <div className="found-3-inicio">
+      <div className="found-3-iniciodelcampooo">
         <div>
           <h2 className="h2-inicio padding-title-body titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">POR USTEDES ES QUE SOMOS UNA REALIDAD</h2>
         </div> 
@@ -108,7 +108,7 @@ export default function InterfazInicioCampesino() {
             <h5 className="card-title-body">MINAGRICULTURA ANUNCIÓ INVERSIÓN DE $4.000 MILLONES PARA LOS PRODUCTORES DE LECHE</h5>
             <p className="card-text-body">Con este anuncio, se busca superar la controversia entre los productores de leche y los industriales, por el exceso de producción que existe hoy en día</p>
             <p className="card-text-body"><small class="text-muted">9 de Septiembre de 2020</small></p>
-            <button type="button" class="btn btn2-body btn-outline-warning ">Ver Noticia</button>
+            <button type="button" class="btn btn2-body btn-outline-info ">Ver Noticia</button>
           </div>
       </div>
 
@@ -118,7 +118,7 @@ export default function InterfazInicioCampesino() {
             <h5 className="card-title-body">PRODUCTORES DE BANANO DE LA GUAJIRA, CESAR Y MAGDALENA FUERON CAPACITADOS EN BIOSEGURIDAD POR EL ICA</h5>
             <p className="card-text-body">En total han sido 1.008 los beneficiados en el país por este proyecto en el que también participa el Ministerio de Agricultura.</p>
             <p className="card-text-body"><small class="text-muted">30 de Enero de 2020</small></p>
-            <button type="button" class="btn btn2-body btn-outline-warning ">Ver Noticia</button>
+            <button type="button" class="btn btn2-body btn-outline-info ">Ver Noticia</button>
           </div>
       </div>
       </div>
@@ -126,31 +126,44 @@ export default function InterfazInicioCampesino() {
       <div className="found-5-body">
       <h2 className="h2-inicio titulodato-body forma-padding titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">ALGUNOS DATOS CURIOSOS DE NUESTRO CAMPO COLOMBIANO</h2>
       </div>
-        <div className ="part1-body">
-        <img src={campe} className="img-FORGO"/>
+       <div className="datoscuriosos">
 
-          <ul className="list-unstyled-body">
-            <li className="media2-body">
-              <div class="media-body losdatos parrafo1-inicio">
-                <h5 className="mt-0 mb-1 forma-t">Día del campesino</h5>
-                En 1965, el Ministerio de Cultura declaró el 2 de junio como el Día Nacional Del Campesino sin emabrgo, en un país como Colombia, celebrar el trabajo de nuestros campesinos debería ser tarea diaria. 
+      <div className ="part1-body">
+      <div className="fondideconfianz1">
+        <div className="fondideconfianz">
+    
+        <div class="containerdemi">
+    <div className="Títulohermosoqu"> Día del campesino</div> 
+    
+  <br/>
+  <br/>
+  <div class="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
+              En 1965, el Ministerio de Cultura declaró el 2 de junio como el Día Nacional Del Campesino sin emabrgo, en un país como Colombia, celebrar el trabajo de nuestros campesinos debería ser tarea diaria. 
               </div>
-            </li>
-            <li className="media2-body my-4">
-              <div className="media-body losdatos parrafo1-inicio">
-                <h5 className="mt-0 mb-1 forma-t">La mujer campesina</h5>
+              
+              <div className="Títulohermosoqu">La mujer campesina</div> 
+  
+  <br/>
+  <br/>
+
+  <div className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
                 Existen 20 municipios del país como Taraira y Puerto Colombia (Vaupés), donde la participación de las mujeres en la producción supera el 70% entre demás campesinos
               </div>
-            </li>
-            <li className="media2-body">
-              <div className="media-body losdatos parrafo1-inicio">
-                <h5 className="mt-0 mb-1 forma-t">El motor de crecimiento</h5>
+              <div className="Títulohermosoqu">El motor de crecimiento</div> 
+  <br/>
+  <br/>
+  <div className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">    
                En 2017, la industria agropecuaria tuvo un ritmo de expasión superior a sectores como la minería y la contrucción en Colombia, siendo uno de los motores de crecimiento del país
               </div>
-            </li>
-          </ul>
-        </div>
-        
+</div>
+
+<a href="https://dribbble.com/YancyMin" class="dr-url" target="_blank">
+<img class="dr" src="https://cdn.dribbble.com/assets/logo-footer-hd-a05db77841b4b27c0bf23ec1378e97c988190dfe7d26e32e1faea7269f9e001b.png" alt=""/></a>
+<br/>
+<br/>
+</div>
+</div>
+</div></div> 
       </div>
       
     );

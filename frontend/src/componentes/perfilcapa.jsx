@@ -10,80 +10,97 @@ import { Link } from "react-router-dom";
 
 export default function perfil() {
  return (
-   <div className="cosita FONDO">
-     <div>
-       <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">MI PERFIL</h1>
+  <div className="perfil">
+  <div>
+  <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte " >Bienvenido a tu perfil de EcoAgro</h1>
+  <h3 className="component-1-text social-perfil subtitulo1-perfil">Aquí te presentamos las opciones que tienes para mayor accesibilidad a contenidos de Ecoagro</h3>
+  <p className="component-1-text component-text-perfil parrafo1-perfil">Para EcoAgro es un placer que pertenezcas a esta familia. Somos conocedores de la importancia de ustedes en nuestros bellos campos colombianos, su trabajo es digno de admirar y ha de ser respetado, esa lucha constante que ustedes enfrentan para nosotros en una gran batalla y son héroes a la vez de nuestro país. Queremos romper ese esquema de que para una buena economía se requiere de un intermediario y estamos agradecidos de que ya hagas parte de ese proceso.</p>
+  <p className="component-1-text component-text-perfil parrafo1-perfil">En esta sección visualizaras y eligiras de acuerdo a tu necesidad las opciones de perfil. Estas opciones estan orientadas a tu bienestar y por supuesto potecializando nuestro objetivo. Te recordamos que si tienes alguna duda puedes irte a la opción de contacto e interactuar más con el grupo EcoAgro, con el fin de que obtengan un mejor servicio y te sientas comodo en el aplicativo. A continuación, se mostraran los accesos que desde tu perfil tienes disponibles</p>
+</div>
 
-       <h1 className="info1">
-         Aqui tienes una gran varidedad opciones para que puedas acomodar tu
-         perfil como capacitador a tu gusto, desde actualizar tu informacion
-         personal hasta subir cun curso nuevo
-       </h1>
-
+<div className="found-4-perfil">
+  <h2 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">Deseo Cambiar mi foto de Perfil</h2>
+  <h3 className="titulodato-perfil subtitulo1-perfil">Recomendaciones generales</h3>
+</div>
+  <div className="part1-perfil">
+      <div>
+      <a href="#" className="btn btn-light btn-primary-perfildecompas2"></a>
+      <button type="button" class="btn btn-info btn2-perfil">Cambiar foto de perfil</button>
+      </div>
      
-         <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">CAMPOS QUE PUEDES EDITAR</h1>
-     <div className="fonditouciopaf">
 
-       <div className="cortes">
-         <div className="corte201 mb-5">
-           <div className="row no-gutters">
-             <div className="col-md-4">
-             </div>
-             <div className="col-md-8">
-               <div className="nana">
-                 <h1 className=" component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">CAMBIAR FOTO DE PERFIL</h1>
-                 <p className="ñaña1">
-                   Primero que todo y lo mas importante es una foto de tu cara
-                   que se vea bien que tenga resolucion para que las personas
-                   que vean tus cursos sepan quien es la persona que se los da.{" "}
-                 </p>
-                 <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Ir aver</h1></button>
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
+   <ul className="list-unstyled-perfil">
+      <li className="media">
+          <div class="media-body parrafo1-perfil">
+              <h5 className="mt-0 mb-1 title-info-perfil-foto">Pon una foto clara donde se aprecie tu rostro</h5>
+             Los diferentes compradores podran conocer quien eres y van a sentirse más seguro al conocer quien es el productor encargado de su producto. Tenga en cuenta que es más comodo conocer con quienes interactuamos
+          </div>
+      </li>
+      <li className="media my-4">
+          <div className="media-body parrafo1-perfil ">
+              <h5 className="mt-0 mb-1 title-info-perfil-foto">En caso de no subir una foto</h5>
+              Comprendemos en caso de que no desees subir tu foto, como equipo EcoAgro te recomendamos que pongas visibles tus valoraciones, para que los diversos compradores conozcan abiertamente como llevas los procesos. Ya que como no conocen quien eres, tus valoraciones les dará una imagen
+          </div>
+      </li>
+      <li className="media">
+          <div className="media-body parrafo1-perfil">
+              <h5 className="mt-0 mb-1 title-info-perfil-foto">¿Puedo poner cualquier imagen?</h5>
+              Claro que se puede, mientras no vulnere e infrinja lo establecido por el equipo EcoaAgro, teniedno en cuenta que no debe de atentar contra la integridad de un humano. De emplear una imagen que violente ciertas políticas se vera sansionado o expulsado por el equipo. Recuerde que todo lo que hacemos es por ustedes y no se busca afectar a alguien
+          </div>
+      </li>
+   </ul>
+  </div>
+ 
+  <h3 class="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">Mi perfil</h3>
 
-       <div className="corte20 mb-5">
-         <div className="row no-gutters">
-           <div className="col-md-4">
-             <img src={actualizardatos} className="perfil00" />
-           </div>
-           <div className="col-md-8">
-             <div className="nana">
-               <h3 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">ACTUALIZACION DE DATOS</h3>
-               <p className="ñaña1">
-                 Aqui podras actualizar tu correo, nombres, contraseña , ademas
-                 de la region a la cual perteneces y das los curss y tambiien
-                 el tiempo de ser capacitador.
-               </p>
-               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Actualizar Datos</h1></button>
-             </div>
-           </div>
-         </div>
-       </div>
 
-       <div className="corte20 mb-5">
-         <div className="row no-gutters">
-           <div className="col-md-4">
-             <img src={cursosubir} className="perfil00" />
-           </div>
-           <div className="col-md-8">
-             <div className="nana">
-               <h3 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">DESEO SUBIR UN CURSO</h3>
-               <p className="ñaña1">
-                 Aqui podras subir el curso que quieras con sus materiales y
-                 recursos audiovisuales que le ayudara a tus estudiantes en
-                 cada curso.
-               </p>
-               <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Subir Curso</h1></button>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
-   </div>
+<br/>
+<br/>
+
+<div  className="cards-perfil">
+  
+  
+
+  <div className="card0-perfil mb-5" >
+    <div className="row no-gutters">
+      <div className="col-md-8">
+        <img src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_cloud-512.png" className="card-img-top-perfil img-orange" alt="..." />
+      </div>
+      <div className="col-md-4">
+        <div className="card-body">
+          <h5 className="card-title-perfil">Deseo subir un curso</h5>
+          <p className="card-text-perfil">Aquí podras montar la información del producto que deseas vender para que sea vista por el público</p>
+          <Link to="/compradormapa">
+          <button type="button" class="btn btn-outline-light btn3-perfil">Deseo subir un curso</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div className="card0-perfil mb-5" >
+    <div className="row no-gutters">
+      <div className="col-md-8">
+        <img src="https://cdn2.iconfinder.com/data/icons/random-set-1/410/Asset_85-512.png" className="card-img-top-perfil" alt="..." />
+      </div>
+      <div className="col-md-4">
+        <div className="card-body">
+          <h5 className="card-title-perfil">Actualización de datos</h5>
+          <p className="card-text-perfil">Aquí visualizaras los cursos que habías seleccionado previamente, para que accedas de nuevo a cada uno de los contenidos ofrecidos.</p>
+          <Link to="/actualizacióndedatos">
+          <button type="button" class="btn btn-outline-light btn3-perfil">Actualización de datos</button>
+          </Link>      
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
  );
 }
 

@@ -46,7 +46,7 @@ export default function InterfazAprende () {
                 <h5 className="card-title-aprende">Tomar un cursos</h5>
                 <p className="card-text-aprende">Aquí podras visualizar y tomar diversos cursos, para el fortalecimiento de tus cultivos y un aprendizaje óptimo</p>
                 <Link to="/elegircurso">
-                <button type="button" class="btn btn-outline-warning btn-info btn3 btn1-aprende">Ver Cursos</button>
+                <button type="button" class="btn btn-outline-info btn3 btn1-aprende">Ver Cursos</button>
                 </Link>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function InterfazAprende () {
                 <h5 className="card-title-aprende">Conoce a Colombia</h5>
                 <p className="card-text-aprende">Aquí podras visualizar los productos caracteristicos de cada región de Colombia y aprenderas de ellos</p>
                 <Link to="/aprendedecolombia">
-                <button type="button" class="btn btn-outline-warning btn-info btn3 btn1-aprende">Ver Contenido</button>
+                <button type="button" class="btn btn-outline-info btn3 btn1-aprende">Ver Contenido</button>
                 </Link>
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function InterfazAprende () {
               <div className="card-body">
                 <h5 className="card-title-aprende margin-img-title-aprende">Quiero Jugar</h5>
                 <p className="card-text-aprende">Aquí podras visualizar juegos orientados hacia los niños, dichos juegos son enlaces a otras páginas y se orientan a un aprendizaje de nuestro campo.</p>
-                <button type="button" class="btn btn-outline-warning btn-info btn3 btn1-aprende">Ver Juegos</button>
+                <button type="button" class="btn btn-outline-info btn3 btn1-aprende">Ver Juegos</button>
               </div>
             </div>
           </div>
