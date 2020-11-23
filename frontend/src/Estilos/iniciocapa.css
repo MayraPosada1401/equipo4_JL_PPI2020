@@ -143,7 +143,10 @@
    border-radius: 25px;
    position: relative;
    margin: 1%;
+   width: 2000px;
+   height: 600px;
 }
+
 .card h2 {
   margin: 0;
   padding: 0 1rem;
@@ -188,7 +191,9 @@
   padding: 2.5em 1.5em 1.5em 1.5em;
 }
 path {
+ 
   fill: white;
+
 }
 .img-portada {
   width: 100%;
@@ -199,7 +204,7 @@ path {
    height: 100%;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
-   background-image: url("https://m.media-amazon.com/images/S/aplus-media/vc/cab6b08a-dd8f-4534-b845-e33489e91240._CR75,0,300,300_PT0_SX300__.jpg");
+   background-image: url("https://image.freepik.com/foto-gratis/hileras-vegetales-pimiento-crecen-campo-agricultura-agricultura_72572-4.jpg");
    background-position: bottom center;
    background-size: cover;
  
@@ -210,7 +215,7 @@ path {
    height: 100%;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
-   background-image: url("https://m.media-amazon.com/images/S/aplus-media/vc/cab6b08a-dd8f-4534-b845-e33489e91240._CR75,0,300,300_PT0_SX300__.jpg");
+   background-image: url("https://image.freepik.com/foto-gratis/campo-fresas_1203-7581.jpg");
    background-position: bottom center;
    background-size: cover;
 }
@@ -220,7 +225,7 @@ path {
    height: 100%;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
-   background-image: url("https://m.media-amazon.com/images/S/aplus-media/vc/cab6b08a-dd8f-4534-b845-e33489e91240._CR75,0,300,300_PT0_SX300__.jpg");
+   background-image: url("https://image.freepik.com/foto-gratis/senior-pareja-cosechando-cultivos_23-2148256697.jpg");
    background-position: bottom center;
    background-size: cover;
 }
@@ -230,7 +235,7 @@ path {
    height: 100%;
    border-top-left-radius: 20px;
    border-bottom-left-radius: 20px;
-   background-image: url("https://m.media-amazon.com/images/S/aplus-media/vc/cab6b08a-dd8f-4534-b845-e33489e91240._CR75,0,300,300_PT0_SX300__.jpg");
+   background-image: url("https://image.freepik.com/foto-gratis/agricultor-manejando-tractor-pequeno-cultivo-suelo-excavacion-papa-cosecha-otono-cosecha-papa_106029-673.jpg");
    background-position: bottom center;
    background-size: cover;
 }
@@ -248,7 +253,7 @@ path {
 }
 
 .fonfeseparacionconllecion{
-   display: inline-flex;
+   display: inline-block;
    margin: 5%;
  }
 

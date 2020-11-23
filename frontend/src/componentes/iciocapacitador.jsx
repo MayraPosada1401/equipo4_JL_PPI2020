@@ -166,10 +166,11 @@ function iniciocapa(){
     
     </div>
     <div class="title-total">   
-      <div class="title">Ant Collector</div>
-      <h2>Morgan Sweeney</h2>
+
+      <h2>Curso agropecuario</h2>
   
-  <div class="desc">Morgan has collected ants since they were six years old and now has many dozen ants but none in their pants.</div>
+  <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
+  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
@@ -196,10 +197,11 @@ function iniciocapa(){
     
     </div>
     <div class="title-total">   
-      <div class="title">Ant Collector</div>
-      <h2>Morgan Sweeney</h2>
+ 
+      <h2>Curso de abono</h2>
   
-  <div class="desc">Morgan has collected ants since they were six years old and now has many dozen ants but none in their pants.</div>
+  <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
+  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
@@ -212,6 +214,7 @@ function iniciocapa(){
   
 </div>
 <div class="cardinetre">
+  <div className="espacio22">
   <div class="img-avatar">
     <svg viewBox="0 0 100 100">
     <path 
@@ -226,10 +229,11 @@ function iniciocapa(){
     
     </div>
     <div class="title-total">   
-      <div class="title">Ant Collector</div>
-      <h2>Morgan Sweeney</h2>
   
-  <div class="desc">Morgan has collected ants since they were six years old and now has many dozen ants but none in their pants.</div>
+      <h2>Curso de conservación del suelo</h2>
+  
+  <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
+  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
@@ -239,7 +243,7 @@ function iniciocapa(){
   </div>
   
  
-  
+  </div>
 </div>
 <div class="cardinetre">
   <div class="img-avatar">
@@ -256,10 +260,11 @@ function iniciocapa(){
     
     </div>
     <div class="title-total">   
-      <div class="title">Ant Collector</div>
-      <h2>Morgan Sweeney</h2>
+ 
+      <h2>Curso de pesticidas</h2>
   
-  <div class="desc">Morgan has collected ants since they were six years old and now has many dozen ants but none in their pants.</div>
+  <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
+  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
