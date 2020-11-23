@@ -59,14 +59,15 @@ import conexionescapa from '../pages/conexionescapa';
 import calendariocapa from '../pages/calendariocapa';
 import cursocapa from '../pages/cursocapa';
 import Quienescapa from '../componentes/Quienescapa';
-
-
+import seleccionarcurso from '../pages/seleccionaralguncurso';
+ 
 export default function App() {
     return (
       <BrowserRouter>
       
       <Switch>
           <Route exact path="/" component={Paginaprincipal} />
+          <Route exact path="/seleccionarcurso" component={seleccionarcurso} />
           <Route exact path="/iniciosesiongeneral" component={Iniciosesiongeneral} />
           <Route exact path="/iniciosesioncampesino" component={Iniciosesioncampesino} />
           <Route exact path="/iniciosesioncomprador" component={Iniciosesioncomprador} />
