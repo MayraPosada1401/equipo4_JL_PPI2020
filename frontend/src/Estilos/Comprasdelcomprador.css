@@ -4,8 +4,9 @@
     width: 100px;
   }
   .margincom{
-   background-color: #8DF1FC; 
+   background-color: #AED6F1 ; 
    padding: 2%;
+   border-radius: 40px;
   }
 
 .card03{
@@ -81,7 +82,9 @@ font-size: 50px;
   margin-right: 25%;
 }
 
-
+.fondopanvalor1{
+  background-color: #5DADE2 ;
+}
 @media all and (max-width: 640px), (max-height: 360px){
   .carousel{
     display: none;

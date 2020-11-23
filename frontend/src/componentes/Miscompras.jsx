@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 function Miscompras() {
 
     return (
-      <div className="App">
+      <div className="Appupadfru">
          <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
@@ -84,10 +84,10 @@ function Miscompras() {
 </div>
 <br></br>
 <br></br>
-<h1 className="shadow p-3 mb-5 bg-whitefonditoazul rounded Titulocompradorsegundaparte">
+<h1 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">
     Agradecemos su apoyo al campo Colombiano
 </h1>
-<div className="CAP FONDO">
+<div className="Colordefondofruticas">
 <div class="card-columns">
   <div class="card">
     <img src={FRUTA4} class="card-img-top img-fluid" alt="..."/>
@@ -149,7 +149,7 @@ function Miscompras() {
 </div>
 </div>
 <h1 className="Titulito">
-<div class="shadow p-3 mb-5 bg-whitefonditoazul rounded Titulocompradorsegundaparte">Seguimiento de pedidos</div>
+<div class="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">Seguimiento de pedidos</div>
 </h1>
 <div className="CAR">
 <p className="paginademiscomprasp">

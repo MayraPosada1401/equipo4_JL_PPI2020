@@ -345,6 +345,15 @@ body {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+.Títulohermosoqu{
+  margin: 2%;
+  background-color: #AED6F1 ;
+  font-size: 42px;
+  color: #5DADE2;
+}
+.datoscuriosos{
+  background-image: url(https://cdn.dribbble.com/users/3639405/screenshots/9090720/media/c0b978441263a0130c6eedfc04512bfb.jpg); 
+}
 .containerdemi .card .pic {
   z-index: 100;
   width: 400px;

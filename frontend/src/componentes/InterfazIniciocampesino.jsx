@@ -126,99 +126,22 @@ export default function InterfazInicioCampesino() {
       <div className="found-5-body">
       <h2 className="h2-inicio titulodato-body forma-padding titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">ALGUNOS DATOS CURIOSOS DE NUESTRO CAMPO COLOMBIANO</h2>
       </div>
-        
+       <div className="datoscuriosos">
 
       <div className ="part1-body">
       <div className="fondideconfianz1">
         <div className="fondideconfianz">
     
         <div class="containerdemi">
-        <li className="media2-body">
-  <div class="card">
-    <h2>Día del campesino</h2>
-    <i class="fas fa-arrow-right"></i>
-    <p>Somos el enlace directo entre el campesino y el comprador</p>
-    <div class="pic"></div>
-    <ul>                           
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <div class="social">
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-github"></i>
-    </div>
-    <button>
-    </button>
-  </div></li>
+    <div className="Títulohermosoqu"> Día del campesino</div> 
+    
   <br/>
   <br/>
   <div class="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
               En 1965, el Ministerio de Cultura declaró el 2 de junio como el Día Nacional Del Campesino sin emabrgo, en un país como Colombia, celebrar el trabajo de nuestros campesinos debería ser tarea diaria. 
               </div>
-              <li className="media2-body">
-    <div class="card card2">
-    <h2>La mujer campesina</h2>
-    <i class="fas fa-arrow-right"></i>
-    <p >Somos el enlace directo entre el campesino y el comprador</p>
-    <div class="pic"></div>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <div class="social">
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-github"></i>
-    </div>
-    
-    <button>
-    </button>
-  </div></li>
+              
+              <div className="Títulohermosoqu">La mujer campesina</div> 
   
   <br/>
   <br/>
@@ -226,46 +149,7 @@ export default function InterfazInicioCampesino() {
   <div className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
                 Existen 20 municipios del país como Taraira y Puerto Colombia (Vaupés), donde la participación de las mujeres en la producción supera el 70% entre demás campesinos
               </div>
-              <li className="media2-body">
-  <div class="card card3">
-    <h2>El motor de crecimiento</h2>
-    <i class="fas fa-arrow-right"></i>
-    <p >Somos el enlace directo entre el campesino y el comprador</p>
-    <div class="pic"></div>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-    <div class="social">
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-github"></i>
-    </div>
-    <button>
-    </button>
-  </div></li>
+              <div className="Títulohermosoqu">El motor de crecimiento</div> 
   <br/>
   <br/>
   <div className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">    
@@ -279,7 +163,7 @@ export default function InterfazInicioCampesino() {
 <br/>
 </div>
 </div>
-</div>
+</div></div> 
       </div>
       
     );
