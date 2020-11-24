@@ -59,7 +59,7 @@ import conexionescapa from '../pages/conexionescapa';
 import calendariocapa from '../pages/calendariocapa';
 import cursocapa from '../pages/cursocapa';
 import Quienescapa from '../componentes/Quienescapa';
-import seleccionarcurso from '../pages/Seleccionaralguncurso';
+import seleccionarcurso from '../pages/seleccionaralguncurso';
  
 export default function App() {
     return (

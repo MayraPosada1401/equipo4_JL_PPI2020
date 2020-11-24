@@ -10,149 +10,72 @@ function iniciocapa(){
  return(
 <div className="dofienaos">
 
- <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">Bienvenidos a Ecoagro</h1>
- <h3 className=" p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte triiiii ">"Somos el enlace directo ente el campesino y el comprador"</h3>
-
-<h1 className="p-3 mb-5 bg-whiteverdecitovalor Titulocompradorterceraparte ">Mejores Valoraciones</h1>
+<h1 className="p-3 mb-5 bg-whiteverdecitovalor Titulocompradorterceraparte triiiii ">Mejores Valoraciones</h1>
  <div  className="cards-inicio-cursos-campe flex-md-equal margincitomijo columnadefondito ">
         
-<div className="card0-inicio mb-5" >
-  <div className="row no-gutters">
-    <div className="col-md-8">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBjEgMfaS0Td8naMzmKhZ3ajAztk180UxrhA&usqp=CAU" className="card-img-top-inicio" alt="..." />
-    </div>
-    <div className="col-md-4">
-      <div className="card-body">
-        <h5 className="card-title-body">LEONORA ORTIZ</h5>
-        <p className="card-text-body">Comentario: El curso de uso de abonos para el cafe permitio producir un cafe demayor calidad, el cual trendra un aroma y sabor muy especial</p>
-        <p className="card-text-body"><small class="text-muted">Region: Andina, Ciuda Bolivar-Antioquia.</small></p>
-      
-      </div>
-    </div>
-  </div>
-</div>
-
-<div className="card0-inicio mb-5" >
-  <div className="row no-gutters">
-    <div className="col-md-8">
-      <img src="https://www.guiadejardineria.com/wp-content/uploads/2012/04/abono-natural.jpg" className="card-img-top-inicio" alt="..." />
-    </div>
-    <div className="col-md-4">
-      <div className="card-body">
-        <h5 className="card-title-body">Abonos Orgánicos</h5>
-        <p className="card-text-body">Curso de abonos sin químicos y económicos. El desarrollo de los cultivos más sano y productos de calidad</p>
-        <p className="card-text-body"><small className="text-muted">Por: Cristiano Ronaldo</small></p>
-     
-      </div>
-    </div>
-  </div>
-</div>
-
-<div className="card0-inicio mb-5" >
-  <div className="row no-gutters">
-    <div className="col-md-8">
-      <img src="https://elnordeste.com/wp-content/uploads/2019/06/Campesinos.png" className="card-img-top-inicio" alt="..." />
-    </div>
-    <div className="col-md-4">
-      <div className="card-body">
-        <h5 className="card-title-body">CALICHE GOMEZ</h5>
-        <p className="card-text-body">Comentario: El curso de pesticidas fue de suma importancia para mejor calidad de los colinos de cacao y mejorando la produccion de la panela.</p>
-        <p className="card-text-body"><small className="text-muted">Region: Andina, Supia-Caldas</small></p>
-    
-      </div>
-    </div>
-  </div>
-</div>
-
-<div className="card0-inicio mb-5" >
-  <div className="row no-gutters">
-    <div className="col-md-8">
-      <img src="https://previews.123rf.com/images/yongkiet/yongkiet1503/yongkiet150300007/37707904-corte-del-granjero-de-c%C3%A1scara-de-coco-para-el-procesamiento-de-productos-agr%C3%ADcolas-en-una-peque%C3%B1a-f%C3%A1brica-en-.jpg" className="card-img-top-inicio" alt="..." />
-    </div>
-    <div className="col-md-4">
-      <div className="card-body">
-        <h5 className="card-title-body">MARGARITA PEÑA</h5>
-        <p className="card-text-body">Comentario: El curso de pesticidas fue de suma importancia para mejor calidad de los cultivos, me ha ayudado a que sean de buena calidad y a mi produccion sea mas estable .</p>
-        <p className="card-text-body"><small class="text-muted">Region: Andina, Supia-Caldas</small></p>
-  
-      </div>
-    </div>
-  </div>
-</div>
-
-<div className="card0-inicio mb-5" >
-  <div className="row no-gutters">
-    <div className="col-md-8">
-      <img src="https://cubanosporelmundo.com/wp-content/uploads/2019/03/0307-campesino4-758x397.jpg" className="card-img-top-inicio" alt="..." />
-    </div>
-    <div className="col-md-4">
-      <div className="card-body">
-        <h5 className="card-title-body">ALVERTO CASAS</h5>
-        <p className="card-text-body">Comentario: El curso de abonos me ayudo a que estos cultivos obtengan los nutrientes que les faltaban y que no tengan ninguna anormalida en su proceso .</p>
-        <p className="card-text-body"><small class="text-muted">Region: Andina, Ciuda Bolivar-Antioquia.</small></p>
-      
-      </div>
-    </div>
-  </div>
-</div>
-
 </div>
 
 
+<div className="distanciasinline">
+<article class="card345 article23">
+    <div class="thumb"></div>
+    <div class="infos">
+        <h2 class="title234">CALICHE GOMEZ<span class="flag"></span></h2>
+        <h3 class="date">Region: Andina, Ciuda Bolivar-Antioquia</h3>
+        <h3 class="seats">Comentario: El curso de pesticidas fue de suma importancia para mejor calidad de los colinos de cacao y mejorando la produccion de la panela.</h3>
+        <p class="txt45">Comentario: El curso de pesticidas fue de suma importancia para mejor calidad de los colinos de cacao y mejorando la produccion de la panela.</p>
+        <h3 class="details345">event details</h3>
+    </div>
+</article>
+<article class="card345 article23">
+    <div class="thumb"></div>
+    <div class="infos">
+        <h2 class="title234">Margarita Peña<span class="flag"></span></h2>
+        <h3 class="date">Region: Andina, Ciuda Bolivar-Antioquia</h3>
+        <h3 class="seats">Comentario: El curso de pesticidas fue de suma importancia para mejor calidad de los cultivos, me ha ayudado a que sean de buena calidad y a mi produccion sea mas estable </h3>
+        <p class="txt45">Join us for our Live Infinity Session in beautiful New York City. This is a 3 day intensive workshop where you'll learn how to become a better version of...</p>
+        <h3 class="details345">event details</h3>
+    </div>
+</article>
+<article class="card345 article23">
+    <div class="thumb"></div>
+    <div class="infos">
+        <h2 class="title234">Alberto Casas<span class="flag"></span></h2>
+        <h3 class="date">Region: Andina, Ciuda Bolivar-Antioquia</h3>
+        <h3 class="seats">Comentario: El curso de abonos me ayudo a que estos cultivos obtengan los nutrientes que les faltaban y que no tengan ninguna anormalida en su proceso .</h3>
+        <p class="txt45">Comentario: El curso de abonos me ayudo a que estos cultivos obtengan los nutrientes que les faltaban y que no tengan ninguna anormalida en su proceso .</p>
+        <h3 class="details345">event details</h3>
+    </div>
+</article>
+<article class="card345 article23">
+    <div class="thumb"></div>
+    <div class="infos">
+        <h2 class="title234">Abonos Orgánicos<span class="flag"></span></h2>
+        <h3 class="date">Por: Cristiano Ronaldo</h3>
+        <h3 class="seats">Curso de abonos sin químicos y económicos. El desarrollo de los cultivos más sano y productos de calidad</h3>
+        <p class="txt45">Join us for our Live Infinity Session in beautiful New York City. This is a 3 day intensive workshop where you'll learn how to become a better version of...</p>
+        <h3 class="details345">event details</h3>
+    </div>
+</article>
+<article class="card345 article23">
+    <div class="thumb"></div>
+    <div class="infos">
+        <h2 class="title234">Leonora Ortiz<span class="flag"></span></h2>
+        <h3 class="date">Region: Andina, Ciuda Bolivar-Antioquia</h3>
+        <h3 class="seats">Comentario: El curso de uso de abonos para el cafe permitio producir un cafe demayor calidad, el cual trendra un aroma y sabor muy especial</h3>
+        <p class="txt45">Comentario: El curso de uso de abonos para el cafe permitio producir un cafe demayor calidad, el cual trendra un aroma y sabor muy especial</p>
+        <h3 class="details345">event details</h3>
+    </div>
+</article>
+</div>
 <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">MIS CURSOS</h1>
 
-<div class="row row-cols-1 row-cols-md-2">
-  <div class=" mb-4">
-    <div class="card cardin">
-    <div class="card-body cardin">
-      <img src="https://image.freepik.com/foto-gratis/hileras-vegetales-pimiento-crecen-campo-agricultura-agricultura_72572-4.jpg" class="card-img-top" alt="..."/>
-        <h5 class="card-title">Curso agropecuario</h5>
-        <p class="card-text">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</p>
-        <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
-      </div>
-    </div>
-  </div>
-  <div class=" mb-4">
-    <div class="card cardin">
-    <div class="card-body cardin">
-      <img src="https://image.freepik.com/foto-gratis/campo-fresas_1203-7581.jpg" class="card-img-top" alt="..."/>
-        <h5 class="card-title">Curso de abono</h5>
-        <p class="card-text">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</p>
-        <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
-      </div>
-    </div>
-  </div>
 
-  <div class=" mb-4 ">
-    <div class="card cardin3">
-    <div class="card-body cardin3">
-      <img src="https://image.freepik.com/foto-gratis/senior-pareja-cosechando-cultivos_23-2148256697.jpg" class="card-img-top cardin1" alt="..."/>
-      
-        <h5 class="card-title">Curso de conservacion del suelo</h5>
-        <p class="card-text">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</p>
-        <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
-      </div>
-    </div>
-  </div>
-
-  <div class=" mb-4 ">
-    <div class="card cardin1">
-    <div class="card-body cardin1">
-      <img src="https://image.freepik.com/foto-gratis/agricultor-manejando-tractor-pequeno-cultivo-suelo-excavacion-papa-cosecha-otono-cosecha-papa_106029-673.jpg" class="card-img-top" alt="..."/>
-     
-        <h5 class="card-title">Curso de pesticidas</h5>
-        <p class="card-text">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</p>
-        <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div className=""></div>
-<div className="fonfeseparacionconllecion">  
+<div className="fondocondibujitos">
+<div className="fonfeseparacionconllecion1">  
   
 <div class="cardinetre">
-  <div class="img-avatar">
+  <div class="img-avatar noneavatar">
     <svg viewBox="0 0 100 100">
     <path 
           d="m38.977 59.074c0 2.75-4.125 2.75-4.125 0s4.125-2.75 4.125 0"></path>
@@ -167,7 +90,7 @@ function iniciocapa(){
     </div>
     <div class="title-total">   
 
-      <h2>Curso agropecuario</h2>
+      <h2 className="colorcitodeblanco">Curso agropecuario</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
   <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
@@ -183,7 +106,7 @@ function iniciocapa(){
   
 </div>
 <div class="cardinetre">
-  <div class="img-avatar">
+  <div class="img-avatar noneavatar">
     <svg viewBox="0 0 100 100">
     <path 
           d="m38.977 59.074c0 2.75-4.125 2.75-4.125 0s4.125-2.75 4.125 0"></path>
@@ -198,7 +121,7 @@ function iniciocapa(){
     </div>
     <div class="title-total">   
  
-      <h2>Curso de abono</h2>
+      <h2 className="colorcitodeblanco">Curso de abono</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
   <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
@@ -214,8 +137,8 @@ function iniciocapa(){
   
 </div>
 <div class="cardinetre">
-  <div className="espacio22">
-  <div class="img-avatar">
+ 
+  <div class="img-avatar noneavatar">
     <svg viewBox="0 0 100 100">
     <path 
           d="m38.977 59.074c0 2.75-4.125 2.75-4.125 0s4.125-2.75 4.125 0"></path>
@@ -230,7 +153,8 @@ function iniciocapa(){
     </div>
     <div class="title-total">   
   
-      <h2>Curso de conservación del suelo</h2>
+
+      <h2 className="colorcitodeblanco">Curso de conservación del suelo</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
   <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
@@ -242,11 +166,10 @@ function iniciocapa(){
  
   </div>
   
- 
-  </div>
+
 </div>
 <div class="cardinetre">
-  <div class="img-avatar">
+  <div class="img-avatar noneavatar">
     <svg viewBox="0 0 100 100">
     <path 
           d="m38.977 59.074c0 2.75-4.125 2.75-4.125 0s4.125-2.75 4.125 0"></path>
@@ -261,7 +184,7 @@ function iniciocapa(){
     </div>
     <div class="title-total">   
  
-      <h2>Curso de pesticidas</h2>
+      <h2 className="colorcitodeblanco">Curso de pesticidas</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
   <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
@@ -277,7 +200,7 @@ function iniciocapa(){
   </div>
 </div>
 
-
+</div>
 
 
 <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">CURIOSIDADES</h1>
