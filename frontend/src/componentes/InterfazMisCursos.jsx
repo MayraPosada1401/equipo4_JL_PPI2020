@@ -1,9 +1,11 @@
 import React from 'react';
 import '../Estilos/EstiloMisCursos.css';
+import axios from 'axios';
+import { Component } from 'react';
 
-
-export default function InterfazMisCursos () {
+class InterfazMisCursos extends Component {
   
+  render(){
   return (
 
 <div>
@@ -87,4 +89,6 @@ export default function InterfazMisCursos () {
 </div>
 
 );
-}
+}}
+
+export default InterfazMisCursos;

@@ -34,9 +34,9 @@ export default function Navbarcampesino() {
       <li className="nav-item-campesino nav-item-campesino2 active edit1-nabvarcampesino edit2-nece">
         <Link to="/productostendencia" className="nav-link" href="#">Más vendido</Link>
       </li>
-      <a type="button" class="btn1-header-campe btn-info1"></a>
+      <a type="button" className="btn1-header-campe btn-info1"></a>
       <Link to="/">
-      <button type="button" class="btn btn-info btn-cerrarcampe">Cerrar sesión</button>
+      <button type="button" className="btn btn-info btn-cerrarcampe">Cerrar sesión</button>
       </Link>
     </ul>
   </div>
