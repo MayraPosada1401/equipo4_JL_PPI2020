@@ -10,13 +10,13 @@ import { Link } from "react-router-dom";
 
 export default function conexiones() {
  return (
-   <div className="cuerpito2 AppFondopaginadeenlaces">
+   <div className="cuerpito2 AppFondopaginadeenlaces EcoAgrofond">
    
        <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">EcoAgro</h1>
 
        <div class="card-columns col">
   <div class="card">
-    <img src={mision} class="card-img-top" alt="..."/>
+    <img src="https://cdn.dribbble.com/users/1068771/screenshots/12031686/media/444363d042df196f2b5adb01e2cfef1f.jpg"class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">OBJETIVO</h5>
       <p class="card-text">Romper el esquema del prototipo del intermediario y dejar atrás ese imaginario colectivo erróneo de la baja calidad de productos agrícolas colombianos.</p>
@@ -33,7 +33,7 @@ export default function conexiones() {
     </blockquote>
   </div>
   <div class="card">
-    <img src={vision} class="card-img-top" alt="..."/>
+    <img src="https://cdn.dribbble.com/users/2058952/screenshots/12418544/media/52f4609e57fcfd89e8e1c1b9f2dfaef7.png" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">ALCANCE</h5>
       <p class="card-text">La subordinación y la desobediencia, la humildad y el deseo por la libertad, lo feo y lo sublime se encuentran estrechamente entretejidos, y así, presentan una combinación innegable de elementos opuestos, una combinación mediante la cual estos elementos se provocan mutuamente. 

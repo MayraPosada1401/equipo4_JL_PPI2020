@@ -67,7 +67,9 @@
     height: 200px;
     width: 200px;
    }
-   
+   .EcoAgrofond{
+    background: linear-gradient(to top, #f5f5f5  0%, #86C9F5  100%);
+   }
    @media all and (max-width: 640px), (max-height: 360px) {
     .eco {
       margin-bottom: initial;

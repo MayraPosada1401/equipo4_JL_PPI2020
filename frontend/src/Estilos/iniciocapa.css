@@ -112,7 +112,7 @@
  
 
  .dofienaos{
-    background-color:  #5DADE2;
+    background-color:  white;
  }
 
 /*Ensayo2*/
@@ -185,15 +185,46 @@
    overflow: hidden;
    margin-left: 15%;
    margin-top: 15%;
-   display: inline-block;
+   display:inline-block block;
 }
 .distanciasinline{
   margin-left: 10%;
+  background-image: url( https://cdn.dribbble.com/users/1626229/screenshots/6154241/design_leadership.jpg);
+
+  margin-top: 15%;
 }
 .article23.card345 .thumb {
    width: auto;
    height: 260px;
-   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/new-york-city.png") no-repeat center;
+   background: url("https://elnordeste.com/wp-content/uploads/2019/06/Campesinos.png") no-repeat center;
+   background-size: cover;
+   border-radius: 3px;
+}
+.article23.card345 .thumb2 {
+   width: auto;
+   height: 260px;
+   background: url("https://previews.123rf.com/images/yongkiet/yongkiet1503/yongkiet150300007/37707904-corte-del-granjero-de-c%C3%A1scara-de-coco-para-el-procesamiento-de-productos-agr%C3%ADcolas-en-una-peque%C3%B1a-f%C3%A1brica-en-.jpg") no-repeat center;
+   background-size: cover;
+   border-radius: 3px;
+}
+.article23.card345 .thumb3 {
+   width: auto;
+   height: 260px;
+   background: url("https://cubanosporelmundo.com/wp-content/uploads/2019/03/0307-campesino4-758x397.jpg") no-repeat center;
+   background-size: cover;
+   border-radius: 3px;
+}
+.article23.card345 .thumb4 {
+   width: auto;
+   height: 260px;
+   background: url("https://www.guiadejardineria.com/wp-content/uploads/2012/04/abono-natural.jpg") no-repeat center;
+   background-size: cover;
+   border-radius: 3px;
+}
+.article23.card345 .thumb5 {
+   width: auto;
+   height: 260px;
+   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQBjEgMfaS0Td8naMzmKhZ3ajAztk180UxrhA&usqp=CAU") no-repeat center;
    background-size: cover;
    border-radius: 3px;
 }
@@ -222,10 +253,12 @@
    transform: translateY(-50%);
    width: 35px;
    height: 23px;
-   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/397014/flag.png") no-repeat top right;
+   background: url("https://cdn0.iconfinder.com/data/icons/free-skycons-mix-april-1/128/yumminky-skycons-mix-01-512.png") no-repeat top right;
    background-size: 100% auto;
-   display: inline-block;
+   display: inline-block;/*LEONORA*/
 }
+
+
 .article23.card345 .infos .date, .article23.card345 .infos .seats {
    margin-bottom: 10px;
    text-transform: uppercase;
@@ -274,13 +307,34 @@
 }
 
 
-
-
-
 /**/
 
+.curiosidadescuadro{
+   background-color: transparent;
+margin-left: 2%;
+margin: 2%;
+color: white;
+
+}
+
+.curiosidadescuadro1{
+   background: linear-gradient(to top, #f5f5f5  0%, #86C9F5  100%);
+   margin-left: 3%;
+   margin-top: 1%;
+   display: inline-flex;
+   width: 1300px
 
 
+}
+.Sueñospais{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 90px
+}
+.Sueñospais1{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 70px;
+   text-align: center
+}
 /*Ensayo*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
 .bodyoiuy {
@@ -575,6 +629,13 @@ path {
   background-color: #3498DB 
   ;
   background-image: none;
+}
+.desaparecercu{
+   display: none;
+}
+.curiosidadescuadro1{
+
+
 }
  }
  

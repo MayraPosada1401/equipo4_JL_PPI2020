@@ -70,7 +70,7 @@ export default function perfil() {
         <div className="card-body">
           <h5 className="card-title-perfil">Deseo subir un curso</h5>
           <p className="card-text-perfil">Aquí podras montar la información del producto que deseas vender para que sea vista por el público</p>
-          <Link to="/compradormapa">
+          <Link to="/cursocapa">
           <button type="button" class="btn btn-outline-light btn3-perfil">Deseo subir un curso</button>
           </Link>
         </div>

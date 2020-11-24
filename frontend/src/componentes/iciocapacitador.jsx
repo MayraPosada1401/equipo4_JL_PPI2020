@@ -14,7 +14,7 @@ function iniciocapa(){
  <div  className="cards-inicio-cursos-campe flex-md-equal margincitomijo columnadefondito ">
         
 </div>
-
+<div className="curiosidadescuadro1">
 
 <div className="distanciasinline">
 <article class="card345 article23">
@@ -28,7 +28,7 @@ function iniciocapa(){
     </div>
 </article>
 <article class="card345 article23">
-    <div class="thumb"></div>
+    <div class="thumb2"></div>
     <div class="infos">
         <h2 class="title234">Margarita Peña<span class="flag"></span></h2>
         <h3 class="date">Region: Andina, Ciuda Bolivar-Antioquia</h3>
@@ -38,7 +38,7 @@ function iniciocapa(){
     </div>
 </article>
 <article class="card345 article23">
-    <div class="thumb"></div>
+    <div class="thumb3"></div>
     <div class="infos">
         <h2 class="title234">Alberto Casas<span class="flag"></span></h2>
         <h3 class="date">Region: Andina, Ciuda Bolivar-Antioquia</h3>
@@ -48,7 +48,7 @@ function iniciocapa(){
     </div>
 </article>
 <article class="card345 article23">
-    <div class="thumb"></div>
+    <div class="thumb4"></div>
     <div class="infos">
         <h2 class="title234">Abonos Orgánicos<span class="flag"></span></h2>
         <h3 class="date">Por: Cristiano Ronaldo</h3>
@@ -58,7 +58,7 @@ function iniciocapa(){
     </div>
 </article>
 <article class="card345 article23">
-    <div class="thumb"></div>
+    <div class="thumb5"></div>
     <div class="infos">
         <h2 class="title234">Leonora Ortiz<span class="flag"></span></h2>
         <h3 class="date">Region: Andina, Ciuda Bolivar-Antioquia</h3>
@@ -68,6 +68,36 @@ function iniciocapa(){
     </div>
 </article>
 </div>
+<div className="curiosidadescuadro desaparecercu">
+  <br/>
+  <br/>
+  <br/>
+  <h1>Nuestro Pais</h1>
+  <br/>
+<div>Colombia es un pais prospero de gente talentosa y como decimos los colombianos echada pa delanteâ. Es unn pais que dia a dia se ha fortalecido. que viene mejorando vertiginosamente. Al interior se respira un aire diferente, de cambio, de un mejor ambiente, por eso, en el extranjero su imagen es muy diferente.</div>
+<br/>
+<h1>Nuestro cafe y un poco mas</h1>
+<br/>
+<div>Nuestro cafe colombiano es reconocidoen cualquier paÃis y cuenta con el mayor centro de investigacion del mundo, ademÃ¡s de que nuestro pais es el tercer pais del mundo rico en recursos hidricos, ademÃ¡s es el segundo paÃ­s con mayor riqueza en biodiversidad del mundo y cuenta con mÃ¡s de 1800 especies de aves</div>
+<br/>
+<div>El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos. En este proceso, las mujeres y los jóvenes rurales son agentes de cambio fundamentales para el desarrollo del sector, y debemos vincularlos para que sean líderes de dicha transformació</div>
+<br/>
+<div>Nuestro campo cuenta con los factores esenciales para ser competitivo y aportar mucho más al crecimiento económico y social del país, y necesitamos convertir ese potencial en proyectos productivos concretos.</div>
+<br/>
+<div className="Sueñospais">Un pais de sueños</div>
+<br/>
+<br/>
+<h1>Caceres, el pueblo donde caen mas rayos</h1>
+<br/>
+<div>De acuerdo con una investigacion hecha por la Nasa, Caceres, un municipio ubicado en departamento de Antioquia, es el lugar con mayor actividad de rayos en Colombia y el cuarto en el mundo. Adicionalmente, recibe mas de 6.600 descargas electricas al mes y, en promedio, en un solo kilometro cuadrado pueden caer hasta 172 descargas por año</div>
+<br/>
+<br/>
+<div className="Sueñospais1">"Cada productor produce más que maiz, trigo, soja y girasol, produce futuro"</div>
+
+</div>
+</div>
+<br/>
+<br/>
 <h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">MIS CURSOS</h1>
 
 
@@ -203,76 +233,7 @@ function iniciocapa(){
 </div>
 
 
-<h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">CURIOSIDADES</h1>
 
-
-
-<div class="card-columns col columnadefondito">
-  <div class="card">
-    <img src="https://cdn.colombia.com/images/v2/colombia-info/sabias-que/politica-800.jpg" class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Nuestro Pais</h5>
-      <p class="card-text">Colombia es un pais prospero de gente talentosa y como decimos los colombianos echada pa
-     delanteâ. Es unn pais que dia a dia se ha fortalecido. que viene mejorando vertiginosamente. Al interior se respira un aire diferente,
-      de cambio, de un mejor ambiente, por eso, en el extranjero su imagen es muy diferente.</p>
-    </div>
-  </div>
-  <div class="card p-3">
-    <blockquote class="blockquote mb-0 card-body">
-      <p>Un pais de sueños</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
-  <div class="card">
-    <img src="https://cdn.colombia.com/images/v2/colombia-info/sabias-que/politica-800.jpg" class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Nuestro cafe y un poco mas</h5>
-      <p class="card-text">Nuestro cafe colombiano es reconocidoen cualquier paÃis y cuenta con el mayor centro de investigacion
-     del mundo, ademÃ¡s de que nuestro pais es el tercer pais del mundo rico en recursos hidricos, ademÃ¡s es el segundo paÃ­s con mayor
-     riqueza en biodiversidad del mundo y cuenta con mÃ¡s de 1800 especies de aves</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card bg-primary text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p>Nuestro campo cuenta con los factores esenciales para ser competitivo y aportar mucho más al crecimiento económico y social del país, y necesitamos convertir ese potencial en proyectos productivos concretos.</p>
-      <footer class="blockquote-footer text-white">
-        <small>
-          Familia EcoAgro<cite title="Source Title"></cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
-  <div class="card text-center">
-    <div class="card-body">
-      <h5 class="card-title">Caceres, el pueblo donde caen mas rayos</h5>
-      <p class="card-text">De acuerdo con una investigacion hecha por la Nasa, Caceres, un municipio ubicado en departamento de Antioquia,
-      es el lugar con mayor actividad de rayos en Colombia y el cuarto en el mundo. Adicionalmente, recibe mas de
-      6.600 descargas electricas al mes y, en promedio, en un solo kilometro cuadrado pueden caer hasta 172 descargas por año</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://cdn.colombia.com/images/v2/colombia-info/sabias-que/politica-800.jpg" class="card-img-top" alt="..."/>
-  </div>
-  <div class="card p-3 text-right">
-    <blockquote class="blockquote mb-0">
-      <p>El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos. En este proceso, las mujeres y los jóvenes rurales son agentes de cambio fundamentales para el desarrollo del sector, y debemos vincularlos para que sean líderes de dicha transformación.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-         Familia EcoAgro<cite title="Source Title"></cite>
-        </small>
-      </footer>
-    </blockquote>
-  </div>
- 
-</div>
-
-   
 
      </div>
   
