@@ -126,41 +126,28 @@ export default function InterfazInicioCampesino() {
       <div className="found-5-body">
       <h2 className="h2-inicio titulodato-body forma-padding titulo1-inicio shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte">ALGUNOS DATOS CURIOSOS DE NUESTRO CAMPO COLOMBIANO</h2>
       </div>
-       <div className="datoscuriosos">
-
+       
+      <div className="datoscuriosos">
       <div className ="part1-body">
       <div className="fondideconfianz1">
         <div className="fondideconfianz">
     
-        <div class="containerdemi">
-    <div className="Títulohermosoqu"> Día del campesino</div> 
-    
-  <br/>
-  <br/>
-  <div class="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
+        <div className="containerdemi">
+              <div className="Titulohermosoqu"> Día del campesino</div> 
+              <p class="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
               En 1965, el Ministerio de Cultura declaró el 2 de junio como el Día Nacional Del Campesino sin emabrgo, en un país como Colombia, celebrar el trabajo de nuestros campesinos debería ser tarea diaria. 
-              </div>
+              </p>
               
-              <div className="Títulohermosoqu">La mujer campesina</div> 
-  
-  <br/>
-  <br/>
-
-  <div className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
-                Existen 20 municipios del país como Taraira y Puerto Colombia (Vaupés), donde la participación de las mujeres en la producción supera el 70% entre demás campesinos
-              </div>
-              <div className="Títulohermosoqu">El motor de crecimiento</div> 
-  <br/>
-  <br/>
-  <div className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">    
+              <div className="Titulohermosoqu">La mujer campesina</div> 
+              <p className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">
+              Existen 20 municipios del país como Taraira y Puerto Colombia (Vaupés), donde la participación de las mujeres en la producción supera el 70% entre demás campesinos
+              </p>
+              
+              <div className="Titulohermosoqu">El motor de crecimiento</div> 
+              <p className="media-body losdatos parrafo1-inicio indiciodeltor fondodecolorencampo">    
                En 2017, la industria agropecuaria tuvo un ritmo de expasión superior a sectores como la minería y la contrucción en Colombia, siendo uno de los motores de crecimiento del país
-              </div>
-</div>
-
-<a href="https://dribbble.com/YancyMin" class="dr-url" target="_blank">
-<img class="dr" src="https://cdn.dribbble.com/assets/logo-footer-hd-a05db77841b4b27c0bf23ec1378e97c988190dfe7d26e32e1faea7269f9e001b.png" alt=""/></a>
-<br/>
-<br/>
+              </p>
+         </div>
 </div>
 </div>
 </div></div> 

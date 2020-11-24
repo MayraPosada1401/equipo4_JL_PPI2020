@@ -119,7 +119,7 @@ function App1() {
   <div class="card__body">
     <h3 class="card__name">Pera</h3>
     <p class="card__job">Somos el enlace directo entre campesino y comprador.</p>
-    <p class="card__bio">Producto proveniente d enuestra Región Amazonica</p>
+    <p class="card__bio">Producto proveniente de nuestra Región Amazonica</p>
   </div>
   <div class="card__footer">
     <p class="card__date">Feb 10 2018</p>

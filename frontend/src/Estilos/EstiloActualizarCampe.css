@@ -34,7 +34,6 @@
 /*Cuadros de texto*/
 .form-actualizardatoscampe {
     margin-left: 400px;
-    margin-bottom: 5%;
     margin-top: 60px;
 }
 .among-actualizardatoscampe{
@@ -46,6 +45,7 @@
 .btnalinearenelcentrocontenedor-botonconfirmaractucampe{
     margin-left: 0px;
     width: 530px;
+    margin-bottom: 50px;
 }
 
 @media all and (max-width: 640px), (max-height: 360px){

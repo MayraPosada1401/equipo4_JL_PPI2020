@@ -206,8 +206,8 @@
 }
 
 .fondodecolorencampo{
-  background-color: #85C1E9 ;
   color: white;
+  padding-left: 150px;
 }
 /*Contenedor de los datos curiosos*/
 .part1-body{
@@ -345,11 +345,12 @@ body {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.Títulohermosoqu{
-  margin: 2%;
+.Titulohermosoqu{
+  margin-left: 250px;
   background-color: #AED6F1 ;
   font-size: 42px;
   color: #5DADE2;
+  width: 500px;
 }
 .datoscuriosos{
   background-image: url(https://cdn.dribbble.com/users/3639405/screenshots/9090720/media/c0b978441263a0130c6eedfc04512bfb.jpg); 
@@ -730,5 +731,15 @@ body {
   margin-left: 25%;
   margin-right: 10%;
 }
-
+.Titulohermosoqu{
+  margin-left: 0px;
+  background-color: #AED6F1 ;
+  font-size: 26px;
+  color: #5DADE2;
+  width: 200px;
+}
+.fondodecolorencampo{
+  color: white;
+  padding-left: 1px;
+}
 }
