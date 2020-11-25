@@ -8,7 +8,7 @@ export default class InterfazSubirProducto extends Component {
     //Inicialización del estado y llamado de props
     super(props);
     this.state ={
-        dataSubirProducto:[],
+        //dataSubirProducto:[],
         elProducto:{
           nombre_producto: '',
           tipo_producto: '',
@@ -17,13 +17,12 @@ export default class InterfazSubirProducto extends Component {
           precio: '',
           tipo_producion: '',
           region_produccion: '',
-          descripcion_precio: '',
-          id: ''
+          descripcion_precio: ''
         }
     }
   }
 
-  peticionPost2=async(e)=>{
+  peticionPost2=async()=>{
     delete this.state.elProducto.id
     await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevoproducto', this.state.elProducto)
     .then(res=>{
@@ -132,7 +131,7 @@ export default class InterfazSubirProducto extends Component {
                     <textarea className="form-control" id="exampleFormControlTextarea1" name="descripcion_precio" onChange={this.handleChange} value={this.state.elProducto.descripcion_precio} placeholder="Este campo no es obligatorio. Aquí puede escribir las razones por las cuales asignó ese precio" rows="3"></textarea>
                 </div>
                 <div className="text-center">
-                    <button type="submit" className=" btn btn-info text-white col-12 btn-padding-confirmar-subirproducto" onClick={()=> this.peticionPost2}>Confirmar Producto</button>
+                    <button type="submit" className=" btn btn-info text-white col-12 btn-padding-confirmar-subirproducto" onClick={this.peticionPost2}>Confirmar Producto</button>
                 </div>
             </form>
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
 import Canasta from '../Imagenes/Canasta.png';
 import carrusel1 from '../Imagenes/carrusel1.png';
@@ -7,9 +7,51 @@ import carrusel3 from '../Imagenes/carrusel3.png';
 import CAMPO2 from '../Imagenes/CAMPO2.jpg';
 import procesoecoagro from '../Imagenes/procesoecoagro.png';
 import { Link } from 'react-router-dom';
-import '../Estilos/Registro.css'
+import '../Estilos/Registro.css';
+import axios from 'axios';
 
-function Transportador() {
+class Transportador extends Component {
+
+  constructor(props) {
+    //Inicialización del estado y llamado de props
+    super(props);
+    this.state ={
+        losRegistros:{
+          nombre: '',
+          apellido: '',
+          usuario: '',
+          email: '',
+          contraseña: '',
+          confirmar_contraseña: '',
+          departamento: '',
+          tipo_usuario: '',
+          estrato: '',
+          genero: ''
+        }
+    }
+  }
+
+  peticionPostR=async()=>{
+    delete this.state.losRegistros.id
+    await axios.post('https://semana9jl.karolcuellar.repl.co/api/ingresonuevoregistro', this.state.losRegistros)
+    .then(res=>{
+    }).catch(error=>{
+      console.log(error.message)
+    })
+  }
+
+  handleChange=async (e) =>{
+    e.persist();
+    await this.setState({
+      losRegistros:{
+        ...this.state.losRegistros,
+        [e.target.name]: e.target.value 
+      }
+    })
+    console.log(this.state.losRegistros)
+  }
+
+  render(){
 
     return (
         <div className="App">
@@ -84,37 +126,37 @@ function Transportador() {
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Nombre</label>
-      <input type="email" class="form-control" id="inputEmail4"/>
+      <input type="text" class="form-control" id="inputEmail4" name="nombre" onChange={this.handleChange} value={this.state.losRegistros.nombre}/>
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Apellido</label>
-      <input type="password" class="form-control" id="inputPassword4"/>
+      <input type="text" class="form-control" id="inputPassword4" name="apellido" onChange={this.handleChange} value={this.state.losRegistros.apellido}/>
     </div>
     <div class="form-group col-md-6">
       <label for="inputEmail4">Nombre de Usuario</label>
-      <input type="email" class="form-control" id="inputEmail4"/>
+      <input type="text" class="form-control" id="inputEmail4" name="usuario" onChange={this.handleChange} value={this.state.losRegistros.usuario}/>
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Email</label>
-      <input type="password" class="form-control" id="inputPassword4"/>
+      <input type="email" class="form-control" id="inputPassword4" name="email" onChange={this.handleChange} value={this.state.losRegistros.email}/>
     </div>
     <div class="form-group col-md-6">
       <label for="inputEmail4">Contraseña</label>
-      <input type="email" class="form-control" id="inputEmail4"/>
+      <input type="password" class="form-control" id="inputEmail4" name="contraseña" onChange={this.handleChange} value={this.state.losRegistros.contraseña}/>
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Confirme Contraseña</label>
-      <input type="password" class="form-control" id="inputPassword4"/>
+      <input type="password" class="form-control" id="inputPassword4" name="confirmar_contraseña" onChange={this.handleChange} value={this.state.losRegistros.confirmar_contraseña}/>
     </div>
   </div>
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputCity">Departamento</label>
-      <input type="text" class="form-control" id="inputCity"/>
+      <input type="text" class="form-control" id="inputCity" name="departamento" onChange={this.handleChange} value={this.state.losRegistros.departamento}/>
     </div>
     <div class="form-group col-md-2">
       <label for="inputState">Elija su tipo de usuario</label>
-      <select id="inputState" class="form-control">
+      <select id="inputState" class="form-control" name="tipo_usuario" onChange={this.handleChange} value={this.state.losRegistros.tipo_usuario}>
         <option selected>Tipo de usuario</option>
         <option>Campesino</option>
         <option>Comprador</option>
@@ -123,11 +165,11 @@ function Transportador() {
     </div>
     <div class="form-group col-md-2">
       <label for="inputZip">Estrato</label>
-      <input type="text" class="form-control" id="inputZip"/>
+      <input type="text" class="form-control" id="inputZip" name="estrato" onChange={this.handleChange} value={this.state.losRegistros.estrato}/>
     </div>
     <div class="form-group col-md-2">
       <label for="inputZip">Género</label>
-      <select id="inputState" class="form-control">
+      <select id="inputState" class="form-control" name="genero" onChange={this.handleChange} value={this.state.losRegistros.genero}>
         <option selected>Género</option>
         <option>Femenino</option>
         <option>Masculino</option>
@@ -137,18 +179,17 @@ function Transportador() {
   </div>
   <div class="form-group">
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck"/>
       <label class="form-check-label" for="gridCheck">
-       Acepto todos los terminos y condiciones de uso de datos
+       Al rellenar el formulario usted acepta el almacenamiento de información protegida bajo la <a href="https://actualicese.com/ley-1266-de-31-12-2008/">ley 1266 de Habeas Data</a>
       </label>
     </div>
   </div>
-  <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+  <button type="submit" class="btn btn-primary margin-formulario-registro-usuarios" onClick={this.peticionPostR}>Registrarse</button>
 </form>
 </div>
   </div> 
 
 
       );
-    }
+    }}
     export default Transportador;
