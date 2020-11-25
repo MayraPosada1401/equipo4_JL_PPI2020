@@ -10,7 +10,7 @@ export default class InterfazMaterialCursoCampe extends Component {
     this.state ={
         dataInfoCurso:[]
     }
-}
+  }
 
 peticionGet2=()=>{
     axios.get('https://semana9jl.karolcuellar.repl.co/api/cursos').then(res =>{

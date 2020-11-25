@@ -1,7 +1,55 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../Estilos/EstiloSubirProducto.css';
+import axios from 'axios';
 
-export default function InterfazSubirProducto() {
+export default class InterfazSubirProducto extends Component {
+
+  constructor(props) {
+    //Inicialización del estado y llamado de props
+    super(props);
+    this.state ={
+        dataSubirProducto:[],
+        elProducto:{
+          nombre_producto: '',
+          tipo_producto: '',
+          descripcion: '',
+          municipio_produccion: '',
+          precio: '',
+          tipo_producion: '',
+          region_produccion: '',
+          descripcion_precio: '',
+          id: ''
+        }
+    }
+  }
+
+  peticionPost2=async(e)=>{
+    delete this.state.elProducto.id
+    await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevoproducto', this.state.elProducto)
+    .then(res=>{
+      //this.peticionPost();
+    }).catch(error=>{
+      console.log(error.message)
+    })
+  }
+
+  /*peticionPost=()=>{
+    this.setState({
+      dataSubirProducto: !this.state.dataSubirProducto
+  })}*/
+
+  handleChange=async (e) =>{
+    e.persist();
+    await this.setState({
+      elProducto:{
+        ...this.state.elProducto,
+        [e.target.name]: e.target.value 
+      }
+    })
+    console.log(this.state.elProducto)
+  }
+
+    render(){
   
     return (
     <div className="Perfil">
@@ -33,25 +81,25 @@ export default function InterfazSubirProducto() {
                 <div className="form-row">
                   <div className="form-group col-md-6">
                     <label for="name">Nombre del producto</label>
-                    <input type="text" className="form-control" id="name" required/>
+                    <input type="text" className="form-control" id="name" name="nombre_producto" onChange={this.handleChange} value={this.state.elProducto.nombre_producto} required/>
                   </div>
                   <div className="form-group col-md-6">
                     <label for="lastName">Tipo de Producto</label>
-                    <input type="text" className="form-control" id="lastName" placeholder="Cítrico, Tuberculo, etc" require/>
+                    <input type="text" className="form-control" id="lastName" name="tipo_producto" onChange={this.handleChange} value={this.state.elProducto.tipo_producto} placeholder="Cítrico, Tuberculo, etc" require/>
                   </div>
                 </div>
                 <div className="form-group">
                     <label for="exampleFormControlTextarea1">Descripción del producto</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" name="descripcion" onChange={this.handleChange} value={this.state.elProducto.descripcion} rows="3"></textarea>
                 </div>
                 <div className="form-row">
                   <div className="form-group col-md-6">
                     <label for="name">Municipio de Producción</label>
-                    <input type="text" className="form-control" id="name" required/>
+                    <input type="text" className="form-control" id="name" name="municipio_produccion" onChange={this.handleChange} value={this.state.elProducto.municipio_produccion} required/>
                   </div>
                   <div className="col-md-6 mb-3">
                     <label for="validationDefault04">Tipo de Producción</label>
-                    <select className="custom-select" id="validationDefault04" required>
+                    <select className="custom-select" id="validationDefault04" name="tipo_producion" onChange={this.handleChange} value={this.state.elProducto.tipo_producion} required>
                     <option selected disabled value="">Seleccione</option>
                     <option>Alta Producción</option>
                     <option>Baja Producción</option>
@@ -61,7 +109,7 @@ export default function InterfazSubirProducto() {
                 <div className="form-row">
                   <div className="col-md-6 mb-3">
                     <label for="validationDefault04">Región de Producción</label>
-                    <select className="custom-select" id="validationDefault04" required>
+                    <select className="custom-select" id="validationDefault04" name="region_produccion" onChange={this.handleChange} value={this.state.elProducto.region_produccion} required>
                     <option selected disabled value="">Seleccione</option>
                     <option>Andina</option>
                     <option>Caribe</option>
@@ -76,20 +124,19 @@ export default function InterfazSubirProducto() {
                 <div className="form-row">
                   <div className="form-group col-md-12">
                     <label for="name">Ingrese precio (Escribalo sin comas ni puntos Ej: 1200)</label>
-                    <input type="text" className="form-control" id="name" placeholder="Ingreselo por libras" required/>
+                    <input type="text" className="form-control" id="name" name="precio" onChange={this.handleChange} value={this.state.elProducto.precio} placeholder="Ingreselo por libras" required/>
                   </div>
                 </div>
                 <div className="form-group">
                     <label for="exampleFormControlTextarea1">Descripción del precio</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Este campo no es obligatorio. Aquí puede escribir las razones por las cuales asignó ese precio" rows="3"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" name="descripcion_precio" onChange={this.handleChange} value={this.state.elProducto.descripcion_precio} placeholder="Este campo no es obligatorio. Aquí puede escribir las razones por las cuales asignó ese precio" rows="3"></textarea>
                 </div>
                 <div className="text-center">
-                    <button type="submit" className=" btn btn-info text-white col-12 btn-padding-confirmar-subirproducto">Confirmar Producto</button>
+                    <button type="submit" className=" btn btn-info text-white col-12 btn-padding-confirmar-subirproducto" onClick={()=> this.peticionPost2}>Confirmar Producto</button>
                 </div>
             </form>
 
-         
         </div>
     </div>
 
-    );}
+    );}}
