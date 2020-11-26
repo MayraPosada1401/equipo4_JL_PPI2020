@@ -18,8 +18,8 @@ export default function InterfazPerfilcampesino() {
         <h2 className="titulo-perfil titulobody-perfil">Deseo Cambiar mi foto de Perfil</h2>
         <h3 className="titulodato-perfil subtitulo1-perfil">Recomendaciones generales</h3>
       </div>
-        <div className="part1-perfil">
-            <div>
+        <div className="part1-perfil part2-perfilintercampe">
+            <div className="marginimagen-intercampe-fotop">
             <a href="#" className="btn btn-light btn-primary-perfil"></a>
             <button type="button" class="btn btn-info btn2-perfil">Cambiar foto de perfil</button>
             </div>

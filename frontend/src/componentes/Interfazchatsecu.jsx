@@ -11,20 +11,35 @@ export default class InterfazChatSecundario extends Component {
         this.state ={
             dataConversación:[],
             precioAcuerdo:{
-                precio_nuevo: ''
-              }
+                precio_nuevo: '',
+                id_registros: ''
+            },
+            conversacionUsers:{
+                conversacion: '',
+                id_registro: ''
+            }
         }
     }
 
     peticionPostA=async()=>{
-        //delete this.state.losRegistros.id
+        delete this.state.precioAcuerdo.id_registros
         await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevopreciodeacuerdo', this.state.precioAcuerdo)
         .then(res=>{
           //
         }).catch(error=>{
           console.log(error.message)
         })
-      }
+    }
+
+    peticionPostC=async()=>{
+        delete this.state.conversacionUsers.id_registro
+        await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevaconversacion', this.state.conversacionUsers)
+        .then(res=>{
+          //
+        }).catch(error=>{
+          console.log(error.message)
+        })
+    }
     
       handleChange=async (e) =>{
         e.persist();
@@ -32,9 +47,14 @@ export default class InterfazChatSecundario extends Component {
           precioAcuerdo:{
             ...this.state.precioAcuerdo,
             [e.target.name]: e.target.value 
+          },
+          conversacionUsers:{
+            ...this.state.conversacionUsers,
+            [e.target.name]: e.target.value 
           }
         })
         console.log(this.state.precioAcuerdo)
+        console.log(this.state.conversacionUsers)
       }
 
     peticionGetConversación=()=>{
@@ -76,6 +96,7 @@ export default class InterfazChatSecundario extends Component {
             <div className="contenedor2dechat-chatsecundario">
             <div className="form-group-chatsecundario col-md-6">
                 <input type="text" className="form-control chatsecundario-inputprecio" required name="precio_nuevo" onChange={this.handleChange} value={this.state.precioAcuerdo.precio_nuevo}/>
+                <input type="text" className="chatsecundario-inputprecio-cancelar" required name="id_registros" onChange={this.handleChange} value={this.state.precioAcuerdo.id_registros}/>
             </div>
             <button className="boton-chatsecundario-confirmar" onClick={this.peticionPostA}></button>
             </div> 
@@ -140,9 +161,10 @@ export default class InterfazChatSecundario extends Component {
 
             <div className="contenedor2dechat-perfilsecundario-campe">
             <div className="form-group-chatsecundario-campe col-md-10">
-                <input type="text" className="form-control border border-warning border-input-chatsecundario-campe" required/>
+                <input type="text" className="form-control border border-warning border-input-chatsecundario-campe" required name="conversacion" onChange={this.handleChange} value={this.state.conversacionUsers.conversacion}/>
+                <input type="text" className="chatsecundario-inputprecio-cancelar" required name="id_registro" onChange={this.handleChange} value={this.state.conversacionUsers.id_registro}/>
             </div>
-            <button className="boton-enviarmensaje-chatsecundario-campe"></button>
+            <button className="boton-enviarmensaje-chatsecundario-campe" onClick={this.peticionPostC}></button>
             </div> 
          </div>
         
