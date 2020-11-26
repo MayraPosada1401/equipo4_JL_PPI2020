@@ -125,7 +125,28 @@
   background-size: 45px 45px;
   border: 3px #F8AA03 solid;
 }
-
+.boton-chatsecundario-confirmartyuop{
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  margin-right: 117px;
+  background-image: url("https://cdn4.iconfinder.com/data/icons/business-and-finance-colorful-free-hand-drawn-set/100/shopping_cart-512.png");
+  background-size: 45px 40px;
+  border: none;  
+  background-color: #1B4F72;
+  width: 48px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.preciodechat{
+  margin-left: 55%;
+  font-size: 42px;
+  color: white;
+  background-color: #AED6F1 ;
+ width: 145px;
+ border-radius: 20px;
+ border: 2px solid white;
+}
 @media all and (max-width: 640px), (max-height: 360px){
 .ChatSecundario-campe{
   box-sizing: border-box 2px;
