@@ -123,7 +123,9 @@ function iniciocapa(){
       <h2 className="colorcitodeblanco">Curso agropecuario</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
-  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+  <Link to="/cursocapa">
+   <button type="button" class="btn btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+   </Link>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
@@ -154,7 +156,9 @@ function iniciocapa(){
       <h2 className="colorcitodeblanco">Curso de abono</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
-  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+  <Link to="/cursocapa">
+   <button type="button" class="btn btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+   </Link>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
@@ -187,7 +191,9 @@ function iniciocapa(){
       <h2 className="colorcitodeblanco">Curso de conservación del suelo</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
-  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+  <Link to="/cursocapa">
+   <button type="button" class="btn btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+   </Link>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
@@ -217,7 +223,9 @@ function iniciocapa(){
       <h2 className="colorcitodeblanco">Curso de pesticidas</h2>
   
   <div class="desc">En el campo están las oportunidades para Colombia. Es hora de transformar ideas en inversiones sostenibles para el agro. El contexto de construcción de paz que vive el país abre nuevas alternativas para la actividad agropecuaria, un importante jalonador de la economía, que impacta positivamente en la generación de empleo y calidad de vida de millones de ciudadanos.</div>
-  <button href="#" class="btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+  <Link to="/cursocapa">
+   <button type="button" class="btn btn btn-light"><h1 className="tamañoescrt">Editar curso</h1></button>
+   </Link>
   <div class="actions">
     <button><i class="far fa-heart"></i></button>
     <button><i class="far fa-envelope"></i></button>
