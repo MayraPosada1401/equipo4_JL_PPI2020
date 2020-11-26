@@ -67,6 +67,15 @@
   background-size: 45px 40px;
   border: none;
 }
+.boton-chatprincipal-confirmardeconfirm{
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  margin-right: 100px;
+  background-image: url("https://cdn2.iconfinder.com/data/icons/seo-flat-6/128/20_In-Store_Promotion-512.png");
+  background-size: 45px 40px;
+  border: none;  
+}
 .chatprincipal-inputprecio{
   margin-left: 49px;
 }

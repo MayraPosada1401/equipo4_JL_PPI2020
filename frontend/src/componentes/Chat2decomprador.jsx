@@ -100,9 +100,9 @@ export default function InterfazChatPrincipal() {
       
       <div className="contenedor2dechat-chatsecundario">
       <div className="form-group-chatsecundario col-md-6">
-          <input type="text" className="form-control chatsecundario-inputprecio" required/>
+        <div className="preciodechat">45.000</div>
       </div>
-      <button className="boton-chatsecundario-confirmar"></button>
+      <button className="boton-chatsecundario-confirmartyuop"></button>
       </div> 
       </div>
 
@@ -121,9 +121,9 @@ export default function InterfazChatPrincipal() {
       
       <div className="contenedor2dechat-chatsecundario">
       <div className="form-group-chatsecundario col-md-6">
-          <input type="text" className="form-control chatsecundario-inputprecio" required/>
+      <div className="preciodechat">45.000</div>
       </div>
-      <button className="boton-chatsecundario-confirmar"></button>
+      <button className="boton-chatsecundario-confirmartyuop"></button>
       </div> 
       </div>
 
@@ -142,9 +142,9 @@ export default function InterfazChatPrincipal() {
       
       <div className="contenedor2dechat-chatsecundario">
       <div className="form-group-chatsecundario col-md-6">
-          <input type="text" className="form-control chatsecundario-inputprecio" required/>
+      <div className="preciodechat">45.000</div>
       </div>
-      <button className="boton-chatsecundario-confirmar"></button>
+      <button className="boton-chatsecundario-confirmartyuop"></button>
       </div> 
       </div>
 
