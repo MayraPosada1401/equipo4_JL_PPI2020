@@ -1,8 +1,59 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../Estilos/EstiloChatSecun.css';
+import axios from 'axios';
 
-export default function InterfazChatSecundario() {
-  
+export default class InterfazChatSecundario extends Component {
+
+    
+    constructor(props) {
+        //Inicialización del estado y llamado de props
+        super(props);
+        this.state ={
+            dataConversación:[],
+            precioAcuerdo:{
+                precio_nuevo: ''
+              }
+        }
+    }
+
+    peticionPostA=async()=>{
+        //delete this.state.losRegistros.id
+        await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevopreciodeacuerdo', this.state.precioAcuerdo)
+        .then(res=>{
+          //
+        }).catch(error=>{
+          console.log(error.message)
+        })
+      }
+    
+      handleChange=async (e) =>{
+        e.persist();
+        await this.setState({
+          precioAcuerdo:{
+            ...this.state.precioAcuerdo,
+            [e.target.name]: e.target.value 
+          }
+        })
+        console.log(this.state.precioAcuerdo)
+      }
+
+    peticionGetConversación=()=>{
+        axios.get('https://semana9jl.karolcuellar.repl.co/api/conversaciones').then(res =>{
+            //console.log(res.data);
+            this.setState({
+                dataConversación: res.data
+            })
+        }).catch(err =>{
+            console.log(err.message)
+        })
+    }
+
+    componentDidMount(){
+        this.peticionGetConversación();
+    }
+
+    render(){
+        const datosConversacion = this.state.dataConversación
     return (
     
     <div className="ChatSecundario-campe">
@@ -24,9 +75,9 @@ export default function InterfazChatSecundario() {
             
             <div className="contenedor2dechat-chatsecundario">
             <div className="form-group-chatsecundario col-md-6">
-                <input type="text" className="form-control chatsecundario-inputprecio" required/>
+                <input type="text" className="form-control chatsecundario-inputprecio" required name="precio_nuevo" onChange={this.handleChange} value={this.state.precioAcuerdo.precio_nuevo}/>
             </div>
-            <button className="boton-chatsecundario-confirmar"></button>
+            <button className="boton-chatsecundario-confirmar" onClick={this.peticionPostA}></button>
             </div> 
             </div>
 
@@ -76,19 +127,16 @@ export default function InterfazChatSecundario() {
             
          </div>
       
+         
          <div className="contenedor-chatsecundario-campe">
          <h3 className="titulos-fechas-chatsecundario">19/07/2020</h3>
+         {datosConversacion.map((chatConver) =>{
+           return(
             <div className="recuadromensaje-chatsecundario-campe">
-                <h4 className="nombreusuario-chatsecundario-campe">Martina Estrada</h4>
-                <p className="parrafo-conversación-chatsecundario-campe">Hola muy buen día, deseo pactar un precio con usted por el producto mango tomy. Ofrezco 2000$ por el kilo</p>
-            </div>
-            
-            <h3 className="titulos-fechas-chatsecundario">20/07/2020</h3>
-            
-            <div className="recuadromensaje2-chatsecundario-campe">
-                <h4 className="nombreusuario-chatsecundario-campe">Pablo Arango</h4>
-                <p className="parrafo-conversación-chatsecundario-campe">Hola muy buen día, el precio que me ofrece me parece justo y bueno. Muchas gracias por comunicarse conmigo</p>
-            </div>
+                <h4 className="nombreusuario-chatsecundario-campe">Usuario: {chatConver.id_registro}</h4>
+                <p className="parrafo-conversación-chatsecundario-campe">{chatConver.conversacion}</p>
+            </div>        
+             )})}
 
             <div className="contenedor2dechat-perfilsecundario-campe">
             <div className="form-group-chatsecundario-campe col-md-10">
@@ -97,8 +145,9 @@ export default function InterfazChatSecundario() {
             <button className="boton-enviarmensaje-chatsecundario-campe"></button>
             </div> 
          </div>
+        
 
         
     </div>
 
-    );}
+    );}}

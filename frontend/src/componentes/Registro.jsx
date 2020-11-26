@@ -32,9 +32,10 @@ class Transportador extends Component {
   }
 
   peticionPostR=async()=>{
-    delete this.state.losRegistros.id
+    //delete this.state.losRegistros.id
     await axios.post('https://semana9jl.karolcuellar.repl.co/api/ingresonuevoregistro', this.state.losRegistros)
     .then(res=>{
+      //
     }).catch(error=>{
       console.log(error.message)
     })

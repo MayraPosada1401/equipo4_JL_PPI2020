@@ -131,6 +131,8 @@ export default function InterfazInicioCampesino() {
       <div className ="part1-body">
       <div className="fondideconfianz1">
         <div className="fondideconfianz">
+          <img src={campe} alt="" className="imagencampesina-iniciointerfazcampe"/>
+        </div>
     
         <div className="containerdemi">
               <div className="Titulohermosoqu"> Día del campesino</div> 
@@ -148,7 +150,7 @@ export default function InterfazInicioCampesino() {
                En 2017, la industria agropecuaria tuvo un ritmo de expasión superior a sectores como la minería y la contrucción en Colombia, siendo uno de los motores de crecimiento del país
               </p>
          </div>
-</div>
+    
 </div>
 </div></div> 
       </div>

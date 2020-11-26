@@ -195,14 +195,13 @@
   text-align: center;
   margin-left: -80px;
 }
-.fondideconfianz{
-  
-  background-image: url('../Imagenes/campe.png');
-  background-repeat: no-repeat;
-
+.imagencampesina-iniciointerfazcampe{
+  width: 500px;
+  height: 500px;
 }
 .fondideconfianz1{
   background-color:#85C1E9  ;
+  display: flex;
 }
 
 .fondodecolorencampo{
@@ -267,6 +266,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: -250px;
 }
 .containerdemi .card {
   position: relative;
@@ -741,5 +741,17 @@ body {
 .fondodecolorencampo{
   color: white;
   padding-left: 1px;
+}
+.fondideconfianz1{
+  background-color:#85C1E9  ;
+  display: inline-block;
+}
+.imagencampesina-iniciointerfazcampe{
+  width: 300px;
+  height: 300px;
+}
+.containerdemi {
+  margin-left: -25px;
+  margin-bottom: 50px;
 }
 }

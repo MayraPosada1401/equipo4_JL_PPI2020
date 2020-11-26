@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../Estilos/EstiloChatPrincipal.css';
 import Fresa from '../Imagenes/strawberry.png';
 import Manzana from '../Imagenes/apple.png';
@@ -8,9 +8,43 @@ import Pera from '../Imagenes/pera.png';
 import Piña from '../Imagenes/pineapple.png';
 import Sandia from '../Imagenes/sandia.png';
 import {Link} from 'react-router-dom';
+import axios from 'axios';
 
-export default function InterfazChatPrincipal() {
-  
+export default class InterfazChatPrincipal extends Component {
+    
+    constructor(props) {
+        //Inicialización del estado y llamado de props
+        super(props);
+        this.state ={
+            precioAcuerdo:{
+                precio_nuevo: ''
+              }
+        }
+    }
+
+    peticionPostA=async()=>{
+       //delete this.state.precioAcuerdo.id_registros
+        await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevopreciodeacuerdo', this.state.precioAcuerdo)
+        .then(res=>{
+          //
+        }).catch(error=>{
+          console.log(error.message)
+        })
+      }
+    
+      handleChange=async (e) =>{
+        e.persist();
+        await this.setState({
+          precioAcuerdo:{
+            ...this.state.precioAcuerdo,
+            [e.target.name]: e.target.value 
+          }
+        })
+        console.log(this.state.precioAcuerdo)
+      }
+
+    render(){
+        
     return (
     
     <div className="ChatPrincipal">
@@ -34,9 +68,9 @@ export default function InterfazChatPrincipal() {
             
             <div className="contenedor2dechat-chatprincipal">
             <div className="form-group-chatprincipal ">
-                <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
+                <input type="text" className="form-control chatprincipal-inputprecio" required="" name="precio_nuevo" onChange={this.handleChange} value={this.state.precioAcuerdo.precio_nuevo}/>
             </div>
-            <button className="boton-chatprincipal-confirmar"></button>
+            <button className="boton-chatprincipal-confirmar" onClick={this.peticionPostA}></button>
             </div> 
             </div>
 
@@ -81,11 +115,8 @@ export default function InterfazChatPrincipal() {
             <button className="boton-chatprincipal-confirmar"></button>
             </div> 
             </div>
-
-
             
          </div>
-      
          <div className="contenedor-chatprincipal">
              <img src={Fresa} className="img-fruta-chatprincipal img-fresa-chatprincipal" alt=""/>
              <img src={Manzana} className="img-fruta-chatprincipal img-manzana-chatprincipal" alt=""/>
@@ -100,4 +131,4 @@ export default function InterfazChatPrincipal() {
         
     </div>
 
-    );}
+    );}}
