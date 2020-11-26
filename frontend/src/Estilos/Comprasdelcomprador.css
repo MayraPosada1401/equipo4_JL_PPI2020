@@ -24,8 +24,8 @@
     display: inline-block !important;
     margin: 5%;
     width: 50rem;  
-    background-color: #189DAD  ;
-    color: #8DF1FC    ;
+    background-color: #85C1E9;
+    color: #2E86C1;
     margin: 80px 270px;
     border-radius: 40px;
     margin-right: 100px;
@@ -44,7 +44,13 @@
   font-style:initial;
   font-size: 100px;
 }
-
+.Colordefondoform{
+  margin-left: 27%;
+  background-color: #85C1E9;
+width: 700px;
+height: 400px;
+border-radius: 40px;
+}
 .Contenedor03{
     background-color: #FCE7AA ;
     background-color: #C2F1FC ;
@@ -77,13 +83,18 @@ font-style:initial;
 font-size: 50px;
 }
 .margincom{
-  margin: 8%;
-  margin-left: 30%;
-  margin-right: 25%;
+  margin-top: 3%;
+margin-left: 20%;
+  display: inline-flex;
 }
 
 .fondopanvalor1{
   background-color: #5DADE2 ;
+}
+.izquierdafactur{
+  background-color: #5DADE2 ;
+  color: white; 
+  margin-left: 15%;
 }
 @media all and (max-width: 640px), (max-height: 360px){
   .carousel{
@@ -100,6 +111,24 @@ font-size: 50px;
   color:#66BFC6 ;
   color:#0AA4CA  ;
   font-size: 15px;
+}
+.Colordefondoform{
+  margin-left: 3%;
+  background-color: #85C1E9;
+width: 350px;
+height: 300px;
+border-radius: 40px;
+}
+.margincom{
+  margin-top: 3%;
+margin-left: 8%;
+  display: inline-flex;
+}
+
+.izquierdafactur{
+  background-color: #5DADE2 ;
+  color: white; 
+  margin-left: 10%;
 }
 }
 

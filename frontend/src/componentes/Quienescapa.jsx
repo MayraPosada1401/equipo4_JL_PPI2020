@@ -17,10 +17,10 @@ function Transportador() {
         <div className="App Fondodequienes">
       
       <div>
-    <div>
-    <div className="Header-nabvarcampesino">
+      <div>
+    <div className="Header-nabvarcapa">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a>
+          <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercapa" /></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -33,21 +33,18 @@ function Transportador() {
             <Link to= "/cursocapa" className="nav-link" href="#">Cursos</Link>
           </li>
           <li className="nav-item-campesino normal-nav nav-item-campesino2 active">
-          <Link to="/forolistocapa" className="nav-link " href="#">Foros</Link>
-          </li>
-          <li className="nav-item-campesino normal-nav nav-item-campesino2 active">
             <Link to="/conexionescapa" className="nav-link" href="#">Conexiones</Link>
           </li>
-          <li className="nav-item-campesino nav-item-campesino2 active edit1-nabvarcampesino edit2-nece">
-            <Link to="/quienescapa" className="nav-link" href="#">Quienes somos</Link>
+          <li className="nav-item-campesino nav-item-campesino2 active edit2-nececapa">
+            <Link to="/quienescapa" className="nav-link" href="#">Contactanos</Link>
           </li>
         
-          <li className="nav-item-campesino nav-item-campesino2 active edit1-nabvarcampesino edit2-nece">
+          <li className="nav-item-campesino nav-item-campesino2 active edit2-nececapa">
             <Link to="/perfilcapa" className="nav-link" href="#">Perfil</Link>
           </li>
           <a type="button" class="btn1-header-campe btn-info1"></a>
           <Link to="/">
-          <button type="button" class="btn btn-info btn-cerrarcampe">Cerrar sesión</button>
+          <button type="button" class="btn btn-info btn-cerrarcapa">Cerrar sesión</button>
           </Link>
         </ul>
       </div>

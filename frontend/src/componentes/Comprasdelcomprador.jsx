@@ -23,9 +23,9 @@ function compra() {
       <li className="nav-item nav-item normal-nav active">
       <Link to="/app1"><a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a></Link>
       </li>
-        <li className="nav-item normal-nav nav-item active">
-        <a class="nav-link" href="#">Conexiones</a>
-        </li>
+      <li className="nav-item nav-item normal-nav active">
+      <Link to="/conexionescompra"><a className="nav-link" href="">Conexiones <span class="sr-only">(current)</span></a></Link>
+      </li>
         <li className="nav-item normal-nav nav-item active">
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>
@@ -87,15 +87,7 @@ function compra() {
       <div className="Contenedor"> 
       <h1 className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte"> COMPRAS</h1> 
       </div>
-    
-  <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="sr-only">Previous</span>
-  </a>
-  <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="sr-only">Next</span>
-  </a>
+
 
 <div  className="UBICACION">
         
@@ -136,7 +128,7 @@ function compra() {
               </form>
 
               <div class="text-center">
-                    <button type="submit" class="btn btn-light">Factura</button>
+                    <button type="submit" class="btn btn-outline-info">Factura</button>
                 </div>
 
                 
@@ -145,67 +137,36 @@ function compra() {
           </div>
         </div>
       
-      <div className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte"> FACTURA</div> 
-   
-
+      <div className="shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte izquierdafactur"> FACTURA</div> 
+<div className="Colordefondoform">
   <div className="margincom">
-       
-       <form>
-
-  <div class="row">
-    <div class="col">
   <h1 className="coloytamaño">Número de pedido:</h1>  
+  <h1 className="coloytamaño">123</h1>  
     </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder=""/>
+<br/>
+
+<div className="margincom">
+  <h1 className="coloytamaño">Valor a pagar:</h1>  
+  <h1 className="coloytamaño">30.000</h1>  
     </div>
-  </div>
-</form>
 <br/>
-<form>
+<div className="margincom">
+  <h1 className="coloytamaño">Nombre del usuario:</h1>  
+  <h1 className="coloytamaño">Fabiola Narváez</h1>  
+    </div>
 
-<div class="row">
-  <div class="col">
-  <h1 className="coloytamaño">Valor a pagar:</h1>
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder=""/>
-  </div>
-</div>
-</form>
-
+<div className="margincom">
+  <h1 className="coloytamaño">Días habiles de entrega:</h1>  
+  <h1 className="coloytamaño">3</h1>  
+    </div>
 <br/>
-<form>
-
-<div class="row">
-  <div class="col">
-<h1 className="coloytamaño">Nombre del usuario:</h1>  
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder=""/>
-  </div>
-</div>
-</form>
-<br/>
-<form>
-
-<div class="row">
-  <div class="col">
- <h1 className="coloytamaño">Días hábiles de entrega:</h1> 
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder=""/>
-  </div>
-</div>
-</form>
-    
 
 <br/>
 <br/>
-</div>   
-</div>
-</div>
 
+</div>
+</div>
+</div>
     
     
   
