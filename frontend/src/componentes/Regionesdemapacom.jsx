@@ -5,8 +5,8 @@ import COMPRADOR1 from '../Imagenes/COMPRADOR1.png';
 import COMPRADOR2 from '../Imagenes/COMPRADOR2.png';
 import comprador3 from '../Imagenes/comprador3.png';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
 import papa from '../Imagenes/papa.png';
+import axios from 'axios';
 
 class andina extends Component{
 
@@ -47,9 +47,9 @@ componentDidMount(){
       <li className="nav-item nav-item normal-nav active">
       <Link to="/app1"><a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a></Link>
       </li>
-        <li className="nav-item normal-nav nav-item active">
-        <a class="nav-link" href="#">Conexiones</a>
-        </li>
+      <li className="nav-item nav-item normal-nav active">
+      <Link to="/conexionescompra"><a className="nav-link" href="">Conexiones <span class="sr-only">(current)</span></a></Link>
+      </li>
         <li className="nav-item normal-nav nav-item active">
         <Link to="/quienescomprador"><a className="nav-link" href="#">Contactanos</a></Link> 
       </li>

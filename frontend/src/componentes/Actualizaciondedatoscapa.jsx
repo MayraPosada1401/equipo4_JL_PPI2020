@@ -1,15 +1,17 @@
-import React from "react";
-import '../Estilos/EstiloHeaderCapacitdor.css'
-import ECOAGRODEFINITIVO1 from "../Imagenes/ECOAGRODEFINITIVO1.png";
+import React from 'react';
+import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
 import capacitador1 from "../Imagenes/capacitador1.jpg";
 import capacitador2 from "../Imagenes/capacitador2.jpg";
 import capacitador3 from "../Imagenes/capacitador3.jpg";
-import { Link } from "react-router-dom";
+import '../Estilos/Actualizarpaginadecomprador.css';
+import '../Estilos/EstiloHeaderCapacitdor.css'
+import { Link } from 'react-router-dom';
 
-export default function Headercapa() {
- return (
-    <div>
-    <div>
+function actualizacapa() {
+  return (
+
+<div className="App">
+<div>
     <div className="Header-nabvarcapa">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercapa" /></a>
@@ -77,7 +79,59 @@ export default function Headercapa() {
            <span className="sr-only">Next</span>
          </a>
        </div> 
-       </div>
-      </div>
- );
+
+
+
+
+
+
+
+
+
+
+
+<h3 class="Tituloenpaginaprincipal3">Actualización de datos</h3>
+
+<form className=" form-actualizardatoscampe col-12 col-md-5">
+              <div className="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nombres</label>
+                  <input type="text" className="form-control" id="name" required/>
+                </div>
+                <div className="form-group col-md-6">
+                  <label for="lastName">Apellidos</label>
+                  <input type="text" className="form-control" id="lastName" require/>
+                </div>
+              </div>
+              <div className="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com" required/>
+              </div>
+              <div className="form-row">
+                <div class="form-group col-md-12">
+                  <label for="name">Municipio</label>
+                  <input type="text" className="form-control" id="name" required/>
+                </div>
+              </div>
+              <div className="form-row">
+                <div class="form-group col-md-12">
+                  <label for="name">Contacto Telefónico</label>
+                  <input type="text" className="form-control" id="name" required/>
+                </div>
+              </div>
+              <h3 className="titulobody among-actualizardatoscampe">Cambio de Contraseña</h3>
+              <div className="form-row">
+                <div className="form-group col-md-12">
+                  <label for="lastName">Ingrese Nueva Contraseña</label>
+                  <input type="text" className="form-control" id="lastName" require/>
+                </div>
+              </div>
+              
+              <div class="text-center btnalinearenelcentrocontenedor-botonconfirmaractucampe">
+                  <button type="submit" class=" btn btn-info text-white col-12 btnalinearenelcentrocontenedor-botonconfirmaractucampe">Confirmar</button>
+              </div>
+          </form>
+          </div> </div>
+  );
 }
+export default  actualizacapa;

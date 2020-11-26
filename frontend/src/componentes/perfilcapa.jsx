@@ -89,7 +89,7 @@ export default function perfil() {
         <div className="card-body">
           <h5 className="card-title-perfil">Actualización de datos</h5>
           <p className="card-text-perfil">Aquí visualizaras los cursos que habías seleccionado previamente, para que accedas de nuevo a cada uno de los contenidos ofrecidos.</p>
-          <Link to="/actualizacióndedatos">
+          <Link to="/actualcapa">
           <button type="button" class="btn btn-outline-light btn3-perfil">Actualización de datos</button>
           </Link>      
         </div>

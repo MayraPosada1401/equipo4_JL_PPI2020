@@ -1,24 +1,17 @@
 import React from 'react';
-import '../Estilos/Regionestenden.css';
-import carrusel1 from '../Imagenes/carrusel1.png';
-import carrusel2 from '../Imagenes/carrusel2.png';
-import carrusel3 from '../Imagenes/carrusel3.png';
+import '../Estilos/Mapa.css';
 import ECOAGRODEFINITIVO1 from '../Imagenes/ECOAGRODEFINITIVO1.png';
-import EDAD3 from '../Imagenes/el.jpg';
-import EDAD1 from '../Imagenes/yo.jpg';
-import EDAD from '../Imagenes/vejez.jpg';
-import { Link } from 'react-router-dom';
-import FRUTA1 from '../Imagenes/Fruta1.png';
-import FRUTA2 from '../Imagenes/Fruta2.png';
 import COMPRADOR1 from '../Imagenes/COMPRADOR1.png';
 import COMPRADOR2 from '../Imagenes/COMPRADOR2.png';
 import comprador3 from '../Imagenes/comprador3.png';
+import MAPITA from '../Imagenes/MAPITA1.jpg';
+import MAPA from '../Imagenes/MAPA.jpg';
+import { Link } from 'react-router-dom';
 
-function Regionestenden() {
-
-    return (
-      <div className="fonditodefrutas123">
-        <div className="Header">
+function Conexionescompra() {  
+    return(
+        <div className="cuerpito2 AppFondopaginadeenlaces EcoAgrofond">
+   <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to="/"><a className="navbar-brand"><img src={ECOAGRODEFINITIVO1} className="img-iconoheadercampe" /></a></Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +22,7 @@ function Regionestenden() {
       <li className="nav-item nav-item normal-nav active">
       <Link to="/app1"><a className="nav-link" href="">Inicio <span class="sr-only">(current)</span></a></Link>
       </li>
-      <li className="nav-item nav-item normal-nav active">
+        <li className="nav-item nav-item normal-nav active">
       <Link to="/conexionescompra"><a className="nav-link" href="">Conexiones <span class="sr-only">(current)</span></a></Link>
       </li>
         <li className="nav-item normal-nav nav-item active">
@@ -53,7 +46,7 @@ function Regionestenden() {
     </div>
   </nav>
     </div>
-  
+    <div className="Eiminaciondecarrusel">
   <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
      
       <ol className="carousel-indicators">
@@ -64,8 +57,7 @@ function Regionestenden() {
   
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src={COMPRADOR1} className="d-block w-100 " alt="..."/>
-        
+        <img src={COMPRADOR1} className="d-block w-100" alt="..."/>
         </div>
       <div className="carousel-item">
         <img src={COMPRADOR2} className="d-block w-100" alt="..."/>
@@ -84,36 +76,75 @@ function Regionestenden() {
       <span className="carousel-control-next-icon" aria-hidden="true"></span>
       <span className="sr-only">Next</span>
     </a>
-  </div>
-<br/>
-<br/>
-<h1 className="shadow p-3 mb-5 bg-whitecolorcitoprin rounded Tituloenpaginaprincipal">Más vendidos</h1>
-<div className="palancaparaqueesteordenado">
-<a type="" class="">
-<Link to="/regiones2"><button type="button"className="Radiobotonmasvendido1 rounded-circle  ">Andina</button></Link>
-<Link to="/regiones3"><button type="button"className="Radiobotonmasvendido2  rounded-circle  ">Caribe</button></Link>
-<Link to="/regiones4"><button type="button"className="Radiobotonmasvendido3  rounded-circle  ">Insular</button></Link>
-<Link to="/regiones5"><button type="button"className="Radiobotonmasvendido4  rounded-circle ">Orinoquía</button></Link>
-<Link to="/regiones6"><button type="button"className="Radiobotonmasvendido5  rounded-circle ">Pacífico</button></Link>
-<div className="Contenerdorreactivo">
-<label className="Clasepararegion">AMAZONAS</label>
-  </div>
-</a>
+  
+  </div></div>
 
+<h1 className="component-1-text shadow p-3 mb-5 bg-whiteverdecitovalor rounded Titulocompradorterceraparte ">EcoAgro</h1>
+
+<div class="card-columns col">
+<div class="card">
+<img src="https://cdn.dribbble.com/users/1068771/screenshots/12031686/media/444363d042df196f2b5adb01e2cfef1f.jpg"class="card-img-top" alt="..."/>
+<div class="card-body">
+<h5 class="card-title">OBJETIVO</h5>
+<p class="card-text">Romper el esquema del prototipo del intermediario y dejar atrás ese imaginario colectivo erróneo de la baja calidad de productos agrícolas colombianos.</p>
+</div>
+</div>
+<div class="card p-3">
+<blockquote class="blockquote mb-0 card-body">
+<p>Un pais de sueños</p>
+<footer class="blockquote-footer">
+ <small class="text-muted">
+   Familia EcoAgro <cite title="Source Title">Acompañanos en nuestro camino a mejorar el campo colmbiano.</cite>
+ </small>
+</footer>
+</blockquote>
+</div>
+<div class="card">
+<img src="https://cdn.dribbble.com/users/2058952/screenshots/12418544/media/52f4609e57fcfd89e8e1c1b9f2dfaef7.png" class="card-img-top" alt="..."/>
+<div class="card-body">
+<h5 class="card-title">ALCANCE</h5>
+<p class="card-text">La subordinación y la desobediencia, la humildad y el deseo por la libertad, lo feo y lo sublime se encuentran estrechamente entretejidos, y así, presentan una combinación innegable de elementos opuestos, una combinación mediante la cual estos elementos se provocan mutuamente. 
+</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div>
+<div class="card bg-primary text-white text-center p-3">
+<blockquote class="blockquote mb-0">
+<p>Nuestro campo cuenta con los factores esenciales para ser competitivo y aportar mucho más al crecimiento económico y social del país, y necesitamos convertir ese potencial en proyectos productivos concretos.</p>
+<footer class="blockquote-footer text-white">
+ <small>
+   Familia EcoAgro<cite title="Source Title"></cite>
+ </small>
+</footer>
+</blockquote>
+</div>
+<div class="card text-center">
+<div class="card-body">
+<h5 class="card-title">Solución a la problematica</h5>
+<p class="card-text">Canal directo entre campesino y comprador
+, Mejor economía para el campesino,
+Calidad de producto,
+Educación al campesino
+</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div>
+<div class="card">
+<img src={ECOAGRODEFINITIVO1} class="card-img-top" alt="..."/>
+</div>
+<div class="card p-3 text-right">
+<blockquote class="blockquote mb-0">
+<p> "SOMOS EL ENLACE DIRECTO ENTRE CAMPASINO Y EL COMPRADOR"</p>
+<footer class="blockquote-footer">
+ <small class="text-muted">
+  Familia EcoAgro<cite title="Source Title"></cite>
+ </small>
+</footer>
+</blockquote>
 </div>
 
-
-
-<div className="Contenedorparatodacarddes">
-<div className="Regionpequeñadescripcion">Amazonas es uno de los treinta y dos departamentos que, junto con Bogotá, Distrito Capital, forman la República de Colombia. Su capital es Leticia. Está ubicado en el extremo sur del país, en gran parte al sur de la línea ecuatorial, en la región Amazonia. Limita al norte con Caquetá y Vaupés, al este con Brasil, al sur con Perú y al oeste con Putumayo. Con 110 000 km² es el departamento más extenso, con unos 75.000 habitantes en 2015, el cuarto menos poblado —por delante de Vichada, Vaupés y Guainía, el menos poblado— y con 0,68 hab/km², el tercero menos densamente poblado, por delante de Vichada y Guainía, el menos densamente poblado.
-
-Se compone en su totalidad de territorio de la Selva Amazónica. La porción meridional del departamento, al sur del río Putumayo, se denomina "Trapecio amazónico", el cual incluye la triple frontera de Colombia, Perú y Brasil, y su límite sur es el río Amazonas.</div>
-<a href="https://www.colombia.co/visita-colombia/turismo-por-regiones/cinco-regiones-te-esperan/"><button type="button" className="unicoestilodespleg Radiobotonmasvendido2 rounded-circle" >
-Conoce 
-</button></a>
-
 </div>
-<br/>
-<br/>
 </div>
-    );}  export default Regionestenden;
+
+    );
+}export default Conexionescompra;

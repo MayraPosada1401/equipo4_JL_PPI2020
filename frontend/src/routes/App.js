@@ -54,13 +54,15 @@ import chat2comoprador from '../componentes/Chat2decomprador';
 import Paginadecap from '../pages/Paginadecapacitador';
 import perfilcapa from '../pages/Perfilcapa';
 import formulariocapa from '../pages/formulariocapa';
-import forolistocapa from '../pages/forolistocapa';
 import conexionescapa from '../pages/conexionescapa';
 import calendariocapa from '../pages/calendariocapa';
 import cursocapa from '../pages/cursocapa';
+import actuaclizacinca from '../componentes/Actualizaciondedatoscapa';
 import Quienescapa from '../componentes/Quienescapa';
 import seleccionarcurso from '../pages/Seleccionaralguncurso';
- 
+import conexionescampe from '../componentes/Conexionescampesin';
+import conexionescompra from '../componentes/Conexionescompra';
+
 export default function App() {
     return (
       <BrowserRouter>
@@ -121,11 +123,12 @@ export default function App() {
           <Route path="/perfilcapa" component={perfilcapa}/>
           <Route path="/formulariocapa" component={formulariocapa}/>
           <Route path="/conexionescapa" component={conexionescapa}/>
-          <Route path="/forolistocapa" component={forolistocapa}/>
           <Route path="/cursocapa" component={cursocapa}/>
           <Route path="/calendariocapa" component={calendariocapa}/>
           <Route path="/quienescapa" component={Quienescapa}/>
-      
+          <Route path="/actualcapa" component={actuaclizacinca}/>
+          <Route path="/conexionescompra" component={conexionescompra}/>
+          <Route path="/conexionescampe" component={conexionescampe}/>
      
       </Switch>    
 

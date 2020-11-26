@@ -25,8 +25,8 @@ function Mapatendencias() {
       <li className="nav-item normal-nav nav-item2 active">
         <a class="nav-link" href="#">Perfil</a>
       </li>
-      <li className="nav-item normal-nav nav-item2 active">
-        <a className="nav-link" href="#">Conexiones</a>
+      <li className="nav-item nav-item normal-nav active">
+      <Link to="/conexionescompra"><a className="nav-link" href="">Conexiones <span class="sr-only">(current)</span></a></Link>
       </li>
       <li className="nav-item normal-nav nav-item2 active">
         <a className="nav-link " href="#" >Contactanos</a>
