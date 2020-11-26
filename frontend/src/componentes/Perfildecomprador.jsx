@@ -135,7 +135,7 @@ function perfil() {
             <div className="col-md-4">
               <div className="card-body">
                 <h5 className="card-title-perfil">Seguimiento de mi pedido</h5>
-                <p className="card-text-perfil">Aquí podras hacer cambios y estar en constante actualización de tu información para un mejor servicio</p>
+                <p className="card-text-perfil">Confia en nosotros, el proceso de compra sera custodiado por tus propias manos, si tienes alguna duda podras contactarnos.</p>
                 <Link to="/comprador">
                 <button type="button" class="btn btn-outline-light btn3-perfil">Seguir pedido</button>
                 </Link>
@@ -152,7 +152,7 @@ function perfil() {
             <div className="col-md-4">
               <div className="card-body">
                 <h5 className="card-title-perfil">Comprar producto</h5>
-                <p className="card-text-perfil">Aquí podras montar la información del producto que deseas vender para que sea vista por el público</p>
+                <p className="card-text-perfil">Aquí podras redirigirte directamente a la tienda, donde esncontraras las mejores ofertas, productos y acuerdos.</p>
                 <Link to="/compradormapa">
                 <button type="button" class="btn btn-outline-light btn3-perfil">Comprar producto</button>
                 </Link>
@@ -169,7 +169,7 @@ function perfil() {
             <div className="col-md-4">
               <div className="card-body">
                 <h5 className="card-title-perfil">Ver mi chat</h5>
-                <p className="card-text-perfil">Aquí visualizaras las ofertas economicas ofrecidas de diversos compradores por tu producto</p>
+                <p className="card-text-perfil">Aquí podras acordar los precios justos para los productos que vayas a comprar directamente con el vendedor de estos.</p>
                 <Link to="/chatdecompradro">
                 <button type="button" class="btn btn-outline-light btn3-perfil">Ver mi chat</button>
                 </Link>
@@ -186,7 +186,7 @@ function perfil() {
             <div className="col-md-4">
               <div className="card-body">
                 <h5 className="card-title-perfil">Actualización de datos</h5>
-                <p className="card-text-perfil">Aquí visualizaras los cursos que habías seleccionado previamente, para que accedas de nuevo a cada uno de los contenidos ofrecidos.</p>
+                <p className="card-text-perfil">Aquí podras mantener tu información personal actualizada.</p>
                 <Link to="/actualizacióndedatos">
                 <button type="button" class="btn btn-outline-light btn3-perfil">Actualización de datos</button>
                 </Link>      

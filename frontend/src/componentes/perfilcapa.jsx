@@ -69,7 +69,7 @@ export default function perfil() {
       <div className="col-md-4">
         <div className="card-body">
           <h5 className="card-title-perfil">Deseo subir un curso</h5>
-          <p className="card-text-perfil">Aquí podras montar la información del producto que deseas vender para que sea vista por el público</p>
+          <p className="card-text-perfil">Aquí podras montar la información de tus cursos de una manera ordenada y de tu gudto.</p>
           <Link to="/cursocapa">
           <button type="button" class="btn btn-outline-light btn3-perfil">Deseo subir un curso</button>
           </Link>
@@ -88,7 +88,7 @@ export default function perfil() {
       <div className="col-md-4">
         <div className="card-body">
           <h5 className="card-title-perfil">Actualización de datos</h5>
-          <p className="card-text-perfil">Aquí visualizaras los cursos que habías seleccionado previamente, para que accedas de nuevo a cada uno de los contenidos ofrecidos.</p>
+          <p className="card-text-perfil">Aquí podras mantener tu información personal actualizada.</p>
           <Link to="/actualcapa">
           <button type="button" class="btn btn-outline-light btn3-perfil">Actualización de datos</button>
           </Link>      

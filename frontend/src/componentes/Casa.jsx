@@ -241,16 +241,16 @@ function App() {
   <div class="card">
     <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/pod-07-07-2020_nationalgeographic_1130451_0.jpg?w=1190&h=791" class="card-img-top Topuncioocparacomprador" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text Parrafosenpaginaprincipal">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title">Familia campesina</h5>
+      <p class="card-text Parrafosenpaginaprincipal">La vida en los campos colombianos es sembrada día a día por nuestros campesinos. Un reconocimiento especial en su día. Sin ellos, en las ciudades no podríamos vivir. Del campesinado, de su fuerza, perseverancia, paciencia en los cultivos depende nuestra alimentación diaria. Por eso, para esos hombres y mujeres que dedican sus vidas a sembrar, a cultivar y cuidar lo que servimos en nuestras mesas</p>
     </div>
   </div>
   <div class="card p-3">
     <blockquote class="blockquote mb-0 card-body">
-      <p className=" Parrafosenpaginaprincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <p className=" Parrafosenpaginaprincipal">A nuestro verdaderos guerreros quienes luchan por cuidar nuestro preciados recursos y proveer los alimentos, aun sacrificando los suyos</p>
       <footer class="blockquote-footer">
         <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
+         Somos <cite title="Source Title">Familia EcoAgro</cite>
         </small>
       </footer>
       <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/03-uncontacted-tribe-yanomami.jpg?w=710&h=474" class="card-img-top Topuncioocparacomprador" alt="..."/>
@@ -259,19 +259,19 @@ function App() {
   <div class="card">
     <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/covid-indigenous-amazon-brazil-00018.jpg?w=1600&h=900" class="card-img-top Topuncioocparacomprador" alt="..."/>
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text Parrafosenpaginaprincipal">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text Parrafosenpaginaprincipal"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Naturaleza exuberante</h5>
+      <p class="card-text Parrafosenpaginaprincipal">Una ave de hermosos colores, emblema de la diversidad de nuestr patria, representa a nuestra bandera y a nuestro territorio.</p>
+      <p class="card-text Parrafosenpaginaprincipal"><small class="text-muted">Familia EcoAgro</small></p>
       <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/blue-throated-macaw-nationalgeographic_1559149.jpg?w=1600&h=1067" class="card-img-top Topuncioocparacomprador" alt="..."/>
     </div>
   </div>
   <div class="card bg-primary text-white text-center p-3">
     <blockquote class="blockquote mb-0">
-      <p className="Parrafosenpaginaprincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+      <p className="Parrafosenpaginaprincipal">“Cuando se ven amenazados, los monos tití levantan el pelaje blanco sobre sus cabezas para parecer más grandes.”</p>
       <footer class="blockquote-footer text-white">
       <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-cotton-top-tamarin-nationalgeographic_1533041_2.jpg?w=1600&h=1067" class="card-img-top Topuncioocparacomprador" alt="..."/>
         <small>
-          Someone famous in <cite title="Source Title">Source Title</cite>
+          Somos <cite title="Source Title">Familia EcoAgro</cite>
         </small>
       </footer>
     </blockquote>
@@ -279,9 +279,9 @@ function App() {
   </div>
   <div class="card text-center eliminacionprinc">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text Parrafosenpaginaprincipal">This card has a regular title and short paragraphy of text below it.</p>
-      <p class="card-text Parrafosenpaginaprincipal"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Vive en diversos mundos</h5>
+      <p class="card-text Parrafosenpaginaprincipal">Somos el segundo pais más megadiverso a nivel mundial, poseemos una gran variedad de habitats y con ellas especies unicas en todo el planeta.</p>
+      <p class="card-text Parrafosenpaginaprincipal"><small class="text-muted">Familia EcoAgro</small></p>
     </div>
   </div>
   <div class="card">
@@ -289,10 +289,10 @@ function App() {
   </div>
   <div class="card p-3 text-right eliminacionprinc">
     <blockquote class="blockquote mb-0">
-      <p className="Parrafosenpaginaprincipal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <p className="Parrafosenpaginaprincipal">Las cosas claras y el chocolate espeso.</p>
       <footer class="blockquote-footer">
         <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
+          Familia <cite title="Source Title">EcoAgro</cite>
         </small>
       </footer>
       
@@ -300,9 +300,9 @@ function App() {
   </div>
   <div class="card">
     <div class="card-body eliminacionprinc">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text Parrafosenpaginaprincipal">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-      <p class="card-text Parrafosenpaginaprincipal"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Un territorio unico</h5>
+      <p class="card-text Parrafosenpaginaprincipal">Cada esquina de nuestro pais esta llena de familia, de recuerdos, de campesinos, esta llena de sabores y tradiciones y de los lazos que nos convierten en Colombia megadiverso.</p>
+      <p class="card-text Parrafosenpaginaprincipal"><small class="text-muted">Familia EcoAgro</small></p>
     </div>
   </div>
 </div>
