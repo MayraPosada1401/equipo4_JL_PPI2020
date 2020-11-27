@@ -1,11 +1,47 @@
-import React from "react";
+import React, {Component} from "react";
 import "../Estilos/cursocapa.css";
-import cursosubir from "../Imagenes/cursosubir.jpg";
-import click from "../Imagenes/click.jpg";
-import cursolisto from "../Imagenes/cursolisto.jpg";
-import {Link} from 'react-router-dom';
+import axios from 'axios';
 
-export default function curso() {
+export default class curso extends Component() {
+
+  constructor(props) {
+    super(props);
+    this.state ={
+        elCurso:{
+          nombre_curso: '',
+          descripcion_inicial: '',
+          informacion_curso: '',
+          fecha_curso: '',
+          dato_curioso: '',
+          links_externos: '',
+          tipo_curso: ''
+        }
+    }
+  }
+
+  peticionPostCurso=async()=>{
+    //delete this.state.elProducto.id
+    await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevocurso', this.state.elCurso)
+    .then(res=>{
+      //this.peticionPost();
+    }).catch(error=>{
+      console.log(error.message)
+    })
+  }
+
+  handleChange=async (e) =>{
+    e.persist();
+    await this.setState({
+      elCurso:{
+        ...this.state.elCurso,
+        [e.target.name]: e.target.value 
+      }
+    })
+    console.log(this.state.elCurso)
+  }
+ 
+ 
+  render(){
  return (
    <div className="cursito">
      <div className="cursillo contenedor-titulo-cursocapa">
@@ -21,37 +57,51 @@ export default function curso() {
                 <div className="form-row">
                   <div className="form-group col-md-12">
                     <label for="name">Nombre del Curso</label>
-                    <input type="text" className="form-control" id="name" required/>
+                    <input type="text" className="form-control" id="name" required name="nombre_curso" onChange={this.handleChange} value={this.state.elCurso.nombre_curso}/>
                   </div>
                 </div>
                 <div className="form-group">
                     <label for="exampleFormControlTextarea1">Descripción Inicial</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Aquí vas a escribir una reseña breve que identificará a tu curso." rows="3"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" name="descripcion_inicial" onChange={this.handleChange} value={this.state.elCurso.descripcion_inicial} placeholder="Aquí vas a escribir una reseña breve que identificará a tu curso." rows="3"></textarea>
                 </div>
                 <div className="form-group">
                     <label for="exampleFormControlTextarea1">Información del curso</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Escriba contenidos e información respectiva del cursos." rows="3"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" name="informacion_curso" onChange={this.handleChange} value={this.state.elCurso.informacion_curso} placeholder="Escriba contenidos e información respectiva del cursos." rows="3"></textarea>
                 </div>
                 <div className="form-row">
                   <div className="form-group col-md-12">
                     <label for="name">Fecha del Curso</label>
-                    <input type="text" className="form-control" id="name" placeholder="Escriba la fecha de publicación del curso en el formato (año-mes-día)" required/>
+                    <input type="text" className="form-control" name="fecha_curso" onChange={this.handleChange} value={this.state.elCurso.fecha_curso} id="name" placeholder="Escriba la fecha de publicación del curso en el formato (año-mes-día)" required/>
                   </div>
                 </div>
                 <div className="form-group">
                     <label for="exampleFormControlTextarea1">Dato Curioso</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Este campo es opcional, puedes escribir un dato curioso del campo colombiano." rows="3"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" name="dato_curioso" onChange={this.handleChange} value={this.state.elCurso.dato_curioso} placeholder="Este campo es opcional, puedes escribir un dato curioso del campo colombiano." rows="3"></textarea>
                 </div>
                 <div className="form-group">
                     <label for="exampleFormControlTextarea1">Links</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" placeholder="Aquí podra consignar links para el afianzamiento de contenido del curso." rows="3"></textarea>
+                    <textarea className="form-control" id="exampleFormControlTextarea1" name="links_externos" onChange={this.handleChange} value={this.state.elCurso.links_externos} placeholder="Aquí podra consignar links para el afianzamiento de contenido del curso." rows="3"></textarea>
                 </div>
-                <button href="#" className="btn btn-info centroooo col-md-12"><h1 className="tamañoescrt ">Subir curso</h1></button>
+                <div className="form-row">
+                  <div className="col-md-12 mb-3">
+                    <label for="validationDefault04">Tipo Curso</label>
+                    <select className="custom-select" id="validationDefault04" name="tipo_curso" onChange={this.handleChange} value={this.state.elCurso.tipo_curso} required>
+                    <option selected disabled value="">Seleccione</option>
+                    <option>Pesticidas</option>
+                    <option>Emprendimientos</option>
+                    <option>Abonos</option>
+                    <option>Negocios</option>
+                    <option>Fertilizantes</option>
+                    <option>Otros</option>
+                    </select>
+                  </div>
+                </div>
+                <button href="#" className="btn btn-info centroooo col-md-12" onClick={this.peticionPostCurso}><h1 className="tamañoescrt ">Subir curso</h1></button>
             </form>
        <br/>
      <br/>
      <br/>
      </div>
   );
-}
+}}
 
