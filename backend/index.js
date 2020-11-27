@@ -2,13 +2,6 @@ const express = require('express');
 const path = require('path');
 const multer = require('multer');
 const { uuid } = require('uuidv4');
-
-//Conexión de frontend a backend
-const cors = require('cors');
-
-//Inicializar express
-const app = express();
-
 const routes = require('./routes/routes');
 const cursos = require('./routes/cursos');
 const productos = require('./routes/productos');
@@ -16,6 +9,15 @@ const chat = require('./routes/chat');
 const datoscompra = require('./routes/datoscompra');
 const factura = require('./routes/facturaypedido.js')
 const precio_acuerdo = require('./routes/preciodeacuerdo.js');
+
+//Inicializar express
+const app = express();
+
+//Conexión de frontend a backend
+const cors = require('cors');
+
+//Uso de cors: La ruta - url para conexión del frontend
+app.use(cors({origin: '*'}));
 
 // Ajustes
 app.set('port', process.env.PORT || 4001);
@@ -32,9 +34,6 @@ const storage = multer.diskStorage({
   }
 });
 app.use(multer({storage}).single('image'));
-
-//Uso de cors: La ruta - url para conexión del frontend
-app.use(cors({origin: '*'}));
 
 //Routes
 app.use('/api',routes);
