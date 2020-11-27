@@ -108,11 +108,11 @@ export default function InterfazChatPerfil() {
       
       <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
       
-      <div className="contenedor2dechat-chatprincipal">
-      <div className="form-group-chatprincipal ">
-          <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
+      <div className="contenedor2dechat-chatsecundario">
+      <div className="form-group-chatsecundario col-md-6">
+        <div className="preciodechat">45.000</div>
       </div>
-      <button className="boton-chatprincipal-confirmar"></button>
+      <button className="boton-chatsecundario-confirmartyuop"></button>
       </div> 
       </div>
 
@@ -150,11 +150,11 @@ export default function InterfazChatPerfil() {
       
       <p className="textocontacto-chatsanteriores">Escriba el precio pactado aquí</p>
       
-      <div className="contenedor2dechat-chatprincipal">
-      <div className="form-group-chatprincipal">
-      <input type="text" className="form-control chatprincipal-inputprecio" required=""/>
+      <div className="contenedor2dechat-chatsecundario">
+      <div className="form-group-chatsecundario col-md-6">
+        <div className="preciodechat">45.000</div>
       </div>
-      <button className="boton-chatprincipal-confirmar"></button>
+      <button className="boton-chatsecundario-confirmartyuop"></button>
       </div> 
       </div>
 
