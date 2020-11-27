@@ -14,7 +14,7 @@ export default class InterfazSeleccionarAlgunCurso extends Component {
     }
 
     peticionGet=()=>{
-        axios.get('https://semana9jl.karolcuellar.repl.co/api/cursos').then(res =>{
+        axios.get('https://ecoagro-backend.herokuapp.com/api/cursos').then(res =>{
             //console.log(res.data);
             this.setState({
                 dataCursos: res.data
