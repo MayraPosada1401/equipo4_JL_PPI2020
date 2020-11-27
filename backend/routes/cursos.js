@@ -14,14 +14,26 @@ router.get('/cursos', (req, res) => {
     });
   });
 
+//METODO GET - Para el despliegue de información según el id de un unico curso
+router.get('/curso/:id', (req, res) => {
+  const { id } = req.params; 
+  mysqlConnection.query('SELECT * FROM subir_curso WHERE id = ?', [id],
+  (err, rows, fields) => {
+    if (!err) {
+      res.json(rows[0]);
+    } else {
+      console.log(err);
+    }
+  });
+});
 
 //METODO POST - Para crear un nuevo curso
 router.post('/nuevocurso',(req,res)=>{
   
-  const {nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos} = req.body;
-  let todoslosCursos = [nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos];
+  const {nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos,tipo_curso} = req.body;
+  let todoslosCursos = [nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos,tipo_curso];
 
-  let nuevoCurso = `INSERT INTO subir_curso(nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos) VALUES(?,?,?,?,?,?)`;
+  let nuevoCurso = `INSERT INTO subir_curso(nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos,tipo_curso) VALUES(?,?,?,?,?,?,?)`;
   mysqlConnection.query(nuevoCurso, todoslosCursos, (err, results,
     fields) => {
     if (err) {

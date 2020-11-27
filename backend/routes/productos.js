@@ -17,10 +17,10 @@ router.get('/productos', (req, res) => {
 //METODO POST - Para ingresar un nuevo producto por parte del campesino
 router.post('/nuevoproducto',(req,res)=>{
   
-  const {nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,descripcion_precio} = req.body;
-  let todoslosProductos = [nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,descripcion_precio];
+  const {nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,tipo_producion,region_produccion,descripcion_precio} = req.body;
+  let todoslosProductos = [nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,tipo_producion,region_produccion,descripcion_precio];
 
-  let nuevoProducto = `INSERT INTO subir_producto(nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,descripcion_precio) VALUES(?,?,?,?,?,?)`;
+  let nuevoProducto = `INSERT INTO subir_producto(nombre_producto,tipo_producto,descripcion,municipio_produccion,precio,tipo_producion,region_produccion,descripcion_precio) VALUES(?,?,?,?,?,?,?,?)`;
   mysqlConnection.query(nuevoProducto, todoslosProductos, (err, results,
     fields) => {
     if (err) {
@@ -29,5 +29,23 @@ router.post('/nuevoproducto',(req,res)=>{
     res.json({ message:`Nuevo Producto`, })
     });
   }); 
+
+/*
+router.patch('/precio/:id', (req, res) => {
+  const {precio} = req.body;
+
+  const { id } = req.params;
+
+  mysqlConnection.query(`UPDATE subir_producto SET precio=?`, 
+
+  [precio, id], (err, rows, fields) => {
+    if(!err) {
+      res.json({status: 'Precio actualizado'});
+    } else {
+      console.log(err);
+    }
+  });
+});
+*/
 
 module.exports = router;
