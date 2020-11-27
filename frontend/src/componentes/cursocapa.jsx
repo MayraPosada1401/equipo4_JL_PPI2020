@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import "../Estilos/cursocapa.css";
 import axios from 'axios';
 
-export default class curso extends Component {
+export default class curso extends Component{
 
   constructor(props) {
     super(props);
@@ -19,8 +19,8 @@ export default class curso extends Component {
     }
   }
 
-  peticionPostCurso=async()=>{
-    //delete this.state.elProducto.id
+  peticionPostC=async()=>{
+    delete this.state.elCurso.id
     await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevocurso', this.state.elCurso)
     .then(res=>{
       //this.peticionPost();
@@ -96,7 +96,7 @@ export default class curso extends Component {
                     </select>
                   </div>
                 </div>
-                <button href="#" className="btn btn-info centroooo col-md-12" onClick={this.peticionPostCurso}><h1 className="tamañoescrt ">Subir curso</h1></button>
+                <button href="#" className="btn btn-info centroooo col-md-12" onClick={this.peticionPostC}>Subir curso</button>
             </form>
        <br/>
      <br/>
