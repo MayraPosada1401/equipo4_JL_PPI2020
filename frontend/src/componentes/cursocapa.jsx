@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import "../Estilos/cursocapa.css";
 import axios from 'axios';
 
-export default class curso extends Component() {
+export default class curso extends Component {
 
   constructor(props) {
     super(props);
