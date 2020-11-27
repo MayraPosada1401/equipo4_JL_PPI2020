@@ -42,7 +42,7 @@
   .btn-2-subirproducto{
     height: 350px;
     width: 350px;
-    border-radius: 200px;
+    border-radius: 0px;
     background-image: url('../Imagenes/Fruta1.png');
     background-size: 350px 350px;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@
   .btn-2-subirproducto{
     height: 250px;
     width: 255px;
-    border-radius: 200px;
+    border-radius: 0px;
     background-image: url('../Imagenes/Fruta1.png');
     background-size: 250px 250px;
     background-repeat: no-repeat;
