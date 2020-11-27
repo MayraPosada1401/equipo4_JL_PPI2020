@@ -19,7 +19,7 @@ class andina extends Component{
 }
 
 peticionGet3=()=>{
-    axios.get('https://semana9jl.karolcuellar.repl.co/api/productos').then(res =>{
+    axios.get('https://ecoagro-backend.herokuapp.com/api/productos').then(res =>{
         //console.log(res.data);
         this.setState({
             dataProductos: res.data
