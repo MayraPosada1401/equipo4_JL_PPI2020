@@ -48,4 +48,8 @@ router.patch('/precio/:id', (req, res) => {
 });
 */
 
+<<<<<<< HEAD
 module.exports = router;
+=======
+module.exports = router;
+>>>>>>> eb9a170348bd0384286a72a7817131f289a89b4e

@@ -34,8 +34,8 @@ return (
     <div className="MaterialCursoCampe2">
             <div className="blog-main">
 
-            <h1 className="border-bottom titulodelcurso-materialcursocampe">Perticidas Económicos</h1>
-
+            <h1 className="border-bottom titulodelcurso-materialcursocampe">Pesticidas Económicos</h1>
+  
             <div className="blog-post-1-materialcursocampe">
               <div>
               <h2 className="blog-post-title1-materialcursocampe font-italic">¿Cuánto puedo invertir por un pesticida?</h2>

@@ -59,9 +59,10 @@ import calendariocapa from '../pages/calendariocapa';
 import cursocapa from '../pages/cursocapa';
 import actuaclizacinca from '../componentes/Actualizaciondedatoscapa';
 import Quienescapa from '../componentes/Quienescapa';
-import seleccionarcurso from './Seleccionaralguncurso';
+import seleccionarcurso from '../pages/seleccionaralguncurso';
 import conexionescampe from '../componentes/Conexionescampesin';
 import conexionescompra from '../componentes/Conexionescompra';
+
 
 export default function App() {
     return (
@@ -129,6 +130,7 @@ export default function App() {
           <Route path="/actualcapa" component={actuaclizacinca}/>
           <Route path="/conexionescompra" component={conexionescompra}/>
           <Route path="/conexionescampe" component={conexionescampe}/>
+
      
       </Switch>    
 
