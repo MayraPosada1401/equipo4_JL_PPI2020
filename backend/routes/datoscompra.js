@@ -35,3 +35,6 @@ mysqlConnection.query(nuevaCompra, datosparalacompra, (err, results, fields) => 
 
 
 module.exports = router;
+
+
+module.exports = router;
