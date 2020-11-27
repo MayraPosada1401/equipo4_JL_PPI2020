@@ -15,7 +15,7 @@ router.get('/cursos', (req, res) => {
   });
 
 
-//METODO POST - Para crear un nuevo curso
+//METODO POST - Para crear un nuevo curso capacitador
 router.post('/nuevocurso',(req,res)=>{
   
   const {nombre_curso,descripcion_inicial,informacion_curso,fecha_curso,dato_curioso,links_externos} = req.body;
