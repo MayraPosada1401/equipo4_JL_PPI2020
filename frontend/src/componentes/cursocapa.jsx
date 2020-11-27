@@ -56,7 +56,7 @@ export default class curso extends Component{
           
                 <div className="form-row">
                   <div className="form-group col-md-12">
-                    <label for="name">Nombre del Curso</label>
+                    <label for="name">Nombre del Curso Ofrecido</label>
                     <input type="text" className="form-control" id="name" required name="nombre_curso" onChange={this.handleChange} value={this.state.elCurso.nombre_curso}/>
                   </div>
                 </div>
