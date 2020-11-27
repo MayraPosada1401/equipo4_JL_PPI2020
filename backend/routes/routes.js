@@ -46,7 +46,7 @@ mysqlConnection.query(nuevoRegistro, nRegistro, (err, results, fields) => {
 }); 
 
 //METODO PUT - Para la actualización de datos de los usuarios
-router.put('/registros/:id_registro', (req, res) => {
+router.put('/registro/:id_registro', (req, res) => {
   const {nombre, apellido,usuario, email, contraseña, confirmar_contraseña, departamento, estrato} = req.body;
 
 
