@@ -63,6 +63,7 @@ import seleccionarcurso from '../pages/Seleccionaralguncurso';
 import conexionescampe from '../componentes/Conexionescampesin';
 import conexionescompra from '../componentes/Conexionescompra';
 
+
 export default function App() {
     return (
       <BrowserRouter>
@@ -129,6 +130,7 @@ export default function App() {
           <Route path="/actualcapa" component={actuaclizacinca}/>
           <Route path="/conexionescompra" component={conexionescompra}/>
           <Route path="/conexionescampe" component={conexionescampe}/>
+
      
       </Switch>    
 

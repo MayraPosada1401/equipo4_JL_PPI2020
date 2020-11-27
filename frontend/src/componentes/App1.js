@@ -11,8 +11,10 @@ import raradelcomprador from '../Imagenes/raradelcomprador.png';
 import { Link } from 'react-router-dom';
 
 function App1() {
-
+ 
     return (
+
+      
       <div className="fondopanvalor">
      <div className="Header">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -84,6 +86,7 @@ function App1() {
     </a>
   
   </div></div>
+
 
 <div className="Contenedor">
   <br></br>
