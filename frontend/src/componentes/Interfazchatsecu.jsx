@@ -23,7 +23,7 @@ export default class InterfazChatSecundario extends Component {
 
     peticionPostA=async()=>{
         delete this.state.precioAcuerdo.id_registros
-        await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevopreciodeacuerdo', this.state.precioAcuerdo)
+        await axios.post('https://ecoagro-backend.herokuapp.com/api/nuevopreciodeacuerdo', this.state.precioAcuerdo)
         .then(res=>{
           //
         }).catch(error=>{
@@ -33,7 +33,7 @@ export default class InterfazChatSecundario extends Component {
 
     peticionPostC=async()=>{
         delete this.state.conversacionUsers.id_registro
-        await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevaconversacion', this.state.conversacionUsers)
+        await axios.post('https://ecoagro-backend.herokuapp.com/api/nuevaconversacion', this.state.conversacionUsers)
         .then(res=>{
           //
         }).catch(error=>{
@@ -58,7 +58,7 @@ export default class InterfazChatSecundario extends Component {
       }
 
     peticionGetConversación=()=>{
-        axios.get('https://semana9jl.karolcuellar.repl.co/api/conversaciones').then(res =>{
+        axios.get('https://ecoagro-backend.herokuapp.com/api/conversaciones').then(res =>{
             //console.log(res.data);
             this.setState({
                 dataConversación: res.data

@@ -13,7 +13,7 @@ export default class InterfazMaterialCursoCampe extends Component {
   }
 
 peticionGet2=()=>{
-    axios.get('https://semana9jl.karolcuellar.repl.co/api/cursos').then(res =>{
+    axios.get('https://ecoagro-backend.herokuapp.com/api/cursos').then(res =>{
         console.log(res.data);
         this.setState({
           dataInfoCurso: res.data
@@ -33,13 +33,9 @@ return (
     
     <div className="MaterialCursoCampe2">
             <div className="blog-main">
-              {datosInfo.map((pet2) =>{
-                return(
-                  <h1 className="border-bottom titulodelcurso-materialcursocampe">{pet2.nombre_curso}</h1>
-                )
-              })}
-            
-  
+
+            <h1 className="border-bottom titulodelcurso-materialcursocampe">Perticidas Económicos</h1>
+
             <div className="blog-post-1-materialcursocampe">
               <div>
               <h2 className="blog-post-title1-materialcursocampe font-italic">¿Cuánto puedo invertir por un pesticida?</h2>

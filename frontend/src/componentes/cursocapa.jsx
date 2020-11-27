@@ -21,7 +21,7 @@ export default class curso extends Component{
 
   peticionPostC=async()=>{
     delete this.state.elCurso.id
-    await axios.post('https://semana9jl.karolcuellar.repl.co/api/nuevocurso', this.state.elCurso)
+    await axios.post('https://ecoagro-backend.herokuapp.com/api/nuevocurso', this.state.elCurso)
     .then(res=>{
       //this.peticionPost();
     }).catch(error=>{

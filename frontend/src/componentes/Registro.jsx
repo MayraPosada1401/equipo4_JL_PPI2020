@@ -33,7 +33,7 @@ class Transportador extends Component {
 
   peticionPostR=async()=>{
     //delete this.state.losRegistros.id
-    await axios.post('https://semana9jl.karolcuellar.repl.co/api/ingresonuevoregistro', this.state.losRegistros)
+    await axios.post('https://ecoagro-backend.herokuapp.com/api/ingresonuevoregistro', this.state.losRegistros)
     .then(res=>{
       //
     }).catch(error=>{
